@@ -93,6 +93,13 @@ That took it to 90%.
 I would not have found this by reading the code. It is the main reason I think
 the test suite was worth the time.
 
+<img width="1470" height="956" alt="Screenshot 2026-08-08 at 17 25 53" src="https://github.com/user-attachments/assets/d5cef530-1c40-47c2-89f8-233278ca61c4" />
+
+
+<img width="1470" height="956" alt="Screenshot 2026-08-08 at 17 25 38" src="https://github.com/user-attachments/assets/ea3fd9a2-b27d-4e95-849b-cba212c270e0" />
+
+
+
 ---
 
 ## Try it
