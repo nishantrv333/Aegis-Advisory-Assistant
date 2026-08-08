@@ -1,5 +1,5 @@
 {
- "run_id": "4900e847ebfe",
+ "run_id": "b78fc16d3d75",
  "client_id": "4528",
  "query": "What's the market context I should bring to the meeting?",
  "plan": {
@@ -16,7 +16,7 @@
   "_generated_by": "llm"
  },
  "briefing": {
-  "generated_at": "2026-08-08T12:58:08+00:00",
+  "generated_at": "2026-08-08T13:26:06+00:00",
   "query": "What's the market context I should bring to the meeting?",
   "data_notice": "All client, portfolio and market data in this briefing is synthetic.",
   "client": {
@@ -307,14 +307,14 @@
  },
  "trace": [
   {
-   "id": "fb631de82b",
+   "id": "47fcafc899",
    "parent_id": null,
    "kind": "agent",
    "name": "orchestrator",
    "label": "orchestrator · plan and execute",
-   "started_at": "2026-08-08T12:58:08.161+00:00",
-   "ended_at": "2026-08-08T12:58:08.175+00:00",
-   "duration_ms": 13.8,
+   "started_at": "2026-08-08T13:26:06.279+00:00",
+   "ended_at": "2026-08-08T13:26:06.288+00:00",
+   "duration_ms": 9.0,
    "status": "ok",
    "input": {
     "client_id": "4528",
@@ -325,13 +325,13 @@
    "meta": {}
   },
   {
-   "id": "8221258a1d",
-   "parent_id": "fb631de82b",
+   "id": "41cbb638ef",
+   "parent_id": "47fcafc899",
    "kind": "llm",
    "name": "orchestrator.plan",
    "label": "LLM · mock/deterministic-stub",
-   "started_at": "2026-08-08T12:58:08.161+00:00",
-   "ended_at": "2026-08-08T12:58:08.161+00:00",
+   "started_at": "2026-08-08T13:26:06.279+00:00",
+   "ended_at": "2026-08-08T13:26:06.279+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": {
@@ -351,13 +351,13 @@
    }
   },
   {
-   "id": "3a246a0905",
-   "parent_id": "fb631de82b",
+   "id": "ec66f18aa2",
+   "parent_id": "47fcafc899",
    "kind": "note",
    "name": "orchestrator.plan",
    "label": "Intent 'meeting_prep' · research=True · instruments=none",
-   "started_at": "2026-08-08T12:58:08.161+00:00",
-   "ended_at": "2026-08-08T12:58:08.161+00:00",
+   "started_at": "2026-08-08T13:26:06.279+00:00",
+   "ended_at": "2026-08-08T13:26:06.279+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -378,13 +378,13 @@
    "meta": {}
   },
   {
-   "id": "7b9c7db3e9",
-   "parent_id": "fb631de82b",
+   "id": "3148c49895",
+   "parent_id": "47fcafc899",
    "kind": "agent",
    "name": "portfolio",
    "label": "orchestrator → portfolio · profile_and_holdings",
-   "started_at": "2026-08-08T12:58:08.161+00:00",
-   "ended_at": "2026-08-08T12:58:08.161+00:00",
+   "started_at": "2026-08-08T13:26:06.279+00:00",
+   "ended_at": "2026-08-08T13:26:06.279+00:00",
    "duration_ms": 0.1,
    "status": "ok",
    "input": {
@@ -541,13 +541,13 @@
    }
   },
   {
-   "id": "0eadc10d2d",
-   "parent_id": "7b9c7db3e9",
+   "id": "9d89f2990d",
+   "parent_id": "3148c49895",
    "kind": "tool",
    "name": "portfolio.get_client_profile",
    "label": "tool · portfolio.get_client_profile",
-   "started_at": "2026-08-08T12:58:08.161+00:00",
-   "ended_at": "2026-08-08T12:58:08.161+00:00",
+   "started_at": "2026-08-08T13:26:06.279+00:00",
+   "ended_at": "2026-08-08T13:26:06.279+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": {
@@ -583,13 +583,13 @@
    }
   },
   {
-   "id": "e2c6e4d001",
-   "parent_id": "7b9c7db3e9",
+   "id": "69d41ec79f",
+   "parent_id": "3148c49895",
    "kind": "tool",
    "name": "portfolio.get_holdings",
    "label": "tool · portfolio.get_holdings",
-   "started_at": "2026-08-08T12:58:08.161+00:00",
-   "ended_at": "2026-08-08T12:58:08.161+00:00",
+   "started_at": "2026-08-08T13:26:06.279+00:00",
+   "ended_at": "2026-08-08T13:26:06.279+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": {
@@ -671,13 +671,13 @@
    }
   },
   {
-   "id": "0108fbe402",
-   "parent_id": "7b9c7db3e9",
+   "id": "30b7bda65e",
+   "parent_id": "3148c49895",
    "kind": "note",
    "name": "portfolio.derived",
    "label": "64.0% growth assets, largest position 24.0%",
-   "started_at": "2026-08-08T12:58:08.161+00:00",
-   "ended_at": "2026-08-08T12:58:08.161+00:00",
+   "started_at": "2026-08-08T13:26:06.279+00:00",
+   "ended_at": "2026-08-08T13:26:06.279+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -734,14 +734,14 @@
    "meta": {}
   },
   {
-   "id": "17812d2721",
-   "parent_id": "fb631de82b",
+   "id": "31ccbc0db8",
+   "parent_id": "47fcafc899",
    "kind": "agent",
    "name": "market_research",
    "label": "orchestrator → market_research · research",
-   "started_at": "2026-08-08T12:58:08.161+00:00",
-   "ended_at": "2026-08-08T12:58:08.174+00:00",
-   "duration_ms": 12.1,
+   "started_at": "2026-08-08T13:26:06.279+00:00",
+   "ended_at": "2026-08-08T13:26:06.287+00:00",
+   "duration_ms": 7.9,
    "status": "ok",
    "input": {
     "query": "What's the market context I should bring to the meeting?",
@@ -1004,13 +1004,13 @@
    }
   },
   {
-   "id": "16ef2e12f0",
-   "parent_id": "17812d2721",
+   "id": "b5a22054b9",
+   "parent_id": "31ccbc0db8",
    "kind": "llm",
    "name": "research.plan_queries",
    "label": "LLM · mock/deterministic-stub",
-   "started_at": "2026-08-08T12:58:08.162+00:00",
-   "ended_at": "2026-08-08T12:58:08.162+00:00",
+   "started_at": "2026-08-08T13:26:06.279+00:00",
+   "ended_at": "2026-08-08T13:26:06.279+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": {
@@ -1030,13 +1030,13 @@
    }
   },
   {
-   "id": "124530d292",
-   "parent_id": "17812d2721",
+   "id": "21882865c7",
+   "parent_id": "31ccbc0db8",
    "kind": "tool",
    "name": "portfolio.lookup_instrument",
    "label": "tool · portfolio.lookup_instrument",
-   "started_at": "2026-08-08T12:58:08.162+00:00",
-   "ended_at": "2026-08-08T12:58:08.162+00:00",
+   "started_at": "2026-08-08T13:26:06.280+00:00",
+   "ended_at": "2026-08-08T13:26:06.280+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": {
@@ -1071,13 +1071,13 @@
    }
   },
   {
-   "id": "3a6a42375e",
-   "parent_id": "17812d2721",
+   "id": "91da0cacd4",
+   "parent_id": "31ccbc0db8",
    "kind": "tool",
    "name": "portfolio.lookup_instrument",
    "label": "tool · portfolio.lookup_instrument",
-   "started_at": "2026-08-08T12:58:08.162+00:00",
-   "ended_at": "2026-08-08T12:58:08.162+00:00",
+   "started_at": "2026-08-08T13:26:06.280+00:00",
+   "ended_at": "2026-08-08T13:26:06.280+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": {
@@ -1113,13 +1113,13 @@
    }
   },
   {
-   "id": "5b86d09668",
-   "parent_id": "17812d2721",
+   "id": "d8371bdd77",
+   "parent_id": "31ccbc0db8",
    "kind": "note",
    "name": "research.instrument_queries",
    "label": "Added 2 product-specific quer(y/ies) for ['CBM', 'AGE']",
-   "started_at": "2026-08-08T12:58:08.162+00:00",
-   "ended_at": "2026-08-08T12:58:08.162+00:00",
+   "started_at": "2026-08-08T13:26:06.280+00:00",
+   "ended_at": "2026-08-08T13:26:06.280+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -1131,13 +1131,13 @@
    "meta": {}
   },
   {
-   "id": "54042fc4f7",
-   "parent_id": "17812d2721",
+   "id": "4b1c2417e0",
+   "parent_id": "31ccbc0db8",
    "kind": "note",
    "name": "research.queries",
    "label": "6 retrieval queries planned",
-   "started_at": "2026-08-08T12:58:08.162+00:00",
-   "ended_at": "2026-08-08T12:58:08.162+00:00",
+   "started_at": "2026-08-08T13:26:06.280+00:00",
+   "ended_at": "2026-08-08T13:26:06.280+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -1153,14 +1153,14 @@
    "meta": {}
   },
   {
-   "id": "1ed41d7225",
-   "parent_id": "17812d2721",
+   "id": "9201a06f6a",
+   "parent_id": "31ccbc0db8",
    "kind": "retrieval",
    "name": "research.search",
    "label": "retrieve · What's the market context I should bring to the meeting?",
-   "started_at": "2026-08-08T12:58:08.162+00:00",
-   "ended_at": "2026-08-08T12:58:08.164+00:00",
-   "duration_ms": 1.8,
+   "started_at": "2026-08-08T13:26:06.280+00:00",
+   "ended_at": "2026-08-08T13:26:06.281+00:00",
+   "duration_ms": 1.3,
    "status": "ok",
    "input": {
     "query": "What's the market context I should bring to the meeting?"
@@ -1191,14 +1191,14 @@
    "meta": {}
   },
   {
-   "id": "3440d92abe",
-   "parent_id": "1ed41d7225",
+   "id": "913d1b7c49",
+   "parent_id": "9201a06f6a",
    "kind": "tool",
    "name": "research.search",
    "label": "tool · research.search",
-   "started_at": "2026-08-08T12:58:08.162+00:00",
-   "ended_at": "2026-08-08T12:58:08.164+00:00",
-   "duration_ms": 1.8,
+   "started_at": "2026-08-08T13:26:06.280+00:00",
+   "ended_at": "2026-08-08T13:26:06.281+00:00",
+   "duration_ms": 1.3,
    "status": "ok",
    "input": {
     "query": "What's the market context I should bring to the meeting?",
@@ -1257,14 +1257,14 @@
    }
   },
   {
-   "id": "2dfa0313ab",
-   "parent_id": "17812d2721",
+   "id": "f31185477a",
+   "parent_id": "31ccbc0db8",
    "kind": "retrieval",
    "name": "research.search",
    "label": "retrieve · Multi-Asset outlook and positioning",
-   "started_at": "2026-08-08T12:58:08.164+00:00",
-   "ended_at": "2026-08-08T12:58:08.165+00:00",
-   "duration_ms": 1.6,
+   "started_at": "2026-08-08T13:26:06.281+00:00",
+   "ended_at": "2026-08-08T13:26:06.282+00:00",
+   "duration_ms": 1.1,
    "status": "ok",
    "input": {
     "query": "Multi-Asset outlook and positioning"
@@ -1295,14 +1295,14 @@
    "meta": {}
   },
   {
-   "id": "7e94868199",
-   "parent_id": "2dfa0313ab",
+   "id": "d392a952a0",
+   "parent_id": "f31185477a",
    "kind": "tool",
    "name": "research.search",
    "label": "tool · research.search",
-   "started_at": "2026-08-08T12:58:08.164+00:00",
-   "ended_at": "2026-08-08T12:58:08.165+00:00",
-   "duration_ms": 1.6,
+   "started_at": "2026-08-08T13:26:06.281+00:00",
+   "ended_at": "2026-08-08T13:26:06.282+00:00",
+   "duration_ms": 1.1,
    "status": "ok",
    "input": {
     "query": "Multi-Asset outlook and positioning",
@@ -1361,14 +1361,14 @@
    }
   },
   {
-   "id": "208eb722a8",
-   "parent_id": "17812d2721",
+   "id": "8d35b83917",
+   "parent_id": "31ccbc0db8",
    "kind": "retrieval",
    "name": "research.search",
    "label": "retrieve · Global Equity outlook and positioning",
-   "started_at": "2026-08-08T12:58:08.165+00:00",
-   "ended_at": "2026-08-08T12:58:08.167+00:00",
-   "duration_ms": 1.8,
+   "started_at": "2026-08-08T13:26:06.282+00:00",
+   "ended_at": "2026-08-08T13:26:06.283+00:00",
+   "duration_ms": 1.3,
    "status": "ok",
    "input": {
     "query": "Global Equity outlook and positioning"
@@ -1399,14 +1399,14 @@
    "meta": {}
   },
   {
-   "id": "f28076029b",
-   "parent_id": "208eb722a8",
+   "id": "ff011db79d",
+   "parent_id": "8d35b83917",
    "kind": "tool",
    "name": "research.search",
    "label": "tool · research.search",
-   "started_at": "2026-08-08T12:58:08.165+00:00",
-   "ended_at": "2026-08-08T12:58:08.167+00:00",
-   "duration_ms": 1.8,
+   "started_at": "2026-08-08T13:26:06.282+00:00",
+   "ended_at": "2026-08-08T13:26:06.283+00:00",
+   "duration_ms": 1.3,
    "status": "ok",
    "input": {
     "query": "Global Equity outlook and positioning",
@@ -1465,14 +1465,14 @@
    }
   },
   {
-   "id": "957da45923",
-   "parent_id": "17812d2721",
+   "id": "c018e64162",
+   "parent_id": "31ccbc0db8",
    "kind": "retrieval",
    "name": "research.search",
    "label": "retrieve · asset allocation house view for a Growth mandate",
-   "started_at": "2026-08-08T12:58:08.167+00:00",
-   "ended_at": "2026-08-08T12:58:08.169+00:00",
-   "duration_ms": 1.5,
+   "started_at": "2026-08-08T13:26:06.283+00:00",
+   "ended_at": "2026-08-08T13:26:06.285+00:00",
+   "duration_ms": 1.1,
    "status": "ok",
    "input": {
     "query": "asset allocation house view for a Growth mandate"
@@ -1503,14 +1503,14 @@
    "meta": {}
   },
   {
-   "id": "3ed5a37b12",
-   "parent_id": "957da45923",
+   "id": "923a3b973d",
+   "parent_id": "c018e64162",
    "kind": "tool",
    "name": "research.search",
    "label": "tool · research.search",
-   "started_at": "2026-08-08T12:58:08.167+00:00",
-   "ended_at": "2026-08-08T12:58:08.169+00:00",
-   "duration_ms": 1.5,
+   "started_at": "2026-08-08T13:26:06.283+00:00",
+   "ended_at": "2026-08-08T13:26:06.285+00:00",
+   "duration_ms": 1.1,
    "status": "ok",
    "input": {
     "query": "asset allocation house view for a Growth mandate",
@@ -1569,14 +1569,14 @@
    }
   },
   {
-   "id": "c5fea9c937",
-   "parent_id": "17812d2721",
+   "id": "f5b9536807",
+   "parent_id": "31ccbc0db8",
    "kind": "retrieval",
    "name": "research.search",
    "label": "retrieve · Castellan Balanced Multi-Asset Fund outlook, risks and suita",
-   "started_at": "2026-08-08T12:58:08.169+00:00",
-   "ended_at": "2026-08-08T12:58:08.171+00:00",
-   "duration_ms": 2.4,
+   "started_at": "2026-08-08T13:26:06.285+00:00",
+   "ended_at": "2026-08-08T13:26:06.286+00:00",
+   "duration_ms": 1.2,
    "status": "ok",
    "input": {
     "query": "Castellan Balanced Multi-Asset Fund outlook, risks and suitability"
@@ -1607,14 +1607,14 @@
    "meta": {}
   },
   {
-   "id": "fc336f7f57",
-   "parent_id": "c5fea9c937",
+   "id": "0d72e83bc9",
+   "parent_id": "f5b9536807",
    "kind": "tool",
    "name": "research.search",
    "label": "tool · research.search",
-   "started_at": "2026-08-08T12:58:08.169+00:00",
-   "ended_at": "2026-08-08T12:58:08.171+00:00",
-   "duration_ms": 2.3,
+   "started_at": "2026-08-08T13:26:06.285+00:00",
+   "ended_at": "2026-08-08T13:26:06.286+00:00",
+   "duration_ms": 1.1,
    "status": "ok",
    "input": {
     "query": "Castellan Balanced Multi-Asset Fund outlook, risks and suitability",
@@ -1673,14 +1673,14 @@
    }
   },
   {
-   "id": "46f15bcd8b",
-   "parent_id": "17812d2721",
+   "id": "e63b6d92f2",
+   "parent_id": "31ccbc0db8",
    "kind": "retrieval",
    "name": "research.search",
    "label": "retrieve · Aurora Global Equity Fund outlook, risks and suitability",
-   "started_at": "2026-08-08T12:58:08.171+00:00",
-   "ended_at": "2026-08-08T12:58:08.173+00:00",
-   "duration_ms": 2.0,
+   "started_at": "2026-08-08T13:26:06.286+00:00",
+   "ended_at": "2026-08-08T13:26:06.287+00:00",
+   "duration_ms": 1.2,
    "status": "ok",
    "input": {
     "query": "Aurora Global Equity Fund outlook, risks and suitability"
@@ -1711,14 +1711,14 @@
    "meta": {}
   },
   {
-   "id": "962b0c07ca",
-   "parent_id": "46f15bcd8b",
+   "id": "3ae4b1f5e1",
+   "parent_id": "e63b6d92f2",
    "kind": "tool",
    "name": "research.search",
    "label": "tool · research.search",
-   "started_at": "2026-08-08T12:58:08.171+00:00",
-   "ended_at": "2026-08-08T12:58:08.173+00:00",
-   "duration_ms": 1.9,
+   "started_at": "2026-08-08T13:26:06.286+00:00",
+   "ended_at": "2026-08-08T13:26:06.287+00:00",
+   "duration_ms": 1.2,
    "status": "ok",
    "input": {
     "query": "Aurora Global Equity Fund outlook, risks and suitability",
@@ -1777,13 +1777,13 @@
    }
   },
   {
-   "id": "d4bde34cf2",
-   "parent_id": "17812d2721",
+   "id": "ea3d87f504",
+   "parent_id": "31ccbc0db8",
    "kind": "note",
    "name": "research.fusion",
    "label": "8 passages from 5 documents, fused across 6 queries by reciprocal rank",
-   "started_at": "2026-08-08T12:58:08.173+00:00",
-   "ended_at": "2026-08-08T12:58:08.173+00:00",
+   "started_at": "2026-08-08T13:26:06.287+00:00",
+   "ended_at": "2026-08-08T13:26:06.287+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -1801,14 +1801,14 @@
    "meta": {}
   },
   {
-   "id": "84eafd401a",
-   "parent_id": "17812d2721",
+   "id": "695ddf0779",
+   "parent_id": "31ccbc0db8",
    "kind": "llm",
    "name": "research.summarise",
    "label": "LLM · mock/deterministic-stub",
-   "started_at": "2026-08-08T12:58:08.173+00:00",
-   "ended_at": "2026-08-08T12:58:08.173+00:00",
-   "duration_ms": 0.1,
+   "started_at": "2026-08-08T13:26:06.287+00:00",
+   "ended_at": "2026-08-08T13:26:06.287+00:00",
+   "duration_ms": 0.0,
    "status": "ok",
    "input": {
     "system": "You are a research analyst at a private bank, writing for an\nadviser who is about to meet a client.\n\nRules:\n- Use ONLY the numbered sources provided. Never use outside knowledge.\n- Cite with the exact markers given, like [S1] or [S2, S4]. Every factual claim\n  needs a marker.\n- If the sources do not answer part of the request, say so plainly.\n- Neutral, specific, no sales language. British English.\n- All source material is synthetic demo data; do not imply otherwise.\n\nReturn JSON:\n{\n  \"summary\": \"3-5 sentences of market context relevant to this client, with [S#] markers\",\n  \"key_points\": [{\"point\": \"one sentence with [S#] markers\", \"sources\": [\"S1\"]}],\n  \"relevance_to_client\": \"2-3 sentences connecting the research to this client's mandate\"\n}\n\nRespond with a single valid JSON object and nothing else. No prose before or after, no markdown code fences.",
@@ -1827,14 +1827,14 @@
    }
   },
   {
-   "id": "9f435459b1",
-   "parent_id": "fb631de82b",
+   "id": "dd80747a17",
+   "parent_id": "47fcafc899",
    "kind": "agent",
    "name": "compliance",
    "label": "orchestrator → compliance · check",
-   "started_at": "2026-08-08T12:58:08.174+00:00",
-   "ended_at": "2026-08-08T12:58:08.174+00:00",
-   "duration_ms": 0.3,
+   "started_at": "2026-08-08T13:26:06.287+00:00",
+   "ended_at": "2026-08-08T13:26:06.288+00:00",
+   "duration_ms": 0.2,
    "status": "ok",
    "input": {
     "client_id": "4528",
@@ -1863,13 +1863,13 @@
    }
   },
   {
-   "id": "f5ad13e012",
-   "parent_id": "9f435459b1",
+   "id": "60bb71a55a",
+   "parent_id": "dd80747a17",
    "kind": "note",
    "name": "compliance.proposals",
    "label": "No proposals identified, checking the existing book only",
-   "started_at": "2026-08-08T12:58:08.174+00:00",
-   "ended_at": "2026-08-08T12:58:08.174+00:00",
+   "started_at": "2026-08-08T13:26:06.287+00:00",
+   "ended_at": "2026-08-08T13:26:06.287+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -1878,13 +1878,13 @@
    "meta": {}
   },
   {
-   "id": "d73d348ff0",
-   "parent_id": "9f435459b1",
+   "id": "acc8ce97f9",
+   "parent_id": "dd80747a17",
    "kind": "tool",
    "name": "compliance.check_suitability",
    "label": "tool · compliance.check_suitability",
-   "started_at": "2026-08-08T12:58:08.174+00:00",
-   "ended_at": "2026-08-08T12:58:08.174+00:00",
+   "started_at": "2026-08-08T13:26:06.288+00:00",
+   "ended_at": "2026-08-08T13:26:06.288+00:00",
    "duration_ms": 0.1,
    "status": "ok",
    "input": {
@@ -1915,13 +1915,13 @@
    }
   },
   {
-   "id": "1e5a44e5ea",
-   "parent_id": "9f435459b1",
+   "id": "fbaba95057",
+   "parent_id": "dd80747a17",
    "kind": "note",
    "name": "compliance.decision",
    "label": "Status PASS, 0 flag(s) from 3 rule evaluations",
-   "started_at": "2026-08-08T12:58:08.174+00:00",
-   "ended_at": "2026-08-08T12:58:08.174+00:00",
+   "started_at": "2026-08-08T13:26:06.288+00:00",
+   "ended_at": "2026-08-08T13:26:06.288+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -1933,14 +1933,14 @@
    "meta": {}
   },
   {
-   "id": "8548603540",
-   "parent_id": "fb631de82b",
+   "id": "68e7e07aec",
+   "parent_id": "47fcafc899",
    "kind": "agent",
    "name": "synthesis",
    "label": "orchestrator → synthesis · synthesise",
-   "started_at": "2026-08-08T12:58:08.174+00:00",
-   "ended_at": "2026-08-08T12:58:08.175+00:00",
-   "duration_ms": 0.4,
+   "started_at": "2026-08-08T13:26:06.288+00:00",
+   "ended_at": "2026-08-08T13:26:06.288+00:00",
+   "duration_ms": 0.2,
    "status": "ok",
    "input": {
     "query": "What's the market context I should bring to the meeting?",
@@ -2309,7 +2309,7 @@
    },
    "output": {
     "briefing": {
-     "generated_at": "2026-08-08T12:58:08+00:00",
+     "generated_at": "2026-08-08T13:26:06+00:00",
      "query": "What's the market context I should bring to the meeting?",
      "data_notice": "All client, portfolio and market data in this briefing is synthetic.",
      "client": {
@@ -2605,14 +2605,14 @@
    }
   },
   {
-   "id": "65c10114cc",
-   "parent_id": "8548603540",
+   "id": "01e5362bce",
+   "parent_id": "68e7e07aec",
    "kind": "llm",
    "name": "synthesis.write_briefing",
    "label": "LLM · mock/deterministic-stub",
-   "started_at": "2026-08-08T12:58:08.174+00:00",
-   "ended_at": "2026-08-08T12:58:08.175+00:00",
-   "duration_ms": 0.1,
+   "started_at": "2026-08-08T13:26:06.288+00:00",
+   "ended_at": "2026-08-08T13:26:06.288+00:00",
+   "duration_ms": 0.0,
    "status": "ok",
    "input": {
     "system": "You prepare pre-meeting briefings for private bank advisers.\n\nYou receive: a client profile, a portfolio snapshot, cited market research, and\nthe output of a compliance rules engine.\n\nRules:\n- Cite market claims with the [S#] markers exactly as they appear in the research\n  you were given. Do not invent markers.\n- Never contradict or soften the compliance result. If the status is FAIL, the\n  talking points must reflect that the recommendation cannot proceed as framed.\n- Talking points are for the adviser to raise with the client. Make them\n  specific to this client's objectives and holdings, not generic.\n- British English. No sales language. All data is synthetic demo data.\n\nReturn JSON:\n{\n  \"headline\": \"one sentence the adviser reads first\",\n  \"summary\": \"3-5 sentences covering position, context and anything blocking\",\n  \"talking_points\": [\n    {\"point\": \"what to raise\", \"why\": \"why it matters to this client\", \"sources\": [\"S1\"]}\n  ],\n  \"questions_to_ask\": [\"question for the client\", \"...\"],\n  \"watch_items\": [\"something to monitor after the meeting\", \"...\"]\n}\n\nRespond with a single valid JSON object and nothing else. No prose before or after, no markdown code fences.",
@@ -2631,13 +2631,13 @@
    }
   },
   {
-   "id": "57d8794b11",
-   "parent_id": "8548603540",
+   "id": "b3d6ca9e06",
+   "parent_id": "68e7e07aec",
    "kind": "note",
    "name": "synthesis.assembled",
    "label": "Briefing assembled with 3 talking points and 8 citations",
-   "started_at": "2026-08-08T12:58:08.175+00:00",
-   "ended_at": "2026-08-08T12:58:08.175+00:00",
+   "started_at": "2026-08-08T13:26:06.288+00:00",
+   "ended_at": "2026-08-08T13:26:06.288+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -2659,7 +2659,7 @@
   }
  ],
  "trace_summary": {
-  "run_id": "4900e847ebfe",
+  "run_id": "b78fc16d3d75",
   "events": 34,
   "by_kind": {
    "agent": 5,
@@ -2669,6 +2669,6 @@
    "retrieval": 6
   },
   "errors": 0,
-  "elapsed_ms": 15.1
+  "elapsed_ms": 10.0
  }
 }

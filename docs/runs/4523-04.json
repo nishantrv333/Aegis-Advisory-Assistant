@@ -1,5 +1,5 @@
 {
- "run_id": "fe1abaf982d0",
+ "run_id": "837d515608be",
  "client_id": "4523",
  "query": "Would the Zephyr precious metals fund work as a diversifier here?",
  "plan": {
@@ -18,7 +18,7 @@
   "_generated_by": "llm"
  },
  "briefing": {
-  "generated_at": "2026-08-08T12:58:08+00:00",
+  "generated_at": "2026-08-08T13:26:06+00:00",
   "query": "Would the Zephyr precious metals fund work as a diversifier here?",
   "data_notice": "All client, portfolio and market data in this briefing is synthetic.",
   "client": {
@@ -381,14 +381,14 @@
  },
  "trace": [
   {
-   "id": "35d5c66941",
+   "id": "abb8d0ebd5",
    "parent_id": null,
    "kind": "agent",
    "name": "orchestrator",
    "label": "orchestrator · plan and execute",
-   "started_at": "2026-08-08T12:58:08.117+00:00",
-   "ended_at": "2026-08-08T12:58:08.127+00:00",
-   "duration_ms": 9.8,
+   "started_at": "2026-08-08T13:26:06.241+00:00",
+   "ended_at": "2026-08-08T13:26:06.250+00:00",
+   "duration_ms": 8.3,
    "status": "ok",
    "input": {
     "client_id": "4523",
@@ -399,13 +399,13 @@
    "meta": {}
   },
   {
-   "id": "f0bdd39cd3",
-   "parent_id": "35d5c66941",
+   "id": "8b7e9c88fb",
+   "parent_id": "abb8d0ebd5",
    "kind": "llm",
    "name": "orchestrator.plan",
    "label": "LLM · mock/deterministic-stub",
-   "started_at": "2026-08-08T12:58:08.118+00:00",
-   "ended_at": "2026-08-08T12:58:08.118+00:00",
+   "started_at": "2026-08-08T13:26:06.242+00:00",
+   "ended_at": "2026-08-08T13:26:06.242+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": {
@@ -425,13 +425,13 @@
    }
   },
   {
-   "id": "e3082df005",
-   "parent_id": "35d5c66941",
+   "id": "423216c99b",
+   "parent_id": "abb8d0ebd5",
    "kind": "note",
    "name": "orchestrator.plan",
    "label": "Intent 'meeting_prep' · research=True · instruments=['ZPM']",
-   "started_at": "2026-08-08T12:58:08.118+00:00",
-   "ended_at": "2026-08-08T12:58:08.118+00:00",
+   "started_at": "2026-08-08T13:26:06.242+00:00",
+   "ended_at": "2026-08-08T13:26:06.242+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -454,13 +454,13 @@
    "meta": {}
   },
   {
-   "id": "1884361845",
-   "parent_id": "35d5c66941",
+   "id": "96612047fc",
+   "parent_id": "abb8d0ebd5",
    "kind": "agent",
    "name": "portfolio",
    "label": "orchestrator → portfolio · profile_and_holdings",
-   "started_at": "2026-08-08T12:58:08.118+00:00",
-   "ended_at": "2026-08-08T12:58:08.118+00:00",
+   "started_at": "2026-08-08T13:26:06.242+00:00",
+   "ended_at": "2026-08-08T13:26:06.242+00:00",
    "duration_ms": 0.2,
    "status": "ok",
    "input": {
@@ -621,13 +621,13 @@
    }
   },
   {
-   "id": "36ed77405f",
-   "parent_id": "1884361845",
+   "id": "3fc25e323b",
+   "parent_id": "96612047fc",
    "kind": "tool",
    "name": "portfolio.get_client_profile",
    "label": "tool · portfolio.get_client_profile",
-   "started_at": "2026-08-08T12:58:08.118+00:00",
-   "ended_at": "2026-08-08T12:58:08.118+00:00",
+   "started_at": "2026-08-08T13:26:06.242+00:00",
+   "ended_at": "2026-08-08T13:26:06.242+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": {
@@ -667,13 +667,13 @@
    }
   },
   {
-   "id": "10b35c4efd",
-   "parent_id": "1884361845",
+   "id": "6611fbd777",
+   "parent_id": "96612047fc",
    "kind": "tool",
    "name": "portfolio.get_holdings",
    "label": "tool · portfolio.get_holdings",
-   "started_at": "2026-08-08T12:58:08.118+00:00",
-   "ended_at": "2026-08-08T12:58:08.118+00:00",
+   "started_at": "2026-08-08T13:26:06.242+00:00",
+   "ended_at": "2026-08-08T13:26:06.242+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": {
@@ -755,13 +755,13 @@
    }
   },
   {
-   "id": "fb74c2ff81",
-   "parent_id": "1884361845",
+   "id": "7bd842dad8",
+   "parent_id": "96612047fc",
    "kind": "note",
    "name": "portfolio.derived",
    "label": "68.0% growth assets, largest position 38.0%",
-   "started_at": "2026-08-08T12:58:08.118+00:00",
-   "ended_at": "2026-08-08T12:58:08.118+00:00",
+   "started_at": "2026-08-08T13:26:06.242+00:00",
+   "ended_at": "2026-08-08T13:26:06.242+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -818,14 +818,14 @@
    "meta": {}
   },
   {
-   "id": "aab115b9e8",
-   "parent_id": "35d5c66941",
+   "id": "146399cfcd",
+   "parent_id": "abb8d0ebd5",
    "kind": "agent",
    "name": "market_research",
    "label": "orchestrator → market_research · research",
-   "started_at": "2026-08-08T12:58:08.118+00:00",
-   "ended_at": "2026-08-08T12:58:08.127+00:00",
-   "duration_ms": 8.5,
+   "started_at": "2026-08-08T13:26:06.242+00:00",
+   "ended_at": "2026-08-08T13:26:06.249+00:00",
+   "duration_ms": 7.0,
    "status": "ok",
    "input": {
     "query": "Would the Zephyr precious metals fund work as a diversifier here?",
@@ -1080,13 +1080,13 @@
    }
   },
   {
-   "id": "ea2bccdb36",
-   "parent_id": "aab115b9e8",
+   "id": "659c212aa1",
+   "parent_id": "146399cfcd",
    "kind": "llm",
    "name": "research.plan_queries",
    "label": "LLM · mock/deterministic-stub",
-   "started_at": "2026-08-08T12:58:08.118+00:00",
-   "ended_at": "2026-08-08T12:58:08.118+00:00",
+   "started_at": "2026-08-08T13:26:06.242+00:00",
+   "ended_at": "2026-08-08T13:26:06.242+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": {
@@ -1106,13 +1106,13 @@
    }
   },
   {
-   "id": "833e85d2b9",
-   "parent_id": "aab115b9e8",
+   "id": "1d356f0f6a",
+   "parent_id": "146399cfcd",
    "kind": "tool",
    "name": "portfolio.lookup_instrument",
    "label": "tool · portfolio.lookup_instrument",
-   "started_at": "2026-08-08T12:58:08.118+00:00",
-   "ended_at": "2026-08-08T12:58:08.118+00:00",
+   "started_at": "2026-08-08T13:26:06.242+00:00",
+   "ended_at": "2026-08-08T13:26:06.242+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": {
@@ -1144,13 +1144,13 @@
    }
   },
   {
-   "id": "aec203e14e",
-   "parent_id": "aab115b9e8",
+   "id": "b9a1332511",
+   "parent_id": "146399cfcd",
    "kind": "note",
    "name": "research.instrument_queries",
    "label": "Added 1 product-specific quer(y/ies) for ['ZPM']",
-   "started_at": "2026-08-08T12:58:08.118+00:00",
-   "ended_at": "2026-08-08T12:58:08.118+00:00",
+   "started_at": "2026-08-08T13:26:06.242+00:00",
+   "ended_at": "2026-08-08T13:26:06.242+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -1161,13 +1161,13 @@
    "meta": {}
   },
   {
-   "id": "0d45c3c984",
-   "parent_id": "aab115b9e8",
+   "id": "e4c03ac138",
+   "parent_id": "146399cfcd",
    "kind": "note",
    "name": "research.queries",
    "label": "5 retrieval queries planned",
-   "started_at": "2026-08-08T12:58:08.118+00:00",
-   "ended_at": "2026-08-08T12:58:08.118+00:00",
+   "started_at": "2026-08-08T13:26:06.242+00:00",
+   "ended_at": "2026-08-08T13:26:06.242+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -1182,14 +1182,14 @@
    "meta": {}
   },
   {
-   "id": "7d57a10a4f",
-   "parent_id": "aab115b9e8",
+   "id": "75caa2742d",
+   "parent_id": "146399cfcd",
    "kind": "retrieval",
    "name": "research.search",
    "label": "retrieve · Would the Zephyr precious metals fund work as a diversifier ",
-   "started_at": "2026-08-08T12:58:08.118+00:00",
-   "ended_at": "2026-08-08T12:58:08.120+00:00",
-   "duration_ms": 1.8,
+   "started_at": "2026-08-08T13:26:06.242+00:00",
+   "ended_at": "2026-08-08T13:26:06.244+00:00",
+   "duration_ms": 1.5,
    "status": "ok",
    "input": {
     "query": "Would the Zephyr precious metals fund work as a diversifier here?"
@@ -1220,14 +1220,14 @@
    "meta": {}
   },
   {
-   "id": "37e53e46b2",
-   "parent_id": "7d57a10a4f",
+   "id": "0938dd177e",
+   "parent_id": "75caa2742d",
    "kind": "tool",
    "name": "research.search",
    "label": "tool · research.search",
-   "started_at": "2026-08-08T12:58:08.118+00:00",
-   "ended_at": "2026-08-08T12:58:08.120+00:00",
-   "duration_ms": 1.8,
+   "started_at": "2026-08-08T13:26:06.242+00:00",
+   "ended_at": "2026-08-08T13:26:06.244+00:00",
+   "duration_ms": 1.5,
    "status": "ok",
    "input": {
     "query": "Would the Zephyr precious metals fund work as a diversifier here?",
@@ -1286,14 +1286,14 @@
    }
   },
   {
-   "id": "408a9d21fb",
-   "parent_id": "aab115b9e8",
+   "id": "2a398a55b4",
+   "parent_id": "146399cfcd",
    "kind": "retrieval",
    "name": "research.search",
    "label": "retrieve · Multi-Asset outlook and positioning",
-   "started_at": "2026-08-08T12:58:08.120+00:00",
-   "ended_at": "2026-08-08T12:58:08.122+00:00",
-   "duration_ms": 1.5,
+   "started_at": "2026-08-08T13:26:06.244+00:00",
+   "ended_at": "2026-08-08T13:26:06.245+00:00",
+   "duration_ms": 1.2,
    "status": "ok",
    "input": {
     "query": "Multi-Asset outlook and positioning"
@@ -1324,14 +1324,14 @@
    "meta": {}
   },
   {
-   "id": "4c404f5366",
-   "parent_id": "408a9d21fb",
+   "id": "4cdb4bd8a3",
+   "parent_id": "2a398a55b4",
    "kind": "tool",
    "name": "research.search",
    "label": "tool · research.search",
-   "started_at": "2026-08-08T12:58:08.120+00:00",
-   "ended_at": "2026-08-08T12:58:08.122+00:00",
-   "duration_ms": 1.5,
+   "started_at": "2026-08-08T13:26:06.244+00:00",
+   "ended_at": "2026-08-08T13:26:06.245+00:00",
+   "duration_ms": 1.2,
    "status": "ok",
    "input": {
     "query": "Multi-Asset outlook and positioning",
@@ -1390,14 +1390,14 @@
    }
   },
   {
-   "id": "50f4b3f348",
-   "parent_id": "aab115b9e8",
+   "id": "7e42ed192f",
+   "parent_id": "146399cfcd",
    "kind": "retrieval",
    "name": "research.search",
    "label": "retrieve · Fixed Income outlook and positioning",
-   "started_at": "2026-08-08T12:58:08.122+00:00",
-   "ended_at": "2026-08-08T12:58:08.123+00:00",
-   "duration_ms": 1.5,
+   "started_at": "2026-08-08T13:26:06.245+00:00",
+   "ended_at": "2026-08-08T13:26:06.246+00:00",
+   "duration_ms": 1.2,
    "status": "ok",
    "input": {
     "query": "Fixed Income outlook and positioning"
@@ -1428,14 +1428,14 @@
    "meta": {}
   },
   {
-   "id": "313eda0f03",
-   "parent_id": "50f4b3f348",
+   "id": "1ed21a8675",
+   "parent_id": "7e42ed192f",
    "kind": "tool",
    "name": "research.search",
    "label": "tool · research.search",
-   "started_at": "2026-08-08T12:58:08.122+00:00",
-   "ended_at": "2026-08-08T12:58:08.123+00:00",
-   "duration_ms": 1.5,
+   "started_at": "2026-08-08T13:26:06.245+00:00",
+   "ended_at": "2026-08-08T13:26:06.246+00:00",
+   "duration_ms": 1.2,
    "status": "ok",
    "input": {
     "query": "Fixed Income outlook and positioning",
@@ -1494,14 +1494,14 @@
    }
   },
   {
-   "id": "521d3ea39b",
-   "parent_id": "aab115b9e8",
+   "id": "f86b125216",
+   "parent_id": "146399cfcd",
    "kind": "retrieval",
    "name": "research.search",
    "label": "retrieve · asset allocation house view for a Balanced mandate",
-   "started_at": "2026-08-08T12:58:08.123+00:00",
-   "ended_at": "2026-08-08T12:58:08.125+00:00",
-   "duration_ms": 1.4,
+   "started_at": "2026-08-08T13:26:06.246+00:00",
+   "ended_at": "2026-08-08T13:26:06.248+00:00",
+   "duration_ms": 1.3,
    "status": "ok",
    "input": {
     "query": "asset allocation house view for a Balanced mandate"
@@ -1532,14 +1532,14 @@
    "meta": {}
   },
   {
-   "id": "38764a76f2",
-   "parent_id": "521d3ea39b",
+   "id": "8b279acb8e",
+   "parent_id": "f86b125216",
    "kind": "tool",
    "name": "research.search",
    "label": "tool · research.search",
-   "started_at": "2026-08-08T12:58:08.123+00:00",
-   "ended_at": "2026-08-08T12:58:08.125+00:00",
-   "duration_ms": 1.4,
+   "started_at": "2026-08-08T13:26:06.246+00:00",
+   "ended_at": "2026-08-08T13:26:06.248+00:00",
+   "duration_ms": 1.3,
    "status": "ok",
    "input": {
     "query": "asset allocation house view for a Balanced mandate",
@@ -1598,14 +1598,14 @@
    }
   },
   {
-   "id": "37ad476ed8",
-   "parent_id": "aab115b9e8",
+   "id": "37fc484f6f",
+   "parent_id": "146399cfcd",
    "kind": "retrieval",
    "name": "research.search",
    "label": "retrieve · Zephyr Precious Metals Fund outlook, risks and suitability",
-   "started_at": "2026-08-08T12:58:08.125+00:00",
-   "ended_at": "2026-08-08T12:58:08.126+00:00",
-   "duration_ms": 1.5,
+   "started_at": "2026-08-08T13:26:06.248+00:00",
+   "ended_at": "2026-08-08T13:26:06.249+00:00",
+   "duration_ms": 1.1,
    "status": "ok",
    "input": {
     "query": "Zephyr Precious Metals Fund outlook, risks and suitability"
@@ -1636,14 +1636,14 @@
    "meta": {}
   },
   {
-   "id": "931f73be4c",
-   "parent_id": "37ad476ed8",
+   "id": "248ca71579",
+   "parent_id": "37fc484f6f",
    "kind": "tool",
    "name": "research.search",
    "label": "tool · research.search",
-   "started_at": "2026-08-08T12:58:08.125+00:00",
-   "ended_at": "2026-08-08T12:58:08.126+00:00",
-   "duration_ms": 1.5,
+   "started_at": "2026-08-08T13:26:06.248+00:00",
+   "ended_at": "2026-08-08T13:26:06.249+00:00",
+   "duration_ms": 1.1,
    "status": "ok",
    "input": {
     "query": "Zephyr Precious Metals Fund outlook, risks and suitability",
@@ -1702,13 +1702,13 @@
    }
   },
   {
-   "id": "b91f703468",
-   "parent_id": "aab115b9e8",
+   "id": "9e72ef7779",
+   "parent_id": "146399cfcd",
    "kind": "note",
    "name": "research.fusion",
    "label": "8 passages from 6 documents, fused across 5 queries by reciprocal rank",
-   "started_at": "2026-08-08T12:58:08.126+00:00",
-   "ended_at": "2026-08-08T12:58:08.126+00:00",
+   "started_at": "2026-08-08T13:26:06.249+00:00",
+   "ended_at": "2026-08-08T13:26:06.249+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -1726,14 +1726,14 @@
    "meta": {}
   },
   {
-   "id": "4621e7c9c7",
-   "parent_id": "aab115b9e8",
+   "id": "dd7968a214",
+   "parent_id": "146399cfcd",
    "kind": "llm",
    "name": "research.summarise",
    "label": "LLM · mock/deterministic-stub",
-   "started_at": "2026-08-08T12:58:08.126+00:00",
-   "ended_at": "2026-08-08T12:58:08.127+00:00",
-   "duration_ms": 0.1,
+   "started_at": "2026-08-08T13:26:06.249+00:00",
+   "ended_at": "2026-08-08T13:26:06.249+00:00",
+   "duration_ms": 0.0,
    "status": "ok",
    "input": {
     "system": "You are a research analyst at a private bank, writing for an\nadviser who is about to meet a client.\n\nRules:\n- Use ONLY the numbered sources provided. Never use outside knowledge.\n- Cite with the exact markers given, like [S1] or [S2, S4]. Every factual claim\n  needs a marker.\n- If the sources do not answer part of the request, say so plainly.\n- Neutral, specific, no sales language. British English.\n- All source material is synthetic demo data; do not imply otherwise.\n\nReturn JSON:\n{\n  \"summary\": \"3-5 sentences of market context relevant to this client, with [S#] markers\",\n  \"key_points\": [{\"point\": \"one sentence with [S#] markers\", \"sources\": [\"S1\"]}],\n  \"relevance_to_client\": \"2-3 sentences connecting the research to this client's mandate\"\n}\n\nRespond with a single valid JSON object and nothing else. No prose before or after, no markdown code fences.",
@@ -1752,13 +1752,13 @@
    }
   },
   {
-   "id": "50d5df6e7f",
-   "parent_id": "35d5c66941",
+   "id": "3a9650dff8",
+   "parent_id": "abb8d0ebd5",
    "kind": "agent",
    "name": "compliance",
    "label": "orchestrator → compliance · check",
-   "started_at": "2026-08-08T12:58:08.127+00:00",
-   "ended_at": "2026-08-08T12:58:08.127+00:00",
+   "started_at": "2026-08-08T13:26:06.249+00:00",
+   "ended_at": "2026-08-08T13:26:06.249+00:00",
    "duration_ms": 0.2,
    "status": "ok",
    "input": {
@@ -1842,13 +1842,13 @@
    }
   },
   {
-   "id": "a0212fd579",
-   "parent_id": "50d5df6e7f",
+   "id": "87fe3e8aac",
+   "parent_id": "3a9650dff8",
    "kind": "note",
    "name": "compliance.proposals",
    "label": "Checking 1 instrument(s) proposed by the orchestrator",
-   "started_at": "2026-08-08T12:58:08.127+00:00",
-   "ended_at": "2026-08-08T12:58:08.127+00:00",
+   "started_at": "2026-08-08T13:26:06.249+00:00",
+   "ended_at": "2026-08-08T13:26:06.249+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -1859,13 +1859,13 @@
    "meta": {}
   },
   {
-   "id": "e7946e64a9",
-   "parent_id": "50d5df6e7f",
+   "id": "1db4bd2ded",
+   "parent_id": "3a9650dff8",
    "kind": "tool",
    "name": "compliance.check_suitability",
    "label": "tool · compliance.check_suitability",
-   "started_at": "2026-08-08T12:58:08.127+00:00",
-   "ended_at": "2026-08-08T12:58:08.127+00:00",
+   "started_at": "2026-08-08T13:26:06.249+00:00",
+   "ended_at": "2026-08-08T13:26:06.249+00:00",
    "duration_ms": 0.1,
    "status": "ok",
    "input": {
@@ -1946,13 +1946,13 @@
    }
   },
   {
-   "id": "d24f58dd6f",
-   "parent_id": "50d5df6e7f",
+   "id": "576d082156",
+   "parent_id": "3a9650dff8",
    "kind": "note",
    "name": "compliance.decision",
    "label": "Status FAIL, 5 flag(s) from 8 rule evaluations",
-   "started_at": "2026-08-08T12:58:08.127+00:00",
-   "ended_at": "2026-08-08T12:58:08.127+00:00",
+   "started_at": "2026-08-08T13:26:06.249+00:00",
+   "ended_at": "2026-08-08T13:26:06.249+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -1970,13 +1970,13 @@
    "meta": {}
   },
   {
-   "id": "5221d41105",
-   "parent_id": "50d5df6e7f",
+   "id": "6c014d23b0",
+   "parent_id": "3a9650dff8",
    "kind": "llm",
    "name": "compliance.explain",
    "label": "LLM · mock/deterministic-stub",
-   "started_at": "2026-08-08T12:58:08.127+00:00",
-   "ended_at": "2026-08-08T12:58:08.127+00:00",
+   "started_at": "2026-08-08T13:26:06.249+00:00",
+   "ended_at": "2026-08-08T13:26:06.249+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": {
@@ -1996,14 +1996,14 @@
    }
   },
   {
-   "id": "f4e719cda0",
-   "parent_id": "35d5c66941",
+   "id": "8d52839c03",
+   "parent_id": "abb8d0ebd5",
    "kind": "agent",
    "name": "synthesis",
    "label": "orchestrator → synthesis · synthesise",
-   "started_at": "2026-08-08T12:58:08.127+00:00",
-   "ended_at": "2026-08-08T12:58:08.127+00:00",
-   "duration_ms": 0.2,
+   "started_at": "2026-08-08T13:26:06.249+00:00",
+   "ended_at": "2026-08-08T13:26:06.250+00:00",
+   "duration_ms": 0.3,
    "status": "ok",
    "input": {
     "query": "Would the Zephyr precious metals fund work as a diversifier here?",
@@ -2418,7 +2418,7 @@
    },
    "output": {
     "briefing": {
-     "generated_at": "2026-08-08T12:58:08+00:00",
+     "generated_at": "2026-08-08T13:26:06+00:00",
      "query": "Would the Zephyr precious metals fund work as a diversifier here?",
      "data_notice": "All client, portfolio and market data in this briefing is synthetic.",
      "client": {
@@ -2786,13 +2786,13 @@
    }
   },
   {
-   "id": "d63290a644",
-   "parent_id": "f4e719cda0",
+   "id": "99f606cfbf",
+   "parent_id": "8d52839c03",
    "kind": "llm",
    "name": "synthesis.write_briefing",
    "label": "LLM · mock/deterministic-stub",
-   "started_at": "2026-08-08T12:58:08.127+00:00",
-   "ended_at": "2026-08-08T12:58:08.127+00:00",
+   "started_at": "2026-08-08T13:26:06.250+00:00",
+   "ended_at": "2026-08-08T13:26:06.250+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": {
@@ -2812,13 +2812,13 @@
    }
   },
   {
-   "id": "85b60e24ad",
-   "parent_id": "f4e719cda0",
+   "id": "af7d614259",
+   "parent_id": "8d52839c03",
    "kind": "note",
    "name": "synthesis.assembled",
    "label": "Briefing assembled with 6 talking points and 8 citations",
-   "started_at": "2026-08-08T12:58:08.127+00:00",
-   "ended_at": "2026-08-08T12:58:08.127+00:00",
+   "started_at": "2026-08-08T13:26:06.250+00:00",
+   "ended_at": "2026-08-08T13:26:06.250+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -2840,7 +2840,7 @@
   }
  ],
  "trace_summary": {
-  "run_id": "fe1abaf982d0",
+  "run_id": "837d515608be",
   "events": 32,
   "by_kind": {
    "agent": 5,
@@ -2850,6 +2850,6 @@
    "retrieval": 5
   },
   "errors": 0,
-  "elapsed_ms": 10.9
+  "elapsed_ms": 9.4
  }
 }

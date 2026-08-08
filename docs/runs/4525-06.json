@@ -1,5 +1,5 @@
 {
- "run_id": "6170f6aa32fd",
+ "run_id": "edf5676864f8",
  "client_id": "4525",
  "query": "Can we add Bramble private credit for this client?",
  "plan": {
@@ -18,7 +18,7 @@
   "_generated_by": "llm"
  },
  "briefing": {
-  "generated_at": "2026-08-08T12:58:08+00:00",
+  "generated_at": "2026-08-08T13:26:06+00:00",
   "query": "Can we add Bramble private credit for this client?",
   "data_notice": "All client, portfolio and market data in this briefing is synthetic.",
   "client": {
@@ -344,14 +344,14 @@
  },
  "trace": [
   {
-   "id": "445d35baa0",
+   "id": "0ed04e31f1",
    "parent_id": null,
    "kind": "agent",
    "name": "orchestrator",
    "label": "orchestrator · plan and execute",
-   "started_at": "2026-08-08T12:58:08.146+00:00",
-   "ended_at": "2026-08-08T12:58:08.156+00:00",
-   "duration_ms": 9.9,
+   "started_at": "2026-08-08T13:26:06.267+00:00",
+   "ended_at": "2026-08-08T13:26:06.275+00:00",
+   "duration_ms": 7.7,
    "status": "ok",
    "input": {
     "client_id": "4525",
@@ -362,13 +362,13 @@
    "meta": {}
   },
   {
-   "id": "f40274a1ee",
-   "parent_id": "445d35baa0",
+   "id": "891c8d7286",
+   "parent_id": "0ed04e31f1",
    "kind": "llm",
    "name": "orchestrator.plan",
    "label": "LLM · mock/deterministic-stub",
-   "started_at": "2026-08-08T12:58:08.147+00:00",
-   "ended_at": "2026-08-08T12:58:08.147+00:00",
+   "started_at": "2026-08-08T13:26:06.267+00:00",
+   "ended_at": "2026-08-08T13:26:06.268+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": {
@@ -388,13 +388,13 @@
    }
   },
   {
-   "id": "d9b9434572",
-   "parent_id": "445d35baa0",
+   "id": "8f2a1acff9",
+   "parent_id": "0ed04e31f1",
    "kind": "note",
    "name": "orchestrator.plan",
    "label": "Intent 'meeting_prep' · research=True · instruments=['BPC']",
-   "started_at": "2026-08-08T12:58:08.147+00:00",
-   "ended_at": "2026-08-08T12:58:08.147+00:00",
+   "started_at": "2026-08-08T13:26:06.268+00:00",
+   "ended_at": "2026-08-08T13:26:06.268+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -417,13 +417,13 @@
    "meta": {}
   },
   {
-   "id": "466a7cfeb5",
-   "parent_id": "445d35baa0",
+   "id": "5ec5a6755a",
+   "parent_id": "0ed04e31f1",
    "kind": "agent",
    "name": "portfolio",
    "label": "orchestrator → portfolio · profile_and_holdings",
-   "started_at": "2026-08-08T12:58:08.147+00:00",
-   "ended_at": "2026-08-08T12:58:08.147+00:00",
+   "started_at": "2026-08-08T13:26:06.268+00:00",
+   "ended_at": "2026-08-08T13:26:06.268+00:00",
    "duration_ms": 0.1,
    "status": "ok",
    "input": {
@@ -580,13 +580,13 @@
    }
   },
   {
-   "id": "3ce3b805ce",
-   "parent_id": "466a7cfeb5",
+   "id": "14049a6443",
+   "parent_id": "5ec5a6755a",
    "kind": "tool",
    "name": "portfolio.get_client_profile",
    "label": "tool · portfolio.get_client_profile",
-   "started_at": "2026-08-08T12:58:08.147+00:00",
-   "ended_at": "2026-08-08T12:58:08.147+00:00",
+   "started_at": "2026-08-08T13:26:06.268+00:00",
+   "ended_at": "2026-08-08T13:26:06.268+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": {
@@ -622,13 +622,13 @@
    }
   },
   {
-   "id": "6ba4a00322",
-   "parent_id": "466a7cfeb5",
+   "id": "3504a07314",
+   "parent_id": "5ec5a6755a",
    "kind": "tool",
    "name": "portfolio.get_holdings",
    "label": "tool · portfolio.get_holdings",
-   "started_at": "2026-08-08T12:58:08.147+00:00",
-   "ended_at": "2026-08-08T12:58:08.147+00:00",
+   "started_at": "2026-08-08T13:26:06.268+00:00",
+   "ended_at": "2026-08-08T13:26:06.268+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": {
@@ -710,13 +710,13 @@
    }
   },
   {
-   "id": "010c5a6de3",
-   "parent_id": "466a7cfeb5",
+   "id": "67c487165a",
+   "parent_id": "5ec5a6755a",
    "kind": "note",
    "name": "portfolio.derived",
    "label": "85.0% growth assets, largest position 33.0%",
-   "started_at": "2026-08-08T12:58:08.147+00:00",
-   "ended_at": "2026-08-08T12:58:08.147+00:00",
+   "started_at": "2026-08-08T13:26:06.268+00:00",
+   "ended_at": "2026-08-08T13:26:06.268+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -773,14 +773,14 @@
    "meta": {}
   },
   {
-   "id": "47691983d5",
-   "parent_id": "445d35baa0",
+   "id": "e32f598390",
+   "parent_id": "0ed04e31f1",
    "kind": "agent",
    "name": "market_research",
    "label": "orchestrator → market_research · research",
-   "started_at": "2026-08-08T12:58:08.147+00:00",
-   "ended_at": "2026-08-08T12:58:08.156+00:00",
-   "duration_ms": 8.7,
+   "started_at": "2026-08-08T13:26:06.268+00:00",
+   "ended_at": "2026-08-08T13:26:06.274+00:00",
+   "duration_ms": 6.6,
    "status": "ok",
    "input": {
     "query": "Can we add Bramble private credit for this client?",
@@ -1035,13 +1035,13 @@
    }
   },
   {
-   "id": "7d1d92b0fd",
-   "parent_id": "47691983d5",
+   "id": "c3c74f2b2d",
+   "parent_id": "e32f598390",
    "kind": "llm",
    "name": "research.plan_queries",
    "label": "LLM · mock/deterministic-stub",
-   "started_at": "2026-08-08T12:58:08.147+00:00",
-   "ended_at": "2026-08-08T12:58:08.147+00:00",
+   "started_at": "2026-08-08T13:26:06.268+00:00",
+   "ended_at": "2026-08-08T13:26:06.268+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": {
@@ -1061,13 +1061,13 @@
    }
   },
   {
-   "id": "ce849bac9c",
-   "parent_id": "47691983d5",
+   "id": "e121eac2fa",
+   "parent_id": "e32f598390",
    "kind": "tool",
    "name": "portfolio.lookup_instrument",
    "label": "tool · portfolio.lookup_instrument",
-   "started_at": "2026-08-08T12:58:08.147+00:00",
-   "ended_at": "2026-08-08T12:58:08.147+00:00",
+   "started_at": "2026-08-08T13:26:06.268+00:00",
+   "ended_at": "2026-08-08T13:26:06.268+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": {
@@ -1099,13 +1099,13 @@
    }
   },
   {
-   "id": "f35f580937",
-   "parent_id": "47691983d5",
+   "id": "e8c2b53ad3",
+   "parent_id": "e32f598390",
    "kind": "note",
    "name": "research.instrument_queries",
    "label": "Added 1 product-specific quer(y/ies) for ['BPC']",
-   "started_at": "2026-08-08T12:58:08.147+00:00",
-   "ended_at": "2026-08-08T12:58:08.147+00:00",
+   "started_at": "2026-08-08T13:26:06.268+00:00",
+   "ended_at": "2026-08-08T13:26:06.268+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -1116,13 +1116,13 @@
    "meta": {}
   },
   {
-   "id": "fa2382d683",
-   "parent_id": "47691983d5",
+   "id": "b8fd9d625a",
+   "parent_id": "e32f598390",
    "kind": "note",
    "name": "research.queries",
    "label": "5 retrieval queries planned",
-   "started_at": "2026-08-08T12:58:08.147+00:00",
-   "ended_at": "2026-08-08T12:58:08.147+00:00",
+   "started_at": "2026-08-08T13:26:06.268+00:00",
+   "ended_at": "2026-08-08T13:26:06.268+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -1137,14 +1137,14 @@
    "meta": {}
   },
   {
-   "id": "b81f5d91ad",
-   "parent_id": "47691983d5",
+   "id": "f97cdf4bb6",
+   "parent_id": "e32f598390",
    "kind": "retrieval",
    "name": "research.search",
    "label": "retrieve · Can we add Bramble private credit for this client?",
-   "started_at": "2026-08-08T12:58:08.147+00:00",
-   "ended_at": "2026-08-08T12:58:08.149+00:00",
-   "duration_ms": 1.8,
+   "started_at": "2026-08-08T13:26:06.268+00:00",
+   "ended_at": "2026-08-08T13:26:06.269+00:00",
+   "duration_ms": 1.4,
    "status": "ok",
    "input": {
     "query": "Can we add Bramble private credit for this client?"
@@ -1175,14 +1175,14 @@
    "meta": {}
   },
   {
-   "id": "90d32acb61",
-   "parent_id": "b81f5d91ad",
+   "id": "deda2929ec",
+   "parent_id": "f97cdf4bb6",
    "kind": "tool",
    "name": "research.search",
    "label": "tool · research.search",
-   "started_at": "2026-08-08T12:58:08.147+00:00",
-   "ended_at": "2026-08-08T12:58:08.149+00:00",
-   "duration_ms": 1.8,
+   "started_at": "2026-08-08T13:26:06.268+00:00",
+   "ended_at": "2026-08-08T13:26:06.269+00:00",
+   "duration_ms": 1.4,
    "status": "ok",
    "input": {
     "query": "Can we add Bramble private credit for this client?",
@@ -1241,14 +1241,14 @@
    }
   },
   {
-   "id": "670ce2459e",
-   "parent_id": "47691983d5",
+   "id": "3b43ada677",
+   "parent_id": "e32f598390",
    "kind": "retrieval",
    "name": "research.search",
    "label": "retrieve · Global Equity outlook and positioning",
-   "started_at": "2026-08-08T12:58:08.149+00:00",
-   "ended_at": "2026-08-08T12:58:08.151+00:00",
-   "duration_ms": 1.6,
+   "started_at": "2026-08-08T13:26:06.269+00:00",
+   "ended_at": "2026-08-08T13:26:06.271+00:00",
+   "duration_ms": 1.2,
    "status": "ok",
    "input": {
     "query": "Global Equity outlook and positioning"
@@ -1279,14 +1279,14 @@
    "meta": {}
   },
   {
-   "id": "5353e3ed94",
-   "parent_id": "670ce2459e",
+   "id": "242c367afe",
+   "parent_id": "3b43ada677",
    "kind": "tool",
    "name": "research.search",
    "label": "tool · research.search",
-   "started_at": "2026-08-08T12:58:08.149+00:00",
-   "ended_at": "2026-08-08T12:58:08.151+00:00",
-   "duration_ms": 1.5,
+   "started_at": "2026-08-08T13:26:06.269+00:00",
+   "ended_at": "2026-08-08T13:26:06.271+00:00",
+   "duration_ms": 1.2,
    "status": "ok",
    "input": {
     "query": "Global Equity outlook and positioning",
@@ -1345,14 +1345,14 @@
    }
   },
   {
-   "id": "1b32871a82",
-   "parent_id": "47691983d5",
+   "id": "e44d07dbfc",
+   "parent_id": "e32f598390",
    "kind": "retrieval",
    "name": "research.search",
    "label": "retrieve · Multi-Asset outlook and positioning",
-   "started_at": "2026-08-08T12:58:08.151+00:00",
-   "ended_at": "2026-08-08T12:58:08.152+00:00",
-   "duration_ms": 1.5,
+   "started_at": "2026-08-08T13:26:06.271+00:00",
+   "ended_at": "2026-08-08T13:26:06.272+00:00",
+   "duration_ms": 1.1,
    "status": "ok",
    "input": {
     "query": "Multi-Asset outlook and positioning"
@@ -1383,14 +1383,14 @@
    "meta": {}
   },
   {
-   "id": "c9b11d4ad5",
-   "parent_id": "1b32871a82",
+   "id": "821d1563e9",
+   "parent_id": "e44d07dbfc",
    "kind": "tool",
    "name": "research.search",
    "label": "tool · research.search",
-   "started_at": "2026-08-08T12:58:08.151+00:00",
-   "ended_at": "2026-08-08T12:58:08.152+00:00",
-   "duration_ms": 1.5,
+   "started_at": "2026-08-08T13:26:06.271+00:00",
+   "ended_at": "2026-08-08T13:26:06.272+00:00",
+   "duration_ms": 1.1,
    "status": "ok",
    "input": {
     "query": "Multi-Asset outlook and positioning",
@@ -1449,14 +1449,14 @@
    }
   },
   {
-   "id": "d47c641a99",
-   "parent_id": "47691983d5",
+   "id": "b11945cf34",
+   "parent_id": "e32f598390",
    "kind": "retrieval",
    "name": "research.search",
    "label": "retrieve · asset allocation house view for a Aggressive mandate",
-   "started_at": "2026-08-08T12:58:08.152+00:00",
-   "ended_at": "2026-08-08T12:58:08.154+00:00",
-   "duration_ms": 1.5,
+   "started_at": "2026-08-08T13:26:06.272+00:00",
+   "ended_at": "2026-08-08T13:26:06.273+00:00",
+   "duration_ms": 1.2,
    "status": "ok",
    "input": {
     "query": "asset allocation house view for a Aggressive mandate"
@@ -1487,14 +1487,14 @@
    "meta": {}
   },
   {
-   "id": "ba5fe836a0",
-   "parent_id": "d47c641a99",
+   "id": "d0435e7b54",
+   "parent_id": "b11945cf34",
    "kind": "tool",
    "name": "research.search",
    "label": "tool · research.search",
-   "started_at": "2026-08-08T12:58:08.152+00:00",
-   "ended_at": "2026-08-08T12:58:08.154+00:00",
-   "duration_ms": 1.4,
+   "started_at": "2026-08-08T13:26:06.272+00:00",
+   "ended_at": "2026-08-08T13:26:06.273+00:00",
+   "duration_ms": 1.1,
    "status": "ok",
    "input": {
     "query": "asset allocation house view for a Aggressive mandate",
@@ -1553,14 +1553,14 @@
    }
   },
   {
-   "id": "dd21cb1afb",
-   "parent_id": "47691983d5",
+   "id": "f47dc50b2f",
+   "parent_id": "e32f598390",
    "kind": "retrieval",
    "name": "research.search",
    "label": "retrieve · Bramble Private Credit Fund II outlook, risks and suitabilit",
-   "started_at": "2026-08-08T12:58:08.154+00:00",
-   "ended_at": "2026-08-08T12:58:08.155+00:00",
-   "duration_ms": 1.7,
+   "started_at": "2026-08-08T13:26:06.273+00:00",
+   "ended_at": "2026-08-08T13:26:06.274+00:00",
+   "duration_ms": 1.2,
    "status": "ok",
    "input": {
     "query": "Bramble Private Credit Fund II outlook, risks and suitability"
@@ -1591,14 +1591,14 @@
    "meta": {}
   },
   {
-   "id": "c8abab443d",
-   "parent_id": "dd21cb1afb",
+   "id": "d334843353",
+   "parent_id": "f47dc50b2f",
    "kind": "tool",
    "name": "research.search",
    "label": "tool · research.search",
-   "started_at": "2026-08-08T12:58:08.154+00:00",
-   "ended_at": "2026-08-08T12:58:08.155+00:00",
-   "duration_ms": 1.6,
+   "started_at": "2026-08-08T13:26:06.273+00:00",
+   "ended_at": "2026-08-08T13:26:06.274+00:00",
+   "duration_ms": 1.2,
    "status": "ok",
    "input": {
     "query": "Bramble Private Credit Fund II outlook, risks and suitability",
@@ -1657,13 +1657,13 @@
    }
   },
   {
-   "id": "bdeefd1ae8",
-   "parent_id": "47691983d5",
+   "id": "0404497c76",
+   "parent_id": "e32f598390",
    "kind": "note",
    "name": "research.fusion",
    "label": "8 passages from 7 documents, fused across 5 queries by reciprocal rank",
-   "started_at": "2026-08-08T12:58:08.155+00:00",
-   "ended_at": "2026-08-08T12:58:08.155+00:00",
+   "started_at": "2026-08-08T13:26:06.274+00:00",
+   "ended_at": "2026-08-08T13:26:06.274+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -1681,13 +1681,13 @@
    "meta": {}
   },
   {
-   "id": "94d35bb959",
-   "parent_id": "47691983d5",
+   "id": "875810b46d",
+   "parent_id": "e32f598390",
    "kind": "llm",
    "name": "research.summarise",
    "label": "LLM · mock/deterministic-stub",
-   "started_at": "2026-08-08T12:58:08.156+00:00",
-   "ended_at": "2026-08-08T12:58:08.156+00:00",
+   "started_at": "2026-08-08T13:26:06.274+00:00",
+   "ended_at": "2026-08-08T13:26:06.274+00:00",
    "duration_ms": 0.1,
    "status": "ok",
    "input": {
@@ -1707,14 +1707,14 @@
    }
   },
   {
-   "id": "746bdcd416",
-   "parent_id": "445d35baa0",
+   "id": "6d07ff9aba",
+   "parent_id": "0ed04e31f1",
    "kind": "agent",
    "name": "compliance",
    "label": "orchestrator → compliance · check",
-   "started_at": "2026-08-08T12:58:08.156+00:00",
-   "ended_at": "2026-08-08T12:58:08.156+00:00",
-   "duration_ms": 0.2,
+   "started_at": "2026-08-08T13:26:06.274+00:00",
+   "ended_at": "2026-08-08T13:26:06.275+00:00",
+   "duration_ms": 0.3,
    "status": "ok",
    "input": {
     "client_id": "4525",
@@ -1770,13 +1770,13 @@
    }
   },
   {
-   "id": "8f2dbc987d",
-   "parent_id": "746bdcd416",
+   "id": "73c68af852",
+   "parent_id": "6d07ff9aba",
    "kind": "note",
    "name": "compliance.proposals",
    "label": "Checking 1 instrument(s) proposed by the orchestrator",
-   "started_at": "2026-08-08T12:58:08.156+00:00",
-   "ended_at": "2026-08-08T12:58:08.156+00:00",
+   "started_at": "2026-08-08T13:26:06.275+00:00",
+   "ended_at": "2026-08-08T13:26:06.275+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -1787,13 +1787,13 @@
    "meta": {}
   },
   {
-   "id": "24c1ca3b55",
-   "parent_id": "746bdcd416",
+   "id": "6e2373fc73",
+   "parent_id": "6d07ff9aba",
    "kind": "tool",
    "name": "compliance.check_suitability",
    "label": "tool · compliance.check_suitability",
-   "started_at": "2026-08-08T12:58:08.156+00:00",
-   "ended_at": "2026-08-08T12:58:08.156+00:00",
+   "started_at": "2026-08-08T13:26:06.275+00:00",
+   "ended_at": "2026-08-08T13:26:06.275+00:00",
    "duration_ms": 0.1,
    "status": "ok",
    "input": {
@@ -1850,13 +1850,13 @@
    }
   },
   {
-   "id": "14c729ffc1",
-   "parent_id": "746bdcd416",
+   "id": "d5c735af14",
+   "parent_id": "6d07ff9aba",
    "kind": "note",
    "name": "compliance.decision",
    "label": "Status FAIL, 2 flag(s) from 8 rule evaluations",
-   "started_at": "2026-08-08T12:58:08.156+00:00",
-   "ended_at": "2026-08-08T12:58:08.156+00:00",
+   "started_at": "2026-08-08T13:26:06.275+00:00",
+   "ended_at": "2026-08-08T13:26:06.275+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -1871,13 +1871,13 @@
    "meta": {}
   },
   {
-   "id": "15998a36e5",
-   "parent_id": "746bdcd416",
+   "id": "061de3a4e4",
+   "parent_id": "6d07ff9aba",
    "kind": "llm",
    "name": "compliance.explain",
    "label": "LLM · mock/deterministic-stub",
-   "started_at": "2026-08-08T12:58:08.156+00:00",
-   "ended_at": "2026-08-08T12:58:08.156+00:00",
+   "started_at": "2026-08-08T13:26:06.275+00:00",
+   "ended_at": "2026-08-08T13:26:06.275+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": {
@@ -1897,13 +1897,13 @@
    }
   },
   {
-   "id": "38a8e1ab28",
-   "parent_id": "445d35baa0",
+   "id": "bb1c940da8",
+   "parent_id": "0ed04e31f1",
    "kind": "agent",
    "name": "synthesis",
    "label": "orchestrator → synthesis · synthesise",
-   "started_at": "2026-08-08T12:58:08.156+00:00",
-   "ended_at": "2026-08-08T12:58:08.156+00:00",
+   "started_at": "2026-08-08T13:26:06.275+00:00",
+   "ended_at": "2026-08-08T13:26:06.275+00:00",
    "duration_ms": 0.2,
    "status": "ok",
    "input": {
@@ -2288,7 +2288,7 @@
    },
    "output": {
     "briefing": {
-     "generated_at": "2026-08-08T12:58:08+00:00",
+     "generated_at": "2026-08-08T13:26:06+00:00",
      "query": "Can we add Bramble private credit for this client?",
      "data_notice": "All client, portfolio and market data in this briefing is synthetic.",
      "client": {
@@ -2619,13 +2619,13 @@
    }
   },
   {
-   "id": "66f98b54ea",
-   "parent_id": "38a8e1ab28",
+   "id": "6ad9946773",
+   "parent_id": "bb1c940da8",
    "kind": "llm",
    "name": "synthesis.write_briefing",
    "label": "LLM · mock/deterministic-stub",
-   "started_at": "2026-08-08T12:58:08.156+00:00",
-   "ended_at": "2026-08-08T12:58:08.156+00:00",
+   "started_at": "2026-08-08T13:26:06.275+00:00",
+   "ended_at": "2026-08-08T13:26:06.275+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": {
@@ -2645,13 +2645,13 @@
    }
   },
   {
-   "id": "f6ae549b54",
-   "parent_id": "38a8e1ab28",
+   "id": "904d175de9",
+   "parent_id": "bb1c940da8",
    "kind": "note",
    "name": "synthesis.assembled",
    "label": "Briefing assembled with 5 talking points and 8 citations",
-   "started_at": "2026-08-08T12:58:08.156+00:00",
-   "ended_at": "2026-08-08T12:58:08.156+00:00",
+   "started_at": "2026-08-08T13:26:06.275+00:00",
+   "ended_at": "2026-08-08T13:26:06.275+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -2673,7 +2673,7 @@
   }
  ],
  "trace_summary": {
-  "run_id": "6170f6aa32fd",
+  "run_id": "edf5676864f8",
   "events": 32,
   "by_kind": {
    "agent": 5,
@@ -2683,6 +2683,6 @@
    "retrieval": 5
   },
   "errors": 0,
-  "elapsed_ms": 11.0
+  "elapsed_ms": 8.7
  }
 }

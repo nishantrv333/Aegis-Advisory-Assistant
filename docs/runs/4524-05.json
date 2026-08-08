@@ -1,5 +1,5 @@
 {
- "run_id": "09b51c65d2f5",
+ "run_id": "8cee0a237620",
  "client_id": "4524",
  "query": "Routine annual review. Anything blocking?",
  "plan": {
@@ -16,7 +16,7 @@
   "_generated_by": "llm"
  },
  "briefing": {
-  "generated_at": "2026-08-08T12:58:08+00:00",
+  "generated_at": "2026-08-08T13:26:06+00:00",
   "query": "Routine annual review. Anything blocking?",
   "data_notice": "All client, portfolio and market data in this briefing is synthetic.",
   "client": {
@@ -309,14 +309,14 @@
  },
  "trace": [
   {
-   "id": "8816c38747",
+   "id": "93338e28da",
    "parent_id": null,
    "kind": "agent",
    "name": "orchestrator",
    "label": "orchestrator · plan and execute",
-   "started_at": "2026-08-08T12:58:08.132+00:00",
-   "ended_at": "2026-08-08T12:58:08.142+00:00",
-   "duration_ms": 9.6,
+   "started_at": "2026-08-08T13:26:06.254+00:00",
+   "ended_at": "2026-08-08T13:26:06.264+00:00",
+   "duration_ms": 9.5,
    "status": "ok",
    "input": {
     "client_id": "4524",
@@ -327,13 +327,13 @@
    "meta": {}
   },
   {
-   "id": "70eab55a91",
-   "parent_id": "8816c38747",
+   "id": "59b8fb676e",
+   "parent_id": "93338e28da",
    "kind": "llm",
    "name": "orchestrator.plan",
    "label": "LLM · mock/deterministic-stub",
-   "started_at": "2026-08-08T12:58:08.132+00:00",
-   "ended_at": "2026-08-08T12:58:08.133+00:00",
+   "started_at": "2026-08-08T13:26:06.254+00:00",
+   "ended_at": "2026-08-08T13:26:06.254+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": {
@@ -353,13 +353,13 @@
    }
   },
   {
-   "id": "ccd522d2fd",
-   "parent_id": "8816c38747",
+   "id": "6dc52e29ef",
+   "parent_id": "93338e28da",
    "kind": "note",
    "name": "orchestrator.plan",
    "label": "Intent 'meeting_prep' · research=True · instruments=none",
-   "started_at": "2026-08-08T12:58:08.133+00:00",
-   "ended_at": "2026-08-08T12:58:08.133+00:00",
+   "started_at": "2026-08-08T13:26:06.254+00:00",
+   "ended_at": "2026-08-08T13:26:06.254+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -380,13 +380,13 @@
    "meta": {}
   },
   {
-   "id": "35b0b3d18e",
-   "parent_id": "8816c38747",
+   "id": "475ad34e82",
+   "parent_id": "93338e28da",
    "kind": "agent",
    "name": "portfolio",
    "label": "orchestrator → portfolio · profile_and_holdings",
-   "started_at": "2026-08-08T12:58:08.133+00:00",
-   "ended_at": "2026-08-08T12:58:08.133+00:00",
+   "started_at": "2026-08-08T13:26:06.254+00:00",
+   "ended_at": "2026-08-08T13:26:06.254+00:00",
    "duration_ms": 0.1,
    "status": "ok",
    "input": {
@@ -521,13 +521,13 @@
    }
   },
   {
-   "id": "cd2ad668a9",
-   "parent_id": "35b0b3d18e",
+   "id": "8077e536cb",
+   "parent_id": "475ad34e82",
    "kind": "tool",
    "name": "portfolio.get_client_profile",
    "label": "tool · portfolio.get_client_profile",
-   "started_at": "2026-08-08T12:58:08.133+00:00",
-   "ended_at": "2026-08-08T12:58:08.133+00:00",
+   "started_at": "2026-08-08T13:26:06.254+00:00",
+   "ended_at": "2026-08-08T13:26:06.254+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": {
@@ -563,13 +563,13 @@
    }
   },
   {
-   "id": "a0b6abeb92",
-   "parent_id": "35b0b3d18e",
+   "id": "f38a5824eb",
+   "parent_id": "475ad34e82",
    "kind": "tool",
    "name": "portfolio.get_holdings",
    "label": "tool · portfolio.get_holdings",
-   "started_at": "2026-08-08T12:58:08.133+00:00",
-   "ended_at": "2026-08-08T12:58:08.133+00:00",
+   "started_at": "2026-08-08T13:26:06.254+00:00",
+   "ended_at": "2026-08-08T13:26:06.254+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": {
@@ -641,13 +641,13 @@
    }
   },
   {
-   "id": "1c27a8d62f",
-   "parent_id": "35b0b3d18e",
+   "id": "bc8f522f68",
+   "parent_id": "475ad34e82",
    "kind": "note",
    "name": "portfolio.derived",
    "label": "25.0% growth assets, largest position 40.0%",
-   "started_at": "2026-08-08T12:58:08.133+00:00",
-   "ended_at": "2026-08-08T12:58:08.133+00:00",
+   "started_at": "2026-08-08T13:26:06.254+00:00",
+   "ended_at": "2026-08-08T13:26:06.254+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -692,14 +692,14 @@
    "meta": {}
   },
   {
-   "id": "e17eb372d5",
-   "parent_id": "8816c38747",
+   "id": "fcbc1fa6c5",
+   "parent_id": "93338e28da",
    "kind": "agent",
    "name": "market_research",
    "label": "orchestrator → market_research · research",
-   "started_at": "2026-08-08T12:58:08.133+00:00",
-   "ended_at": "2026-08-08T12:58:08.141+00:00",
-   "duration_ms": 8.3,
+   "started_at": "2026-08-08T13:26:06.255+00:00",
+   "ended_at": "2026-08-08T13:26:06.263+00:00",
+   "duration_ms": 8.4,
    "status": "ok",
    "input": {
     "query": "Routine annual review. Anything blocking?",
@@ -940,13 +940,13 @@
    }
   },
   {
-   "id": "0d5b7ddf0c",
-   "parent_id": "e17eb372d5",
+   "id": "7ebac3028a",
+   "parent_id": "fcbc1fa6c5",
    "kind": "llm",
    "name": "research.plan_queries",
    "label": "LLM · mock/deterministic-stub",
-   "started_at": "2026-08-08T12:58:08.133+00:00",
-   "ended_at": "2026-08-08T12:58:08.133+00:00",
+   "started_at": "2026-08-08T13:26:06.255+00:00",
+   "ended_at": "2026-08-08T13:26:06.255+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": {
@@ -966,14 +966,14 @@
    }
   },
   {
-   "id": "54d4de8994",
-   "parent_id": "e17eb372d5",
+   "id": "a61c35b821",
+   "parent_id": "fcbc1fa6c5",
    "kind": "tool",
    "name": "portfolio.lookup_instrument",
    "label": "tool · portfolio.lookup_instrument",
-   "started_at": "2026-08-08T12:58:08.133+00:00",
-   "ended_at": "2026-08-08T12:58:08.133+00:00",
-   "duration_ms": 0.0,
+   "started_at": "2026-08-08T13:26:06.255+00:00",
+   "ended_at": "2026-08-08T13:26:06.255+00:00",
+   "duration_ms": 0.1,
    "status": "ok",
    "input": {
     "instrument_id": "CBM"
@@ -1007,13 +1007,13 @@
    }
   },
   {
-   "id": "0304bb291d",
-   "parent_id": "e17eb372d5",
+   "id": "8be1fb3d17",
+   "parent_id": "fcbc1fa6c5",
    "kind": "note",
    "name": "research.instrument_queries",
    "label": "Added 1 product-specific quer(y/ies) for ['CBM']",
-   "started_at": "2026-08-08T12:58:08.133+00:00",
-   "ended_at": "2026-08-08T12:58:08.133+00:00",
+   "started_at": "2026-08-08T13:26:06.255+00:00",
+   "ended_at": "2026-08-08T13:26:06.255+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -1024,13 +1024,13 @@
    "meta": {}
   },
   {
-   "id": "78e2bc7139",
-   "parent_id": "e17eb372d5",
+   "id": "02f4ae322b",
+   "parent_id": "fcbc1fa6c5",
    "kind": "note",
    "name": "research.queries",
    "label": "5 retrieval queries planned",
-   "started_at": "2026-08-08T12:58:08.133+00:00",
-   "ended_at": "2026-08-08T12:58:08.133+00:00",
+   "started_at": "2026-08-08T13:26:06.255+00:00",
+   "ended_at": "2026-08-08T13:26:06.255+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -1045,14 +1045,14 @@
    "meta": {}
   },
   {
-   "id": "287e89244d",
-   "parent_id": "e17eb372d5",
+   "id": "00e5e8443d",
+   "parent_id": "fcbc1fa6c5",
    "kind": "retrieval",
    "name": "research.search",
    "label": "retrieve · Routine annual review. Anything blocking?",
-   "started_at": "2026-08-08T12:58:08.133+00:00",
-   "ended_at": "2026-08-08T12:58:08.135+00:00",
-   "duration_ms": 1.7,
+   "started_at": "2026-08-08T13:26:06.255+00:00",
+   "ended_at": "2026-08-08T13:26:06.257+00:00",
+   "duration_ms": 2.1,
    "status": "ok",
    "input": {
     "query": "Routine annual review. Anything blocking?"
@@ -1083,14 +1083,14 @@
    "meta": {}
   },
   {
-   "id": "89f5ca6560",
-   "parent_id": "287e89244d",
+   "id": "7f4d006c7f",
+   "parent_id": "00e5e8443d",
    "kind": "tool",
    "name": "research.search",
    "label": "tool · research.search",
-   "started_at": "2026-08-08T12:58:08.133+00:00",
-   "ended_at": "2026-08-08T12:58:08.135+00:00",
-   "duration_ms": 1.7,
+   "started_at": "2026-08-08T13:26:06.255+00:00",
+   "ended_at": "2026-08-08T13:26:06.257+00:00",
+   "duration_ms": 2.0,
    "status": "ok",
    "input": {
     "query": "Routine annual review. Anything blocking?",
@@ -1149,14 +1149,14 @@
    }
   },
   {
-   "id": "1203df3af2",
-   "parent_id": "e17eb372d5",
+   "id": "4b531629b9",
+   "parent_id": "fcbc1fa6c5",
    "kind": "retrieval",
    "name": "research.search",
    "label": "retrieve · Fixed Income outlook and positioning",
-   "started_at": "2026-08-08T12:58:08.135+00:00",
-   "ended_at": "2026-08-08T12:58:08.136+00:00",
-   "duration_ms": 1.5,
+   "started_at": "2026-08-08T13:26:06.257+00:00",
+   "ended_at": "2026-08-08T13:26:06.258+00:00",
+   "duration_ms": 1.6,
    "status": "ok",
    "input": {
     "query": "Fixed Income outlook and positioning"
@@ -1187,14 +1187,14 @@
    "meta": {}
   },
   {
-   "id": "ab64e2e062",
-   "parent_id": "1203df3af2",
+   "id": "eb89b6e3cb",
+   "parent_id": "4b531629b9",
    "kind": "tool",
    "name": "research.search",
    "label": "tool · research.search",
-   "started_at": "2026-08-08T12:58:08.135+00:00",
-   "ended_at": "2026-08-08T12:58:08.136+00:00",
-   "duration_ms": 1.5,
+   "started_at": "2026-08-08T13:26:06.257+00:00",
+   "ended_at": "2026-08-08T13:26:06.258+00:00",
+   "duration_ms": 1.6,
    "status": "ok",
    "input": {
     "query": "Fixed Income outlook and positioning",
@@ -1253,14 +1253,14 @@
    }
   },
   {
-   "id": "bb7494c88a",
-   "parent_id": "e17eb372d5",
+   "id": "4f8ff3f584",
+   "parent_id": "fcbc1fa6c5",
    "kind": "retrieval",
    "name": "research.search",
    "label": "retrieve · Multi-Asset outlook and positioning",
-   "started_at": "2026-08-08T12:58:08.136+00:00",
-   "ended_at": "2026-08-08T12:58:08.138+00:00",
-   "duration_ms": 1.5,
+   "started_at": "2026-08-08T13:26:06.258+00:00",
+   "ended_at": "2026-08-08T13:26:06.260+00:00",
+   "duration_ms": 1.2,
    "status": "ok",
    "input": {
     "query": "Multi-Asset outlook and positioning"
@@ -1291,14 +1291,14 @@
    "meta": {}
   },
   {
-   "id": "2da8dff1fc",
-   "parent_id": "bb7494c88a",
+   "id": "f40166710f",
+   "parent_id": "4f8ff3f584",
    "kind": "tool",
    "name": "research.search",
    "label": "tool · research.search",
-   "started_at": "2026-08-08T12:58:08.136+00:00",
-   "ended_at": "2026-08-08T12:58:08.138+00:00",
-   "duration_ms": 1.5,
+   "started_at": "2026-08-08T13:26:06.258+00:00",
+   "ended_at": "2026-08-08T13:26:06.260+00:00",
+   "duration_ms": 1.2,
    "status": "ok",
    "input": {
     "query": "Multi-Asset outlook and positioning",
@@ -1357,14 +1357,14 @@
    }
   },
   {
-   "id": "38788e4b10",
-   "parent_id": "e17eb372d5",
+   "id": "3dfdda335e",
+   "parent_id": "fcbc1fa6c5",
    "kind": "retrieval",
    "name": "research.search",
    "label": "retrieve · asset allocation house view for a Conservative mandate",
-   "started_at": "2026-08-08T12:58:08.138+00:00",
-   "ended_at": "2026-08-08T12:58:08.139+00:00",
-   "duration_ms": 1.5,
+   "started_at": "2026-08-08T13:26:06.260+00:00",
+   "ended_at": "2026-08-08T13:26:06.261+00:00",
+   "duration_ms": 1.4,
    "status": "ok",
    "input": {
     "query": "asset allocation house view for a Conservative mandate"
@@ -1395,14 +1395,14 @@
    "meta": {}
   },
   {
-   "id": "f9c432e214",
-   "parent_id": "38788e4b10",
+   "id": "c679a225f1",
+   "parent_id": "3dfdda335e",
    "kind": "tool",
    "name": "research.search",
    "label": "tool · research.search",
-   "started_at": "2026-08-08T12:58:08.138+00:00",
-   "ended_at": "2026-08-08T12:58:08.139+00:00",
-   "duration_ms": 1.5,
+   "started_at": "2026-08-08T13:26:06.260+00:00",
+   "ended_at": "2026-08-08T13:26:06.261+00:00",
+   "duration_ms": 1.4,
    "status": "ok",
    "input": {
     "query": "asset allocation house view for a Conservative mandate",
@@ -1461,13 +1461,13 @@
    }
   },
   {
-   "id": "056dd0cc31",
-   "parent_id": "e17eb372d5",
+   "id": "642f4757f0",
+   "parent_id": "fcbc1fa6c5",
    "kind": "retrieval",
    "name": "research.search",
    "label": "retrieve · Castellan Balanced Multi-Asset Fund outlook, risks and suita",
-   "started_at": "2026-08-08T12:58:08.139+00:00",
-   "ended_at": "2026-08-08T12:58:08.141+00:00",
+   "started_at": "2026-08-08T13:26:06.261+00:00",
+   "ended_at": "2026-08-08T13:26:06.263+00:00",
    "duration_ms": 1.4,
    "status": "ok",
    "input": {
@@ -1499,14 +1499,14 @@
    "meta": {}
   },
   {
-   "id": "e3238147d0",
-   "parent_id": "056dd0cc31",
+   "id": "6493012895",
+   "parent_id": "642f4757f0",
    "kind": "tool",
    "name": "research.search",
    "label": "tool · research.search",
-   "started_at": "2026-08-08T12:58:08.139+00:00",
-   "ended_at": "2026-08-08T12:58:08.141+00:00",
-   "duration_ms": 1.4,
+   "started_at": "2026-08-08T13:26:06.261+00:00",
+   "ended_at": "2026-08-08T13:26:06.263+00:00",
+   "duration_ms": 1.3,
    "status": "ok",
    "input": {
     "query": "Castellan Balanced Multi-Asset Fund outlook, risks and suitability",
@@ -1565,13 +1565,13 @@
    }
   },
   {
-   "id": "e8d5a867c4",
-   "parent_id": "e17eb372d5",
+   "id": "e3fbc1bc3d",
+   "parent_id": "fcbc1fa6c5",
    "kind": "note",
    "name": "research.fusion",
    "label": "8 passages from 7 documents, fused across 5 queries by reciprocal rank",
-   "started_at": "2026-08-08T12:58:08.141+00:00",
-   "ended_at": "2026-08-08T12:58:08.141+00:00",
+   "started_at": "2026-08-08T13:26:06.263+00:00",
+   "ended_at": "2026-08-08T13:26:06.263+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -1589,13 +1589,13 @@
    "meta": {}
   },
   {
-   "id": "bce27db61b",
-   "parent_id": "e17eb372d5",
+   "id": "b23f314a12",
+   "parent_id": "fcbc1fa6c5",
    "kind": "llm",
    "name": "research.summarise",
    "label": "LLM · mock/deterministic-stub",
-   "started_at": "2026-08-08T12:58:08.141+00:00",
-   "ended_at": "2026-08-08T12:58:08.141+00:00",
+   "started_at": "2026-08-08T13:26:06.263+00:00",
+   "ended_at": "2026-08-08T13:26:06.263+00:00",
    "duration_ms": 0.1,
    "status": "ok",
    "input": {
@@ -1615,13 +1615,13 @@
    }
   },
   {
-   "id": "1d86856b1d",
-   "parent_id": "8816c38747",
+   "id": "f9d64e1492",
+   "parent_id": "93338e28da",
    "kind": "agent",
    "name": "compliance",
    "label": "orchestrator → compliance · check",
-   "started_at": "2026-08-08T12:58:08.141+00:00",
-   "ended_at": "2026-08-08T12:58:08.142+00:00",
+   "started_at": "2026-08-08T13:26:06.263+00:00",
+   "ended_at": "2026-08-08T13:26:06.263+00:00",
    "duration_ms": 0.2,
    "status": "ok",
    "input": {
@@ -1660,13 +1660,13 @@
    }
   },
   {
-   "id": "55734fbd1a",
-   "parent_id": "1d86856b1d",
+   "id": "3eb54d385f",
+   "parent_id": "f9d64e1492",
    "kind": "note",
    "name": "compliance.proposals",
    "label": "No proposals identified, checking the existing book only",
-   "started_at": "2026-08-08T12:58:08.141+00:00",
-   "ended_at": "2026-08-08T12:58:08.141+00:00",
+   "started_at": "2026-08-08T13:26:06.263+00:00",
+   "ended_at": "2026-08-08T13:26:06.263+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -1675,13 +1675,13 @@
    "meta": {}
   },
   {
-   "id": "644a3d3446",
-   "parent_id": "1d86856b1d",
+   "id": "cb0ca099c7",
+   "parent_id": "f9d64e1492",
    "kind": "tool",
    "name": "compliance.check_suitability",
    "label": "tool · compliance.check_suitability",
-   "started_at": "2026-08-08T12:58:08.141+00:00",
-   "ended_at": "2026-08-08T12:58:08.141+00:00",
+   "started_at": "2026-08-08T13:26:06.263+00:00",
+   "ended_at": "2026-08-08T13:26:06.263+00:00",
    "duration_ms": 0.1,
    "status": "ok",
    "input": {
@@ -1721,13 +1721,13 @@
    }
   },
   {
-   "id": "8e81740710",
-   "parent_id": "1d86856b1d",
+   "id": "9fd0f576b5",
+   "parent_id": "f9d64e1492",
    "kind": "note",
    "name": "compliance.decision",
    "label": "Status FAIL, 1 flag(s) from 3 rule evaluations",
-   "started_at": "2026-08-08T12:58:08.141+00:00",
-   "ended_at": "2026-08-08T12:58:08.141+00:00",
+   "started_at": "2026-08-08T13:26:06.263+00:00",
+   "ended_at": "2026-08-08T13:26:06.263+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -1741,13 +1741,13 @@
    "meta": {}
   },
   {
-   "id": "0f624c2a48",
-   "parent_id": "1d86856b1d",
+   "id": "2a19265a74",
+   "parent_id": "f9d64e1492",
    "kind": "llm",
    "name": "compliance.explain",
    "label": "LLM · mock/deterministic-stub",
-   "started_at": "2026-08-08T12:58:08.142+00:00",
-   "ended_at": "2026-08-08T12:58:08.142+00:00",
+   "started_at": "2026-08-08T13:26:06.263+00:00",
+   "ended_at": "2026-08-08T13:26:06.263+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": {
@@ -1767,13 +1767,13 @@
    }
   },
   {
-   "id": "ec031f2aeb",
-   "parent_id": "8816c38747",
+   "id": "7e5d551352",
+   "parent_id": "93338e28da",
    "kind": "agent",
    "name": "synthesis",
    "label": "orchestrator → synthesis · synthesise",
-   "started_at": "2026-08-08T12:58:08.142+00:00",
-   "ended_at": "2026-08-08T12:58:08.142+00:00",
+   "started_at": "2026-08-08T13:26:06.263+00:00",
+   "ended_at": "2026-08-08T13:26:06.264+00:00",
    "duration_ms": 0.2,
    "status": "ok",
    "input": {
@@ -2120,7 +2120,7 @@
    },
    "output": {
     "briefing": {
-     "generated_at": "2026-08-08T12:58:08+00:00",
+     "generated_at": "2026-08-08T13:26:06+00:00",
      "query": "Routine annual review. Anything blocking?",
      "data_notice": "All client, portfolio and market data in this briefing is synthetic.",
      "client": {
@@ -2418,13 +2418,13 @@
    }
   },
   {
-   "id": "1493b687cf",
-   "parent_id": "ec031f2aeb",
+   "id": "4109bd656e",
+   "parent_id": "7e5d551352",
    "kind": "llm",
    "name": "synthesis.write_briefing",
    "label": "LLM · mock/deterministic-stub",
-   "started_at": "2026-08-08T12:58:08.142+00:00",
-   "ended_at": "2026-08-08T12:58:08.142+00:00",
+   "started_at": "2026-08-08T13:26:06.263+00:00",
+   "ended_at": "2026-08-08T13:26:06.263+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": {
@@ -2444,13 +2444,13 @@
    }
   },
   {
-   "id": "53d8ceffab",
-   "parent_id": "ec031f2aeb",
+   "id": "ff7127fa54",
+   "parent_id": "7e5d551352",
    "kind": "note",
    "name": "synthesis.assembled",
    "label": "Briefing assembled with 4 talking points and 8 citations",
-   "started_at": "2026-08-08T12:58:08.142+00:00",
-   "ended_at": "2026-08-08T12:58:08.142+00:00",
+   "started_at": "2026-08-08T13:26:06.264+00:00",
+   "ended_at": "2026-08-08T13:26:06.264+00:00",
    "duration_ms": 0.0,
    "status": "ok",
    "input": null,
@@ -2472,7 +2472,7 @@
   }
  ],
  "trace_summary": {
-  "run_id": "09b51c65d2f5",
+  "run_id": "8cee0a237620",
   "events": 32,
   "by_kind": {
    "agent": 5,
@@ -2482,6 +2482,6 @@
    "retrieval": 5
   },
   "errors": 0,
-  "elapsed_ms": 10.7
+  "elapsed_ms": 10.3
  }
 }

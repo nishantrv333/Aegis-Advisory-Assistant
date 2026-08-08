@@ -7,6 +7,10 @@ name: eval
 # It runs in deterministic mode (mock LLM, offline embedder) so it needs no
 # API key and no secrets. That is the same mode anyone cloning the repo gets
 # for free, which is the point: if CI is green, a clone works.
+#
+# One case (G07) is expected to fail on retrieval. That is recorded in
+# eval/golden_set.py, so the suite still exits zero for it but fails for
+# anything else, and tells me if G07 ever starts passing.
 
 on:
   push:
@@ -52,10 +56,6 @@ jobs:
           EMBEDDING_MODE: hash
           LLM_PROVIDER: mock
         run: python eval/run_eval.py --no-colour
-        # G07 is a known, documented retrieval failure. The suite exits
-        # non-zero on any failure, so this is allowed to fail while the
-        # compliance checks below are treated as blocking.
-        continue-on-error: true
 
       - name: Compliance rules must be exactly correct
         env:

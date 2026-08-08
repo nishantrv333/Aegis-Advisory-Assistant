@@ -1,6 +1,6 @@
 # Deploys Aegis anywhere that runs a container: Hugging Face Spaces, Render,
-# Railway, Fly, Cloud Run. Works with no API key — the app falls back to
-# deterministic mode — so a demo link needs no secrets.
+# Railway, Fly, Cloud Run. It works with no API key, because the app falls
+# back to deterministic mode, so a demo link needs no secrets.
 
 FROM python:3.12-slim
 

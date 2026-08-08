@@ -59,6 +59,8 @@ def run_case(orchestrator, case: dict, colour: bool, verbose: bool) -> dict:
             "case": case,
             "checks": [("run", False, result.get("error", "no briefing returned"))],
             "passed": False,
+            "unexpected": ["run"],
+            "fixed": [],
             "elapsed_ms": elapsed,
             "trace": trace,
         }
@@ -129,10 +131,16 @@ def run_case(orchestrator, case: dict, colour: bool, verbose: bool) -> dict:
             print(f"  {event.kind:<9} {event.status:<7} {event.label[:78]}")
         print(f"\n{_c('headline', DIM, colour)} {briefing['headline']}")
 
+    known = set(case.get("known_failures", []))
+    unexpected = [name for name, ok, _ in checks if not ok and name not in known]
+    fixed = [name for name, ok, _ in checks if ok and name in known]
+
     return {
         "case": case,
         "checks": checks,
         "passed": all(ok for _, ok, _ in checks),
+        "unexpected": unexpected,
+        "fixed": fixed,
         "elapsed_ms": elapsed,
         "trace": trace,
     }
@@ -154,21 +162,34 @@ def run_retrieval_only(colour: bool) -> int:
     for case in GOLDEN_SET:
         hits = store.search(case["query"], k=5)
         docs = [h.doc_id for h in hits]
+        known = "retrieval" in case.get("known_failures", [])
         for expected in case["expected_docs"]:
             rank = docs.index(expected) + 1 if expected in docs else 0
             ok = rank > 0
-            failures += 0 if ok else 1
             if ok:
                 ranks.append(rank)
+            elif not known:
+                failures += 1
+
+            if ok:
+                label, colour_code = "PASS", GREEN
+            elif known:
+                label, colour_code = "KNOWN", YELLOW
+            else:
+                label, colour_code = "FAIL", RED
+
             print(
                 f"{case['id']:<6}{expected:<20}{(str(rank) if rank else '·'):<6}"
-                f"{_c('PASS' if ok else 'FAIL', GREEN if ok else RED, colour):<8}"
+                f"{_c(label, colour_code, colour):<8}"
                 f"{DIM if colour else ''}{', '.join(dict.fromkeys(docs))[:60]}{RESET if colour else ''}"
             )
 
     total = len(GOLDEN_SET)
     mrr = sum(1 / r for r in ranks) / total if total else 0
-    print(f"\nrecall@5 {total - failures}/{total}   MRR {mrr:.3f}")
+    found = len(ranks)
+    print(f"\nrecall@5 {found}/{total}   MRR {mrr:.3f}")
+    if failures:
+        print(f"{failures} unexpected failure(s)")
     return 1 if failures else 0
 
 
@@ -224,7 +245,12 @@ def main() -> int:
         results.append(result)
         cells = {name: ok for name, ok, _ in result["checks"]}
         mark = lambda key: _c("ok", GREEN, colour) if cells.get(key) else _c("FAIL", RED, colour)
-        verdict = _c("PASS", GREEN, colour) if result["passed"] else _c("FAIL", RED, colour)
+        if result["passed"]:
+            verdict = _c("PASS", GREEN, colour)
+        elif not result["unexpected"]:
+            verdict = _c("KNOWN", YELLOW, colour)
+        else:
+            verdict = _c("FAIL", RED, colour)
         print(
             f"{case['id']:<6}{case['name'][:40]:<42}"
             f"{mark('retrieval'):<7}{mark('status'):<8}{mark('rules_fired'):<7}"
@@ -233,15 +259,32 @@ def main() -> int:
         )
 
     passed = sum(1 for r in results if r["passed"])
-    failed = len(results) - passed
+    known = sum(1 for r in results if not r["passed"] and not r["unexpected"])
+    failed = sum(1 for r in results if r["unexpected"])
     print("-" * len(header))
-    print(f"{passed}/{len(results)} cases passed   "
-          f"{sum(r['elapsed_ms'] for r in results) / len(results):.0f} ms mean")
+    print(f"{passed}/{len(results)} cases passed"
+          + (f", {known} failing as expected" if known else "")
+          + f"   {sum(r['elapsed_ms'] for r in results) / len(results):.0f} ms mean")
+
+    for result in results:
+        if result["fixed"]:
+            print(f"\n{_c('NOTE', YELLOW, colour)} {result['case']['id']} now passes "
+                  f"{result['fixed']}, which it was not expected to. "
+                  f"Remove known_failures from the golden set.")
+
+    if known:
+        print(f"\n{_c('EXPECTED FAILURES', BOLD, colour)}")
+        for result in results:
+            if result["passed"] or result["unexpected"]:
+                continue
+            case = result["case"]
+            print(f"  {case['id']} {case['name']}: {', '.join(case.get('known_failures', []))}")
+            print(f"    {case.get('known_failure_reason', '')}")
 
     if failed:
         print(f"\n{_c('FAILURES', BOLD, colour)}")
         for result in results:
-            if result["passed"]:
+            if not result["unexpected"]:
                 continue
             case = result["case"]
             print(f"\n  {_c(case['id'], YELLOW, colour)} {case['name']}")

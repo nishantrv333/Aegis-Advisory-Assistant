@@ -10,7 +10,7 @@
  "runs": [
   {
    "file": "4521-00.json",
-   "run_id": "071597632eeb",
+   "run_id": "3afeb2e96ef2",
    "client_id": "4521",
    "client_label": "4521 · Margaret Ellwood-Vance · Conservative",
    "query": "Prep me for tomorrow's meeting. The client is asking about the Solaris AI fund",
@@ -18,7 +18,7 @@
   },
   {
    "file": "4526-01.json",
-   "run_id": "5c2784677917",
+   "run_id": "bdf182830adf",
    "client_id": "4526",
    "client_label": "4526 · Sofia Delacroix-Owen · Balanced",
    "query": "Client wants to put £150k into Bramble private credit. Can we do it?",
@@ -26,7 +26,7 @@
   },
   {
    "file": "4527-02.json",
-   "run_id": "1fa76778e186",
+   "run_id": "2db0ac218969",
    "client_id": "4527",
    "client_label": "4527 · Tomasz Wielgus · Balanced",
    "query": "The client has read about the Lyra leveraged note and wants in",
@@ -34,7 +34,7 @@
   },
   {
    "file": "4522-03.json",
-   "run_id": "fa848140e608",
+   "run_id": "22af28d2c86e",
    "client_id": "4522",
    "client_label": "4522 · Devesh Ramanathan · Growth",
    "query": "Review the portfolio and flag anything I should raise on concentration",
@@ -42,7 +42,7 @@
   },
   {
    "file": "4523-04.json",
-   "run_id": "fe1abaf982d0",
+   "run_id": "837d515608be",
    "client_id": "4523",
    "client_label": "4523 · Aoife Brennan-Marsh · Balanced",
    "query": "Would the Zephyr precious metals fund work as a diversifier here?",
@@ -50,7 +50,7 @@
   },
   {
    "file": "4524-05.json",
-   "run_id": "09b51c65d2f5",
+   "run_id": "8cee0a237620",
    "client_id": "4524",
    "client_label": "4524 · Harold Pemberton-Ives · Conservative",
    "query": "Routine annual review. Anything blocking?",
@@ -58,7 +58,7 @@
   },
   {
    "file": "4525-06.json",
-   "run_id": "6170f6aa32fd",
+   "run_id": "edf5676864f8",
    "client_id": "4525",
    "client_label": "4525 · Wei-Lin Cheong · Aggressive",
    "query": "Can we add Bramble private credit for this client?",
@@ -66,7 +66,7 @@
   },
   {
    "file": "4528-07.json",
-   "run_id": "4900e847ebfe",
+   "run_id": "b78fc16d3d75",
    "client_id": "4528",
    "client_label": "4528 · Beatrix Nkemdirim · Growth",
    "query": "What's the market context I should bring to the meeting?",
