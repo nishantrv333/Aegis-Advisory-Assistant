@@ -1,0 +1,24 @@
+# Aegis — runtime dependencies
+# Pinned to the versions this project was built and tested against.
+# Python 3.11+ (developed on 3.12).
+
+# --- API layer ---------------------------------------------------------
+fastapi==0.141.1
+uvicorn[standard]==0.52.1
+pydantic==2.13.4
+
+# --- Retrieval ---------------------------------------------------------
+# ChromaDB ships a default ONNX MiniLM embedder that downloads on first use.
+# If that download is blocked, rag/store.py falls back to a local hashing
+# embedder automatically — no extra dependency needed.
+chromadb==1.5.9
+
+# --- LLM providers -----------------------------------------------------
+# Groq is the development provider (free tier, fast iteration).
+groq==1.6.0
+# Uncomment to run the same agents against Claude — no code changes needed,
+# just set LLM_PROVIDER=anthropic in .env.
+# anthropic==0.69.0
+
+# --- Config ------------------------------------------------------------
+python-dotenv==1.2.2

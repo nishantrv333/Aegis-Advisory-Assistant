@@ -1,0 +1,2487 @@
+{
+ "run_id": "09b51c65d2f5",
+ "client_id": "4524",
+ "query": "Routine annual review. Anything blocking?",
+ "plan": {
+  "reasoning": "Default plan: full briefing across all agents.",
+  "run_research": true,
+  "research_queries": [],
+  "candidate_instruments": [],
+  "intent": "meeting_prep",
+  "forced_steps": [
+   "portfolio",
+   "compliance",
+   "synthesis"
+  ],
+  "_generated_by": "llm"
+ },
+ "briefing": {
+  "generated_at": "2026-08-08T12:58:08+00:00",
+  "query": "Routine annual review. Anything blocking?",
+  "data_notice": "All client, portfolio and market data in this briefing is synthetic.",
+  "client": {
+   "client_id": "4524",
+   "name": "Harold Pemberton-Ives (SYNTHETIC)",
+   "risk_profile": "Conservative",
+   "investor_classification": "Retail",
+   "horizon_years": 6,
+   "liquidity_needs": "Medium",
+   "next_meeting": "2026-08-10",
+   "adviser": "P. Lindqvist (synthetic)",
+   "objectives": [
+    "Steady income",
+    "Modest real growth"
+   ],
+   "constraints": [
+    "Prefers to avoid single-country concentration"
+   ],
+   "esg_mandate": false,
+   "esg_exclusions": []
+  },
+  "headline": "1 suitability issue(s) must be resolved before advising Harold Pemberton-Ives (SYNTHETIC).",
+  "summary": "Harold Pemberton-Ives (SYNTHETIC) holds £1,780,000 across 4 positions, 25.0% in growth assets, against a Conservative profile and a 6-year horizon. Year-to-date return is 2.4% (-2.0% versus benchmark). The largest position is Helvetia Short-Duration Bond Fund at 40.0%. The suitability check returned FAIL.",
+  "portfolio_snapshot": {
+   "as_of": "2026-08-06",
+   "total_value_gbp": 1780000,
+   "currency": "GBP",
+   "holdings": [
+    {
+     "instrument_id": "HSD",
+     "name": "Helvetia Short-Duration Bond Fund",
+     "asset_class": "Fixed Income",
+     "risk_rating": 2,
+     "risk_band": "Low",
+     "weight_pct": 40.0,
+     "value_gbp": 712000.0,
+     "ytd_return_pct": 2.1
+    },
+    {
+     "instrument_id": "GILT",
+     "name": "UK Gilt Ladder (2027-2032)",
+     "asset_class": "Government Bonds",
+     "risk_rating": 1,
+     "risk_band": "Low",
+     "weight_pct": 20.0,
+     "value_gbp": 356000.0,
+     "ytd_return_pct": 1.7
+    },
+    {
+     "instrument_id": "CBM",
+     "name": "Castellan Balanced Multi-Asset Fund",
+     "asset_class": "Multi-Asset",
+     "risk_rating": 4,
+     "risk_band": "Medium",
+     "weight_pct": 25.0,
+     "value_gbp": 445000.0,
+     "ytd_return_pct": 4.9
+    },
+    {
+     "instrument_id": "CASH",
+     "name": "GBP Cash & Money Market",
+     "asset_class": "Cash",
+     "risk_rating": 1,
+     "risk_band": "Low",
+     "weight_pct": 15.0,
+     "value_gbp": 267000.0,
+     "ytd_return_pct": 0.0
+    }
+   ],
+   "allocation_by_asset_class": {
+    "Fixed Income": 40.0,
+    "Multi-Asset": 25.0,
+    "Government Bonds": 20.0,
+    "Cash": 15.0
+   },
+   "growth_asset_pct": 25.0,
+   "largest_position": {
+    "instrument_id": "HSD",
+    "name": "Helvetia Short-Duration Bond Fund",
+    "weight_pct": 40.0
+   },
+   "cash_pct": 15.0,
+   "weighted_risk_rating": 2.15,
+   "performance": {
+    "ytd_return_pct": 2.4,
+    "one_year_return_pct": 4.56,
+    "three_year_annualised_pct": 3.24,
+    "benchmark": "Synthetic composite benchmark",
+    "vs_benchmark_ytd_pct": -2.0,
+    "volatility_pct": 6.48,
+    "max_drawdown_pct": -8.59
+   }
+  },
+  "market_context": {
+   "summary": "Retrieved 8 passages from the research index covering CM-EQ-2026Q3, FS-CBM-2026Q2, POL-SUIT-2026. Narrative summarisation was unavailable, so the key points below are extracted directly from the source passages.",
+   "key_points": [
+    {
+     "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. [S1]",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. [S2]",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "point": "Internal Note, Suitability Considerations for Advisory Recommendations: Suitability considerations for advisory recommendations nts with near-term capital needs. [S3]",
+     "sources": [
+      "S3"
+     ]
+    },
+    {
+     "point": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. [S4]",
+     "sources": [
+      "S4"
+     ]
+    }
+   ],
+   "relevance_to_client": "Review the cited passages directly. No model-generated interpretation was applied.",
+   "queries_run": [
+    "Routine annual review. Anything blocking?",
+    "Fixed Income outlook and positioning",
+    "Multi-Asset outlook and positioning",
+    "asset allocation house view for a Conservative mandate",
+    "Castellan Balanced Multi-Asset Fund outlook, risks and suitability"
+   ]
+  },
+  "compliance": {
+   "status": "fail",
+   "flag_count": 1,
+   "flags": [
+    {
+     "rule_id": "R6",
+     "rule_name": "Suitability review currency",
+     "severity": "high",
+     "instrument_id": null,
+     "detail": "Suitability review dated 2025-01-09 is 19 months old, exceeding the 12-month limit.",
+     "remediation": "Complete a fresh suitability review before giving advice on this file."
+    }
+   ],
+   "adviser_note": "The suitability check returned FAIL with 1 flag(s), of which 1 are high severity. Each flag below cites the rule that produced it.",
+   "actions_before_meeting": [
+    "Complete a fresh suitability review before giving advice on this file."
+   ],
+   "proposals_checked": [],
+   "rules_evaluated": [
+    "R1-existing",
+    "R2",
+    "R6"
+   ],
+   "disclaimer": "Illustrative rules for a demonstration project. Not regulatory advice."
+  },
+  "talking_points": [
+   {
+    "point": "Suitability review currency: Suitability review dated 2025-01-09 is 19 months old, exceeding the 12-month limit.",
+    "why": "Complete a fresh suitability review before giving advice on this file.",
+    "sources": []
+   },
+   {
+    "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. [S1]",
+    "why": "Relevant market context for this mandate.",
+    "sources": [
+     "S1"
+    ]
+   },
+   {
+    "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. [S2]",
+    "why": "Relevant market context for this mandate.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "point": "Internal Note, Suitability Considerations for Advisory Recommendations: Suitability considerations for advisory recommendations nts with near-term capital needs. [S3]",
+    "why": "Relevant market context for this mandate.",
+    "sources": [
+     "S3"
+    ]
+   }
+  ],
+  "questions_to_ask": [
+   "Have your objectives or time horizon changed since the last review?",
+   "Has your liquidity position changed, or any expected calls on capital?",
+   "Are you comfortable with the current largest position size?"
+  ],
+  "watch_items": [
+   "Suitability review dated 2025-01-09 is 19 months old, exceeding the 12-month limit."
+  ],
+  "citations": [
+   {
+    "marker": "S1",
+    "chunk_id": "FS-CBM-2026Q2::00",
+    "doc_id": "FS-CBM-2026Q2",
+    "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+    "section": "Castellan Balanced Multi-Asset Fund",
+    "source_file": "fund_castellan_balanced.md",
+    "doc_type": "fund_factsheet",
+    "score": 0.3807,
+    "fusion_score": 0.06325,
+    "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. Fictional fund, fictional figures.** Castellan runs a 55/35/10 split across equity, fixed income and alternatives, rebalanced quarterly with a tactical band of plus or minus ten percentage points on the equity sleeve. **Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily. Year to date the fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4."
+   },
+   {
+    "marker": "S2",
+    "chunk_id": "FS-CBM-2026Q2::01",
+    "doc_id": "FS-CBM-2026Q2",
+    "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+    "section": "Castellan Balanced Multi-Asset Fund",
+    "source_file": "fund_castellan_balanced.md",
+    "doc_type": "fund_factsheet",
+    "score": 0.3834,
+    "fusion_score": 0.04866,
+    "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4. Realised volatility over twelve months was 7.9%. The tactical overlay is currently 3 points underweight equity and holds an elevated 8% cash position, reflecting the house view that policy rates fall more slowly than forward markets imply. **Suitability note:** the default one-fund solution for Balanced mandates and a common core sleeve inside Conservative portfolios where the client accepts moderate equity exposure. Worst twelve-month period since launch was…"
+   },
+   {
+    "marker": "S3",
+    "chunk_id": "POL-SUIT-2026::01",
+    "doc_id": "POL-SUIT-2026",
+    "title": "Internal Note, Suitability Considerations for Advisory Recommendations",
+    "section": "Suitability considerations for advisory recommendations",
+    "source_file": "policy_suitability_note.md",
+    "doc_type": "policy_note",
+    "score": 0.2216,
+    "fusion_score": 0.01639,
+    "snippet": "Internal Note, Suitability Considerations for Advisory Recommendations: Suitability considerations for advisory recommendations nts with near-term capital needs. Dealing frequency, notice periods and gates must be explained in writing before the recommendation is made. 3. Complex or leveraged products recommended to Retail clients without a completed appropriateness assessment. 4. Concentration building passively through performance rather than through a decision. Positions should be reviewed against limits at every meeting. 5. Advice given on a file where the suitability review is more than twelve months old. Where a flag is raised, the recommendation is not automatically prohibited. It…"
+   },
+   {
+    "marker": "S4",
+    "chunk_id": "CM-EQ-2026Q3::01",
+    "doc_id": "CM-EQ-2026Q3",
+    "title": "Global Equity Outlook, Q3 2026",
+    "section": "Global equity outlook",
+    "source_file": "commentary_equity_outlook.md",
+    "doc_type": "market_commentary",
+    "score": 0.2518,
+    "fusion_score": 0.01639,
+    "snippet": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheets over momentum, and we are cautious about adding to concentrated thematic exposure at current levels. The principal risk to this view is that the capital expenditure cycle driving current earnings growth proves shorter than expected. See the separate note on AI capital expenditure."
+   },
+   {
+    "marker": "S5",
+    "chunk_id": "HV-AA-2026Q3::00",
+    "doc_id": "HV-AA-2026Q3",
+    "title": "House View, Strategic and Tactical Asset Allocation Q3 2026",
+    "section": "House view: asset allocation",
+    "source_file": "house_view_asset_allocation.md",
+    "doc_type": "house_view",
+    "score": 0.3622,
+    "fusion_score": 0.01639,
+    "snippet": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. Illustrative only.** Tactical positions against strategic weights this quarter: - Equity: neutral. Valuation is unattractive but earnings momentum is intact. - Government bonds: neutral duration, preference for the 2 to 5 year part of the curve. - Investment grade credit: modest overweight, funded from high yield. - High yield: underweight, on spread levels rather than default expectations. - Real assets: modest overweight, chiefly listed infrastructure. - Cash: overweight, at 6 to 8% for most mandates, held as optionality. Model allocations by risk profile are unchanged:…"
+   },
+   {
+    "marker": "S6",
+    "chunk_id": "CM-RATES-2026Q3::01",
+    "doc_id": "CM-RATES-2026Q3",
+    "title": "Rates and Central Bank Outlook, Q3 2026",
+    "section": "Rates and central bank outlook",
+    "source_file": "commentary_rates_outlook.md",
+    "doc_type": "market_commentary",
+    "score": 0.1615,
+    "fusion_score": 0.01613,
+    "snippet": "Rates and Central Bank Outlook, Q3 2026: Rates and central bank outlook ed but remains above the level consistent with target inflation. For portfolios this argues for holding duration at neutral rather than extending it. Short-duration credit continues to offer most of the yield with a fraction of the interest rate risk, and gilt ladders remain an efficient way to lock in known cash flows against dated liabilities. We would revisit this stance if services inflation prints below 3.5% for two consecutive months, or if unemployment rises above 5.2%."
+   },
+   {
+    "marker": "S7",
+    "chunk_id": "FS-MED-2026Q2::01",
+    "doc_id": "FS-MED-2026Q2",
+    "title": "Meridian Emerging Market Debt Fund Factsheet",
+    "section": "Meridian Emerging Market Debt Fund",
+    "source_file": "fund_meridian_em_debt.md",
+    "doc_type": "fund_factsheet",
+    "score": 0.2512,
+    "fusion_score": 0.01613,
+    "snippet": "Meridian Emerging Market Debt Fund Factsheet: Meridian Emerging Market Debt Fund of drawdown for this strategy, ahead of default losses. **Suitability note:** despite sitting in a fixed income wrapper, this is a high-risk holding. Clients frequently misread \"bond fund\" as \"defensive\". Advisers should be explicit that drawdowns of 15% or more are within the normal range for the asset class."
+   },
+   {
+    "marker": "S8",
+    "chunk_id": "CM-EM-2026Q3::01",
+    "doc_id": "CM-EM-2026Q3",
+    "title": "Emerging Markets Outlook, Q3 2026",
+    "section": "Emerging markets outlook",
+    "source_file": "commentary_em_outlook.md",
+    "doc_type": "market_commentary",
+    "score": 0.2285,
+    "fusion_score": 0.01613,
+    "snippet": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook igh, and several central banks began cutting ahead of developed-market peers, which supports local bond prices. The dominant risk is dollar strength. A sustained rally in the dollar has historically been the largest single driver of emerging market debt drawdowns, exceeding the contribution of actual defaults. We are neutral on the asset class and would not increase allocations for clients whose risk profile makes a 15% drawdown unacceptable."
+   }
+  ]
+ },
+ "trace": [
+  {
+   "id": "8816c38747",
+   "parent_id": null,
+   "kind": "agent",
+   "name": "orchestrator",
+   "label": "orchestrator · plan and execute",
+   "started_at": "2026-08-08T12:58:08.132+00:00",
+   "ended_at": "2026-08-08T12:58:08.142+00:00",
+   "duration_ms": 9.6,
+   "status": "ok",
+   "input": {
+    "client_id": "4524",
+    "query": "Routine annual review. Anything blocking?"
+   },
+   "output": null,
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "70eab55a91",
+   "parent_id": "8816c38747",
+   "kind": "llm",
+   "name": "orchestrator.plan",
+   "label": "LLM · mock/deterministic-stub",
+   "started_at": "2026-08-08T12:58:08.132+00:00",
+   "ended_at": "2026-08-08T12:58:08.133+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "system": "You are the orchestrator of a private bank's briefing assistant.\n\nGiven an adviser's request and the agents available, produce an execution plan.\n\nGuidance:\n- `portfolio` always runs first and is added automatically, so do not include it.\n- `compliance` always runs and is added automatically, so do not include it.\n- `synthesis` always runs last and is added automatically, so do not include it.\n- Decide whether `market_research` is needed. It usually is, unless the request\n  is purely about the client's own holdings or compliance position.\n- Identify any instruments the adviser is proposing or asking about, by their\n  ticker-style id, so the rules engine can check them.\n- Suggest up to 4 focused retrieval queries if research is needed.\n\nReturn JSON:\n{\n  \"reasoning\": \"one or two sentences on why this plan\",\n  \"run_research\": true,\n  \"research_queries\": [\"...\", \"...\"],\n  \"candidate_instruments\": [\"SAA\"],\n  \"intent\": \"meeting_prep | recommendation_check | portfolio_review | market_question\"\n}\n\nRespond with a single valid JSON object and nothing else. No prose before or after, no markdown code fences.",
+    "user": "Adviser request: Routine annual review. Anything blocking?\nClient id: 4524\n\nAvailable agents:\n- portfolio: Retrieves a client's risk profile, mandate constraints, holdings, weights and performance from the book of record. (produces client_profile, portfolio_snapshot)\n- market_research: Runs vector search over the research corpus and summarises what is relevant to the client, with citations back to specific source passages. (produces market_context, citations)\n- compliance: Runs the deterministic suitability rule set against the client's holdings and any proposed instruments, and explains the result. (produces compliance_result)\n- synthesis: Combines portfolio, research and compliance output into the final structured client briefing. (produces briefing)\n\nAvailable tools:\n- portfolio.get_client_profile(client_id): Fetch a synthetic client's profile: risk profile, investor classification, horizon, liquidity needs, ESG mandate, objectives, constraints and suitability review date.\n- portfolio.get_holdings(client_id): Fetch a synthetic client's current holdings, weights, valuations, performance and portfolio-level risk metrics.\n- portfolio.list_clients(): List all synthetic client ids with names and risk profiles.\n- portfolio.lookup_instrument(instrument_id): Look up a fund or instrument in the synthetic product universe: asset class, risk rating, liquidity terms, sectors, leverage and registered jurisdictions.\n- research.search(query, k, doc_type): Semantic search over synthetic fund factsheets, market commentary, house views, research notes and internal policy notes. Returns citable chunks with source ids. Use one focused query per topic rather than one long combined query.\n- research.index_status(): Report how many chunks are indexed and which embedding model is in use.\n- compliance.check_suitability(client_id, proposed_instruments, include_existing_holdings): Run the suitability rule set for a client, over their existing holdings and any proposed instruments. Returns pass/review/fail plus itemised flags with remediation. Proposals may be instrument ids or objects with instrument_id and weight_pct.\n- compliance.list_rules(): Return the illustrative suitability rule set with ids, names and severities.\n- compliance.list_instruments(): List the synthetic product universe available for recommendation.",
+    "temperature": 0.2
+   },
+   "output": "{\"_mock\": true, \"_note\": \"Deterministic stub output; agents fall back to rule-based assembly.\", \"_digest\": \"88ebca1a\"}",
+   "error": null,
+   "meta": {
+    "provider": "mock",
+    "model": "deterministic-stub",
+    "usage": {
+     "prompt_tokens": 862,
+     "completion_tokens": 12
+    }
+   }
+  },
+  {
+   "id": "ccd522d2fd",
+   "parent_id": "8816c38747",
+   "kind": "note",
+   "name": "orchestrator.plan",
+   "label": "Intent 'meeting_prep' · research=True · instruments=none",
+   "started_at": "2026-08-08T12:58:08.133+00:00",
+   "ended_at": "2026-08-08T12:58:08.133+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": {
+    "reasoning": "Default plan: full briefing across all agents.",
+    "run_research": true,
+    "research_queries": [],
+    "candidate_instruments": [],
+    "intent": "meeting_prep",
+    "forced_steps": [
+     "portfolio",
+     "compliance",
+     "synthesis"
+    ],
+    "_generated_by": "llm"
+   },
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "35b0b3d18e",
+   "parent_id": "8816c38747",
+   "kind": "agent",
+   "name": "portfolio",
+   "label": "orchestrator → portfolio · profile_and_holdings",
+   "started_at": "2026-08-08T12:58:08.133+00:00",
+   "ended_at": "2026-08-08T12:58:08.133+00:00",
+   "duration_ms": 0.1,
+   "status": "ok",
+   "input": {
+    "client_id": "4524"
+   },
+   "output": {
+    "client_profile": {
+     "client_id": "4524",
+     "name": "Harold Pemberton-Ives (SYNTHETIC)",
+     "data_notice": "SYNTHETIC. Fictional client, not a real person",
+     "segment": "Private Client",
+     "domicile": "GB",
+     "adviser": "P. Lindqvist (synthetic)",
+     "risk_profile": "Conservative",
+     "investor_classification": "Retail",
+     "investment_horizon_years": 6,
+     "liquidity_needs": "Medium",
+     "esg_mandate": false,
+     "esg_exclusions": [],
+     "last_suitability_review": "2025-01-09",
+     "next_meeting": "2026-08-10",
+     "objectives": [
+      "Steady income",
+      "Modest real growth"
+     ],
+     "constraints": [
+      "Prefers to avoid single-country concentration"
+     ],
+     "adviser_notes": "Annual review is overdue, so chase documentation before advising."
+    },
+    "portfolio_snapshot": {
+     "client_id": "4524",
+     "as_of": "2026-08-06",
+     "total_value_gbp": 1780000,
+     "currency": "GBP",
+     "holdings": [
+      {
+       "instrument_id": "HSD",
+       "name": "Helvetia Short-Duration Bond Fund",
+       "asset_class": "Fixed Income",
+       "risk_rating": 2,
+       "risk_band": "Low",
+       "weight_pct": 40.0,
+       "value_gbp": 712000.0,
+       "ytd_return_pct": 2.1
+      },
+      {
+       "instrument_id": "GILT",
+       "name": "UK Gilt Ladder (2027-2032)",
+       "asset_class": "Government Bonds",
+       "risk_rating": 1,
+       "risk_band": "Low",
+       "weight_pct": 20.0,
+       "value_gbp": 356000.0,
+       "ytd_return_pct": 1.7
+      },
+      {
+       "instrument_id": "CBM",
+       "name": "Castellan Balanced Multi-Asset Fund",
+       "asset_class": "Multi-Asset",
+       "risk_rating": 4,
+       "risk_band": "Medium",
+       "weight_pct": 25.0,
+       "value_gbp": 445000.0,
+       "ytd_return_pct": 4.9
+      },
+      {
+       "instrument_id": "CASH",
+       "name": "GBP Cash & Money Market",
+       "asset_class": "Cash",
+       "risk_rating": 1,
+       "risk_band": "Low",
+       "weight_pct": 15.0,
+       "value_gbp": 267000.0,
+       "ytd_return_pct": 0.0
+      }
+     ],
+     "largest_position_pct": 40.0,
+     "cash_pct": 15.0,
+     "weighted_risk_rating": 2.15,
+     "performance": {
+      "ytd_return_pct": 2.4,
+      "one_year_return_pct": 4.56,
+      "three_year_annualised_pct": 3.24,
+      "benchmark": "Synthetic composite benchmark",
+      "vs_benchmark_ytd_pct": -2.0,
+      "volatility_pct": 6.48,
+      "max_drawdown_pct": -8.59
+     }
+    },
+    "derived": {
+     "growth_asset_pct": 25.0,
+     "allocation_by_asset_class": {
+      "Fixed Income": 40.0,
+      "Multi-Asset": 25.0,
+      "Government Bonds": 20.0,
+      "Cash": 15.0
+     },
+     "largest_position": {
+      "instrument_id": "HSD",
+      "name": "Helvetia Short-Duration Bond Fund",
+      "weight_pct": 40.0
+     },
+     "best_performer": {
+      "name": "Castellan Balanced Multi-Asset Fund",
+      "ytd_return_pct": 4.9
+     },
+     "worst_performer": {
+      "name": "GBP Cash & Money Market",
+      "ytd_return_pct": 0.0
+     },
+     "held_instrument_ids": [
+      "HSD",
+      "GILT",
+      "CBM",
+      "CASH"
+     ],
+     "top_holdings": [
+      {
+       "instrument_id": "CBM",
+       "name": "Castellan Balanced Multi-Asset Fund",
+       "weight_pct": 25.0
+      }
+     ],
+     "risk_profile": "Conservative",
+     "horizon_years": 6
+    }
+   },
+   "error": null,
+   "meta": {
+    "task": "profile_and_holdings"
+   }
+  },
+  {
+   "id": "cd2ad668a9",
+   "parent_id": "35b0b3d18e",
+   "kind": "tool",
+   "name": "portfolio.get_client_profile",
+   "label": "tool · portfolio.get_client_profile",
+   "started_at": "2026-08-08T12:58:08.133+00:00",
+   "ended_at": "2026-08-08T12:58:08.133+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "client_id": "4524"
+   },
+   "output": {
+    "client_id": "4524",
+    "name": "Harold Pemberton-Ives (SYNTHETIC)",
+    "data_notice": "SYNTHETIC. Fictional client, not a real person",
+    "segment": "Private Client",
+    "domicile": "GB",
+    "adviser": "P. Lindqvist (synthetic)",
+    "risk_profile": "Conservative",
+    "investor_classification": "Retail",
+    "investment_horizon_years": 6,
+    "liquidity_needs": "Medium",
+    "esg_mandate": false,
+    "esg_exclusions": [],
+    "last_suitability_review": "2025-01-09",
+    "next_meeting": "2026-08-10",
+    "objectives": [
+     "Steady income",
+     "Modest real growth"
+    ],
+    "constraints": [
+     "Prefers to avoid single-country concentration"
+    ],
+    "adviser_notes": "Annual review is overdue, so chase documentation before advising."
+   },
+   "error": null,
+   "meta": {
+    "server": "portfolio"
+   }
+  },
+  {
+   "id": "a0b6abeb92",
+   "parent_id": "35b0b3d18e",
+   "kind": "tool",
+   "name": "portfolio.get_holdings",
+   "label": "tool · portfolio.get_holdings",
+   "started_at": "2026-08-08T12:58:08.133+00:00",
+   "ended_at": "2026-08-08T12:58:08.133+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "client_id": "4524"
+   },
+   "output": {
+    "client_id": "4524",
+    "as_of": "2026-08-06",
+    "total_value_gbp": 1780000,
+    "currency": "GBP",
+    "holdings": [
+     {
+      "instrument_id": "HSD",
+      "name": "Helvetia Short-Duration Bond Fund",
+      "asset_class": "Fixed Income",
+      "risk_rating": 2,
+      "risk_band": "Low",
+      "weight_pct": 40.0,
+      "value_gbp": 712000.0,
+      "ytd_return_pct": 2.1
+     },
+     {
+      "instrument_id": "GILT",
+      "name": "UK Gilt Ladder (2027-2032)",
+      "asset_class": "Government Bonds",
+      "risk_rating": 1,
+      "risk_band": "Low",
+      "weight_pct": 20.0,
+      "value_gbp": 356000.0,
+      "ytd_return_pct": 1.7
+     },
+     {
+      "instrument_id": "CBM",
+      "name": "Castellan Balanced Multi-Asset Fund",
+      "asset_class": "Multi-Asset",
+      "risk_rating": 4,
+      "risk_band": "Medium",
+      "weight_pct": 25.0,
+      "value_gbp": 445000.0,
+      "ytd_return_pct": 4.9
+     },
+     {
+      "instrument_id": "CASH",
+      "name": "GBP Cash & Money Market",
+      "asset_class": "Cash",
+      "risk_rating": 1,
+      "risk_band": "Low",
+      "weight_pct": 15.0,
+      "value_gbp": 267000.0,
+      "ytd_return_pct": 0.0
+     }
+    ],
+    "largest_position_pct": 40.0,
+    "cash_pct": 15.0,
+    "weighted_risk_rating": 2.15,
+    "performance": {
+     "ytd_return_pct": 2.4,
+     "one_year_return_pct": 4.56,
+     "three_year_annualised_pct": 3.24,
+     "benchmark": "Synthetic composite benchmark",
+     "vs_benchmark_ytd_pct": -2.0,
+     "volatility_pct": 6.48,
+     "max_drawdown_pct": -8.59
+    }
+   },
+   "error": null,
+   "meta": {
+    "server": "portfolio"
+   }
+  },
+  {
+   "id": "1c27a8d62f",
+   "parent_id": "35b0b3d18e",
+   "kind": "note",
+   "name": "portfolio.derived",
+   "label": "25.0% growth assets, largest position 40.0%",
+   "started_at": "2026-08-08T12:58:08.133+00:00",
+   "ended_at": "2026-08-08T12:58:08.133+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": {
+    "growth_asset_pct": 25.0,
+    "allocation_by_asset_class": {
+     "Fixed Income": 40.0,
+     "Multi-Asset": 25.0,
+     "Government Bonds": 20.0,
+     "Cash": 15.0
+    },
+    "largest_position": {
+     "instrument_id": "HSD",
+     "name": "Helvetia Short-Duration Bond Fund",
+     "weight_pct": 40.0
+    },
+    "best_performer": {
+     "name": "Castellan Balanced Multi-Asset Fund",
+     "ytd_return_pct": 4.9
+    },
+    "worst_performer": {
+     "name": "GBP Cash & Money Market",
+     "ytd_return_pct": 0.0
+    },
+    "held_instrument_ids": [
+     "HSD",
+     "GILT",
+     "CBM",
+     "CASH"
+    ],
+    "top_holdings": [
+     {
+      "instrument_id": "CBM",
+      "name": "Castellan Balanced Multi-Asset Fund",
+      "weight_pct": 25.0
+     }
+    ],
+    "risk_profile": "Conservative",
+    "horizon_years": 6
+   },
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "e17eb372d5",
+   "parent_id": "8816c38747",
+   "kind": "agent",
+   "name": "market_research",
+   "label": "orchestrator → market_research · research",
+   "started_at": "2026-08-08T12:58:08.133+00:00",
+   "ended_at": "2026-08-08T12:58:08.141+00:00",
+   "duration_ms": 8.3,
+   "status": "ok",
+   "input": {
+    "query": "Routine annual review. Anything blocking?",
+    "research_queries": [],
+    "candidate_instruments": [],
+    "portfolio_context": {
+     "growth_asset_pct": 25.0,
+     "allocation_by_asset_class": {
+      "Fixed Income": 40.0,
+      "Multi-Asset": 25.0,
+      "Government Bonds": 20.0,
+      "Cash": 15.0
+     },
+     "largest_position": {
+      "instrument_id": "HSD",
+      "name": "Helvetia Short-Duration Bond Fund",
+      "weight_pct": 40.0
+     },
+     "best_performer": {
+      "name": "Castellan Balanced Multi-Asset Fund",
+      "ytd_return_pct": 4.9
+     },
+     "worst_performer": {
+      "name": "GBP Cash & Money Market",
+      "ytd_return_pct": 0.0
+     },
+     "held_instrument_ids": [
+      "HSD",
+      "GILT",
+      "CBM",
+      "CASH"
+     ],
+     "top_holdings": [
+      {
+       "instrument_id": "CBM",
+       "name": "Castellan Balanced Multi-Asset Fund",
+       "weight_pct": 25.0
+      }
+     ],
+     "risk_profile": "Conservative",
+     "horizon_years": 6
+    }
+   },
+   "output": {
+    "queries": [
+     "Routine annual review. Anything blocking?",
+     "Fixed Income outlook and positioning",
+     "Multi-Asset outlook and positioning",
+     "asset allocation house view for a Conservative mandate",
+     "Castellan Balanced Multi-Asset Fund outlook, risks and suitability"
+    ],
+    "retrieval_by_query": [
+     {
+      "query": "Routine annual review. Anything blocking?",
+      "hits": [
+       "POL-SUIT-2026::01",
+       "CM-RATES-2026Q3::01",
+       "FS-BPC-2026Q2::00",
+       "CM-RATES-2026Q3::00"
+      ]
+     },
+     {
+      "query": "Fixed Income outlook and positioning",
+      "hits": [
+       "CM-EQ-2026Q3::01",
+       "FS-MED-2026Q2::01",
+       "FS-CBM-2026Q2::00",
+       "CM-EQ-2026Q3::00"
+      ]
+     },
+     {
+      "query": "Multi-Asset outlook and positioning",
+      "hits": [
+       "FS-CBM-2026Q2::01",
+       "CM-EM-2026Q3::01",
+       "CM-EM-2026Q3::00",
+       "FS-CBM-2026Q2::00"
+      ]
+     },
+     {
+      "query": "asset allocation house view for a Conservative mandate",
+      "hits": [
+       "HV-AA-2026Q3::00",
+       "HV-ALTS-2026Q3::00",
+       "FS-CBM-2026Q2::01",
+       "FS-CBM-2026Q2::00"
+      ]
+     },
+     {
+      "query": "Castellan Balanced Multi-Asset Fund outlook, risks and suitability",
+      "hits": [
+       "FS-CBM-2026Q2::01",
+       "FS-CBM-2026Q2::00",
+       "FS-HSD-2026Q2::01",
+       "FS-SAA-2026Q2::01"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "marker": "S1",
+      "chunk_id": "FS-CBM-2026Q2::00",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "score": 0.3807,
+      "fusion_score": 0.06325,
+      "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. Fictional fund, fictional figures.** Castellan runs a 55/35/10 split across equity, fixed income and alternatives, rebalanced quarterly with a tactical band of plus or minus ten percentage points on the equity sleeve. **Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily. Year to date the fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4."
+     },
+     {
+      "marker": "S2",
+      "chunk_id": "FS-CBM-2026Q2::01",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "score": 0.3834,
+      "fusion_score": 0.04866,
+      "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4. Realised volatility over twelve months was 7.9%. The tactical overlay is currently 3 points underweight equity and holds an elevated 8% cash position, reflecting the house view that policy rates fall more slowly than forward markets imply. **Suitability note:** the default one-fund solution for Balanced mandates and a common core sleeve inside Conservative portfolios where the client accepts moderate equity exposure. Worst twelve-month period since launch was…"
+     },
+     {
+      "marker": "S3",
+      "chunk_id": "POL-SUIT-2026::01",
+      "doc_id": "POL-SUIT-2026",
+      "title": "Internal Note, Suitability Considerations for Advisory Recommendations",
+      "section": "Suitability considerations for advisory recommendations",
+      "source_file": "policy_suitability_note.md",
+      "doc_type": "policy_note",
+      "score": 0.2216,
+      "fusion_score": 0.01639,
+      "snippet": "Internal Note, Suitability Considerations for Advisory Recommendations: Suitability considerations for advisory recommendations nts with near-term capital needs. Dealing frequency, notice periods and gates must be explained in writing before the recommendation is made. 3. Complex or leveraged products recommended to Retail clients without a completed appropriateness assessment. 4. Concentration building passively through performance rather than through a decision. Positions should be reviewed against limits at every meeting. 5. Advice given on a file where the suitability review is more than twelve months old. Where a flag is raised, the recommendation is not automatically prohibited. It…"
+     },
+     {
+      "marker": "S4",
+      "chunk_id": "CM-EQ-2026Q3::01",
+      "doc_id": "CM-EQ-2026Q3",
+      "title": "Global Equity Outlook, Q3 2026",
+      "section": "Global equity outlook",
+      "source_file": "commentary_equity_outlook.md",
+      "doc_type": "market_commentary",
+      "score": 0.2518,
+      "fusion_score": 0.01639,
+      "snippet": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheets over momentum, and we are cautious about adding to concentrated thematic exposure at current levels. The principal risk to this view is that the capital expenditure cycle driving current earnings growth proves shorter than expected. See the separate note on AI capital expenditure."
+     },
+     {
+      "marker": "S5",
+      "chunk_id": "HV-AA-2026Q3::00",
+      "doc_id": "HV-AA-2026Q3",
+      "title": "House View, Strategic and Tactical Asset Allocation Q3 2026",
+      "section": "House view: asset allocation",
+      "source_file": "house_view_asset_allocation.md",
+      "doc_type": "house_view",
+      "score": 0.3622,
+      "fusion_score": 0.01639,
+      "snippet": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. Illustrative only.** Tactical positions against strategic weights this quarter: - Equity: neutral. Valuation is unattractive but earnings momentum is intact. - Government bonds: neutral duration, preference for the 2 to 5 year part of the curve. - Investment grade credit: modest overweight, funded from high yield. - High yield: underweight, on spread levels rather than default expectations. - Real assets: modest overweight, chiefly listed infrastructure. - Cash: overweight, at 6 to 8% for most mandates, held as optionality. Model allocations by risk profile are unchanged:…"
+     },
+     {
+      "marker": "S6",
+      "chunk_id": "CM-RATES-2026Q3::01",
+      "doc_id": "CM-RATES-2026Q3",
+      "title": "Rates and Central Bank Outlook, Q3 2026",
+      "section": "Rates and central bank outlook",
+      "source_file": "commentary_rates_outlook.md",
+      "doc_type": "market_commentary",
+      "score": 0.1615,
+      "fusion_score": 0.01613,
+      "snippet": "Rates and Central Bank Outlook, Q3 2026: Rates and central bank outlook ed but remains above the level consistent with target inflation. For portfolios this argues for holding duration at neutral rather than extending it. Short-duration credit continues to offer most of the yield with a fraction of the interest rate risk, and gilt ladders remain an efficient way to lock in known cash flows against dated liabilities. We would revisit this stance if services inflation prints below 3.5% for two consecutive months, or if unemployment rises above 5.2%."
+     },
+     {
+      "marker": "S7",
+      "chunk_id": "FS-MED-2026Q2::01",
+      "doc_id": "FS-MED-2026Q2",
+      "title": "Meridian Emerging Market Debt Fund Factsheet",
+      "section": "Meridian Emerging Market Debt Fund",
+      "source_file": "fund_meridian_em_debt.md",
+      "doc_type": "fund_factsheet",
+      "score": 0.2512,
+      "fusion_score": 0.01613,
+      "snippet": "Meridian Emerging Market Debt Fund Factsheet: Meridian Emerging Market Debt Fund of drawdown for this strategy, ahead of default losses. **Suitability note:** despite sitting in a fixed income wrapper, this is a high-risk holding. Clients frequently misread \"bond fund\" as \"defensive\". Advisers should be explicit that drawdowns of 15% or more are within the normal range for the asset class."
+     },
+     {
+      "marker": "S8",
+      "chunk_id": "CM-EM-2026Q3::01",
+      "doc_id": "CM-EM-2026Q3",
+      "title": "Emerging Markets Outlook, Q3 2026",
+      "section": "Emerging markets outlook",
+      "source_file": "commentary_em_outlook.md",
+      "doc_type": "market_commentary",
+      "score": 0.2285,
+      "fusion_score": 0.01613,
+      "snippet": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook igh, and several central banks began cutting ahead of developed-market peers, which supports local bond prices. The dominant risk is dollar strength. A sustained rally in the dollar has historically been the largest single driver of emerging market debt drawdowns, exceeding the contribution of actual defaults. We are neutral on the asset class and would not increase allocations for clients whose risk profile makes a 15% drawdown unacceptable."
+     }
+    ],
+    "market_context": {
+     "summary": "Retrieved 8 passages from the research index covering CM-EQ-2026Q3, FS-CBM-2026Q2, POL-SUIT-2026. Narrative summarisation was unavailable, so the key points below are extracted directly from the source passages.",
+     "key_points": [
+      {
+       "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. [S1]",
+       "sources": [
+        "S1"
+       ]
+      },
+      {
+       "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. [S2]",
+       "sources": [
+        "S2"
+       ]
+      },
+      {
+       "point": "Internal Note, Suitability Considerations for Advisory Recommendations: Suitability considerations for advisory recommendations nts with near-term capital needs. [S3]",
+       "sources": [
+        "S3"
+       ]
+      },
+      {
+       "point": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. [S4]",
+       "sources": [
+        "S4"
+       ]
+      }
+     ],
+     "relevance_to_client": "Review the cited passages directly. No model-generated interpretation was applied.",
+     "_generated_by": "deterministic_fallback",
+     "cited_markers": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+     ]
+    }
+   },
+   "error": null,
+   "meta": {
+    "task": "research"
+   }
+  },
+  {
+   "id": "0d5b7ddf0c",
+   "parent_id": "e17eb372d5",
+   "kind": "llm",
+   "name": "research.plan_queries",
+   "label": "LLM · mock/deterministic-stub",
+   "started_at": "2026-08-08T12:58:08.133+00:00",
+   "ended_at": "2026-08-08T12:58:08.133+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "system": "You plan retrieval queries for a private bank's research index.\nThe index contains synthetic fund factsheets, market commentary, house views,\nresearch notes and one internal suitability policy note.\n\nGiven an adviser's request and a client's portfolio, produce up to 4 short,\nfocused search queries. One topic per query. Prefer the vocabulary a research\nanalyst would use over the adviser's phrasing.\n\nReturn JSON: {\"queries\": [\"...\", \"...\"], \"reasoning\": \"one sentence\"}\n\nRespond with a single valid JSON object and nothing else. No prose before or after, no markdown code fences.",
+    "user": "Adviser request: Routine annual review. Anything blocking?\n\nClient context: risk profile Conservative, horizon 6y, allocation {'Fixed Income': 40.0, 'Multi-Asset': 25.0, 'Government Bonds': 20.0, 'Cash': 15.0}, largest position Helvetia Short-Duration Bond Fund",
+    "temperature": 0.2
+   },
+   "output": "{\"_mock\": true, \"_note\": \"Deterministic stub output; agents fall back to rule-based assembly.\", \"_digest\": \"7c3033c3\"}",
+   "error": null,
+   "meta": {
+    "provider": "mock",
+    "model": "deterministic-stub",
+    "usage": {
+     "prompt_tokens": 210,
+     "completion_tokens": 12
+    }
+   }
+  },
+  {
+   "id": "54d4de8994",
+   "parent_id": "e17eb372d5",
+   "kind": "tool",
+   "name": "portfolio.lookup_instrument",
+   "label": "tool · portfolio.lookup_instrument",
+   "started_at": "2026-08-08T12:58:08.133+00:00",
+   "ended_at": "2026-08-08T12:58:08.133+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "instrument_id": "CBM"
+   },
+   "output": {
+    "instrument_id": "CBM",
+    "name": "Castellan Balanced Multi-Asset Fund",
+    "asset_class": "Multi-Asset",
+    "risk_rating": 4,
+    "risk_band": "Medium",
+    "liquidity": "Daily",
+    "ocf_pct": 0.61,
+    "sectors": [
+     "Equity",
+     "Fixed Income",
+     "Alternatives"
+    ],
+    "registered_jurisdictions": [
+     "GB",
+     "IE",
+     "CH",
+     "SG",
+     "AE"
+    ],
+    "leverage": false,
+    "doc": "fund_castellan_balanced.md"
+   },
+   "error": null,
+   "meta": {
+    "server": "portfolio"
+   }
+  },
+  {
+   "id": "0304bb291d",
+   "parent_id": "e17eb372d5",
+   "kind": "note",
+   "name": "research.instrument_queries",
+   "label": "Added 1 product-specific quer(y/ies) for ['CBM']",
+   "started_at": "2026-08-08T12:58:08.133+00:00",
+   "ended_at": "2026-08-08T12:58:08.133+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": [
+    "Castellan Balanced Multi-Asset Fund outlook, risks and suitability"
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "78e2bc7139",
+   "parent_id": "e17eb372d5",
+   "kind": "note",
+   "name": "research.queries",
+   "label": "5 retrieval queries planned",
+   "started_at": "2026-08-08T12:58:08.133+00:00",
+   "ended_at": "2026-08-08T12:58:08.133+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": [
+    "Routine annual review. Anything blocking?",
+    "Fixed Income outlook and positioning",
+    "Multi-Asset outlook and positioning",
+    "asset allocation house view for a Conservative mandate",
+    "Castellan Balanced Multi-Asset Fund outlook, risks and suitability"
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "287e89244d",
+   "parent_id": "e17eb372d5",
+   "kind": "retrieval",
+   "name": "research.search",
+   "label": "retrieve · Routine annual review. Anything blocking?",
+   "started_at": "2026-08-08T12:58:08.133+00:00",
+   "ended_at": "2026-08-08T12:58:08.135+00:00",
+   "duration_ms": 1.7,
+   "status": "ok",
+   "input": {
+    "query": "Routine annual review. Anything blocking?"
+   },
+   "output": [
+    {
+     "doc_id": "POL-SUIT-2026",
+     "section": "Suitability considerations for advisory recommendations",
+     "score": 0.2216
+    },
+    {
+     "doc_id": "CM-RATES-2026Q3",
+     "section": "Rates and central bank outlook",
+     "score": 0.1615
+    },
+    {
+     "doc_id": "FS-BPC-2026Q2",
+     "section": "Bramble Private Credit Fund II",
+     "score": 0.1463
+    },
+    {
+     "doc_id": "CM-RATES-2026Q3",
+     "section": "Rates and central bank outlook",
+     "score": 0.1435
+    }
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "89f5ca6560",
+   "parent_id": "287e89244d",
+   "kind": "tool",
+   "name": "research.search",
+   "label": "tool · research.search",
+   "started_at": "2026-08-08T12:58:08.133+00:00",
+   "ended_at": "2026-08-08T12:58:08.135+00:00",
+   "duration_ms": 1.7,
+   "status": "ok",
+   "input": {
+    "query": "Routine annual review. Anything blocking?",
+    "k": 4
+   },
+   "output": {
+    "query": "Routine annual review. Anything blocking?",
+    "embedding_model": "hashing-bow-512",
+    "hit_count": 4,
+    "hits": [
+     {
+      "chunk_id": "POL-SUIT-2026::01",
+      "doc_id": "POL-SUIT-2026",
+      "title": "Internal Note, Suitability Considerations for Advisory Recommendations",
+      "section": "Suitability considerations for advisory recommendations",
+      "source_file": "policy_suitability_note.md",
+      "doc_type": "policy_note",
+      "text": "Internal Note, Suitability Considerations for Advisory Recommendations: Suitability considerations for advisory recommendations\nnts with near-term capital\n   needs. Dealing frequency, notice periods and gates must be explained in\n   writing before the recommendation is made.\n3. Complex or leveraged products recommended to Retail clients without a\n   completed appropriateness assessment.\n4. Concentration building passively through performance rather than through\n   a decision. Positions should be reviewed against limits at every meeting.\n5. Advice given on a file where the suitability review is more than twelve\n   months old.\n\nWhere a flag is raised, the recommendation is not automatically prohibited.\nIt requires documented rationale, client acknowledgement, and in several\ncases second-line sign-off before it proceeds.",
+      "score": 0.2216
+     },
+     {
+      "chunk_id": "CM-RATES-2026Q3::01",
+      "doc_id": "CM-RATES-2026Q3",
+      "title": "Rates and Central Bank Outlook, Q3 2026",
+      "section": "Rates and central bank outlook",
+      "source_file": "commentary_rates_outlook.md",
+      "doc_type": "market_commentary",
+      "text": "Rates and Central Bank Outlook, Q3 2026: Rates and central bank outlook\ned but remains above the level consistent with target inflation.\n\nFor portfolios this argues for holding duration at neutral rather than\nextending it. Short-duration credit continues to offer most of the yield\nwith a fraction of the interest rate risk, and gilt ladders remain an\nefficient way to lock in known cash flows against dated liabilities.\n\nWe would revisit this stance if services inflation prints below 3.5% for two\nconsecutive months, or if unemployment rises above 5.2%.",
+      "score": 0.1615
+     },
+     {
+      "chunk_id": "FS-BPC-2026Q2::00",
+      "doc_id": "FS-BPC-2026Q2",
+      "title": "Bramble Private Credit Fund II Factsheet",
+      "section": "Bramble Private Credit Fund II",
+      "source_file": "fund_bramble_private_credit.md",
+      "doc_type": "fund_factsheet",
+      "text": "Bramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II\n**Synthetic document. Fictional fund, fictional figures.**\n\nBramble II makes senior secured loans to mid-market borrowers, with a\nsmaller speciality finance sleeve. The vehicle uses fund-level leverage of\nup to 0.4 times net asset value.\n\n**Risk rating:** 5 of 7 (High). **OCF:** 1.35% plus performance fee.\n\n**Liquidity, and please read this carefully.** Dealing is quarterly, subject to a 5%\ninvestor-level gate and 90 days' notice. In a stressed quarter a redeeming\ninvestor may receive a fraction of their request and wait multiple quarters\nfor the balance. Valuations are manager-marked monthly, not observable\nmarket prices.\n\nYear-to-date return is 6.1% with a running yield of 8.9%.\n\n**Suitability note:** unsuitable where a client has High liquidity needs, a\nhorizon under seven years, or a known capital call in the near term.",
+      "score": 0.1463
+     },
+     {
+      "chunk_id": "CM-RATES-2026Q3::00",
+      "doc_id": "CM-RATES-2026Q3",
+      "title": "Rates and Central Bank Outlook, Q3 2026",
+      "section": "Rates and central bank outlook",
+      "source_file": "commentary_rates_outlook.md",
+      "doc_type": "market_commentary",
+      "text": "Rates and Central Bank Outlook, Q3 2026: Rates and central bank outlook\n**Synthetic commentary. Illustrative views, not investment advice.**\n\nOur fictional house view is that policy rates fall more slowly than forward\nmarkets currently price. We expect two cuts from the Bank of England over\nthe next twelve months against the three priced by the market, and one from\nthe Federal Reserve against two priced.\n\nThe reasoning is services inflation, which has proved persistent at around\n4.1% year on year while headline inflation has fallen. Wage growth has\ndecelerated but remains above the level consistent with target inflation.\n\nFor portfolios this argues for holding duration at neutral rather than\nextending it.",
+      "score": 0.1435
+     }
+    ]
+   },
+   "error": null,
+   "meta": {
+    "server": "research"
+   }
+  },
+  {
+   "id": "1203df3af2",
+   "parent_id": "e17eb372d5",
+   "kind": "retrieval",
+   "name": "research.search",
+   "label": "retrieve · Fixed Income outlook and positioning",
+   "started_at": "2026-08-08T12:58:08.135+00:00",
+   "ended_at": "2026-08-08T12:58:08.136+00:00",
+   "duration_ms": 1.5,
+   "status": "ok",
+   "input": {
+    "query": "Fixed Income outlook and positioning"
+   },
+   "output": [
+    {
+     "doc_id": "CM-EQ-2026Q3",
+     "section": "Global equity outlook",
+     "score": 0.2518
+    },
+    {
+     "doc_id": "FS-MED-2026Q2",
+     "section": "Meridian Emerging Market Debt Fund",
+     "score": 0.2512
+    },
+    {
+     "doc_id": "FS-CBM-2026Q2",
+     "section": "Castellan Balanced Multi-Asset Fund",
+     "score": 0.2084
+    },
+    {
+     "doc_id": "CM-EQ-2026Q3",
+     "section": "Global equity outlook",
+     "score": 0.1963
+    }
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "ab64e2e062",
+   "parent_id": "1203df3af2",
+   "kind": "tool",
+   "name": "research.search",
+   "label": "tool · research.search",
+   "started_at": "2026-08-08T12:58:08.135+00:00",
+   "ended_at": "2026-08-08T12:58:08.136+00:00",
+   "duration_ms": 1.5,
+   "status": "ok",
+   "input": {
+    "query": "Fixed Income outlook and positioning",
+    "k": 4
+   },
+   "output": {
+    "query": "Fixed Income outlook and positioning",
+    "embedding_model": "hashing-bow-512",
+    "hit_count": 4,
+    "hits": [
+     {
+      "chunk_id": "CM-EQ-2026Q3::01",
+      "doc_id": "CM-EQ-2026Q3",
+      "title": "Global Equity Outlook, Q3 2026",
+      "section": "Global equity outlook",
+      "source_file": "commentary_equity_outlook.md",
+      "doc_type": "market_commentary",
+      "text": "Global Equity Outlook, Q3 2026: Global equity outlook\nthe first such run in eighteen months.\n\nEarnings revisions are positive in aggregate but negative in consumer\ndiscretionary and European industrials. We remain neutral equity overall,\nwith a preference for quality balance sheets over momentum, and we are\ncautious about adding to concentrated thematic exposure at current levels.\n\nThe principal risk to this view is that the capital expenditure cycle\ndriving current earnings growth proves shorter than expected. See the\nseparate note on AI capital expenditure.",
+      "score": 0.2518
+     },
+     {
+      "chunk_id": "FS-MED-2026Q2::01",
+      "doc_id": "FS-MED-2026Q2",
+      "title": "Meridian Emerging Market Debt Fund Factsheet",
+      "section": "Meridian Emerging Market Debt Fund",
+      "source_file": "fund_meridian_em_debt.md",
+      "doc_type": "fund_factsheet",
+      "text": "Meridian Emerging Market Debt Fund Factsheet: Meridian Emerging Market Debt Fund\nof drawdown for\nthis strategy, ahead of default losses.\n\n**Suitability note:** despite sitting in a fixed income wrapper, this is a\nhigh-risk holding. Clients frequently misread \"bond fund\" as \"defensive\".\nAdvisers should be explicit that drawdowns of 15% or more are within the\nnormal range for the asset class.",
+      "score": 0.2512
+     },
+     {
+      "chunk_id": "FS-CBM-2026Q2::00",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "text": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund\n**Synthetic document. Fictional fund, fictional figures.**\n\nCastellan runs a 55/35/10 split across equity, fixed income and\nalternatives, rebalanced quarterly with a tactical band of plus or minus\nten percentage points on the equity sleeve.\n\n**Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily.\n\nYear to date the fund returned 4.9%. Equity contributed 3.8 points, fixed\nincome 0.7, and the alternatives sleeve, chiefly listed infrastructure and\ngold, contributed 0.4.",
+      "score": 0.2084
+     },
+     {
+      "chunk_id": "CM-EQ-2026Q3::00",
+      "doc_id": "CM-EQ-2026Q3",
+      "title": "Global Equity Outlook, Q3 2026",
+      "section": "Global equity outlook",
+      "source_file": "commentary_equity_outlook.md",
+      "doc_type": "market_commentary",
+      "text": "Global Equity Outlook, Q3 2026: Global equity outlook\n**Synthetic commentary. Illustrative views, not investment advice.**\n\nIndex-level valuations look stretched, but the aggregate figure conceals an\nunusually wide dispersion. The largest ten constituents of the global index\naccount for a fictional 29% of market capitalisation and trade at a 68%\npremium to the remaining constituents.\n\nMarket breadth has improved modestly this quarter: the equal-weighted index\noutperformed the capitalisation-weighted index in two of the last three\nmonths, the first such run in eighteen months.\n\nEarnings revisions are positive in aggregate but negative in consumer\ndiscretionary and European industrials.",
+      "score": 0.1963
+     }
+    ]
+   },
+   "error": null,
+   "meta": {
+    "server": "research"
+   }
+  },
+  {
+   "id": "bb7494c88a",
+   "parent_id": "e17eb372d5",
+   "kind": "retrieval",
+   "name": "research.search",
+   "label": "retrieve · Multi-Asset outlook and positioning",
+   "started_at": "2026-08-08T12:58:08.136+00:00",
+   "ended_at": "2026-08-08T12:58:08.138+00:00",
+   "duration_ms": 1.5,
+   "status": "ok",
+   "input": {
+    "query": "Multi-Asset outlook and positioning"
+   },
+   "output": [
+    {
+     "doc_id": "FS-CBM-2026Q2",
+     "section": "Castellan Balanced Multi-Asset Fund",
+     "score": 0.2426
+    },
+    {
+     "doc_id": "CM-EM-2026Q3",
+     "section": "Emerging markets outlook",
+     "score": 0.2285
+    },
+    {
+     "doc_id": "CM-EM-2026Q3",
+     "section": "Emerging markets outlook",
+     "score": 0.212
+    },
+    {
+     "doc_id": "FS-CBM-2026Q2",
+     "section": "Castellan Balanced Multi-Asset Fund",
+     "score": 0.2084
+    }
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "2da8dff1fc",
+   "parent_id": "bb7494c88a",
+   "kind": "tool",
+   "name": "research.search",
+   "label": "tool · research.search",
+   "started_at": "2026-08-08T12:58:08.136+00:00",
+   "ended_at": "2026-08-08T12:58:08.138+00:00",
+   "duration_ms": 1.5,
+   "status": "ok",
+   "input": {
+    "query": "Multi-Asset outlook and positioning",
+    "k": 4
+   },
+   "output": {
+    "query": "Multi-Asset outlook and positioning",
+    "embedding_model": "hashing-bow-512",
+    "hit_count": 4,
+    "hits": [
+     {
+      "chunk_id": "FS-CBM-2026Q2::01",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "text": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund\nreturned 4.9%. Equity contributed 3.8 points, fixed\nincome 0.7, and the alternatives sleeve, chiefly listed infrastructure and\ngold, contributed 0.4. Realised volatility over twelve months was 7.9%.\n\nThe tactical overlay is currently 3 points underweight equity and holds an\nelevated 8% cash position, reflecting the house view that policy rates fall\nmore slowly than forward markets imply.\n\n**Suitability note:** the default one-fund solution for Balanced mandates\nand a common core sleeve inside Conservative portfolios where the client\naccepts moderate equity exposure. Worst twelve-month period since launch\nwas minus 11.2%.",
+      "score": 0.2426
+     },
+     {
+      "chunk_id": "CM-EM-2026Q3::01",
+      "doc_id": "CM-EM-2026Q3",
+      "title": "Emerging Markets Outlook, Q3 2026",
+      "section": "Emerging markets outlook",
+      "source_file": "commentary_em_outlook.md",
+      "doc_type": "market_commentary",
+      "text": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook\nigh, and several central\nbanks began cutting ahead of developed-market peers, which supports local\nbond prices.\n\nThe dominant risk is dollar strength. A sustained rally in the dollar has\nhistorically been the largest single driver of emerging market debt\ndrawdowns, exceeding the contribution of actual defaults.\n\nWe are neutral on the asset class and would not increase allocations for\nclients whose risk profile makes a 15% drawdown unacceptable.",
+      "score": 0.2285
+     },
+     {
+      "chunk_id": "CM-EM-2026Q3::00",
+      "doc_id": "CM-EM-2026Q3",
+      "title": "Emerging Markets Outlook, Q3 2026",
+      "section": "Emerging markets outlook",
+      "source_file": "commentary_em_outlook.md",
+      "doc_type": "market_commentary",
+      "text": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook\n**Synthetic commentary. Illustrative views, not investment advice.**\n\nEmerging market hard-currency spreads have compressed to a fictional 291\nbasis points, close to the tightest decile of the past decade. That leaves\nlimited room for further spread-driven return and makes the asset class\nincreasingly a carry trade rather than a valuation opportunity.\n\nLocal-currency debt is the more interesting side of the market. Real policy\nrates across the larger emerging economies remain high, and several central\nbanks began cutting ahead of developed-market peers, which supports local\nbond prices.\n\nThe dominant risk is dollar strength.",
+      "score": 0.212
+     },
+     {
+      "chunk_id": "FS-CBM-2026Q2::00",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "text": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund\n**Synthetic document. Fictional fund, fictional figures.**\n\nCastellan runs a 55/35/10 split across equity, fixed income and\nalternatives, rebalanced quarterly with a tactical band of plus or minus\nten percentage points on the equity sleeve.\n\n**Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily.\n\nYear to date the fund returned 4.9%. Equity contributed 3.8 points, fixed\nincome 0.7, and the alternatives sleeve, chiefly listed infrastructure and\ngold, contributed 0.4.",
+      "score": 0.2084
+     }
+    ]
+   },
+   "error": null,
+   "meta": {
+    "server": "research"
+   }
+  },
+  {
+   "id": "38788e4b10",
+   "parent_id": "e17eb372d5",
+   "kind": "retrieval",
+   "name": "research.search",
+   "label": "retrieve · asset allocation house view for a Conservative mandate",
+   "started_at": "2026-08-08T12:58:08.138+00:00",
+   "ended_at": "2026-08-08T12:58:08.139+00:00",
+   "duration_ms": 1.5,
+   "status": "ok",
+   "input": {
+    "query": "asset allocation house view for a Conservative mandate"
+   },
+   "output": [
+    {
+     "doc_id": "HV-AA-2026Q3",
+     "section": "House view: asset allocation",
+     "score": 0.3622
+    },
+    {
+     "doc_id": "HV-ALTS-2026Q3",
+     "section": "House view: alternatives and private markets",
+     "score": 0.2881
+    },
+    {
+     "doc_id": "FS-CBM-2026Q2",
+     "section": "Castellan Balanced Multi-Asset Fund",
+     "score": 0.2748
+    },
+    {
+     "doc_id": "FS-CBM-2026Q2",
+     "section": "Castellan Balanced Multi-Asset Fund",
+     "score": 0.2022
+    }
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "f9c432e214",
+   "parent_id": "38788e4b10",
+   "kind": "tool",
+   "name": "research.search",
+   "label": "tool · research.search",
+   "started_at": "2026-08-08T12:58:08.138+00:00",
+   "ended_at": "2026-08-08T12:58:08.139+00:00",
+   "duration_ms": 1.5,
+   "status": "ok",
+   "input": {
+    "query": "asset allocation house view for a Conservative mandate",
+    "k": 4
+   },
+   "output": {
+    "query": "asset allocation house view for a Conservative mandate",
+    "embedding_model": "hashing-bow-512",
+    "hit_count": 4,
+    "hits": [
+     {
+      "chunk_id": "HV-AA-2026Q3::00",
+      "doc_id": "HV-AA-2026Q3",
+      "title": "House View, Strategic and Tactical Asset Allocation Q3 2026",
+      "section": "House view: asset allocation",
+      "source_file": "house_view_asset_allocation.md",
+      "doc_type": "house_view",
+      "text": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation\n**Synthetic house view. Illustrative only.**\n\nTactical positions against strategic weights this quarter:\n\n- Equity: neutral. Valuation is unattractive but earnings momentum is intact.\n- Government bonds: neutral duration, preference for the 2 to 5 year part of\n  the curve.\n- Investment grade credit: modest overweight, funded from high yield.\n- High yield: underweight, on spread levels rather than default expectations.\n- Real assets: modest overweight, chiefly listed infrastructure.\n- Cash: overweight, at 6 to 8% for most mandates, held as optionality.\n\nModel allocations by risk profile are unchanged: Conservative 25% growth\nassets, Balanced 50%, Growth 70%, Aggressive 85%.\n\nThe committee's stated conviction level this quarter is low. Where\nconviction is low, the correct response is smaller active positions, not\nmore of them.",
+      "score": 0.3622
+     },
+     {
+      "chunk_id": "HV-ALTS-2026Q3::00",
+      "doc_id": "HV-ALTS-2026Q3",
+      "title": "House View, Alternatives and Private Markets Q3 2026",
+      "section": "House view: alternatives and private markets",
+      "source_file": "house_view_alternatives.md",
+      "doc_type": "house_view",
+      "text": "House View, Alternatives and Private Markets Q3 2026: House view: alternatives and private markets\n**Synthetic house view. Illustrative only.**\n\nThe committee's position is that the illiquidity premium in private credit\nhas compressed to the point where it no longer compensates for the\ngovernance and liquidity costs in most private client portfolios.\n\nIllustrative allocation limits: private markets exposure should not exceed\n15% of total portfolio value for Growth and Aggressive mandates, 5% for\nBalanced, and zero for Conservative mandates or any client with High\nliquidity needs.\n\nSemi-liquid structures deserve particular scrutiny. Quarterly dealing with\ngates offers the appearance of liquidity without the substance, and clients\nroutinely misunderstand what a gate does until it is applied.\n\nListed infrastructure and listed real assets remain the committee's\npreferred route into real asset exposure for portfolios below £10m, on\ngovernance grounds rather than expected return.",
+      "score": 0.2881
+     },
+     {
+      "chunk_id": "FS-CBM-2026Q2::01",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "text": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund\nreturned 4.9%. Equity contributed 3.8 points, fixed\nincome 0.7, and the alternatives sleeve, chiefly listed infrastructure and\ngold, contributed 0.4. Realised volatility over twelve months was 7.9%.\n\nThe tactical overlay is currently 3 points underweight equity and holds an\nelevated 8% cash position, reflecting the house view that policy rates fall\nmore slowly than forward markets imply.\n\n**Suitability note:** the default one-fund solution for Balanced mandates\nand a common core sleeve inside Conservative portfolios where the client\naccepts moderate equity exposure. Worst twelve-month period since launch\nwas minus 11.2%.",
+      "score": 0.2748
+     },
+     {
+      "chunk_id": "FS-CBM-2026Q2::00",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "text": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund\n**Synthetic document. Fictional fund, fictional figures.**\n\nCastellan runs a 55/35/10 split across equity, fixed income and\nalternatives, rebalanced quarterly with a tactical band of plus or minus\nten percentage points on the equity sleeve.\n\n**Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily.\n\nYear to date the fund returned 4.9%. Equity contributed 3.8 points, fixed\nincome 0.7, and the alternatives sleeve, chiefly listed infrastructure and\ngold, contributed 0.4.",
+      "score": 0.2022
+     }
+    ]
+   },
+   "error": null,
+   "meta": {
+    "server": "research"
+   }
+  },
+  {
+   "id": "056dd0cc31",
+   "parent_id": "e17eb372d5",
+   "kind": "retrieval",
+   "name": "research.search",
+   "label": "retrieve · Castellan Balanced Multi-Asset Fund outlook, risks and suita",
+   "started_at": "2026-08-08T12:58:08.139+00:00",
+   "ended_at": "2026-08-08T12:58:08.141+00:00",
+   "duration_ms": 1.4,
+   "status": "ok",
+   "input": {
+    "query": "Castellan Balanced Multi-Asset Fund outlook, risks and suitability"
+   },
+   "output": [
+    {
+     "doc_id": "FS-CBM-2026Q2",
+     "section": "Castellan Balanced Multi-Asset Fund",
+     "score": 0.3834
+    },
+    {
+     "doc_id": "FS-CBM-2026Q2",
+     "section": "Castellan Balanced Multi-Asset Fund",
+     "score": 0.3807
+    },
+    {
+     "doc_id": "FS-HSD-2026Q2",
+     "section": "Helvetia Short-Duration Bond Fund",
+     "score": 0.2264
+    },
+    {
+     "doc_id": "FS-SAA-2026Q2",
+     "section": "Solaris AI & Automation Thematic Fund",
+     "score": 0.2187
+    }
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "e3238147d0",
+   "parent_id": "056dd0cc31",
+   "kind": "tool",
+   "name": "research.search",
+   "label": "tool · research.search",
+   "started_at": "2026-08-08T12:58:08.139+00:00",
+   "ended_at": "2026-08-08T12:58:08.141+00:00",
+   "duration_ms": 1.4,
+   "status": "ok",
+   "input": {
+    "query": "Castellan Balanced Multi-Asset Fund outlook, risks and suitability",
+    "k": 4
+   },
+   "output": {
+    "query": "Castellan Balanced Multi-Asset Fund outlook, risks and suitability",
+    "embedding_model": "hashing-bow-512",
+    "hit_count": 4,
+    "hits": [
+     {
+      "chunk_id": "FS-CBM-2026Q2::01",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "text": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund\nreturned 4.9%. Equity contributed 3.8 points, fixed\nincome 0.7, and the alternatives sleeve, chiefly listed infrastructure and\ngold, contributed 0.4. Realised volatility over twelve months was 7.9%.\n\nThe tactical overlay is currently 3 points underweight equity and holds an\nelevated 8% cash position, reflecting the house view that policy rates fall\nmore slowly than forward markets imply.\n\n**Suitability note:** the default one-fund solution for Balanced mandates\nand a common core sleeve inside Conservative portfolios where the client\naccepts moderate equity exposure. Worst twelve-month period since launch\nwas minus 11.2%.",
+      "score": 0.3834
+     },
+     {
+      "chunk_id": "FS-CBM-2026Q2::00",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "text": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund\n**Synthetic document. Fictional fund, fictional figures.**\n\nCastellan runs a 55/35/10 split across equity, fixed income and\nalternatives, rebalanced quarterly with a tactical band of plus or minus\nten percentage points on the equity sleeve.\n\n**Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily.\n\nYear to date the fund returned 4.9%. Equity contributed 3.8 points, fixed\nincome 0.7, and the alternatives sleeve, chiefly listed infrastructure and\ngold, contributed 0.4.",
+      "score": 0.3807
+     },
+     {
+      "chunk_id": "FS-HSD-2026Q2::01",
+      "doc_id": "FS-HSD-2026Q2",
+      "title": "Helvetia Short-Duration Bond Fund Factsheet",
+      "section": "Helvetia Short-Duration Bond Fund",
+      "source_file": "fund_helvetia_short_duration_bond.md",
+      "doc_type": "fund_factsheet",
+      "text": "Helvetia Short-Duration Bond Fund Factsheet: Helvetia Short-Duration Bond Fund\nmmonly used as the ballast sleeve for Conservative\nand Balanced mandates, and for clients with liquidity needs inside three\nyears. Not a growth asset. Real returns after inflation have been close to\nzero over rolling five-year windows.",
+      "score": 0.2264
+     },
+     {
+      "chunk_id": "FS-SAA-2026Q2::01",
+      "doc_id": "FS-SAA-2026Q2",
+      "title": "Solaris AI & Automation Thematic Fund Factsheet",
+      "section": "Solaris AI & Automation Thematic Fund",
+      "source_file": "fund_solaris_ai_thematic.md",
+      "doc_type": "fund_factsheet",
+      "text": "Solaris AI & Automation Thematic Fund Factsheet: Solaris AI & Automation Thematic Fund\nolio\nsimultaneously, and the diversification inside the fund is lower than the\nholding count suggests.\n\n**Suitability note:** thematic satellite only. House guidance is a maximum\nof 10% of total portfolio value for Balanced mandates and 20% for Growth\nand Aggressive mandates. Unsuitable for Conservative profiles in any size.",
+      "score": 0.2187
+     }
+    ]
+   },
+   "error": null,
+   "meta": {
+    "server": "research"
+   }
+  },
+  {
+   "id": "e8d5a867c4",
+   "parent_id": "e17eb372d5",
+   "kind": "note",
+   "name": "research.fusion",
+   "label": "8 passages from 7 documents, fused across 5 queries by reciprocal rank",
+   "started_at": "2026-08-08T12:58:08.141+00:00",
+   "ended_at": "2026-08-08T12:58:08.141+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": [
+    "S1=FS-CBM-2026Q2 (rrf 0.06325)",
+    "S2=FS-CBM-2026Q2 (rrf 0.04866)",
+    "S3=POL-SUIT-2026 (rrf 0.01639)",
+    "S4=CM-EQ-2026Q3 (rrf 0.01639)",
+    "S5=HV-AA-2026Q3 (rrf 0.01639)",
+    "S6=CM-RATES-2026Q3 (rrf 0.01613)",
+    "S7=FS-MED-2026Q2 (rrf 0.01613)",
+    "S8=CM-EM-2026Q3 (rrf 0.01613)"
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "bce27db61b",
+   "parent_id": "e17eb372d5",
+   "kind": "llm",
+   "name": "research.summarise",
+   "label": "LLM · mock/deterministic-stub",
+   "started_at": "2026-08-08T12:58:08.141+00:00",
+   "ended_at": "2026-08-08T12:58:08.141+00:00",
+   "duration_ms": 0.1,
+   "status": "ok",
+   "input": {
+    "system": "You are a research analyst at a private bank, writing for an\nadviser who is about to meet a client.\n\nRules:\n- Use ONLY the numbered sources provided. Never use outside knowledge.\n- Cite with the exact markers given, like [S1] or [S2, S4]. Every factual claim\n  needs a marker.\n- If the sources do not answer part of the request, say so plainly.\n- Neutral, specific, no sales language. British English.\n- All source material is synthetic demo data; do not imply otherwise.\n\nReturn JSON:\n{\n  \"summary\": \"3-5 sentences of market context relevant to this client, with [S#] markers\",\n  \"key_points\": [{\"point\": \"one sentence with [S#] markers\", \"sources\": [\"S1\"]}],\n  \"relevance_to_client\": \"2-3 sentences connecting the research to this client's mandate\"\n}\n\nRespond with a single valid JSON object and nothing else. No prose before or after, no markdown code fences.",
+    "user": "Adviser request: Routine annual review. Anything blocking?\n\nClient context: risk profile Conservative, horizon 6y, allocation {'Fixed Income': 40.0, 'Multi-Asset': 25.0, 'Government Bonds': 20.0, 'Cash': 15.0}, largest position Helvetia Short-Duration Bond Fund\n\nSources:\n[S1] Castellan Balanced Multi-Asset Fund Factsheet · Castellan Balanced Multi-Asset Fund (doc_id FS-CBM-2026Q2)\nCastellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. Fictional fund, fictional figures.** Castellan runs a 55/35/10 split across equity, fixed income and alternatives, rebalanced quarterly with a tactical band of plus or minus ten percentage points on the equity sleeve. **Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily. Year to date the fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4.\n\n[S2] Castellan Balanced Multi-Asset Fund Factsheet · Castellan Balanced Multi-Asset Fund (doc_id FS-CBM-2026Q2)\nCastellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4. Realised volatility over twelve months was 7.9%. The tactical overlay is currently 3 points underweight equity and holds an elevated 8% cash position, reflecting the house view that policy rates fall more slowly than forward markets imply. **Suitability note:** the default one-fund solution for Balanced mandates and a common core sleeve inside Conservative portfolios where the client accepts moderate equity exposure. Worst twelve-month period since launch was…\n\n[S3] Internal Note, Suitability Considerations for Advisory Recommendations · Suitability considerations for advisory recommendations (doc_id POL-SUIT-2026)\nInternal Note, Suitability Considerations for Advisory Recommendations: Suitability considerations for advisory recommendations nts with near-term capital needs. Dealing frequency, notice periods and gates must be explained in writing before the recommendation is made. 3. Complex or leveraged products recommended to Retail clients without a completed appropriateness assessment. 4. Concentration building passively through performance rather than through a decision. Positions should be reviewed against limits at every meeting. 5. Advice given on a file where the suitability review is more than twelve months old. Where a flag is raised, the recommendation is not automatically prohibited. It…\n\n[S4] Global Equity Outlook, Q3 2026 · Global equity outlook (doc_id CM-EQ-2026Q3)\nGlobal Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheets over momentum, and we are cautious about adding to concentrated thematic exposure at current levels. The principal risk to this view is that the capital expenditure cycle driving current earnings growth proves shorter than expected. See the separate note on AI capital expenditure.\n\n[S5] House View, Strategic and Tactical Asset Allocation Q3 2026 · House view: asset allocation (doc_id HV-AA-2026Q3)\nHouse View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. Illustrative only.** Tactical positions against strategic weights this quarter: - Equity: neutral. Valuation is unattractive but earnings momentum is intact. - Government bonds: neutral duration, preference for the 2 to 5 year part of the curve. - Investment grade credit: modest overweight, funded from high yield. - High yield: underweight, on spread levels rather than default expectations. - Real assets: modest overweight, chiefly listed infrastructure. - Cash: overweight, at 6 to 8% for most manda… [+1833 chars]",
+    "temperature": 0.2
+   },
+   "output": "{\"_mock\": true, \"_note\": \"Deterministic stub output; agents fall back to rule-based assembly.\", \"_digest\": \"eb3b8ccb\"}",
+   "error": null,
+   "meta": {
+    "provider": "mock",
+    "model": "deterministic-stub",
+    "usage": {
+     "prompt_tokens": 1673,
+     "completion_tokens": 12
+    }
+   }
+  },
+  {
+   "id": "1d86856b1d",
+   "parent_id": "8816c38747",
+   "kind": "agent",
+   "name": "compliance",
+   "label": "orchestrator → compliance · check",
+   "started_at": "2026-08-08T12:58:08.141+00:00",
+   "ended_at": "2026-08-08T12:58:08.142+00:00",
+   "duration_ms": 0.2,
+   "status": "ok",
+   "input": {
+    "client_id": "4524",
+    "query": "Routine annual review. Anything blocking?",
+    "proposed_instruments": []
+   },
+   "output": {
+    "status": "fail",
+    "flag_count": 1,
+    "flags": [
+     {
+      "rule_id": "R6",
+      "rule_name": "Suitability review currency",
+      "severity": "high",
+      "instrument_id": null,
+      "detail": "Suitability review dated 2025-01-09 is 19 months old, exceeding the 12-month limit.",
+      "remediation": "Complete a fresh suitability review before giving advice on this file."
+     }
+    ],
+    "proposals_checked": [],
+    "rules_evaluated": [
+     "R1-existing",
+     "R2",
+     "R6"
+    ],
+    "adviser_note": "The suitability check returned FAIL with 1 flag(s), of which 1 are high severity. Each flag below cites the rule that produced it.",
+    "actions_before_meeting": [
+     "Complete a fresh suitability review before giving advice on this file."
+    ],
+    "disclaimer": "Illustrative rules for a demonstration project. Not regulatory advice."
+   },
+   "error": null,
+   "meta": {
+    "task": "check"
+   }
+  },
+  {
+   "id": "55734fbd1a",
+   "parent_id": "1d86856b1d",
+   "kind": "note",
+   "name": "compliance.proposals",
+   "label": "No proposals identified, checking the existing book only",
+   "started_at": "2026-08-08T12:58:08.141+00:00",
+   "ended_at": "2026-08-08T12:58:08.141+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": null,
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "644a3d3446",
+   "parent_id": "1d86856b1d",
+   "kind": "tool",
+   "name": "compliance.check_suitability",
+   "label": "tool · compliance.check_suitability",
+   "started_at": "2026-08-08T12:58:08.141+00:00",
+   "ended_at": "2026-08-08T12:58:08.141+00:00",
+   "duration_ms": 0.1,
+   "status": "ok",
+   "input": {
+    "client_id": "4524",
+    "proposed_instruments": [],
+    "include_existing_holdings": true
+   },
+   "output": {
+    "client_id": "4524",
+    "status": "fail",
+    "risk_profile": "Conservative",
+    "investor_classification": "Retail",
+    "proposals_checked": [],
+    "unknown_instruments": [],
+    "existing_holdings_checked": true,
+    "rules_evaluated": [
+     "R1-existing",
+     "R2",
+     "R6"
+    ],
+    "flag_count": 1,
+    "flags": [
+     {
+      "rule_id": "R6",
+      "rule_name": "Suitability review currency",
+      "severity": "high",
+      "instrument_id": null,
+      "detail": "Suitability review dated 2025-01-09 is 19 months old, exceeding the 12-month limit.",
+      "remediation": "Complete a fresh suitability review before giving advice on this file."
+     }
+    ],
+    "disclaimer": "Illustrative rules for a demonstration project. Not regulatory advice."
+   },
+   "error": null,
+   "meta": {
+    "server": "compliance"
+   }
+  },
+  {
+   "id": "8e81740710",
+   "parent_id": "1d86856b1d",
+   "kind": "note",
+   "name": "compliance.decision",
+   "label": "Status FAIL, 1 flag(s) from 3 rule evaluations",
+   "started_at": "2026-08-08T12:58:08.141+00:00",
+   "ended_at": "2026-08-08T12:58:08.141+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": {
+    "status": "fail",
+    "flags": [
+     "R6"
+    ]
+   },
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "0f624c2a48",
+   "parent_id": "1d86856b1d",
+   "kind": "llm",
+   "name": "compliance.explain",
+   "label": "LLM · mock/deterministic-stub",
+   "started_at": "2026-08-08T12:58:08.142+00:00",
+   "ended_at": "2026-08-08T12:58:08.142+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "system": "You write compliance notes for advisers at a private bank.\n\nYou are given the output of a deterministic suitability rules engine. Your job\nis to explain it, not to judge it. You must not change the status, add flags,\nremove flags, or soften a finding.\n\nWrite plainly, in British English, for an adviser preparing for a meeting.\nState what was checked, what was flagged and what they must do before the\nmeeting. If nothing was flagged, say so without padding.\n\nReturn JSON:\n{\n  \"adviser_note\": \"2-4 sentences\",\n  \"actions_before_meeting\": [\"imperative action\", \"...\"]\n}\n\nRespond with a single valid JSON object and nothing else. No prose before or after, no markdown code fences.",
+    "user": "Status: FAIL\nClient risk profile: Conservative\nInvestor classification: Retail\nInstruments checked: none\nFlags:\n- [R6 · high] Suitability review currency: Suitability review dated 2025-01-09 is 19 months old, exceeding the 12-month limit. Remediation: Complete a fresh suitability review before giving advice on this file.",
+    "temperature": 0.2
+   },
+   "output": "{\"_mock\": true, \"_note\": \"Deterministic stub output; agents fall back to rule-based assembly.\", \"_digest\": \"866937b2\"}",
+   "error": null,
+   "meta": {
+    "provider": "mock",
+    "model": "deterministic-stub",
+    "usage": {
+     "prompt_tokens": 250,
+     "completion_tokens": 12
+    }
+   }
+  },
+  {
+   "id": "ec031f2aeb",
+   "parent_id": "8816c38747",
+   "kind": "agent",
+   "name": "synthesis",
+   "label": "orchestrator → synthesis · synthesise",
+   "started_at": "2026-08-08T12:58:08.142+00:00",
+   "ended_at": "2026-08-08T12:58:08.142+00:00",
+   "duration_ms": 0.2,
+   "status": "ok",
+   "input": {
+    "query": "Routine annual review. Anything blocking?",
+    "portfolio": {
+     "client_profile": {
+      "client_id": "4524",
+      "name": "Harold Pemberton-Ives (SYNTHETIC)",
+      "data_notice": "SYNTHETIC. Fictional client, not a real person",
+      "segment": "Private Client",
+      "domicile": "GB",
+      "adviser": "P. Lindqvist (synthetic)",
+      "risk_profile": "Conservative",
+      "investor_classification": "Retail",
+      "investment_horizon_years": 6,
+      "liquidity_needs": "Medium",
+      "esg_mandate": false,
+      "esg_exclusions": [],
+      "last_suitability_review": "2025-01-09",
+      "next_meeting": "2026-08-10",
+      "objectives": [
+       "Steady income",
+       "Modest real growth"
+      ],
+      "constraints": [
+       "Prefers to avoid single-country concentration"
+      ],
+      "adviser_notes": "Annual review is overdue, so chase documentation before advising."
+     },
+     "portfolio_snapshot": {
+      "client_id": "4524",
+      "as_of": "2026-08-06",
+      "total_value_gbp": 1780000,
+      "currency": "GBP",
+      "holdings": [
+       {
+        "instrument_id": "HSD",
+        "name": "Helvetia Short-Duration Bond Fund",
+        "asset_class": "Fixed Income",
+        "risk_rating": 2,
+        "risk_band": "Low",
+        "weight_pct": 40.0,
+        "value_gbp": 712000.0,
+        "ytd_return_pct": 2.1
+       },
+       {
+        "instrument_id": "GILT",
+        "name": "UK Gilt Ladder (2027-2032)",
+        "asset_class": "Government Bonds",
+        "risk_rating": 1,
+        "risk_band": "Low",
+        "weight_pct": 20.0,
+        "value_gbp": 356000.0,
+        "ytd_return_pct": 1.7
+       },
+       {
+        "instrument_id": "CBM",
+        "name": "Castellan Balanced Multi-Asset Fund",
+        "asset_class": "Multi-Asset",
+        "risk_rating": 4,
+        "risk_band": "Medium",
+        "weight_pct": 25.0,
+        "value_gbp": 445000.0,
+        "ytd_return_pct": 4.9
+       },
+       {
+        "instrument_id": "CASH",
+        "name": "GBP Cash & Money Market",
+        "asset_class": "Cash",
+        "risk_rating": 1,
+        "risk_band": "Low",
+        "weight_pct": 15.0,
+        "value_gbp": 267000.0,
+        "ytd_return_pct": 0.0
+       }
+      ],
+      "largest_position_pct": 40.0,
+      "cash_pct": 15.0,
+      "weighted_risk_rating": 2.15,
+      "performance": {
+       "ytd_return_pct": 2.4,
+       "one_year_return_pct": 4.56,
+       "three_year_annualised_pct": 3.24,
+       "benchmark": "Synthetic composite benchmark",
+       "vs_benchmark_ytd_pct": -2.0,
+       "volatility_pct": 6.48,
+       "max_drawdown_pct": -8.59
+      }
+     },
+     "derived": {
+      "growth_asset_pct": 25.0,
+      "allocation_by_asset_class": {
+       "Fixed Income": 40.0,
+       "Multi-Asset": 25.0,
+       "Government Bonds": 20.0,
+       "Cash": 15.0
+      },
+      "largest_position": {
+       "instrument_id": "HSD",
+       "name": "Helvetia Short-Duration Bond Fund",
+       "weight_pct": 40.0
+      },
+      "best_performer": {
+       "name": "Castellan Balanced Multi-Asset Fund",
+       "ytd_return_pct": 4.9
+      },
+      "worst_performer": {
+       "name": "GBP Cash & Money Market",
+       "ytd_return_pct": 0.0
+      },
+      "held_instrument_ids": [
+       "HSD",
+       "GILT",
+       "CBM",
+       "CASH"
+      ],
+      "top_holdings": [
+       {
+        "instrument_id": "CBM",
+        "name": "Castellan Balanced Multi-Asset Fund",
+        "weight_pct": 25.0
+       }
+      ],
+      "risk_profile": "Conservative",
+      "horizon_years": 6
+     }
+    },
+    "research": {
+     "queries": [
+      "Routine annual review. Anything blocking?",
+      "Fixed Income outlook and positioning",
+      "Multi-Asset outlook and positioning",
+      "asset allocation house view for a Conservative mandate",
+      "Castellan Balanced Multi-Asset Fund outlook, risks and suitability"
+     ],
+     "retrieval_by_query": [
+      {
+       "query": "Routine annual review. Anything blocking?",
+       "hits": [
+        "POL-SUIT-2026::01",
+        "CM-RATES-2026Q3::01",
+        "FS-BPC-2026Q2::00",
+        "CM-RATES-2026Q3::00"
+       ]
+      },
+      {
+       "query": "Fixed Income outlook and positioning",
+       "hits": [
+        "CM-EQ-2026Q3::01",
+        "FS-MED-2026Q2::01",
+        "FS-CBM-2026Q2::00",
+        "CM-EQ-2026Q3::00"
+       ]
+      },
+      {
+       "query": "Multi-Asset outlook and positioning",
+       "hits": [
+        "FS-CBM-2026Q2::01",
+        "CM-EM-2026Q3::01",
+        "CM-EM-2026Q3::00",
+        "FS-CBM-2026Q2::00"
+       ]
+      },
+      {
+       "query": "asset allocation house view for a Conservative mandate",
+       "hits": [
+        "HV-AA-2026Q3::00",
+        "HV-ALTS-2026Q3::00",
+        "FS-CBM-2026Q2::01",
+        "FS-CBM-2026Q2::00"
+       ]
+      },
+      {
+       "query": "Castellan Balanced Multi-Asset Fund outlook, risks and suitability",
+       "hits": [
+        "FS-CBM-2026Q2::01",
+        "FS-CBM-2026Q2::00",
+        "FS-HSD-2026Q2::01",
+        "FS-SAA-2026Q2::01"
+       ]
+      }
+     ],
+     "sources": [
+      {
+       "marker": "S1",
+       "chunk_id": "FS-CBM-2026Q2::00",
+       "doc_id": "FS-CBM-2026Q2",
+       "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+       "section": "Castellan Balanced Multi-Asset Fund",
+       "source_file": "fund_castellan_balanced.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.3807,
+       "fusion_score": 0.06325,
+       "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. Fictional fund, fictional figures.** Castellan runs a 55/35/10 split across equity, fixed income and alternatives, rebalanced quarterly with a tactical band of plus or minus ten percentage points on the equity sleeve. **Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily. Year to date the fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4."
+      },
+      {
+       "marker": "S2",
+       "chunk_id": "FS-CBM-2026Q2::01",
+       "doc_id": "FS-CBM-2026Q2",
+       "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+       "section": "Castellan Balanced Multi-Asset Fund",
+       "source_file": "fund_castellan_balanced.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.3834,
+       "fusion_score": 0.04866,
+       "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4. Realised volatility over twelve months was 7.9%. The tactical overlay is currently 3 points underweight equity and holds an elevated 8% cash position, reflecting the house view that policy rates fall more slowly than forward markets imply. **Suitability note:** the default one-fund solution for Balanced mandates and a common core sleeve inside Conservative portfolios where the client accepts moderate equity exposure. Worst twelve-month period since launch was…"
+      },
+      {
+       "marker": "S3",
+       "chunk_id": "POL-SUIT-2026::01",
+       "doc_id": "POL-SUIT-2026",
+       "title": "Internal Note, Suitability Considerations for Advisory Recommendations",
+       "section": "Suitability considerations for advisory recommendations",
+       "source_file": "policy_suitability_note.md",
+       "doc_type": "policy_note",
+       "score": 0.2216,
+       "fusion_score": 0.01639,
+       "snippet": "Internal Note, Suitability Considerations for Advisory Recommendations: Suitability considerations for advisory recommendations nts with near-term capital needs. Dealing frequency, notice periods and gates must be explained in writing before the recommendation is made. 3. Complex or leveraged products recommended to Retail clients without a completed appropriateness assessment. 4. Concentration building passively through performance rather than through a decision. Positions should be reviewed against limits at every meeting. 5. Advice given on a file where the suitability review is more than twelve months old. Where a flag is raised, the recommendation is not automatically prohibited. It…"
+      },
+      {
+       "marker": "S4",
+       "chunk_id": "CM-EQ-2026Q3::01",
+       "doc_id": "CM-EQ-2026Q3",
+       "title": "Global Equity Outlook, Q3 2026",
+       "section": "Global equity outlook",
+       "source_file": "commentary_equity_outlook.md",
+       "doc_type": "market_commentary",
+       "score": 0.2518,
+       "fusion_score": 0.01639,
+       "snippet": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheets over momentum, and we are cautious about adding to concentrated thematic exposure at current levels. The principal risk to this view is that the capital expenditure cycle driving current earnings growth proves shorter than expected. See the separate note on AI capital expenditure."
+      },
+      {
+       "marker": "S5",
+       "chunk_id": "HV-AA-2026Q3::00",
+       "doc_id": "HV-AA-2026Q3",
+       "title": "House View, Strategic and Tactical Asset Allocation Q3 2026",
+       "section": "House view: asset allocation",
+       "source_file": "house_view_asset_allocation.md",
+       "doc_type": "house_view",
+       "score": 0.3622,
+       "fusion_score": 0.01639,
+       "snippet": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. Illustrative only.** Tactical positions against strategic weights this quarter: - Equity: neutral. Valuation is unattractive but earnings momentum is intact. - Government bonds: neutral duration, preference for the 2 to 5 year part of the curve. - Investment grade credit: modest overweight, funded from high yield. - High yield: underweight, on spread levels rather than default expectations. - Real assets: modest overweight, chiefly listed infrastructure. - Cash: overweight, at 6 to 8% for most mandates, held as optionality. Model allocations by risk profile are unchanged:…"
+      },
+      {
+       "marker": "S6",
+       "chunk_id": "CM-RATES-2026Q3::01",
+       "doc_id": "CM-RATES-2026Q3",
+       "title": "Rates and Central Bank Outlook, Q3 2026",
+       "section": "Rates and central bank outlook",
+       "source_file": "commentary_rates_outlook.md",
+       "doc_type": "market_commentary",
+       "score": 0.1615,
+       "fusion_score": 0.01613,
+       "snippet": "Rates and Central Bank Outlook, Q3 2026: Rates and central bank outlook ed but remains above the level consistent with target inflation. For portfolios this argues for holding duration at neutral rather than extending it. Short-duration credit continues to offer most of the yield with a fraction of the interest rate risk, and gilt ladders remain an efficient way to lock in known cash flows against dated liabilities. We would revisit this stance if services inflation prints below 3.5% for two consecutive months, or if unemployment rises above 5.2%."
+      },
+      {
+       "marker": "S7",
+       "chunk_id": "FS-MED-2026Q2::01",
+       "doc_id": "FS-MED-2026Q2",
+       "title": "Meridian Emerging Market Debt Fund Factsheet",
+       "section": "Meridian Emerging Market Debt Fund",
+       "source_file": "fund_meridian_em_debt.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.2512,
+       "fusion_score": 0.01613,
+       "snippet": "Meridian Emerging Market Debt Fund Factsheet: Meridian Emerging Market Debt Fund of drawdown for this strategy, ahead of default losses. **Suitability note:** despite sitting in a fixed income wrapper, this is a high-risk holding. Clients frequently misread \"bond fund\" as \"defensive\". Advisers should be explicit that drawdowns of 15% or more are within the normal range for the asset class."
+      },
+      {
+       "marker": "S8",
+       "chunk_id": "CM-EM-2026Q3::01",
+       "doc_id": "CM-EM-2026Q3",
+       "title": "Emerging Markets Outlook, Q3 2026",
+       "section": "Emerging markets outlook",
+       "source_file": "commentary_em_outlook.md",
+       "doc_type": "market_commentary",
+       "score": 0.2285,
+       "fusion_score": 0.01613,
+       "snippet": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook igh, and several central banks began cutting ahead of developed-market peers, which supports local bond prices. The dominant risk is dollar strength. A sustained rally in the dollar has historically been the largest single driver of emerging market debt drawdowns, exceeding the contribution of actual defaults. We are neutral on the asset class and would not increase allocations for clients whose risk profile makes a 15% drawdown unacceptable."
+      }
+     ],
+     "market_context": {
+      "summary": "Retrieved 8 passages from the research index covering CM-EQ-2026Q3, FS-CBM-2026Q2, POL-SUIT-2026. Narrative summarisation was unavailable, so the key points below are extracted directly from the source passages.",
+      "key_points": [
+       {
+        "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. [S1]",
+        "sources": [
+         "S1"
+        ]
+       },
+       {
+        "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. [S2]",
+        "sources": [
+         "S2"
+        ]
+       },
+       {
+        "point": "Internal Note, Suitability Considerations for Advisory Recommendations: Suitability considerations for advisory recommendations nts with near-term capital needs. [S3]",
+        "sources": [
+         "S3"
+        ]
+       },
+       {
+        "point": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. [S4]",
+        "sources": [
+         "S4"
+        ]
+       }
+      ],
+      "relevance_to_client": "Review the cited passages directly. No model-generated interpretation was applied.",
+      "_generated_by": "deterministic_fallback",
+      "cited_markers": [
+       "S1",
+       "S2",
+       "S3",
+       "S4"
+      ]
+     }
+    },
+    "compliance": {
+     "status": "fail",
+     "flag_count": 1,
+     "flags": [
+      {
+       "rule_id": "R6",
+       "rule_name": "Suitability review currency",
+       "severity": "high",
+       "instrument_id": null,
+       "detail": "Suitability review dated 2025-01-09 is 19 months old, exceeding the 12-month limit.",
+       "remediation": "Complete a fresh suitability review before giving advice on this file."
+      }
+     ],
+     "proposals_checked": [],
+     "rules_evaluated": [
+      "R1-existing",
+      "R2",
+      "R6"
+     ],
+     "adviser_note": "The suitability check returned FAIL with 1 flag(s), of which 1 are high severity. Each flag below cites the rule that produced it.",
+     "actions_before_meeting": [
+      "Complete a fresh suitability review before giving advice on this file."
+     ],
+     "disclaimer": "Illustrative rules for a demonstration project. Not regulatory advice."
+    }
+   },
+   "output": {
+    "briefing": {
+     "generated_at": "2026-08-08T12:58:08+00:00",
+     "query": "Routine annual review. Anything blocking?",
+     "data_notice": "All client, portfolio and market data in this briefing is synthetic.",
+     "client": {
+      "client_id": "4524",
+      "name": "Harold Pemberton-Ives (SYNTHETIC)",
+      "risk_profile": "Conservative",
+      "investor_classification": "Retail",
+      "horizon_years": 6,
+      "liquidity_needs": "Medium",
+      "next_meeting": "2026-08-10",
+      "adviser": "P. Lindqvist (synthetic)",
+      "objectives": [
+       "Steady income",
+       "Modest real growth"
+      ],
+      "constraints": [
+       "Prefers to avoid single-country concentration"
+      ],
+      "esg_mandate": false,
+      "esg_exclusions": []
+     },
+     "headline": "1 suitability issue(s) must be resolved before advising Harold Pemberton-Ives (SYNTHETIC).",
+     "summary": "Harold Pemberton-Ives (SYNTHETIC) holds £1,780,000 across 4 positions, 25.0% in growth assets, against a Conservative profile and a 6-year horizon. Year-to-date return is 2.4% (-2.0% versus benchmark). The largest position is Helvetia Short-Duration Bond Fund at 40.0%. The suitability check returned FAIL.",
+     "portfolio_snapshot": {
+      "as_of": "2026-08-06",
+      "total_value_gbp": 1780000,
+      "currency": "GBP",
+      "holdings": [
+       {
+        "instrument_id": "HSD",
+        "name": "Helvetia Short-Duration Bond Fund",
+        "asset_class": "Fixed Income",
+        "risk_rating": 2,
+        "risk_band": "Low",
+        "weight_pct": 40.0,
+        "value_gbp": 712000.0,
+        "ytd_return_pct": 2.1
+       },
+       {
+        "instrument_id": "GILT",
+        "name": "UK Gilt Ladder (2027-2032)",
+        "asset_class": "Government Bonds",
+        "risk_rating": 1,
+        "risk_band": "Low",
+        "weight_pct": 20.0,
+        "value_gbp": 356000.0,
+        "ytd_return_pct": 1.7
+       },
+       {
+        "instrument_id": "CBM",
+        "name": "Castellan Balanced Multi-Asset Fund",
+        "asset_class": "Multi-Asset",
+        "risk_rating": 4,
+        "risk_band": "Medium",
+        "weight_pct": 25.0,
+        "value_gbp": 445000.0,
+        "ytd_return_pct": 4.9
+       },
+       {
+        "instrument_id": "CASH",
+        "name": "GBP Cash & Money Market",
+        "asset_class": "Cash",
+        "risk_rating": 1,
+        "risk_band": "Low",
+        "weight_pct": 15.0,
+        "value_gbp": 267000.0,
+        "ytd_return_pct": 0.0
+       }
+      ],
+      "allocation_by_asset_class": {
+       "Fixed Income": 40.0,
+       "Multi-Asset": 25.0,
+       "Government Bonds": 20.0,
+       "Cash": 15.0
+      },
+      "growth_asset_pct": 25.0,
+      "largest_position": {
+       "instrument_id": "HSD",
+       "name": "Helvetia Short-Duration Bond Fund",
+       "weight_pct": 40.0
+      },
+      "cash_pct": 15.0,
+      "weighted_risk_rating": 2.15,
+      "performance": {
+       "ytd_return_pct": 2.4,
+       "one_year_return_pct": 4.56,
+       "three_year_annualised_pct": 3.24,
+       "benchmark": "Synthetic composite benchmark",
+       "vs_benchmark_ytd_pct": -2.0,
+       "volatility_pct": 6.48,
+       "max_drawdown_pct": -8.59
+      }
+     },
+     "market_context": {
+      "summary": "Retrieved 8 passages from the research index covering CM-EQ-2026Q3, FS-CBM-2026Q2, POL-SUIT-2026. Narrative summarisation was unavailable, so the key points below are extracted directly from the source passages.",
+      "key_points": [
+       {
+        "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. [S1]",
+        "sources": [
+         "S1"
+        ]
+       },
+       {
+        "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. [S2]",
+        "sources": [
+         "S2"
+        ]
+       },
+       {
+        "point": "Internal Note, Suitability Considerations for Advisory Recommendations: Suitability considerations for advisory recommendations nts with near-term capital needs. [S3]",
+        "sources": [
+         "S3"
+        ]
+       },
+       {
+        "point": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. [S4]",
+        "sources": [
+         "S4"
+        ]
+       }
+      ],
+      "relevance_to_client": "Review the cited passages directly. No model-generated interpretation was applied.",
+      "queries_run": [
+       "Routine annual review. Anything blocking?",
+       "Fixed Income outlook and positioning",
+       "Multi-Asset outlook and positioning",
+       "asset allocation house view for a Conservative mandate",
+       "Castellan Balanced Multi-Asset Fund outlook, risks and suitability"
+      ]
+     },
+     "compliance": {
+      "status": "fail",
+      "flag_count": 1,
+      "flags": [
+       {
+        "rule_id": "R6",
+        "rule_name": "Suitability review currency",
+        "severity": "high",
+        "instrument_id": null,
+        "detail": "Suitability review dated 2025-01-09 is 19 months old, exceeding the 12-month limit.",
+        "remediation": "Complete a fresh suitability review before giving advice on this file."
+       }
+      ],
+      "adviser_note": "The suitability check returned FAIL with 1 flag(s), of which 1 are high severity. Each flag below cites the rule that produced it.",
+      "actions_before_meeting": [
+       "Complete a fresh suitability review before giving advice on this file."
+      ],
+      "proposals_checked": [],
+      "rules_evaluated": [
+       "R1-existing",
+       "R2",
+       "R6"
+      ],
+      "disclaimer": "Illustrative rules for a demonstration project. Not regulatory advice."
+     },
+     "talking_points": [
+      {
+       "point": "Suitability review currency: Suitability review dated 2025-01-09 is 19 months old, exceeding the 12-month limit.",
+       "why": "Complete a fresh suitability review before giving advice on this file.",
+       "sources": []
+      },
+      {
+       "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. [S1]",
+       "why": "Relevant market context for this mandate.",
+       "sources": [
+        "S1"
+       ]
+      },
+      {
+       "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. [S2]",
+       "why": "Relevant market context for this mandate.",
+       "sources": [
+        "S2"
+       ]
+      },
+      {
+       "point": "Internal Note, Suitability Considerations for Advisory Recommendations: Suitability considerations for advisory recommendations nts with near-term capital needs. [S3]",
+       "why": "Relevant market context for this mandate.",
+       "sources": [
+        "S3"
+       ]
+      }
+     ],
+     "questions_to_ask": [
+      "Have your objectives or time horizon changed since the last review?",
+      "Has your liquidity position changed, or any expected calls on capital?",
+      "Are you comfortable with the current largest position size?"
+     ],
+     "watch_items": [
+      "Suitability review dated 2025-01-09 is 19 months old, exceeding the 12-month limit."
+     ],
+     "citations": [
+      {
+       "marker": "S1",
+       "chunk_id": "FS-CBM-2026Q2::00",
+       "doc_id": "FS-CBM-2026Q2",
+       "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+       "section": "Castellan Balanced Multi-Asset Fund",
+       "source_file": "fund_castellan_balanced.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.3807,
+       "fusion_score": 0.06325,
+       "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. Fictional fund, fictional figures.** Castellan runs a 55/35/10 split across equity, fixed income and alternatives, rebalanced quarterly with a tactical band of plus or minus ten percentage points on the equity sleeve. **Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily. Year to date the fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4."
+      },
+      {
+       "marker": "S2",
+       "chunk_id": "FS-CBM-2026Q2::01",
+       "doc_id": "FS-CBM-2026Q2",
+       "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+       "section": "Castellan Balanced Multi-Asset Fund",
+       "source_file": "fund_castellan_balanced.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.3834,
+       "fusion_score": 0.04866,
+       "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4. Realised volatility over twelve months was 7.9%. The tactical overlay is currently 3 points underweight equity and holds an elevated 8% cash position, reflecting the house view that policy rates fall more slowly than forward markets imply. **Suitability note:** the default one-fund solution for Balanced mandates and a common core sleeve inside Conservative portfolios where the client accepts moderate equity exposure. Worst twelve-month period since launch was…"
+      },
+      {
+       "marker": "S3",
+       "chunk_id": "POL-SUIT-2026::01",
+       "doc_id": "POL-SUIT-2026",
+       "title": "Internal Note, Suitability Considerations for Advisory Recommendations",
+       "section": "Suitability considerations for advisory recommendations",
+       "source_file": "policy_suitability_note.md",
+       "doc_type": "policy_note",
+       "score": 0.2216,
+       "fusion_score": 0.01639,
+       "snippet": "Internal Note, Suitability Considerations for Advisory Recommendations: Suitability considerations for advisory recommendations nts with near-term capital needs. Dealing frequency, notice periods and gates must be explained in writing before the recommendation is made. 3. Complex or leveraged products recommended to Retail clients without a completed appropriateness assessment. 4. Concentration building passively through performance rather than through a decision. Positions should be reviewed against limits at every meeting. 5. Advice given on a file where the suitability review is more than twelve months old. Where a flag is raised, the recommendation is not automatically prohibited. It…"
+      },
+      {
+       "marker": "S4",
+       "chunk_id": "CM-EQ-2026Q3::01",
+       "doc_id": "CM-EQ-2026Q3",
+       "title": "Global Equity Outlook, Q3 2026",
+       "section": "Global equity outlook",
+       "source_file": "commentary_equity_outlook.md",
+       "doc_type": "market_commentary",
+       "score": 0.2518,
+       "fusion_score": 0.01639,
+       "snippet": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheets over momentum, and we are cautious about adding to concentrated thematic exposure at current levels. The principal risk to this view is that the capital expenditure cycle driving current earnings growth proves shorter than expected. See the separate note on AI capital expenditure."
+      },
+      {
+       "marker": "S5",
+       "chunk_id": "HV-AA-2026Q3::00",
+       "doc_id": "HV-AA-2026Q3",
+       "title": "House View, Strategic and Tactical Asset Allocation Q3 2026",
+       "section": "House view: asset allocation",
+       "source_file": "house_view_asset_allocation.md",
+       "doc_type": "house_view",
+       "score": 0.3622,
+       "fusion_score": 0.01639,
+       "snippet": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. Illustrative only.** Tactical positions against strategic weights this quarter: - Equity: neutral. Valuation is unattractive but earnings momentum is intact. - Government bonds: neutral duration, preference for the 2 to 5 year part of the curve. - Investment grade credit: modest overweight, funded from high yield. - High yield: underweight, on spread levels rather than default expectations. - Real assets: modest overweight, chiefly listed infrastructure. - Cash: overweight, at 6 to 8% for most mandates, held as optionality. Model allocations by risk profile are unchanged:…"
+      },
+      {
+       "marker": "S6",
+       "chunk_id": "CM-RATES-2026Q3::01",
+       "doc_id": "CM-RATES-2026Q3",
+       "title": "Rates and Central Bank Outlook, Q3 2026",
+       "section": "Rates and central bank outlook",
+       "source_file": "commentary_rates_outlook.md",
+       "doc_type": "market_commentary",
+       "score": 0.1615,
+       "fusion_score": 0.01613,
+       "snippet": "Rates and Central Bank Outlook, Q3 2026: Rates and central bank outlook ed but remains above the level consistent with target inflation. For portfolios this argues for holding duration at neutral rather than extending it. Short-duration credit continues to offer most of the yield with a fraction of the interest rate risk, and gilt ladders remain an efficient way to lock in known cash flows against dated liabilities. We would revisit this stance if services inflation prints below 3.5% for two consecutive months, or if unemployment rises above 5.2%."
+      },
+      {
+       "marker": "S7",
+       "chunk_id": "FS-MED-2026Q2::01",
+       "doc_id": "FS-MED-2026Q2",
+       "title": "Meridian Emerging Market Debt Fund Factsheet",
+       "section": "Meridian Emerging Market Debt Fund",
+       "source_file": "fund_meridian_em_debt.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.2512,
+       "fusion_score": 0.01613,
+       "snippet": "Meridian Emerging Market Debt Fund Factsheet: Meridian Emerging Market Debt Fund of drawdown for this strategy, ahead of default losses. **Suitability note:** despite sitting in a fixed income wrapper, this is a high-risk holding. Clients frequently misread \"bond fund\" as \"defensive\". Advisers should be explicit that drawdowns of 15% or more are within the normal range for the asset class."
+      },
+      {
+       "marker": "S8",
+       "chunk_id": "CM-EM-2026Q3::01",
+       "doc_id": "CM-EM-2026Q3",
+       "title": "Emerging Markets Outlook, Q3 2026",
+       "section": "Emerging markets outlook",
+       "source_file": "commentary_em_outlook.md",
+       "doc_type": "market_commentary",
+       "score": 0.2285,
+       "fusion_score": 0.01613,
+       "snippet": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook igh, and several central banks began cutting ahead of developed-market peers, which supports local bond prices. The dominant risk is dollar strength. A sustained rally in the dollar has historically been the largest single driver of emerging market debt drawdowns, exceeding the contribution of actual defaults. We are neutral on the asset class and would not increase allocations for clients whose risk profile makes a 15% drawdown unacceptable."
+      }
+     ]
+    }
+   },
+   "error": null,
+   "meta": {
+    "task": "synthesise"
+   }
+  },
+  {
+   "id": "1493b687cf",
+   "parent_id": "ec031f2aeb",
+   "kind": "llm",
+   "name": "synthesis.write_briefing",
+   "label": "LLM · mock/deterministic-stub",
+   "started_at": "2026-08-08T12:58:08.142+00:00",
+   "ended_at": "2026-08-08T12:58:08.142+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "system": "You prepare pre-meeting briefings for private bank advisers.\n\nYou receive: a client profile, a portfolio snapshot, cited market research, and\nthe output of a compliance rules engine.\n\nRules:\n- Cite market claims with the [S#] markers exactly as they appear in the research\n  you were given. Do not invent markers.\n- Never contradict or soften the compliance result. If the status is FAIL, the\n  talking points must reflect that the recommendation cannot proceed as framed.\n- Talking points are for the adviser to raise with the client. Make them\n  specific to this client's objectives and holdings, not generic.\n- British English. No sales language. All data is synthetic demo data.\n\nReturn JSON:\n{\n  \"headline\": \"one sentence the adviser reads first\",\n  \"summary\": \"3-5 sentences covering position, context and anything blocking\",\n  \"talking_points\": [\n    {\"point\": \"what to raise\", \"why\": \"why it matters to this client\", \"sources\": [\"S1\"]}\n  ],\n  \"questions_to_ask\": [\"question for the client\", \"...\"],\n  \"watch_items\": [\"something to monitor after the meeting\", \"...\"]\n}\n\nRespond with a single valid JSON object and nothing else. No prose before or after, no markdown code fences.",
+    "user": "Adviser request: Routine annual review. Anything blocking?\n\nCLIENT\nHarold Pemberton-Ives (SYNTHETIC) (4524), Conservative profile,\nRetail, 6-year horizon,\nMedium liquidity needs.\nObjectives: Steady income; Modest real growth\nConstraints: Prefers to avoid single-country concentration\nAdviser notes: Annual review is overdue, so chase documentation before advising.\n\nPORTFOLIO\nTotal £1,780,000 as at 2026-08-06.\nAllocation: {'Fixed Income': 40.0, 'Multi-Asset': 25.0, 'Government Bonds': 20.0, 'Cash': 15.0}\nGrowth assets: 25.0%. Cash: 15.0%.\nLargest position: Helvetia Short-Duration Bond Fund at\n40.0%.\nPerformance: {'ytd_return_pct': 2.4, 'one_year_return_pct': 4.56, 'three_year_annualised_pct': 3.24, 'benchmark': 'Synthetic composite benchmark', 'vs_benchmark_ytd_pct': -2.0, 'volatility_pct': 6.48, 'max_drawdown_pct': -8.59}\n\nMARKET RESEARCH (cite these markers only)\nRetrieved 8 passages from the research index covering CM-EQ-2026Q3, FS-CBM-2026Q2, POL-SUIT-2026. Narrative summarisation was unavailable, so the key points below are extracted directly from the source passages.\n[S1] Castellan Balanced Multi-Asset Fund Factsheet · Castellan Balanced Multi-Asset Fund: Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. Fictional fund, fictional figures.** Castellan runs a 55/35/10 split across equity, fixed income and alternatives, rebalanced quarterly with a tactical band of plus or minus t\n[S2] Castellan Balanced Multi-Asset Fund Factsheet · Castellan Balanced Multi-Asset Fund: Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4. Realised volatility over twelve months was 7.9%\n[S3] Internal Note, Suitability Considerations for Advisory Recommendations · Suitability considerations for advisory recommendations: Internal Note, Suitability Considerations for Advisory Recommendations: Suitability considerations for advisory recommendations nts with near-term capital needs. Dealing frequency, notice periods and gates must be explained in writing before the recommendation is made. 3. Complex\n[S4] Global Equity Outlook, Q3 2026 · Global equity outlook: Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheet\n[S5] House View, Strategic and Tactical Asset Allocation Q3 2026 · House view: asset allocation: House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. Illustrative only.** Tactical positions against strategic weights this quarter: - Equity: neutral. Valuation is unattractive but earnings momentum is intact. - Govern\n[S6] Rates and Central Bank Outlook, Q3 2026 · Rates and central bank outlook: Rates and Central Bank Outlook, Q3 2026: Rates and central bank outlook ed but remains above the level consistent with target inflation. For portfolios this argues for holding duration at neutral rather than extending it. Short-duration credit continues to offer most of the yield\n[S7] Meridian Emerging Market Debt Fund Factsheet · Meridian Emerging Market Debt Fund: Meridian Emerging Market Debt Fund Factsheet: Meridian Emerging Market Debt Fund of drawdown for this strategy, ahead of default losses. **Suitability note:** despite sitting in a fixed income wrapper, this is a high-risk holding. Clients frequently misread \"bond fund\" as \"defens\n[S8] Emerging Markets Outlook, Q3 2026 · Emerging markets outlook: Emerging Markets Outlook, Q3 2026: Emerging markets outlook igh, and several central banks began cutting ahead of developed-market peers, which supports local bond prices. The dominant risk is dollar strength. A sustained rally in the doll… [+201 chars]",
+    "temperature": 0.2
+   },
+   "output": "{\"_mock\": true, \"_note\": \"Deterministic stub output; agents fall back to rule-based assembly.\", \"_digest\": \"f75b7f4d\"}",
+   "error": null,
+   "meta": {
+    "provider": "mock",
+    "model": "deterministic-stub",
+    "usage": {
+     "prompt_tokens": 1346,
+     "completion_tokens": 12
+    }
+   }
+  },
+  {
+   "id": "53d8ceffab",
+   "parent_id": "ec031f2aeb",
+   "kind": "note",
+   "name": "synthesis.assembled",
+   "label": "Briefing assembled with 4 talking points and 8 citations",
+   "started_at": "2026-08-08T12:58:08.142+00:00",
+   "ended_at": "2026-08-08T12:58:08.142+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": {
+    "compliance_status": "fail",
+    "citations": [
+     "S1",
+     "S2",
+     "S3",
+     "S4",
+     "S5",
+     "S6",
+     "S7",
+     "S8"
+    ]
+   },
+   "error": null,
+   "meta": {}
+  }
+ ],
+ "trace_summary": {
+  "run_id": "09b51c65d2f5",
+  "events": 32,
+  "by_kind": {
+   "agent": 5,
+   "llm": 5,
+   "note": 8,
+   "tool": 9,
+   "retrieval": 5
+  },
+  "errors": 0,
+  "elapsed_ms": 10.7
+ }
+}

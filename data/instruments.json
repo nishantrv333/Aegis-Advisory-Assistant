@@ -1,0 +1,237 @@
+{
+  "_notice": "SYNTHETIC DATA, fictional funds. Not investable products.",
+  "instruments": [
+    {
+      "instrument_id": "AGE",
+      "name": "Aurora Global Equity Fund",
+      "asset_class": "Global Equity",
+      "risk_rating": 6,
+      "risk_band": "High",
+      "liquidity": "Daily",
+      "ocf_pct": 0.82,
+      "sectors": [
+        "Technology",
+        "Financials",
+        "Healthcare",
+        "Energy"
+      ],
+      "registered_jurisdictions": [
+        "GB",
+        "IE",
+        "CH",
+        "SG",
+        "AE"
+      ],
+      "leverage": false,
+      "doc": "fund_aurora_global_equity.md"
+    },
+    {
+      "instrument_id": "HSD",
+      "name": "Helvetia Short-Duration Bond Fund",
+      "asset_class": "Fixed Income",
+      "risk_rating": 2,
+      "risk_band": "Low",
+      "liquidity": "Daily",
+      "ocf_pct": 0.29,
+      "sectors": [
+        "Government",
+        "Investment Grade Credit"
+      ],
+      "registered_jurisdictions": [
+        "GB",
+        "IE",
+        "CH",
+        "SG",
+        "AE"
+      ],
+      "leverage": false,
+      "doc": "fund_helvetia_short_duration_bond.md"
+    },
+    {
+      "instrument_id": "MED",
+      "name": "Meridian Emerging Market Debt Fund",
+      "asset_class": "Emerging Market Debt",
+      "risk_rating": 5,
+      "risk_band": "High",
+      "liquidity": "Daily",
+      "ocf_pct": 0.95,
+      "sectors": [
+        "Sovereign",
+        "Quasi-Sovereign"
+      ],
+      "registered_jurisdictions": [
+        "GB",
+        "IE",
+        "CH",
+        "AE"
+      ],
+      "leverage": false,
+      "doc": "fund_meridian_em_debt.md"
+    },
+    {
+      "instrument_id": "CBM",
+      "name": "Castellan Balanced Multi-Asset Fund",
+      "asset_class": "Multi-Asset",
+      "risk_rating": 4,
+      "risk_band": "Medium",
+      "liquidity": "Daily",
+      "ocf_pct": 0.61,
+      "sectors": [
+        "Equity",
+        "Fixed Income",
+        "Alternatives"
+      ],
+      "registered_jurisdictions": [
+        "GB",
+        "IE",
+        "CH",
+        "SG",
+        "AE"
+      ],
+      "leverage": false,
+      "doc": "fund_castellan_balanced.md"
+    },
+    {
+      "instrument_id": "NII",
+      "name": "Northwind Infrastructure Income Fund",
+      "asset_class": "Infrastructure",
+      "risk_rating": 4,
+      "risk_band": "Medium",
+      "liquidity": "Monthly",
+      "ocf_pct": 0.88,
+      "sectors": [
+        "Utilities",
+        "Transport",
+        "Renewables"
+      ],
+      "registered_jurisdictions": [
+        "GB",
+        "IE",
+        "CH"
+      ],
+      "leverage": false,
+      "doc": "fund_northwind_infrastructure.md"
+    },
+    {
+      "instrument_id": "SAA",
+      "name": "Solaris AI & Automation Thematic Fund",
+      "asset_class": "Thematic Equity",
+      "risk_rating": 6,
+      "risk_band": "High",
+      "liquidity": "Daily",
+      "ocf_pct": 1.05,
+      "sectors": [
+        "Technology",
+        "Semiconductors",
+        "Industrials"
+      ],
+      "registered_jurisdictions": [
+        "GB",
+        "IE",
+        "AE"
+      ],
+      "leverage": false,
+      "doc": "fund_solaris_ai_thematic.md"
+    },
+    {
+      "instrument_id": "ZPM",
+      "name": "Zephyr Precious Metals Fund",
+      "asset_class": "Commodities",
+      "risk_rating": 6,
+      "risk_band": "High",
+      "liquidity": "Daily",
+      "ocf_pct": 0.74,
+      "sectors": [
+        "Mining",
+        "Materials"
+      ],
+      "registered_jurisdictions": [
+        "GB",
+        "CH",
+        "AE"
+      ],
+      "leverage": false,
+      "doc": "fund_zephyr_precious_metals.md"
+    },
+    {
+      "instrument_id": "BPC",
+      "name": "Bramble Private Credit Fund II",
+      "asset_class": "Private Credit",
+      "risk_rating": 5,
+      "risk_band": "High",
+      "liquidity": "Quarterly, 5% gate, 90-day notice",
+      "ocf_pct": 1.35,
+      "sectors": [
+        "Direct Lending",
+        "Speciality Finance"
+      ],
+      "registered_jurisdictions": [
+        "GB",
+        "IE",
+        "CH"
+      ],
+      "leverage": true,
+      "doc": "fund_bramble_private_credit.md"
+    },
+    {
+      "instrument_id": "LSN",
+      "name": "Lyra 3x Leveraged Equity Note 2029",
+      "asset_class": "Structured Product",
+      "risk_rating": 7,
+      "risk_band": "High",
+      "liquidity": "Secondary market only",
+      "ocf_pct": 1.6,
+      "sectors": [
+        "Equity Derivatives"
+      ],
+      "registered_jurisdictions": [
+        "GB",
+        "CH"
+      ],
+      "leverage": true,
+      "doc": "fund_lyra_structured_note.md"
+    },
+    {
+      "instrument_id": "GILT",
+      "name": "UK Gilt Ladder (2027-2032)",
+      "asset_class": "Government Bonds",
+      "risk_rating": 1,
+      "risk_band": "Low",
+      "liquidity": "Daily",
+      "ocf_pct": 0.1,
+      "sectors": [
+        "Government"
+      ],
+      "registered_jurisdictions": [
+        "GB",
+        "IE",
+        "CH",
+        "SG",
+        "AE"
+      ],
+      "leverage": false,
+      "doc": "commentary_rates_outlook.md"
+    },
+    {
+      "instrument_id": "CASH",
+      "name": "GBP Cash & Money Market",
+      "asset_class": "Cash",
+      "risk_rating": 1,
+      "risk_band": "Low",
+      "liquidity": "Daily",
+      "ocf_pct": 0.05,
+      "sectors": [
+        "Cash"
+      ],
+      "registered_jurisdictions": [
+        "GB",
+        "IE",
+        "CH",
+        "SG",
+        "AE"
+      ],
+      "leverage": false,
+      "doc": "commentary_rates_outlook.md"
+    }
+  ]
+}

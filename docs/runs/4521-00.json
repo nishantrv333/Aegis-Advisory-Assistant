@@ -1,0 +1,2622 @@
+{
+ "run_id": "071597632eeb",
+ "client_id": "4521",
+ "query": "Prep me for tomorrow's meeting. The client is asking about the Solaris AI fund",
+ "plan": {
+  "reasoning": "Default plan: full briefing across all agents.",
+  "run_research": true,
+  "research_queries": [],
+  "candidate_instruments": [
+   "SAA"
+  ],
+  "intent": "meeting_prep",
+  "forced_steps": [
+   "portfolio",
+   "compliance",
+   "synthesis"
+  ],
+  "_generated_by": "llm"
+ },
+ "briefing": {
+  "generated_at": "2026-08-08T12:58:08+00:00",
+  "query": "Prep me for tomorrow's meeting. The client is asking about the Solaris AI fund",
+  "data_notice": "All client, portfolio and market data in this briefing is synthetic.",
+  "client": {
+   "client_id": "4521",
+   "name": "Margaret Ellwood-Vance (SYNTHETIC)",
+   "risk_profile": "Conservative",
+   "investor_classification": "Retail",
+   "horizon_years": 4,
+   "liquidity_needs": "High",
+   "next_meeting": "2026-08-08",
+   "adviser": "J. Okonkwo (synthetic)",
+   "objectives": [
+    "Preserve capital in real terms",
+    "Fund a property purchase in roughly three years",
+    "Predictable income to supplement pension drawdown"
+   ],
+   "constraints": [
+    "No single position above 20% of the portfolio",
+    "At least 10% held in cash or near-cash"
+   ],
+   "esg_mandate": false,
+   "esg_exclusions": []
+  },
+  "headline": "1 suitability issue(s) must be resolved before advising Margaret Ellwood-Vance (SYNTHETIC).",
+  "summary": "Margaret Ellwood-Vance (SYNTHETIC) holds £2,450,000 across 5 positions, 28.0% in growth assets, against a Conservative profile and a 4-year horizon. Year-to-date return is 2.44% (-1.96% versus benchmark). The largest position is Helvetia Short-Duration Bond Fund at 34.0%. The suitability check returned FAIL.",
+  "portfolio_snapshot": {
+   "as_of": "2026-08-06",
+   "total_value_gbp": 2450000,
+   "currency": "GBP",
+   "holdings": [
+    {
+     "instrument_id": "HSD",
+     "name": "Helvetia Short-Duration Bond Fund",
+     "asset_class": "Fixed Income",
+     "risk_rating": 2,
+     "risk_band": "Low",
+     "weight_pct": 34.0,
+     "value_gbp": 833000.0,
+     "ytd_return_pct": 2.1
+    },
+    {
+     "instrument_id": "GILT",
+     "name": "UK Gilt Ladder (2027-2032)",
+     "asset_class": "Government Bonds",
+     "risk_rating": 1,
+     "risk_band": "Low",
+     "weight_pct": 26.0,
+     "value_gbp": 637000.0,
+     "ytd_return_pct": 1.7
+    },
+    {
+     "instrument_id": "CBM",
+     "name": "Castellan Balanced Multi-Asset Fund",
+     "asset_class": "Multi-Asset",
+     "risk_rating": 4,
+     "risk_band": "Medium",
+     "weight_pct": 22.0,
+     "value_gbp": 539000.0,
+     "ytd_return_pct": 4.9
+    },
+    {
+     "instrument_id": "NII",
+     "name": "Northwind Infrastructure Income Fund",
+     "asset_class": "Infrastructure",
+     "risk_rating": 4,
+     "risk_band": "Medium",
+     "weight_pct": 6.0,
+     "value_gbp": 147000.0,
+     "ytd_return_pct": 3.4
+    },
+    {
+     "instrument_id": "CASH",
+     "name": "GBP Cash & Money Market",
+     "asset_class": "Cash",
+     "risk_rating": 1,
+     "risk_band": "Low",
+     "weight_pct": 12.0,
+     "value_gbp": 294000.0,
+     "ytd_return_pct": 0.0
+    }
+   ],
+   "allocation_by_asset_class": {
+    "Fixed Income": 34.0,
+    "Government Bonds": 26.0,
+    "Multi-Asset": 22.0,
+    "Cash": 12.0,
+    "Infrastructure": 6.0
+   },
+   "growth_asset_pct": 28.0,
+   "largest_position": {
+    "instrument_id": "HSD",
+    "name": "Helvetia Short-Duration Bond Fund",
+    "weight_pct": 34.0
+   },
+   "cash_pct": 12.0,
+   "weighted_risk_rating": 2.18,
+   "performance": {
+    "ytd_return_pct": 2.44,
+    "one_year_return_pct": 4.64,
+    "three_year_annualised_pct": 3.29,
+    "benchmark": "Synthetic composite benchmark",
+    "vs_benchmark_ytd_pct": -1.96,
+    "volatility_pct": 6.54,
+    "max_drawdown_pct": -8.67
+   }
+  },
+  "market_context": {
+   "summary": "Retrieved 8 passages from the research index covering CM-EQ-2026Q3, FS-SAA-2026Q2, HV-AA-2026Q3. Narrative summarisation was unavailable, so the key points below are extracted directly from the source passages.",
+   "key_points": [
+    {
+     "point": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. [S1]",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "point": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. [S2]",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "point": "Solaris AI & Automation Thematic Fund Factsheet: Solaris AI & Automation Thematic Fund olio simultaneously, and the diversification inside the fund is lower than the holding count suggests. [S3]",
+     "sources": [
+      "S3"
+     ]
+    },
+    {
+     "point": "Solaris AI & Automation Thematic Fund Factsheet: Solaris AI & Automation Thematic Fund **Synthetic document. [S4]",
+     "sources": [
+      "S4"
+     ]
+    }
+   ],
+   "relevance_to_client": "Review the cited passages directly. No model-generated interpretation was applied.",
+   "queries_run": [
+    "Prep me for tomorrow's meeting. The client is asking about the Solaris AI fund",
+    "Fixed Income outlook and positioning",
+    "Government Bonds outlook and positioning",
+    "asset allocation house view for a Conservative mandate",
+    "Solaris AI & Automation Thematic Fund outlook, risks and suitability"
+   ]
+  },
+  "compliance": {
+   "status": "fail",
+   "flag_count": 1,
+   "flags": [
+    {
+     "rule_id": "R1",
+     "rule_name": "Risk profile alignment",
+     "severity": "high",
+     "instrument_id": "SAA",
+     "detail": "Solaris AI & Automation Thematic Fund is risk 6/7 against a maximum of 4/7 for a Conservative profile.",
+     "remediation": "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement."
+    }
+   ],
+   "adviser_note": "The suitability check returned FAIL with 1 flag(s), of which 1 are high severity. Each flag below cites the rule that produced it.",
+   "actions_before_meeting": [
+    "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement."
+   ],
+   "proposals_checked": [
+    "SAA"
+   ],
+   "rules_evaluated": [
+    "R1-existing",
+    "R1:SAA",
+    "R2",
+    "R3:SAA",
+    "R4:SAA",
+    "R5:SAA",
+    "R6",
+    "R7:SAA"
+   ],
+   "disclaimer": "Illustrative rules for a demonstration project. Not regulatory advice."
+  },
+  "talking_points": [
+   {
+    "point": "Risk profile alignment: Solaris AI & Automation Thematic Fund is risk 6/7 against a maximum of 4/7 for a Conservative profile.",
+    "why": "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement.",
+    "sources": []
+   },
+   {
+    "point": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. [S1]",
+    "why": "Relevant market context for this mandate.",
+    "sources": [
+     "S1"
+    ]
+   },
+   {
+    "point": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. [S2]",
+    "why": "Relevant market context for this mandate.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "point": "Solaris AI & Automation Thematic Fund Factsheet: Solaris AI & Automation Thematic Fund olio simultaneously, and the diversification inside the fund is lower than the holding count suggests. [S3]",
+    "why": "Relevant market context for this mandate.",
+    "sources": [
+     "S3"
+    ]
+   }
+  ],
+  "questions_to_ask": [
+   "Have your objectives or time horizon changed since the last review?",
+   "Has your liquidity position changed, or any expected calls on capital?",
+   "Are you comfortable with the current largest position size?"
+  ],
+  "watch_items": [
+   "Solaris AI & Automation Thematic Fund is risk 6/7 against a maximum of 4/7 for a Conservative profile."
+  ],
+  "citations": [
+   {
+    "marker": "S1",
+    "chunk_id": "CM-EQ-2026Q3::01",
+    "doc_id": "CM-EQ-2026Q3",
+    "title": "Global Equity Outlook, Q3 2026",
+    "section": "Global equity outlook",
+    "source_file": "commentary_equity_outlook.md",
+    "doc_type": "market_commentary",
+    "score": 0.2518,
+    "fusion_score": 0.0484,
+    "snippet": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheets over momentum, and we are cautious about adding to concentrated thematic exposure at current levels. The principal risk to this view is that the capital expenditure cycle driving current earnings growth proves shorter than expected. See the separate note on AI capital expenditure."
+   },
+   {
+    "marker": "S2",
+    "chunk_id": "HV-AA-2026Q3::00",
+    "doc_id": "HV-AA-2026Q3",
+    "title": "House View, Strategic and Tactical Asset Allocation Q3 2026",
+    "section": "House view: asset allocation",
+    "source_file": "house_view_asset_allocation.md",
+    "doc_type": "house_view",
+    "score": 0.3622,
+    "fusion_score": 0.03227,
+    "snippet": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. Illustrative only.** Tactical positions against strategic weights this quarter: - Equity: neutral. Valuation is unattractive but earnings momentum is intact. - Government bonds: neutral duration, preference for the 2 to 5 year part of the curve. - Investment grade credit: modest overweight, funded from high yield. - High yield: underweight, on spread levels rather than default expectations. - Real assets: modest overweight, chiefly listed infrastructure. - Cash: overweight, at 6 to 8% for most mandates, held as optionality. Model allocations by risk profile are unchanged:…"
+   },
+   {
+    "marker": "S3",
+    "chunk_id": "FS-SAA-2026Q2::01",
+    "doc_id": "FS-SAA-2026Q2",
+    "title": "Solaris AI & Automation Thematic Fund Factsheet",
+    "section": "Solaris AI & Automation Thematic Fund",
+    "source_file": "fund_solaris_ai_thematic.md",
+    "doc_type": "fund_factsheet",
+    "score": 0.4426,
+    "fusion_score": 0.03202,
+    "snippet": "Solaris AI & Automation Thematic Fund Factsheet: Solaris AI & Automation Thematic Fund olio simultaneously, and the diversification inside the fund is lower than the holding count suggests. **Suitability note:** thematic satellite only. House guidance is a maximum of 10% of total portfolio value for Balanced mandates and 20% for Growth and Aggressive mandates. Unsuitable for Conservative profiles in any size."
+   },
+   {
+    "marker": "S4",
+    "chunk_id": "FS-SAA-2026Q2::00",
+    "doc_id": "FS-SAA-2026Q2",
+    "title": "Solaris AI & Automation Thematic Fund Factsheet",
+    "section": "Solaris AI & Automation Thematic Fund",
+    "source_file": "fund_solaris_ai_thematic.md",
+    "doc_type": "fund_factsheet",
+    "score": 0.3558,
+    "fusion_score": 0.032,
+    "snippet": "Solaris AI & Automation Thematic Fund Factsheet: Solaris AI & Automation Thematic Fund **Synthetic document. Fictional fund, fictional figures.** Solaris holds 28 to 35 positions across semiconductors, data-centre infrastructure, industrial automation and enterprise software. It is a deliberately concentrated expression of a single theme. **Risk rating:** 6 of 7 (High). **OCF:** 1.05%. **Dealing:** daily. The fund returned 18.4% year to date, the strongest in the fictional Aegis-covered range, and 61% of that came from six holdings. Tracking error against global equity is 9.2%. The manager notes that the strategy's fortunes are tied to the capital expenditure cycle of a small number of…"
+   },
+   {
+    "marker": "S5",
+    "chunk_id": "FS-CBM-2026Q2::00",
+    "doc_id": "FS-CBM-2026Q2",
+    "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+    "section": "Castellan Balanced Multi-Asset Fund",
+    "source_file": "fund_castellan_balanced.md",
+    "doc_type": "fund_factsheet",
+    "score": 0.2084,
+    "fusion_score": 0.0315,
+    "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. Fictional fund, fictional figures.** Castellan runs a 55/35/10 split across equity, fixed income and alternatives, rebalanced quarterly with a tactical band of plus or minus ten percentage points on the equity sleeve. **Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily. Year to date the fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4."
+   },
+   {
+    "marker": "S6",
+    "chunk_id": "POL-SUIT-2026::00",
+    "doc_id": "POL-SUIT-2026",
+    "title": "Internal Note, Suitability Considerations for Advisory Recommendations",
+    "section": "Suitability considerations for advisory recommendations",
+    "source_file": "policy_suitability_note.md",
+    "doc_type": "policy_note",
+    "score": 0.1878,
+    "fusion_score": 0.01639,
+    "snippet": "Internal Note, Suitability Considerations for Advisory Recommendations: Suitability considerations for advisory recommendations **Synthetic internal note. Illustrative only. Not regulatory advice, and not a substitute for the firm's actual policies.** A recommendation is assessed against four things: the client's risk profile, their investment horizon and liquidity needs, their knowledge and experience, and any mandate constraints they have documented. Recurring failure patterns seen in file reviews: 1. High-risk instruments recommended into Conservative profiles on the argument that the position is small. Position size mitigates but does not remove the mismatch, and the rationale must be…"
+   },
+   {
+    "marker": "S7",
+    "chunk_id": "CM-EM-2026Q3::01",
+    "doc_id": "CM-EM-2026Q3",
+    "title": "Emerging Markets Outlook, Q3 2026",
+    "section": "Emerging markets outlook",
+    "source_file": "commentary_em_outlook.md",
+    "doc_type": "market_commentary",
+    "score": 0.1572,
+    "fusion_score": 0.01639,
+    "snippet": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook igh, and several central banks began cutting ahead of developed-market peers, which supports local bond prices. The dominant risk is dollar strength. A sustained rally in the dollar has historically been the largest single driver of emerging market debt drawdowns, exceeding the contribution of actual defaults. We are neutral on the asset class and would not increase allocations for clients whose risk profile makes a 15% drawdown unacceptable."
+   },
+   {
+    "marker": "S8",
+    "chunk_id": "POL-SUIT-2026::01",
+    "doc_id": "POL-SUIT-2026",
+    "title": "Internal Note, Suitability Considerations for Advisory Recommendations",
+    "section": "Suitability considerations for advisory recommendations",
+    "source_file": "policy_suitability_note.md",
+    "doc_type": "policy_note",
+    "score": 0.1827,
+    "fusion_score": 0.01613,
+    "snippet": "Internal Note, Suitability Considerations for Advisory Recommendations: Suitability considerations for advisory recommendations nts with near-term capital needs. Dealing frequency, notice periods and gates must be explained in writing before the recommendation is made. 3. Complex or leveraged products recommended to Retail clients without a completed appropriateness assessment. 4. Concentration building passively through performance rather than through a decision. Positions should be reviewed against limits at every meeting. 5. Advice given on a file where the suitability review is more than twelve months old. Where a flag is raised, the recommendation is not automatically prohibited. It…"
+   }
+  ]
+ },
+ "trace": [
+  {
+   "id": "1e741f48bf",
+   "parent_id": null,
+   "kind": "agent",
+   "name": "orchestrator",
+   "label": "orchestrator · plan and execute",
+   "started_at": "2026-08-08T12:58:08.043+00:00",
+   "ended_at": "2026-08-08T12:58:08.059+00:00",
+   "duration_ms": 16.2,
+   "status": "ok",
+   "input": {
+    "client_id": "4521",
+    "query": "Prep me for tomorrow's meeting. The client is asking about the Solaris AI fund"
+   },
+   "output": null,
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "79fb80c185",
+   "parent_id": "1e741f48bf",
+   "kind": "llm",
+   "name": "orchestrator.plan",
+   "label": "LLM · mock/deterministic-stub",
+   "started_at": "2026-08-08T12:58:08.044+00:00",
+   "ended_at": "2026-08-08T12:58:08.044+00:00",
+   "duration_ms": 0.1,
+   "status": "ok",
+   "input": {
+    "system": "You are the orchestrator of a private bank's briefing assistant.\n\nGiven an adviser's request and the agents available, produce an execution plan.\n\nGuidance:\n- `portfolio` always runs first and is added automatically, so do not include it.\n- `compliance` always runs and is added automatically, so do not include it.\n- `synthesis` always runs last and is added automatically, so do not include it.\n- Decide whether `market_research` is needed. It usually is, unless the request\n  is purely about the client's own holdings or compliance position.\n- Identify any instruments the adviser is proposing or asking about, by their\n  ticker-style id, so the rules engine can check them.\n- Suggest up to 4 focused retrieval queries if research is needed.\n\nReturn JSON:\n{\n  \"reasoning\": \"one or two sentences on why this plan\",\n  \"run_research\": true,\n  \"research_queries\": [\"...\", \"...\"],\n  \"candidate_instruments\": [\"SAA\"],\n  \"intent\": \"meeting_prep | recommendation_check | portfolio_review | market_question\"\n}\n\nRespond with a single valid JSON object and nothing else. No prose before or after, no markdown code fences.",
+    "user": "Adviser request: Prep me for tomorrow's meeting. The client is asking about the Solaris AI fund\nClient id: 4521\n\nAvailable agents:\n- portfolio: Retrieves a client's risk profile, mandate constraints, holdings, weights and performance from the book of record. (produces client_profile, portfolio_snapshot)\n- market_research: Runs vector search over the research corpus and summarises what is relevant to the client, with citations back to specific source passages. (produces market_context, citations)\n- compliance: Runs the deterministic suitability rule set against the client's holdings and any proposed instruments, and explains the result. (produces compliance_result)\n- synthesis: Combines portfolio, research and compliance output into the final structured client briefing. (produces briefing)\n\nAvailable tools:\n- portfolio.get_client_profile(client_id): Fetch a synthetic client's profile: risk profile, investor classification, horizon, liquidity needs, ESG mandate, objectives, constraints and suitability review date.\n- portfolio.get_holdings(client_id): Fetch a synthetic client's current holdings, weights, valuations, performance and portfolio-level risk metrics.\n- portfolio.list_clients(): List all synthetic client ids with names and risk profiles.\n- portfolio.lookup_instrument(instrument_id): Look up a fund or instrument in the synthetic product universe: asset class, risk rating, liquidity terms, sectors, leverage and registered jurisdictions.\n- research.search(query, k, doc_type): Semantic search over synthetic fund factsheets, market commentary, house views, research notes and internal policy notes. Returns citable chunks with source ids. Use one focused query per topic rather than one long combined query.\n- research.index_status(): Report how many chunks are indexed and which embedding model is in use.\n- compliance.check_suitability(client_id, proposed_instruments, include_existing_holdings): Run the suitability rule set for a client, over their existing holdings and any proposed instruments. Returns pass/review/fail plus itemised flags with remediation. Proposals may be instrument ids or objects with instrument_id and weight_pct.\n- compliance.list_rules(): Return the illustrative suitability rule set with ids, names and severities.\n- compliance.list_instruments(): List the synthetic product universe available for recommendation.",
+    "temperature": 0.2
+   },
+   "output": "{\"_mock\": true, \"_note\": \"Deterministic stub output; agents fall back to rule-based assembly.\", \"_digest\": \"c861e743\"}",
+   "error": null,
+   "meta": {
+    "provider": "mock",
+    "model": "deterministic-stub",
+    "usage": {
+     "prompt_tokens": 871,
+     "completion_tokens": 12
+    }
+   }
+  },
+  {
+   "id": "20293e0c2b",
+   "parent_id": "1e741f48bf",
+   "kind": "note",
+   "name": "orchestrator.plan",
+   "label": "Intent 'meeting_prep' · research=True · instruments=['SAA']",
+   "started_at": "2026-08-08T12:58:08.044+00:00",
+   "ended_at": "2026-08-08T12:58:08.044+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": {
+    "reasoning": "Default plan: full briefing across all agents.",
+    "run_research": true,
+    "research_queries": [],
+    "candidate_instruments": [
+     "SAA"
+    ],
+    "intent": "meeting_prep",
+    "forced_steps": [
+     "portfolio",
+     "compliance",
+     "synthesis"
+    ],
+    "_generated_by": "llm"
+   },
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "8a826b25ef",
+   "parent_id": "1e741f48bf",
+   "kind": "agent",
+   "name": "portfolio",
+   "label": "orchestrator → portfolio · profile_and_holdings",
+   "started_at": "2026-08-08T12:58:08.044+00:00",
+   "ended_at": "2026-08-08T12:58:08.045+00:00",
+   "duration_ms": 0.2,
+   "status": "ok",
+   "input": {
+    "client_id": "4521"
+   },
+   "output": {
+    "client_profile": {
+     "client_id": "4521",
+     "name": "Margaret Ellwood-Vance (SYNTHETIC)",
+     "data_notice": "SYNTHETIC. Fictional client, not a real person",
+     "segment": "Private Client",
+     "domicile": "GB",
+     "adviser": "J. Okonkwo (synthetic)",
+     "risk_profile": "Conservative",
+     "investor_classification": "Retail",
+     "investment_horizon_years": 4,
+     "liquidity_needs": "High",
+     "esg_mandate": false,
+     "esg_exclusions": [],
+     "last_suitability_review": "2026-05-14",
+     "next_meeting": "2026-08-08",
+     "objectives": [
+      "Preserve capital in real terms",
+      "Fund a property purchase in roughly three years",
+      "Predictable income to supplement pension drawdown"
+     ],
+     "constraints": [
+      "No single position above 20% of the portfolio",
+      "At least 10% held in cash or near-cash"
+     ],
+     "adviser_notes": "Risk-averse; reacted badly to 2022 drawdown. Values plain explanations."
+    },
+    "portfolio_snapshot": {
+     "client_id": "4521",
+     "as_of": "2026-08-06",
+     "total_value_gbp": 2450000,
+     "currency": "GBP",
+     "holdings": [
+      {
+       "instrument_id": "HSD",
+       "name": "Helvetia Short-Duration Bond Fund",
+       "asset_class": "Fixed Income",
+       "risk_rating": 2,
+       "risk_band": "Low",
+       "weight_pct": 34.0,
+       "value_gbp": 833000.0,
+       "ytd_return_pct": 2.1
+      },
+      {
+       "instrument_id": "GILT",
+       "name": "UK Gilt Ladder (2027-2032)",
+       "asset_class": "Government Bonds",
+       "risk_rating": 1,
+       "risk_band": "Low",
+       "weight_pct": 26.0,
+       "value_gbp": 637000.0,
+       "ytd_return_pct": 1.7
+      },
+      {
+       "instrument_id": "CBM",
+       "name": "Castellan Balanced Multi-Asset Fund",
+       "asset_class": "Multi-Asset",
+       "risk_rating": 4,
+       "risk_band": "Medium",
+       "weight_pct": 22.0,
+       "value_gbp": 539000.0,
+       "ytd_return_pct": 4.9
+      },
+      {
+       "instrument_id": "NII",
+       "name": "Northwind Infrastructure Income Fund",
+       "asset_class": "Infrastructure",
+       "risk_rating": 4,
+       "risk_band": "Medium",
+       "weight_pct": 6.0,
+       "value_gbp": 147000.0,
+       "ytd_return_pct": 3.4
+      },
+      {
+       "instrument_id": "CASH",
+       "name": "GBP Cash & Money Market",
+       "asset_class": "Cash",
+       "risk_rating": 1,
+       "risk_band": "Low",
+       "weight_pct": 12.0,
+       "value_gbp": 294000.0,
+       "ytd_return_pct": 0.0
+      }
+     ],
+     "largest_position_pct": 34.0,
+     "cash_pct": 12.0,
+     "weighted_risk_rating": 2.18,
+     "performance": {
+      "ytd_return_pct": 2.44,
+      "one_year_return_pct": 4.64,
+      "three_year_annualised_pct": 3.29,
+      "benchmark": "Synthetic composite benchmark",
+      "vs_benchmark_ytd_pct": -1.96,
+      "volatility_pct": 6.54,
+      "max_drawdown_pct": -8.67
+     }
+    },
+    "derived": {
+     "growth_asset_pct": 28.0,
+     "allocation_by_asset_class": {
+      "Fixed Income": 34.0,
+      "Government Bonds": 26.0,
+      "Multi-Asset": 22.0,
+      "Cash": 12.0,
+      "Infrastructure": 6.0
+     },
+     "largest_position": {
+      "instrument_id": "HSD",
+      "name": "Helvetia Short-Duration Bond Fund",
+      "weight_pct": 34.0
+     },
+     "best_performer": {
+      "name": "Castellan Balanced Multi-Asset Fund",
+      "ytd_return_pct": 4.9
+     },
+     "worst_performer": {
+      "name": "GBP Cash & Money Market",
+      "ytd_return_pct": 0.0
+     },
+     "held_instrument_ids": [
+      "HSD",
+      "GILT",
+      "CBM",
+      "NII",
+      "CASH"
+     ],
+     "top_holdings": [
+      {
+       "instrument_id": "CBM",
+       "name": "Castellan Balanced Multi-Asset Fund",
+       "weight_pct": 22.0
+      },
+      {
+       "instrument_id": "NII",
+       "name": "Northwind Infrastructure Income Fund",
+       "weight_pct": 6.0
+      }
+     ],
+     "risk_profile": "Conservative",
+     "horizon_years": 4
+    }
+   },
+   "error": null,
+   "meta": {
+    "task": "profile_and_holdings"
+   }
+  },
+  {
+   "id": "891a529708",
+   "parent_id": "8a826b25ef",
+   "kind": "tool",
+   "name": "portfolio.get_client_profile",
+   "label": "tool · portfolio.get_client_profile",
+   "started_at": "2026-08-08T12:58:08.044+00:00",
+   "ended_at": "2026-08-08T12:58:08.044+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "client_id": "4521"
+   },
+   "output": {
+    "client_id": "4521",
+    "name": "Margaret Ellwood-Vance (SYNTHETIC)",
+    "data_notice": "SYNTHETIC. Fictional client, not a real person",
+    "segment": "Private Client",
+    "domicile": "GB",
+    "adviser": "J. Okonkwo (synthetic)",
+    "risk_profile": "Conservative",
+    "investor_classification": "Retail",
+    "investment_horizon_years": 4,
+    "liquidity_needs": "High",
+    "esg_mandate": false,
+    "esg_exclusions": [],
+    "last_suitability_review": "2026-05-14",
+    "next_meeting": "2026-08-08",
+    "objectives": [
+     "Preserve capital in real terms",
+     "Fund a property purchase in roughly three years",
+     "Predictable income to supplement pension drawdown"
+    ],
+    "constraints": [
+     "No single position above 20% of the portfolio",
+     "At least 10% held in cash or near-cash"
+    ],
+    "adviser_notes": "Risk-averse; reacted badly to 2022 drawdown. Values plain explanations."
+   },
+   "error": null,
+   "meta": {
+    "server": "portfolio"
+   }
+  },
+  {
+   "id": "5321972fce",
+   "parent_id": "8a826b25ef",
+   "kind": "tool",
+   "name": "portfolio.get_holdings",
+   "label": "tool · portfolio.get_holdings",
+   "started_at": "2026-08-08T12:58:08.044+00:00",
+   "ended_at": "2026-08-08T12:58:08.044+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "client_id": "4521"
+   },
+   "output": {
+    "client_id": "4521",
+    "as_of": "2026-08-06",
+    "total_value_gbp": 2450000,
+    "currency": "GBP",
+    "holdings": [
+     {
+      "instrument_id": "HSD",
+      "name": "Helvetia Short-Duration Bond Fund",
+      "asset_class": "Fixed Income",
+      "risk_rating": 2,
+      "risk_band": "Low",
+      "weight_pct": 34.0,
+      "value_gbp": 833000.0,
+      "ytd_return_pct": 2.1
+     },
+     {
+      "instrument_id": "GILT",
+      "name": "UK Gilt Ladder (2027-2032)",
+      "asset_class": "Government Bonds",
+      "risk_rating": 1,
+      "risk_band": "Low",
+      "weight_pct": 26.0,
+      "value_gbp": 637000.0,
+      "ytd_return_pct": 1.7
+     },
+     {
+      "instrument_id": "CBM",
+      "name": "Castellan Balanced Multi-Asset Fund",
+      "asset_class": "Multi-Asset",
+      "risk_rating": 4,
+      "risk_band": "Medium",
+      "weight_pct": 22.0,
+      "value_gbp": 539000.0,
+      "ytd_return_pct": 4.9
+     },
+     {
+      "instrument_id": "NII",
+      "name": "Northwind Infrastructure Income Fund",
+      "asset_class": "Infrastructure",
+      "risk_rating": 4,
+      "risk_band": "Medium",
+      "weight_pct": 6.0,
+      "value_gbp": 147000.0,
+      "ytd_return_pct": 3.4
+     },
+     {
+      "instrument_id": "CASH",
+      "name": "GBP Cash & Money Market",
+      "asset_class": "Cash",
+      "risk_rating": 1,
+      "risk_band": "Low",
+      "weight_pct": 12.0,
+      "value_gbp": 294000.0,
+      "ytd_return_pct": 0.0
+     }
+    ],
+    "largest_position_pct": 34.0,
+    "cash_pct": 12.0,
+    "weighted_risk_rating": 2.18,
+    "performance": {
+     "ytd_return_pct": 2.44,
+     "one_year_return_pct": 4.64,
+     "three_year_annualised_pct": 3.29,
+     "benchmark": "Synthetic composite benchmark",
+     "vs_benchmark_ytd_pct": -1.96,
+     "volatility_pct": 6.54,
+     "max_drawdown_pct": -8.67
+    }
+   },
+   "error": null,
+   "meta": {
+    "server": "portfolio"
+   }
+  },
+  {
+   "id": "2e586615b5",
+   "parent_id": "8a826b25ef",
+   "kind": "note",
+   "name": "portfolio.derived",
+   "label": "28.0% growth assets, largest position 34.0%",
+   "started_at": "2026-08-08T12:58:08.044+00:00",
+   "ended_at": "2026-08-08T12:58:08.044+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": {
+    "growth_asset_pct": 28.0,
+    "allocation_by_asset_class": {
+     "Fixed Income": 34.0,
+     "Government Bonds": 26.0,
+     "Multi-Asset": 22.0,
+     "Cash": 12.0,
+     "Infrastructure": 6.0
+    },
+    "largest_position": {
+     "instrument_id": "HSD",
+     "name": "Helvetia Short-Duration Bond Fund",
+     "weight_pct": 34.0
+    },
+    "best_performer": {
+     "name": "Castellan Balanced Multi-Asset Fund",
+     "ytd_return_pct": 4.9
+    },
+    "worst_performer": {
+     "name": "GBP Cash & Money Market",
+     "ytd_return_pct": 0.0
+    },
+    "held_instrument_ids": [
+     "HSD",
+     "GILT",
+     "CBM",
+     "NII",
+     "CASH"
+    ],
+    "top_holdings": [
+     {
+      "instrument_id": "CBM",
+      "name": "Castellan Balanced Multi-Asset Fund",
+      "weight_pct": 22.0
+     },
+     {
+      "instrument_id": "NII",
+      "name": "Northwind Infrastructure Income Fund",
+      "weight_pct": 6.0
+     }
+    ],
+    "risk_profile": "Conservative",
+    "horizon_years": 4
+   },
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "436e93b34d",
+   "parent_id": "1e741f48bf",
+   "kind": "agent",
+   "name": "market_research",
+   "label": "orchestrator → market_research · research",
+   "started_at": "2026-08-08T12:58:08.045+00:00",
+   "ended_at": "2026-08-08T12:58:08.057+00:00",
+   "duration_ms": 12.2,
+   "status": "ok",
+   "input": {
+    "query": "Prep me for tomorrow's meeting. The client is asking about the Solaris AI fund",
+    "research_queries": [],
+    "candidate_instruments": [
+     "SAA"
+    ],
+    "portfolio_context": {
+     "growth_asset_pct": 28.0,
+     "allocation_by_asset_class": {
+      "Fixed Income": 34.0,
+      "Government Bonds": 26.0,
+      "Multi-Asset": 22.0,
+      "Cash": 12.0,
+      "Infrastructure": 6.0
+     },
+     "largest_position": {
+      "instrument_id": "HSD",
+      "name": "Helvetia Short-Duration Bond Fund",
+      "weight_pct": 34.0
+     },
+     "best_performer": {
+      "name": "Castellan Balanced Multi-Asset Fund",
+      "ytd_return_pct": 4.9
+     },
+     "worst_performer": {
+      "name": "GBP Cash & Money Market",
+      "ytd_return_pct": 0.0
+     },
+     "held_instrument_ids": [
+      "HSD",
+      "GILT",
+      "CBM",
+      "NII",
+      "CASH"
+     ],
+     "top_holdings": [
+      {
+       "instrument_id": "CBM",
+       "name": "Castellan Balanced Multi-Asset Fund",
+       "weight_pct": 22.0
+      },
+      {
+       "instrument_id": "NII",
+       "name": "Northwind Infrastructure Income Fund",
+       "weight_pct": 6.0
+      }
+     ],
+     "risk_profile": "Conservative",
+     "horizon_years": 4
+    }
+   },
+   "output": {
+    "queries": [
+     "Prep me for tomorrow's meeting. The client is asking about the Solaris AI fund",
+     "Fixed Income outlook and positioning",
+     "Government Bonds outlook and positioning",
+     "asset allocation house view for a Conservative mandate",
+     "Solaris AI & Automation Thematic Fund outlook, risks and suitability"
+    ],
+    "retrieval_by_query": [
+     {
+      "query": "Prep me for tomorrow's meeting. The client is asking about the Solaris AI fund",
+      "hits": [
+       "POL-SUIT-2026::00",
+       "POL-SUIT-2026::01",
+       "FS-SAA-2026Q2::00",
+       "FS-SAA-2026Q2::01"
+      ]
+     },
+     {
+      "query": "Fixed Income outlook and positioning",
+      "hits": [
+       "CM-EQ-2026Q3::01",
+       "FS-MED-2026Q2::01",
+       "FS-CBM-2026Q2::00",
+       "CM-EQ-2026Q3::00"
+      ]
+     },
+     {
+      "query": "Government Bonds outlook and positioning",
+      "hits": [
+       "CM-EM-2026Q3::01",
+       "CM-EQ-2026Q3::01",
+       "HV-AA-2026Q3::00",
+       "CM-RATES-2026Q3::01"
+      ]
+     },
+     {
+      "query": "asset allocation house view for a Conservative mandate",
+      "hits": [
+       "HV-AA-2026Q3::00",
+       "HV-ALTS-2026Q3::00",
+       "FS-CBM-2026Q2::01",
+       "FS-CBM-2026Q2::00"
+      ]
+     },
+     {
+      "query": "Solaris AI & Automation Thematic Fund outlook, risks and suitability",
+      "hits": [
+       "FS-SAA-2026Q2::01",
+       "FS-SAA-2026Q2::00",
+       "CM-EQ-2026Q3::01",
+       "FS-AGE-2026Q2::00"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "marker": "S1",
+      "chunk_id": "CM-EQ-2026Q3::01",
+      "doc_id": "CM-EQ-2026Q3",
+      "title": "Global Equity Outlook, Q3 2026",
+      "section": "Global equity outlook",
+      "source_file": "commentary_equity_outlook.md",
+      "doc_type": "market_commentary",
+      "score": 0.2518,
+      "fusion_score": 0.0484,
+      "snippet": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheets over momentum, and we are cautious about adding to concentrated thematic exposure at current levels. The principal risk to this view is that the capital expenditure cycle driving current earnings growth proves shorter than expected. See the separate note on AI capital expenditure."
+     },
+     {
+      "marker": "S2",
+      "chunk_id": "HV-AA-2026Q3::00",
+      "doc_id": "HV-AA-2026Q3",
+      "title": "House View, Strategic and Tactical Asset Allocation Q3 2026",
+      "section": "House view: asset allocation",
+      "source_file": "house_view_asset_allocation.md",
+      "doc_type": "house_view",
+      "score": 0.3622,
+      "fusion_score": 0.03227,
+      "snippet": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. Illustrative only.** Tactical positions against strategic weights this quarter: - Equity: neutral. Valuation is unattractive but earnings momentum is intact. - Government bonds: neutral duration, preference for the 2 to 5 year part of the curve. - Investment grade credit: modest overweight, funded from high yield. - High yield: underweight, on spread levels rather than default expectations. - Real assets: modest overweight, chiefly listed infrastructure. - Cash: overweight, at 6 to 8% for most mandates, held as optionality. Model allocations by risk profile are unchanged:…"
+     },
+     {
+      "marker": "S3",
+      "chunk_id": "FS-SAA-2026Q2::01",
+      "doc_id": "FS-SAA-2026Q2",
+      "title": "Solaris AI & Automation Thematic Fund Factsheet",
+      "section": "Solaris AI & Automation Thematic Fund",
+      "source_file": "fund_solaris_ai_thematic.md",
+      "doc_type": "fund_factsheet",
+      "score": 0.4426,
+      "fusion_score": 0.03202,
+      "snippet": "Solaris AI & Automation Thematic Fund Factsheet: Solaris AI & Automation Thematic Fund olio simultaneously, and the diversification inside the fund is lower than the holding count suggests. **Suitability note:** thematic satellite only. House guidance is a maximum of 10% of total portfolio value for Balanced mandates and 20% for Growth and Aggressive mandates. Unsuitable for Conservative profiles in any size."
+     },
+     {
+      "marker": "S4",
+      "chunk_id": "FS-SAA-2026Q2::00",
+      "doc_id": "FS-SAA-2026Q2",
+      "title": "Solaris AI & Automation Thematic Fund Factsheet",
+      "section": "Solaris AI & Automation Thematic Fund",
+      "source_file": "fund_solaris_ai_thematic.md",
+      "doc_type": "fund_factsheet",
+      "score": 0.3558,
+      "fusion_score": 0.032,
+      "snippet": "Solaris AI & Automation Thematic Fund Factsheet: Solaris AI & Automation Thematic Fund **Synthetic document. Fictional fund, fictional figures.** Solaris holds 28 to 35 positions across semiconductors, data-centre infrastructure, industrial automation and enterprise software. It is a deliberately concentrated expression of a single theme. **Risk rating:** 6 of 7 (High). **OCF:** 1.05%. **Dealing:** daily. The fund returned 18.4% year to date, the strongest in the fictional Aegis-covered range, and 61% of that came from six holdings. Tracking error against global equity is 9.2%. The manager notes that the strategy's fortunes are tied to the capital expenditure cycle of a small number of…"
+     },
+     {
+      "marker": "S5",
+      "chunk_id": "FS-CBM-2026Q2::00",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "score": 0.2084,
+      "fusion_score": 0.0315,
+      "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. Fictional fund, fictional figures.** Castellan runs a 55/35/10 split across equity, fixed income and alternatives, rebalanced quarterly with a tactical band of plus or minus ten percentage points on the equity sleeve. **Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily. Year to date the fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4."
+     },
+     {
+      "marker": "S6",
+      "chunk_id": "POL-SUIT-2026::00",
+      "doc_id": "POL-SUIT-2026",
+      "title": "Internal Note, Suitability Considerations for Advisory Recommendations",
+      "section": "Suitability considerations for advisory recommendations",
+      "source_file": "policy_suitability_note.md",
+      "doc_type": "policy_note",
+      "score": 0.1878,
+      "fusion_score": 0.01639,
+      "snippet": "Internal Note, Suitability Considerations for Advisory Recommendations: Suitability considerations for advisory recommendations **Synthetic internal note. Illustrative only. Not regulatory advice, and not a substitute for the firm's actual policies.** A recommendation is assessed against four things: the client's risk profile, their investment horizon and liquidity needs, their knowledge and experience, and any mandate constraints they have documented. Recurring failure patterns seen in file reviews: 1. High-risk instruments recommended into Conservative profiles on the argument that the position is small. Position size mitigates but does not remove the mismatch, and the rationale must be…"
+     },
+     {
+      "marker": "S7",
+      "chunk_id": "CM-EM-2026Q3::01",
+      "doc_id": "CM-EM-2026Q3",
+      "title": "Emerging Markets Outlook, Q3 2026",
+      "section": "Emerging markets outlook",
+      "source_file": "commentary_em_outlook.md",
+      "doc_type": "market_commentary",
+      "score": 0.1572,
+      "fusion_score": 0.01639,
+      "snippet": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook igh, and several central banks began cutting ahead of developed-market peers, which supports local bond prices. The dominant risk is dollar strength. A sustained rally in the dollar has historically been the largest single driver of emerging market debt drawdowns, exceeding the contribution of actual defaults. We are neutral on the asset class and would not increase allocations for clients whose risk profile makes a 15% drawdown unacceptable."
+     },
+     {
+      "marker": "S8",
+      "chunk_id": "POL-SUIT-2026::01",
+      "doc_id": "POL-SUIT-2026",
+      "title": "Internal Note, Suitability Considerations for Advisory Recommendations",
+      "section": "Suitability considerations for advisory recommendations",
+      "source_file": "policy_suitability_note.md",
+      "doc_type": "policy_note",
+      "score": 0.1827,
+      "fusion_score": 0.01613,
+      "snippet": "Internal Note, Suitability Considerations for Advisory Recommendations: Suitability considerations for advisory recommendations nts with near-term capital needs. Dealing frequency, notice periods and gates must be explained in writing before the recommendation is made. 3. Complex or leveraged products recommended to Retail clients without a completed appropriateness assessment. 4. Concentration building passively through performance rather than through a decision. Positions should be reviewed against limits at every meeting. 5. Advice given on a file where the suitability review is more than twelve months old. Where a flag is raised, the recommendation is not automatically prohibited. It…"
+     }
+    ],
+    "market_context": {
+     "summary": "Retrieved 8 passages from the research index covering CM-EQ-2026Q3, FS-SAA-2026Q2, HV-AA-2026Q3. Narrative summarisation was unavailable, so the key points below are extracted directly from the source passages.",
+     "key_points": [
+      {
+       "point": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. [S1]",
+       "sources": [
+        "S1"
+       ]
+      },
+      {
+       "point": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. [S2]",
+       "sources": [
+        "S2"
+       ]
+      },
+      {
+       "point": "Solaris AI & Automation Thematic Fund Factsheet: Solaris AI & Automation Thematic Fund olio simultaneously, and the diversification inside the fund is lower than the holding count suggests. [S3]",
+       "sources": [
+        "S3"
+       ]
+      },
+      {
+       "point": "Solaris AI & Automation Thematic Fund Factsheet: Solaris AI & Automation Thematic Fund **Synthetic document. [S4]",
+       "sources": [
+        "S4"
+       ]
+      }
+     ],
+     "relevance_to_client": "Review the cited passages directly. No model-generated interpretation was applied.",
+     "_generated_by": "deterministic_fallback",
+     "cited_markers": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+     ]
+    }
+   },
+   "error": null,
+   "meta": {
+    "task": "research"
+   }
+  },
+  {
+   "id": "028ae1b9b7",
+   "parent_id": "436e93b34d",
+   "kind": "llm",
+   "name": "research.plan_queries",
+   "label": "LLM · mock/deterministic-stub",
+   "started_at": "2026-08-08T12:58:08.045+00:00",
+   "ended_at": "2026-08-08T12:58:08.045+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "system": "You plan retrieval queries for a private bank's research index.\nThe index contains synthetic fund factsheets, market commentary, house views,\nresearch notes and one internal suitability policy note.\n\nGiven an adviser's request and a client's portfolio, produce up to 4 short,\nfocused search queries. One topic per query. Prefer the vocabulary a research\nanalyst would use over the adviser's phrasing.\n\nReturn JSON: {\"queries\": [\"...\", \"...\"], \"reasoning\": \"one sentence\"}\n\nRespond with a single valid JSON object and nothing else. No prose before or after, no markdown code fences.",
+    "user": "Adviser request: Prep me for tomorrow's meeting. The client is asking about the Solaris AI fund\n\nClient context: risk profile Conservative, horizon 4y, allocation {'Fixed Income': 34.0, 'Government Bonds': 26.0, 'Multi-Asset': 22.0, 'Cash': 12.0, 'Infrastructure': 6.0}, largest position Helvetia Short-Duration Bond Fund",
+    "temperature": 0.2
+   },
+   "output": "{\"_mock\": true, \"_note\": \"Deterministic stub output; agents fall back to rule-based assembly.\", \"_digest\": \"b1fb528e\"}",
+   "error": null,
+   "meta": {
+    "provider": "mock",
+    "model": "deterministic-stub",
+    "usage": {
+     "prompt_tokens": 225,
+     "completion_tokens": 12
+    }
+   }
+  },
+  {
+   "id": "8b82b637ee",
+   "parent_id": "436e93b34d",
+   "kind": "tool",
+   "name": "portfolio.lookup_instrument",
+   "label": "tool · portfolio.lookup_instrument",
+   "started_at": "2026-08-08T12:58:08.045+00:00",
+   "ended_at": "2026-08-08T12:58:08.045+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "instrument_id": "SAA"
+   },
+   "output": {
+    "instrument_id": "SAA",
+    "name": "Solaris AI & Automation Thematic Fund",
+    "asset_class": "Thematic Equity",
+    "risk_rating": 6,
+    "risk_band": "High",
+    "liquidity": "Daily",
+    "ocf_pct": 1.05,
+    "sectors": [
+     "Technology",
+     "Semiconductors",
+     "Industrials"
+    ],
+    "registered_jurisdictions": [
+     "GB",
+     "IE",
+     "AE"
+    ],
+    "leverage": false,
+    "doc": "fund_solaris_ai_thematic.md"
+   },
+   "error": null,
+   "meta": {
+    "server": "portfolio"
+   }
+  },
+  {
+   "id": "3b7a8d7858",
+   "parent_id": "436e93b34d",
+   "kind": "note",
+   "name": "research.instrument_queries",
+   "label": "Added 1 product-specific quer(y/ies) for ['SAA']",
+   "started_at": "2026-08-08T12:58:08.045+00:00",
+   "ended_at": "2026-08-08T12:58:08.045+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": [
+    "Solaris AI & Automation Thematic Fund outlook, risks and suitability"
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "a2d3f215b3",
+   "parent_id": "436e93b34d",
+   "kind": "note",
+   "name": "research.queries",
+   "label": "5 retrieval queries planned",
+   "started_at": "2026-08-08T12:58:08.045+00:00",
+   "ended_at": "2026-08-08T12:58:08.045+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": [
+    "Prep me for tomorrow's meeting. The client is asking about the Solaris AI fund",
+    "Fixed Income outlook and positioning",
+    "Government Bonds outlook and positioning",
+    "asset allocation house view for a Conservative mandate",
+    "Solaris AI & Automation Thematic Fund outlook, risks and suitability"
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "4320224713",
+   "parent_id": "436e93b34d",
+   "kind": "retrieval",
+   "name": "research.search",
+   "label": "retrieve · Prep me for tomorrow's meeting. The client is asking about t",
+   "started_at": "2026-08-08T12:58:08.045+00:00",
+   "ended_at": "2026-08-08T12:58:08.047+00:00",
+   "duration_ms": 2.5,
+   "status": "ok",
+   "input": {
+    "query": "Prep me for tomorrow's meeting. The client is asking about the Solaris AI fund"
+   },
+   "output": [
+    {
+     "doc_id": "POL-SUIT-2026",
+     "section": "Suitability considerations for advisory recommendations",
+     "score": 0.1878
+    },
+    {
+     "doc_id": "POL-SUIT-2026",
+     "section": "Suitability considerations for advisory recommendations",
+     "score": 0.1827
+    },
+    {
+     "doc_id": "FS-SAA-2026Q2",
+     "section": "Solaris AI & Automation Thematic Fund",
+     "score": 0.1821
+    },
+    {
+     "doc_id": "FS-SAA-2026Q2",
+     "section": "Solaris AI & Automation Thematic Fund",
+     "score": 0.1785
+    }
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "446d2d2cc8",
+   "parent_id": "4320224713",
+   "kind": "tool",
+   "name": "research.search",
+   "label": "tool · research.search",
+   "started_at": "2026-08-08T12:58:08.045+00:00",
+   "ended_at": "2026-08-08T12:58:08.047+00:00",
+   "duration_ms": 2.5,
+   "status": "ok",
+   "input": {
+    "query": "Prep me for tomorrow's meeting. The client is asking about the Solaris AI fund",
+    "k": 4
+   },
+   "output": {
+    "query": "Prep me for tomorrow's meeting. The client is asking about the Solaris AI fund",
+    "embedding_model": "hashing-bow-512",
+    "hit_count": 4,
+    "hits": [
+     {
+      "chunk_id": "POL-SUIT-2026::00",
+      "doc_id": "POL-SUIT-2026",
+      "title": "Internal Note, Suitability Considerations for Advisory Recommendations",
+      "section": "Suitability considerations for advisory recommendations",
+      "source_file": "policy_suitability_note.md",
+      "doc_type": "policy_note",
+      "text": "Internal Note, Suitability Considerations for Advisory Recommendations: Suitability considerations for advisory recommendations\n**Synthetic internal note. Illustrative only. Not regulatory advice, and\nnot a substitute for the firm's actual policies.**\n\nA recommendation is assessed against four things: the client's risk\nprofile, their investment horizon and liquidity needs, their knowledge and\nexperience, and any mandate constraints they have documented.\n\nRecurring failure patterns seen in file reviews:\n\n1. High-risk instruments recommended into Conservative profiles on the\n   argument that the position is small. Position size mitigates but does not\n   remove the mismatch, and the rationale must be documented.\n2. Illiquid or gated products recommended to clients with near-term capital\n   needs. Dealing frequency, notice periods and gates must be explained in\n   writing before the recommendation is made.\n3.",
+      "score": 0.1878
+     },
+     {
+      "chunk_id": "POL-SUIT-2026::01",
+      "doc_id": "POL-SUIT-2026",
+      "title": "Internal Note, Suitability Considerations for Advisory Recommendations",
+      "section": "Suitability considerations for advisory recommendations",
+      "source_file": "policy_suitability_note.md",
+      "doc_type": "policy_note",
+      "text": "Internal Note, Suitability Considerations for Advisory Recommendations: Suitability considerations for advisory recommendations\nnts with near-term capital\n   needs. Dealing frequency, notice periods and gates must be explained in\n   writing before the recommendation is made.\n3. Complex or leveraged products recommended to Retail clients without a\n   completed appropriateness assessment.\n4. Concentration building passively through performance rather than through\n   a decision. Positions should be reviewed against limits at every meeting.\n5. Advice given on a file where the suitability review is more than twelve\n   months old.\n\nWhere a flag is raised, the recommendation is not automatically prohibited.\nIt requires documented rationale, client acknowledgement, and in several\ncases second-line sign-off before it proceeds.",
+      "score": 0.1827
+     },
+     {
+      "chunk_id": "FS-SAA-2026Q2::00",
+      "doc_id": "FS-SAA-2026Q2",
+      "title": "Solaris AI & Automation Thematic Fund Factsheet",
+      "section": "Solaris AI & Automation Thematic Fund",
+      "source_file": "fund_solaris_ai_thematic.md",
+      "doc_type": "fund_factsheet",
+      "text": "Solaris AI & Automation Thematic Fund Factsheet: Solaris AI & Automation Thematic Fund\n**Synthetic document. Fictional fund, fictional figures.**\n\nSolaris holds 28 to 35 positions across semiconductors, data-centre\ninfrastructure, industrial automation and enterprise software. It is a\ndeliberately concentrated expression of a single theme.\n\n**Risk rating:** 6 of 7 (High). **OCF:** 1.05%. **Dealing:** daily.\n\nThe fund returned 18.4% year to date, the strongest in the fictional\nAegis-covered range, and 61% of that came from six holdings. Tracking error\nagainst global equity is 9.2%.\n\nThe manager notes that the strategy's fortunes are tied to the capital\nexpenditure cycle of a small number of hyperscale buyers. A pause in that\ncycle would affect revenue expectations across most of the portfolio\nsimultaneously, and the diversification inside the fund is lower than the\nholding count suggests.\n\n**Suitability note:** thematic satellite only.",
+      "score": 0.1821
+     },
+     {
+      "chunk_id": "FS-SAA-2026Q2::01",
+      "doc_id": "FS-SAA-2026Q2",
+      "title": "Solaris AI & Automation Thematic Fund Factsheet",
+      "section": "Solaris AI & Automation Thematic Fund",
+      "source_file": "fund_solaris_ai_thematic.md",
+      "doc_type": "fund_factsheet",
+      "text": "Solaris AI & Automation Thematic Fund Factsheet: Solaris AI & Automation Thematic Fund\nolio\nsimultaneously, and the diversification inside the fund is lower than the\nholding count suggests.\n\n**Suitability note:** thematic satellite only. House guidance is a maximum\nof 10% of total portfolio value for Balanced mandates and 20% for Growth\nand Aggressive mandates. Unsuitable for Conservative profiles in any size.",
+      "score": 0.1785
+     }
+    ]
+   },
+   "error": null,
+   "meta": {
+    "server": "research"
+   }
+  },
+  {
+   "id": "b054430100",
+   "parent_id": "436e93b34d",
+   "kind": "retrieval",
+   "name": "research.search",
+   "label": "retrieve · Fixed Income outlook and positioning",
+   "started_at": "2026-08-08T12:58:08.047+00:00",
+   "ended_at": "2026-08-08T12:58:08.049+00:00",
+   "duration_ms": 2.0,
+   "status": "ok",
+   "input": {
+    "query": "Fixed Income outlook and positioning"
+   },
+   "output": [
+    {
+     "doc_id": "CM-EQ-2026Q3",
+     "section": "Global equity outlook",
+     "score": 0.2518
+    },
+    {
+     "doc_id": "FS-MED-2026Q2",
+     "section": "Meridian Emerging Market Debt Fund",
+     "score": 0.2512
+    },
+    {
+     "doc_id": "FS-CBM-2026Q2",
+     "section": "Castellan Balanced Multi-Asset Fund",
+     "score": 0.2084
+    },
+    {
+     "doc_id": "CM-EQ-2026Q3",
+     "section": "Global equity outlook",
+     "score": 0.1963
+    }
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "6d78d30449",
+   "parent_id": "b054430100",
+   "kind": "tool",
+   "name": "research.search",
+   "label": "tool · research.search",
+   "started_at": "2026-08-08T12:58:08.047+00:00",
+   "ended_at": "2026-08-08T12:58:08.049+00:00",
+   "duration_ms": 1.9,
+   "status": "ok",
+   "input": {
+    "query": "Fixed Income outlook and positioning",
+    "k": 4
+   },
+   "output": {
+    "query": "Fixed Income outlook and positioning",
+    "embedding_model": "hashing-bow-512",
+    "hit_count": 4,
+    "hits": [
+     {
+      "chunk_id": "CM-EQ-2026Q3::01",
+      "doc_id": "CM-EQ-2026Q3",
+      "title": "Global Equity Outlook, Q3 2026",
+      "section": "Global equity outlook",
+      "source_file": "commentary_equity_outlook.md",
+      "doc_type": "market_commentary",
+      "text": "Global Equity Outlook, Q3 2026: Global equity outlook\nthe first such run in eighteen months.\n\nEarnings revisions are positive in aggregate but negative in consumer\ndiscretionary and European industrials. We remain neutral equity overall,\nwith a preference for quality balance sheets over momentum, and we are\ncautious about adding to concentrated thematic exposure at current levels.\n\nThe principal risk to this view is that the capital expenditure cycle\ndriving current earnings growth proves shorter than expected. See the\nseparate note on AI capital expenditure.",
+      "score": 0.2518
+     },
+     {
+      "chunk_id": "FS-MED-2026Q2::01",
+      "doc_id": "FS-MED-2026Q2",
+      "title": "Meridian Emerging Market Debt Fund Factsheet",
+      "section": "Meridian Emerging Market Debt Fund",
+      "source_file": "fund_meridian_em_debt.md",
+      "doc_type": "fund_factsheet",
+      "text": "Meridian Emerging Market Debt Fund Factsheet: Meridian Emerging Market Debt Fund\nof drawdown for\nthis strategy, ahead of default losses.\n\n**Suitability note:** despite sitting in a fixed income wrapper, this is a\nhigh-risk holding. Clients frequently misread \"bond fund\" as \"defensive\".\nAdvisers should be explicit that drawdowns of 15% or more are within the\nnormal range for the asset class.",
+      "score": 0.2512
+     },
+     {
+      "chunk_id": "FS-CBM-2026Q2::00",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "text": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund\n**Synthetic document. Fictional fund, fictional figures.**\n\nCastellan runs a 55/35/10 split across equity, fixed income and\nalternatives, rebalanced quarterly with a tactical band of plus or minus\nten percentage points on the equity sleeve.\n\n**Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily.\n\nYear to date the fund returned 4.9%. Equity contributed 3.8 points, fixed\nincome 0.7, and the alternatives sleeve, chiefly listed infrastructure and\ngold, contributed 0.4.",
+      "score": 0.2084
+     },
+     {
+      "chunk_id": "CM-EQ-2026Q3::00",
+      "doc_id": "CM-EQ-2026Q3",
+      "title": "Global Equity Outlook, Q3 2026",
+      "section": "Global equity outlook",
+      "source_file": "commentary_equity_outlook.md",
+      "doc_type": "market_commentary",
+      "text": "Global Equity Outlook, Q3 2026: Global equity outlook\n**Synthetic commentary. Illustrative views, not investment advice.**\n\nIndex-level valuations look stretched, but the aggregate figure conceals an\nunusually wide dispersion. The largest ten constituents of the global index\naccount for a fictional 29% of market capitalisation and trade at a 68%\npremium to the remaining constituents.\n\nMarket breadth has improved modestly this quarter: the equal-weighted index\noutperformed the capitalisation-weighted index in two of the last three\nmonths, the first such run in eighteen months.\n\nEarnings revisions are positive in aggregate but negative in consumer\ndiscretionary and European industrials.",
+      "score": 0.1963
+     }
+    ]
+   },
+   "error": null,
+   "meta": {
+    "server": "research"
+   }
+  },
+  {
+   "id": "819106f5d4",
+   "parent_id": "436e93b34d",
+   "kind": "retrieval",
+   "name": "research.search",
+   "label": "retrieve · Government Bonds outlook and positioning",
+   "started_at": "2026-08-08T12:58:08.049+00:00",
+   "ended_at": "2026-08-08T12:58:08.051+00:00",
+   "duration_ms": 2.0,
+   "status": "ok",
+   "input": {
+    "query": "Government Bonds outlook and positioning"
+   },
+   "output": [
+    {
+     "doc_id": "CM-EM-2026Q3",
+     "section": "Emerging markets outlook",
+     "score": 0.1572
+    },
+    {
+     "doc_id": "CM-EQ-2026Q3",
+     "section": "Global equity outlook",
+     "score": 0.1519
+    },
+    {
+     "doc_id": "HV-AA-2026Q3",
+     "section": "House view: asset allocation",
+     "score": 0.1478
+    },
+    {
+     "doc_id": "CM-RATES-2026Q3",
+     "section": "Rates and central bank outlook",
+     "score": 0.1359
+    }
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "9c6a456ce6",
+   "parent_id": "819106f5d4",
+   "kind": "tool",
+   "name": "research.search",
+   "label": "tool · research.search",
+   "started_at": "2026-08-08T12:58:08.049+00:00",
+   "ended_at": "2026-08-08T12:58:08.051+00:00",
+   "duration_ms": 2.0,
+   "status": "ok",
+   "input": {
+    "query": "Government Bonds outlook and positioning",
+    "k": 4
+   },
+   "output": {
+    "query": "Government Bonds outlook and positioning",
+    "embedding_model": "hashing-bow-512",
+    "hit_count": 4,
+    "hits": [
+     {
+      "chunk_id": "CM-EM-2026Q3::01",
+      "doc_id": "CM-EM-2026Q3",
+      "title": "Emerging Markets Outlook, Q3 2026",
+      "section": "Emerging markets outlook",
+      "source_file": "commentary_em_outlook.md",
+      "doc_type": "market_commentary",
+      "text": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook\nigh, and several central\nbanks began cutting ahead of developed-market peers, which supports local\nbond prices.\n\nThe dominant risk is dollar strength. A sustained rally in the dollar has\nhistorically been the largest single driver of emerging market debt\ndrawdowns, exceeding the contribution of actual defaults.\n\nWe are neutral on the asset class and would not increase allocations for\nclients whose risk profile makes a 15% drawdown unacceptable.",
+      "score": 0.1572
+     },
+     {
+      "chunk_id": "CM-EQ-2026Q3::01",
+      "doc_id": "CM-EQ-2026Q3",
+      "title": "Global Equity Outlook, Q3 2026",
+      "section": "Global equity outlook",
+      "source_file": "commentary_equity_outlook.md",
+      "doc_type": "market_commentary",
+      "text": "Global Equity Outlook, Q3 2026: Global equity outlook\nthe first such run in eighteen months.\n\nEarnings revisions are positive in aggregate but negative in consumer\ndiscretionary and European industrials. We remain neutral equity overall,\nwith a preference for quality balance sheets over momentum, and we are\ncautious about adding to concentrated thematic exposure at current levels.\n\nThe principal risk to this view is that the capital expenditure cycle\ndriving current earnings growth proves shorter than expected. See the\nseparate note on AI capital expenditure.",
+      "score": 0.1519
+     },
+     {
+      "chunk_id": "HV-AA-2026Q3::00",
+      "doc_id": "HV-AA-2026Q3",
+      "title": "House View, Strategic and Tactical Asset Allocation Q3 2026",
+      "section": "House view: asset allocation",
+      "source_file": "house_view_asset_allocation.md",
+      "doc_type": "house_view",
+      "text": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation\n**Synthetic house view. Illustrative only.**\n\nTactical positions against strategic weights this quarter:\n\n- Equity: neutral. Valuation is unattractive but earnings momentum is intact.\n- Government bonds: neutral duration, preference for the 2 to 5 year part of\n  the curve.\n- Investment grade credit: modest overweight, funded from high yield.\n- High yield: underweight, on spread levels rather than default expectations.\n- Real assets: modest overweight, chiefly listed infrastructure.\n- Cash: overweight, at 6 to 8% for most mandates, held as optionality.\n\nModel allocations by risk profile are unchanged: Conservative 25% growth\nassets, Balanced 50%, Growth 70%, Aggressive 85%.\n\nThe committee's stated conviction level this quarter is low. Where\nconviction is low, the correct response is smaller active positions, not\nmore of them.",
+      "score": 0.1478
+     },
+     {
+      "chunk_id": "CM-RATES-2026Q3::01",
+      "doc_id": "CM-RATES-2026Q3",
+      "title": "Rates and Central Bank Outlook, Q3 2026",
+      "section": "Rates and central bank outlook",
+      "source_file": "commentary_rates_outlook.md",
+      "doc_type": "market_commentary",
+      "text": "Rates and Central Bank Outlook, Q3 2026: Rates and central bank outlook\ned but remains above the level consistent with target inflation.\n\nFor portfolios this argues for holding duration at neutral rather than\nextending it. Short-duration credit continues to offer most of the yield\nwith a fraction of the interest rate risk, and gilt ladders remain an\nefficient way to lock in known cash flows against dated liabilities.\n\nWe would revisit this stance if services inflation prints below 3.5% for two\nconsecutive months, or if unemployment rises above 5.2%.",
+      "score": 0.1359
+     }
+    ]
+   },
+   "error": null,
+   "meta": {
+    "server": "research"
+   }
+  },
+  {
+   "id": "ef528735c1",
+   "parent_id": "436e93b34d",
+   "kind": "retrieval",
+   "name": "research.search",
+   "label": "retrieve · asset allocation house view for a Conservative mandate",
+   "started_at": "2026-08-08T12:58:08.051+00:00",
+   "ended_at": "2026-08-08T12:58:08.054+00:00",
+   "duration_ms": 2.3,
+   "status": "ok",
+   "input": {
+    "query": "asset allocation house view for a Conservative mandate"
+   },
+   "output": [
+    {
+     "doc_id": "HV-AA-2026Q3",
+     "section": "House view: asset allocation",
+     "score": 0.3622
+    },
+    {
+     "doc_id": "HV-ALTS-2026Q3",
+     "section": "House view: alternatives and private markets",
+     "score": 0.2881
+    },
+    {
+     "doc_id": "FS-CBM-2026Q2",
+     "section": "Castellan Balanced Multi-Asset Fund",
+     "score": 0.2748
+    },
+    {
+     "doc_id": "FS-CBM-2026Q2",
+     "section": "Castellan Balanced Multi-Asset Fund",
+     "score": 0.2022
+    }
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "afade9275f",
+   "parent_id": "ef528735c1",
+   "kind": "tool",
+   "name": "research.search",
+   "label": "tool · research.search",
+   "started_at": "2026-08-08T12:58:08.051+00:00",
+   "ended_at": "2026-08-08T12:58:08.054+00:00",
+   "duration_ms": 2.3,
+   "status": "ok",
+   "input": {
+    "query": "asset allocation house view for a Conservative mandate",
+    "k": 4
+   },
+   "output": {
+    "query": "asset allocation house view for a Conservative mandate",
+    "embedding_model": "hashing-bow-512",
+    "hit_count": 4,
+    "hits": [
+     {
+      "chunk_id": "HV-AA-2026Q3::00",
+      "doc_id": "HV-AA-2026Q3",
+      "title": "House View, Strategic and Tactical Asset Allocation Q3 2026",
+      "section": "House view: asset allocation",
+      "source_file": "house_view_asset_allocation.md",
+      "doc_type": "house_view",
+      "text": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation\n**Synthetic house view. Illustrative only.**\n\nTactical positions against strategic weights this quarter:\n\n- Equity: neutral. Valuation is unattractive but earnings momentum is intact.\n- Government bonds: neutral duration, preference for the 2 to 5 year part of\n  the curve.\n- Investment grade credit: modest overweight, funded from high yield.\n- High yield: underweight, on spread levels rather than default expectations.\n- Real assets: modest overweight, chiefly listed infrastructure.\n- Cash: overweight, at 6 to 8% for most mandates, held as optionality.\n\nModel allocations by risk profile are unchanged: Conservative 25% growth\nassets, Balanced 50%, Growth 70%, Aggressive 85%.\n\nThe committee's stated conviction level this quarter is low. Where\nconviction is low, the correct response is smaller active positions, not\nmore of them.",
+      "score": 0.3622
+     },
+     {
+      "chunk_id": "HV-ALTS-2026Q3::00",
+      "doc_id": "HV-ALTS-2026Q3",
+      "title": "House View, Alternatives and Private Markets Q3 2026",
+      "section": "House view: alternatives and private markets",
+      "source_file": "house_view_alternatives.md",
+      "doc_type": "house_view",
+      "text": "House View, Alternatives and Private Markets Q3 2026: House view: alternatives and private markets\n**Synthetic house view. Illustrative only.**\n\nThe committee's position is that the illiquidity premium in private credit\nhas compressed to the point where it no longer compensates for the\ngovernance and liquidity costs in most private client portfolios.\n\nIllustrative allocation limits: private markets exposure should not exceed\n15% of total portfolio value for Growth and Aggressive mandates, 5% for\nBalanced, and zero for Conservative mandates or any client with High\nliquidity needs.\n\nSemi-liquid structures deserve particular scrutiny. Quarterly dealing with\ngates offers the appearance of liquidity without the substance, and clients\nroutinely misunderstand what a gate does until it is applied.\n\nListed infrastructure and listed real assets remain the committee's\npreferred route into real asset exposure for portfolios below £10m, on\ngovernance grounds rather than expected return.",
+      "score": 0.2881
+     },
+     {
+      "chunk_id": "FS-CBM-2026Q2::01",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "text": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund\nreturned 4.9%. Equity contributed 3.8 points, fixed\nincome 0.7, and the alternatives sleeve, chiefly listed infrastructure and\ngold, contributed 0.4. Realised volatility over twelve months was 7.9%.\n\nThe tactical overlay is currently 3 points underweight equity and holds an\nelevated 8% cash position, reflecting the house view that policy rates fall\nmore slowly than forward markets imply.\n\n**Suitability note:** the default one-fund solution for Balanced mandates\nand a common core sleeve inside Conservative portfolios where the client\naccepts moderate equity exposure. Worst twelve-month period since launch\nwas minus 11.2%.",
+      "score": 0.2748
+     },
+     {
+      "chunk_id": "FS-CBM-2026Q2::00",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "text": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund\n**Synthetic document. Fictional fund, fictional figures.**\n\nCastellan runs a 55/35/10 split across equity, fixed income and\nalternatives, rebalanced quarterly with a tactical band of plus or minus\nten percentage points on the equity sleeve.\n\n**Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily.\n\nYear to date the fund returned 4.9%. Equity contributed 3.8 points, fixed\nincome 0.7, and the alternatives sleeve, chiefly listed infrastructure and\ngold, contributed 0.4.",
+      "score": 0.2022
+     }
+    ]
+   },
+   "error": null,
+   "meta": {
+    "server": "research"
+   }
+  },
+  {
+   "id": "6cff2629d4",
+   "parent_id": "436e93b34d",
+   "kind": "retrieval",
+   "name": "research.search",
+   "label": "retrieve · Solaris AI & Automation Thematic Fund outlook, risks and sui",
+   "started_at": "2026-08-08T12:58:08.054+00:00",
+   "ended_at": "2026-08-08T12:58:08.056+00:00",
+   "duration_ms": 2.1,
+   "status": "ok",
+   "input": {
+    "query": "Solaris AI & Automation Thematic Fund outlook, risks and suitability"
+   },
+   "output": [
+    {
+     "doc_id": "FS-SAA-2026Q2",
+     "section": "Solaris AI & Automation Thematic Fund",
+     "score": 0.4426
+    },
+    {
+     "doc_id": "FS-SAA-2026Q2",
+     "section": "Solaris AI & Automation Thematic Fund",
+     "score": 0.3558
+    },
+    {
+     "doc_id": "CM-EQ-2026Q3",
+     "section": "Global equity outlook",
+     "score": 0.2032
+    },
+    {
+     "doc_id": "FS-AGE-2026Q2",
+     "section": "Aurora Global Equity Fund",
+     "score": 0.2014
+    }
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "ac72492e5d",
+   "parent_id": "6cff2629d4",
+   "kind": "tool",
+   "name": "research.search",
+   "label": "tool · research.search",
+   "started_at": "2026-08-08T12:58:08.054+00:00",
+   "ended_at": "2026-08-08T12:58:08.056+00:00",
+   "duration_ms": 2.1,
+   "status": "ok",
+   "input": {
+    "query": "Solaris AI & Automation Thematic Fund outlook, risks and suitability",
+    "k": 4
+   },
+   "output": {
+    "query": "Solaris AI & Automation Thematic Fund outlook, risks and suitability",
+    "embedding_model": "hashing-bow-512",
+    "hit_count": 4,
+    "hits": [
+     {
+      "chunk_id": "FS-SAA-2026Q2::01",
+      "doc_id": "FS-SAA-2026Q2",
+      "title": "Solaris AI & Automation Thematic Fund Factsheet",
+      "section": "Solaris AI & Automation Thematic Fund",
+      "source_file": "fund_solaris_ai_thematic.md",
+      "doc_type": "fund_factsheet",
+      "text": "Solaris AI & Automation Thematic Fund Factsheet: Solaris AI & Automation Thematic Fund\nolio\nsimultaneously, and the diversification inside the fund is lower than the\nholding count suggests.\n\n**Suitability note:** thematic satellite only. House guidance is a maximum\nof 10% of total portfolio value for Balanced mandates and 20% for Growth\nand Aggressive mandates. Unsuitable for Conservative profiles in any size.",
+      "score": 0.4426
+     },
+     {
+      "chunk_id": "FS-SAA-2026Q2::00",
+      "doc_id": "FS-SAA-2026Q2",
+      "title": "Solaris AI & Automation Thematic Fund Factsheet",
+      "section": "Solaris AI & Automation Thematic Fund",
+      "source_file": "fund_solaris_ai_thematic.md",
+      "doc_type": "fund_factsheet",
+      "text": "Solaris AI & Automation Thematic Fund Factsheet: Solaris AI & Automation Thematic Fund\n**Synthetic document. Fictional fund, fictional figures.**\n\nSolaris holds 28 to 35 positions across semiconductors, data-centre\ninfrastructure, industrial automation and enterprise software. It is a\ndeliberately concentrated expression of a single theme.\n\n**Risk rating:** 6 of 7 (High). **OCF:** 1.05%. **Dealing:** daily.\n\nThe fund returned 18.4% year to date, the strongest in the fictional\nAegis-covered range, and 61% of that came from six holdings. Tracking error\nagainst global equity is 9.2%.\n\nThe manager notes that the strategy's fortunes are tied to the capital\nexpenditure cycle of a small number of hyperscale buyers. A pause in that\ncycle would affect revenue expectations across most of the portfolio\nsimultaneously, and the diversification inside the fund is lower than the\nholding count suggests.\n\n**Suitability note:** thematic satellite only.",
+      "score": 0.3558
+     },
+     {
+      "chunk_id": "CM-EQ-2026Q3::01",
+      "doc_id": "CM-EQ-2026Q3",
+      "title": "Global Equity Outlook, Q3 2026",
+      "section": "Global equity outlook",
+      "source_file": "commentary_equity_outlook.md",
+      "doc_type": "market_commentary",
+      "text": "Global Equity Outlook, Q3 2026: Global equity outlook\nthe first such run in eighteen months.\n\nEarnings revisions are positive in aggregate but negative in consumer\ndiscretionary and European industrials. We remain neutral equity overall,\nwith a preference for quality balance sheets over momentum, and we are\ncautious about adding to concentrated thematic exposure at current levels.\n\nThe principal risk to this view is that the capital expenditure cycle\ndriving current earnings growth proves shorter than expected. See the\nseparate note on AI capital expenditure.",
+      "score": 0.2032
+     },
+     {
+      "chunk_id": "FS-AGE-2026Q2::00",
+      "doc_id": "FS-AGE-2026Q2",
+      "title": "Aurora Global Equity Fund Factsheet",
+      "section": "Aurora Global Equity Fund",
+      "source_file": "fund_aurora_global_equity.md",
+      "doc_type": "fund_factsheet",
+      "text": "Aurora Global Equity Fund Factsheet: Aurora Global Equity Fund\n**Synthetic document. Fictional fund, fictional figures.**\n\nAurora is a core global developed-market equity strategy holding 60 to 80\npositions with a median holding period of four years. The manager, Ines\nVillalobos, has run the strategy since its fictional launch in 2014.\n\n**Risk rating:** 6 of 7 (High). **OCF:** 0.82%. **Dealing:** daily.\n\nAurora returned 9.6% year to date against 8.1% for its composite benchmark.\nAttribution was dominated by semiconductor and industrial automation names;\nan underweight to European utilities detracted 40 basis points. Regional\nweights are 62% North America, 21% Europe, 11% Japan, 6% other developed.\n\nThe manager has trimmed the technology overweight from 31% to 26% over the\nquarter, citing valuation dispersion rather than a change of view on\nearnings.",
+      "score": 0.2014
+     }
+    ]
+   },
+   "error": null,
+   "meta": {
+    "server": "research"
+   }
+  },
+  {
+   "id": "dc14f8f8a9",
+   "parent_id": "436e93b34d",
+   "kind": "note",
+   "name": "research.fusion",
+   "label": "8 passages from 6 documents, fused across 5 queries by reciprocal rank",
+   "started_at": "2026-08-08T12:58:08.056+00:00",
+   "ended_at": "2026-08-08T12:58:08.056+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": [
+    "S1=CM-EQ-2026Q3 (rrf 0.0484)",
+    "S2=HV-AA-2026Q3 (rrf 0.03227)",
+    "S3=FS-SAA-2026Q2 (rrf 0.03202)",
+    "S4=FS-SAA-2026Q2 (rrf 0.032)",
+    "S5=FS-CBM-2026Q2 (rrf 0.0315)",
+    "S6=POL-SUIT-2026 (rrf 0.01639)",
+    "S7=CM-EM-2026Q3 (rrf 0.01639)",
+    "S8=POL-SUIT-2026 (rrf 0.01613)"
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "d88869bf19",
+   "parent_id": "436e93b34d",
+   "kind": "llm",
+   "name": "research.summarise",
+   "label": "LLM · mock/deterministic-stub",
+   "started_at": "2026-08-08T12:58:08.056+00:00",
+   "ended_at": "2026-08-08T12:58:08.056+00:00",
+   "duration_ms": 0.1,
+   "status": "ok",
+   "input": {
+    "system": "You are a research analyst at a private bank, writing for an\nadviser who is about to meet a client.\n\nRules:\n- Use ONLY the numbered sources provided. Never use outside knowledge.\n- Cite with the exact markers given, like [S1] or [S2, S4]. Every factual claim\n  needs a marker.\n- If the sources do not answer part of the request, say so plainly.\n- Neutral, specific, no sales language. British English.\n- All source material is synthetic demo data; do not imply otherwise.\n\nReturn JSON:\n{\n  \"summary\": \"3-5 sentences of market context relevant to this client, with [S#] markers\",\n  \"key_points\": [{\"point\": \"one sentence with [S#] markers\", \"sources\": [\"S1\"]}],\n  \"relevance_to_client\": \"2-3 sentences connecting the research to this client's mandate\"\n}\n\nRespond with a single valid JSON object and nothing else. No prose before or after, no markdown code fences.",
+    "user": "Adviser request: Prep me for tomorrow's meeting. The client is asking about the Solaris AI fund\n\nClient context: risk profile Conservative, horizon 4y, allocation {'Fixed Income': 34.0, 'Government Bonds': 26.0, 'Multi-Asset': 22.0, 'Cash': 12.0, 'Infrastructure': 6.0}, largest position Helvetia Short-Duration Bond Fund\n\nSources:\n[S1] Global Equity Outlook, Q3 2026 · Global equity outlook (doc_id CM-EQ-2026Q3)\nGlobal Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheets over momentum, and we are cautious about adding to concentrated thematic exposure at current levels. The principal risk to this view is that the capital expenditure cycle driving current earnings growth proves shorter than expected. See the separate note on AI capital expenditure.\n\n[S2] House View, Strategic and Tactical Asset Allocation Q3 2026 · House view: asset allocation (doc_id HV-AA-2026Q3)\nHouse View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. Illustrative only.** Tactical positions against strategic weights this quarter: - Equity: neutral. Valuation is unattractive but earnings momentum is intact. - Government bonds: neutral duration, preference for the 2 to 5 year part of the curve. - Investment grade credit: modest overweight, funded from high yield. - High yield: underweight, on spread levels rather than default expectations. - Real assets: modest overweight, chiefly listed infrastructure. - Cash: overweight, at 6 to 8% for most mandates, held as optionality. Model allocations by risk profile are unchanged:…\n\n[S3] Solaris AI & Automation Thematic Fund Factsheet · Solaris AI & Automation Thematic Fund (doc_id FS-SAA-2026Q2)\nSolaris AI & Automation Thematic Fund Factsheet: Solaris AI & Automation Thematic Fund olio simultaneously, and the diversification inside the fund is lower than the holding count suggests. **Suitability note:** thematic satellite only. House guidance is a maximum of 10% of total portfolio value for Balanced mandates and 20% for Growth and Aggressive mandates. Unsuitable for Conservative profiles in any size.\n\n[S4] Solaris AI & Automation Thematic Fund Factsheet · Solaris AI & Automation Thematic Fund (doc_id FS-SAA-2026Q2)\nSolaris AI & Automation Thematic Fund Factsheet: Solaris AI & Automation Thematic Fund **Synthetic document. Fictional fund, fictional figures.** Solaris holds 28 to 35 positions across semiconductors, data-centre infrastructure, industrial automation and enterprise software. It is a deliberately concentrated expression of a single theme. **Risk rating:** 6 of 7 (High). **OCF:** 1.05%. **Dealing:** daily. The fund returned 18.4% year to date, the strongest in the fictional Aegis-covered range, and 61% of that came from six holdings. Tracking error against global equity is 9.2%. The manager notes that the strategy's fortunes are tied to the capital expenditure cycle of a small number of…\n\n[S5] Castellan Balanced Multi-Asset Fund Factsheet · Castellan Balanced Multi-Asset Fund (doc_id FS-CBM-2026Q2)\nCastellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. Fictional fund, fictional figures.** Castellan runs a 55/35/10 split across equity, fixed income and alternatives, rebalanced quarterly with a tactical band of plus or minus ten percentage points on the equity sleeve. **Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily. Year to date the fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4.\n\n[S6] Internal Note, Suitability Considerations for Advisory Recommendations · Suitability considerations for advisory recommendations (doc_id POL-SUIT-2026)\nInternal Note, Suitability Con… [+2120 chars]",
+    "temperature": 0.2
+   },
+   "output": "{\"_mock\": true, \"_note\": \"Deterministic stub output; agents fall back to rule-based assembly.\", \"_digest\": \"43f253c4\"}",
+   "error": null,
+   "meta": {
+    "provider": "mock",
+    "model": "deterministic-stub",
+    "usage": {
+     "prompt_tokens": 1745,
+     "completion_tokens": 12
+    }
+   }
+  },
+  {
+   "id": "73ac2c269a",
+   "parent_id": "1e741f48bf",
+   "kind": "agent",
+   "name": "compliance",
+   "label": "orchestrator → compliance · check",
+   "started_at": "2026-08-08T12:58:08.057+00:00",
+   "ended_at": "2026-08-08T12:58:08.059+00:00",
+   "duration_ms": 1.9,
+   "status": "ok",
+   "input": {
+    "client_id": "4521",
+    "query": "Prep me for tomorrow's meeting. The client is asking about the Solaris AI fund",
+    "proposed_instruments": [
+     "SAA"
+    ]
+   },
+   "output": {
+    "status": "fail",
+    "flag_count": 1,
+    "flags": [
+     {
+      "rule_id": "R1",
+      "rule_name": "Risk profile alignment",
+      "severity": "high",
+      "instrument_id": "SAA",
+      "detail": "Solaris AI & Automation Thematic Fund is risk 6/7 against a maximum of 4/7 for a Conservative profile.",
+      "remediation": "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement."
+     }
+    ],
+    "proposals_checked": [
+     "SAA"
+    ],
+    "rules_evaluated": [
+     "R1-existing",
+     "R1:SAA",
+     "R2",
+     "R3:SAA",
+     "R4:SAA",
+     "R5:SAA",
+     "R6",
+     "R7:SAA"
+    ],
+    "adviser_note": "The suitability check returned FAIL with 1 flag(s), of which 1 are high severity. Each flag below cites the rule that produced it.",
+    "actions_before_meeting": [
+     "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement."
+    ],
+    "disclaimer": "Illustrative rules for a demonstration project. Not regulatory advice."
+   },
+   "error": null,
+   "meta": {
+    "task": "check"
+   }
+  },
+  {
+   "id": "65cec0f219",
+   "parent_id": "73ac2c269a",
+   "kind": "note",
+   "name": "compliance.proposals",
+   "label": "Checking 1 instrument(s) proposed by the orchestrator",
+   "started_at": "2026-08-08T12:58:08.057+00:00",
+   "ended_at": "2026-08-08T12:58:08.057+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": [
+    "SAA"
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "9214c1feb7",
+   "parent_id": "73ac2c269a",
+   "kind": "tool",
+   "name": "compliance.check_suitability",
+   "label": "tool · compliance.check_suitability",
+   "started_at": "2026-08-08T12:58:08.057+00:00",
+   "ended_at": "2026-08-08T12:58:08.058+00:00",
+   "duration_ms": 1.7,
+   "status": "ok",
+   "input": {
+    "client_id": "4521",
+    "proposed_instruments": [
+     "SAA"
+    ],
+    "include_existing_holdings": true
+   },
+   "output": {
+    "client_id": "4521",
+    "status": "fail",
+    "risk_profile": "Conservative",
+    "investor_classification": "Retail",
+    "proposals_checked": [
+     "SAA"
+    ],
+    "unknown_instruments": [],
+    "existing_holdings_checked": true,
+    "rules_evaluated": [
+     "R1-existing",
+     "R1:SAA",
+     "R2",
+     "R3:SAA",
+     "R4:SAA",
+     "R5:SAA",
+     "R6",
+     "R7:SAA"
+    ],
+    "flag_count": 1,
+    "flags": [
+     {
+      "rule_id": "R1",
+      "rule_name": "Risk profile alignment",
+      "severity": "high",
+      "instrument_id": "SAA",
+      "detail": "Solaris AI & Automation Thematic Fund is risk 6/7 against a maximum of 4/7 for a Conservative profile.",
+      "remediation": "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement."
+     }
+    ],
+    "disclaimer": "Illustrative rules for a demonstration project. Not regulatory advice."
+   },
+   "error": null,
+   "meta": {
+    "server": "compliance"
+   }
+  },
+  {
+   "id": "f69f0ba821",
+   "parent_id": "73ac2c269a",
+   "kind": "note",
+   "name": "compliance.decision",
+   "label": "Status FAIL, 1 flag(s) from 8 rule evaluations",
+   "started_at": "2026-08-08T12:58:08.059+00:00",
+   "ended_at": "2026-08-08T12:58:08.059+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": {
+    "status": "fail",
+    "flags": [
+     "R1"
+    ]
+   },
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "227fb2a441",
+   "parent_id": "73ac2c269a",
+   "kind": "llm",
+   "name": "compliance.explain",
+   "label": "LLM · mock/deterministic-stub",
+   "started_at": "2026-08-08T12:58:08.059+00:00",
+   "ended_at": "2026-08-08T12:58:08.059+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "system": "You write compliance notes for advisers at a private bank.\n\nYou are given the output of a deterministic suitability rules engine. Your job\nis to explain it, not to judge it. You must not change the status, add flags,\nremove flags, or soften a finding.\n\nWrite plainly, in British English, for an adviser preparing for a meeting.\nState what was checked, what was flagged and what they must do before the\nmeeting. If nothing was flagged, say so without padding.\n\nReturn JSON:\n{\n  \"adviser_note\": \"2-4 sentences\",\n  \"actions_before_meeting\": [\"imperative action\", \"...\"]\n}\n\nRespond with a single valid JSON object and nothing else. No prose before or after, no markdown code fences.",
+    "user": "Status: FAIL\nClient risk profile: Conservative\nInvestor classification: Retail\nInstruments checked: SAA\nFlags:\n- [R1 · high] Risk profile alignment: Solaris AI & Automation Thematic Fund is risk 6/7 against a maximum of 4/7 for a Conservative profile. Remediation: Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement.",
+    "temperature": 0.2
+   },
+   "output": "{\"_mock\": true, \"_note\": \"Deterministic stub output; agents fall back to rule-based assembly.\", \"_digest\": \"c36e5b9b\"}",
+   "error": null,
+   "meta": {
+    "provider": "mock",
+    "model": "deterministic-stub",
+    "usage": {
+     "prompt_tokens": 261,
+     "completion_tokens": 12
+    }
+   }
+  },
+  {
+   "id": "5413b89926",
+   "parent_id": "1e741f48bf",
+   "kind": "agent",
+   "name": "synthesis",
+   "label": "orchestrator → synthesis · synthesise",
+   "started_at": "2026-08-08T12:58:08.059+00:00",
+   "ended_at": "2026-08-08T12:58:08.059+00:00",
+   "duration_ms": 0.3,
+   "status": "ok",
+   "input": {
+    "query": "Prep me for tomorrow's meeting. The client is asking about the Solaris AI fund",
+    "portfolio": {
+     "client_profile": {
+      "client_id": "4521",
+      "name": "Margaret Ellwood-Vance (SYNTHETIC)",
+      "data_notice": "SYNTHETIC. Fictional client, not a real person",
+      "segment": "Private Client",
+      "domicile": "GB",
+      "adviser": "J. Okonkwo (synthetic)",
+      "risk_profile": "Conservative",
+      "investor_classification": "Retail",
+      "investment_horizon_years": 4,
+      "liquidity_needs": "High",
+      "esg_mandate": false,
+      "esg_exclusions": [],
+      "last_suitability_review": "2026-05-14",
+      "next_meeting": "2026-08-08",
+      "objectives": [
+       "Preserve capital in real terms",
+       "Fund a property purchase in roughly three years",
+       "Predictable income to supplement pension drawdown"
+      ],
+      "constraints": [
+       "No single position above 20% of the portfolio",
+       "At least 10% held in cash or near-cash"
+      ],
+      "adviser_notes": "Risk-averse; reacted badly to 2022 drawdown. Values plain explanations."
+     },
+     "portfolio_snapshot": {
+      "client_id": "4521",
+      "as_of": "2026-08-06",
+      "total_value_gbp": 2450000,
+      "currency": "GBP",
+      "holdings": [
+       {
+        "instrument_id": "HSD",
+        "name": "Helvetia Short-Duration Bond Fund",
+        "asset_class": "Fixed Income",
+        "risk_rating": 2,
+        "risk_band": "Low",
+        "weight_pct": 34.0,
+        "value_gbp": 833000.0,
+        "ytd_return_pct": 2.1
+       },
+       {
+        "instrument_id": "GILT",
+        "name": "UK Gilt Ladder (2027-2032)",
+        "asset_class": "Government Bonds",
+        "risk_rating": 1,
+        "risk_band": "Low",
+        "weight_pct": 26.0,
+        "value_gbp": 637000.0,
+        "ytd_return_pct": 1.7
+       },
+       {
+        "instrument_id": "CBM",
+        "name": "Castellan Balanced Multi-Asset Fund",
+        "asset_class": "Multi-Asset",
+        "risk_rating": 4,
+        "risk_band": "Medium",
+        "weight_pct": 22.0,
+        "value_gbp": 539000.0,
+        "ytd_return_pct": 4.9
+       },
+       {
+        "instrument_id": "NII",
+        "name": "Northwind Infrastructure Income Fund",
+        "asset_class": "Infrastructure",
+        "risk_rating": 4,
+        "risk_band": "Medium",
+        "weight_pct": 6.0,
+        "value_gbp": 147000.0,
+        "ytd_return_pct": 3.4
+       },
+       {
+        "instrument_id": "CASH",
+        "name": "GBP Cash & Money Market",
+        "asset_class": "Cash",
+        "risk_rating": 1,
+        "risk_band": "Low",
+        "weight_pct": 12.0,
+        "value_gbp": 294000.0,
+        "ytd_return_pct": 0.0
+       }
+      ],
+      "largest_position_pct": 34.0,
+      "cash_pct": 12.0,
+      "weighted_risk_rating": 2.18,
+      "performance": {
+       "ytd_return_pct": 2.44,
+       "one_year_return_pct": 4.64,
+       "three_year_annualised_pct": 3.29,
+       "benchmark": "Synthetic composite benchmark",
+       "vs_benchmark_ytd_pct": -1.96,
+       "volatility_pct": 6.54,
+       "max_drawdown_pct": -8.67
+      }
+     },
+     "derived": {
+      "growth_asset_pct": 28.0,
+      "allocation_by_asset_class": {
+       "Fixed Income": 34.0,
+       "Government Bonds": 26.0,
+       "Multi-Asset": 22.0,
+       "Cash": 12.0,
+       "Infrastructure": 6.0
+      },
+      "largest_position": {
+       "instrument_id": "HSD",
+       "name": "Helvetia Short-Duration Bond Fund",
+       "weight_pct": 34.0
+      },
+      "best_performer": {
+       "name": "Castellan Balanced Multi-Asset Fund",
+       "ytd_return_pct": 4.9
+      },
+      "worst_performer": {
+       "name": "GBP Cash & Money Market",
+       "ytd_return_pct": 0.0
+      },
+      "held_instrument_ids": [
+       "HSD",
+       "GILT",
+       "CBM",
+       "NII",
+       "CASH"
+      ],
+      "top_holdings": [
+       {
+        "instrument_id": "CBM",
+        "name": "Castellan Balanced Multi-Asset Fund",
+        "weight_pct": 22.0
+       },
+       {
+        "instrument_id": "NII",
+        "name": "Northwind Infrastructure Income Fund",
+        "weight_pct": 6.0
+       }
+      ],
+      "risk_profile": "Conservative",
+      "horizon_years": 4
+     }
+    },
+    "research": {
+     "queries": [
+      "Prep me for tomorrow's meeting. The client is asking about the Solaris AI fund",
+      "Fixed Income outlook and positioning",
+      "Government Bonds outlook and positioning",
+      "asset allocation house view for a Conservative mandate",
+      "Solaris AI & Automation Thematic Fund outlook, risks and suitability"
+     ],
+     "retrieval_by_query": [
+      {
+       "query": "Prep me for tomorrow's meeting. The client is asking about the Solaris AI fund",
+       "hits": [
+        "POL-SUIT-2026::00",
+        "POL-SUIT-2026::01",
+        "FS-SAA-2026Q2::00",
+        "FS-SAA-2026Q2::01"
+       ]
+      },
+      {
+       "query": "Fixed Income outlook and positioning",
+       "hits": [
+        "CM-EQ-2026Q3::01",
+        "FS-MED-2026Q2::01",
+        "FS-CBM-2026Q2::00",
+        "CM-EQ-2026Q3::00"
+       ]
+      },
+      {
+       "query": "Government Bonds outlook and positioning",
+       "hits": [
+        "CM-EM-2026Q3::01",
+        "CM-EQ-2026Q3::01",
+        "HV-AA-2026Q3::00",
+        "CM-RATES-2026Q3::01"
+       ]
+      },
+      {
+       "query": "asset allocation house view for a Conservative mandate",
+       "hits": [
+        "HV-AA-2026Q3::00",
+        "HV-ALTS-2026Q3::00",
+        "FS-CBM-2026Q2::01",
+        "FS-CBM-2026Q2::00"
+       ]
+      },
+      {
+       "query": "Solaris AI & Automation Thematic Fund outlook, risks and suitability",
+       "hits": [
+        "FS-SAA-2026Q2::01",
+        "FS-SAA-2026Q2::00",
+        "CM-EQ-2026Q3::01",
+        "FS-AGE-2026Q2::00"
+       ]
+      }
+     ],
+     "sources": [
+      {
+       "marker": "S1",
+       "chunk_id": "CM-EQ-2026Q3::01",
+       "doc_id": "CM-EQ-2026Q3",
+       "title": "Global Equity Outlook, Q3 2026",
+       "section": "Global equity outlook",
+       "source_file": "commentary_equity_outlook.md",
+       "doc_type": "market_commentary",
+       "score": 0.2518,
+       "fusion_score": 0.0484,
+       "snippet": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheets over momentum, and we are cautious about adding to concentrated thematic exposure at current levels. The principal risk to this view is that the capital expenditure cycle driving current earnings growth proves shorter than expected. See the separate note on AI capital expenditure."
+      },
+      {
+       "marker": "S2",
+       "chunk_id": "HV-AA-2026Q3::00",
+       "doc_id": "HV-AA-2026Q3",
+       "title": "House View, Strategic and Tactical Asset Allocation Q3 2026",
+       "section": "House view: asset allocation",
+       "source_file": "house_view_asset_allocation.md",
+       "doc_type": "house_view",
+       "score": 0.3622,
+       "fusion_score": 0.03227,
+       "snippet": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. Illustrative only.** Tactical positions against strategic weights this quarter: - Equity: neutral. Valuation is unattractive but earnings momentum is intact. - Government bonds: neutral duration, preference for the 2 to 5 year part of the curve. - Investment grade credit: modest overweight, funded from high yield. - High yield: underweight, on spread levels rather than default expectations. - Real assets: modest overweight, chiefly listed infrastructure. - Cash: overweight, at 6 to 8% for most mandates, held as optionality. Model allocations by risk profile are unchanged:…"
+      },
+      {
+       "marker": "S3",
+       "chunk_id": "FS-SAA-2026Q2::01",
+       "doc_id": "FS-SAA-2026Q2",
+       "title": "Solaris AI & Automation Thematic Fund Factsheet",
+       "section": "Solaris AI & Automation Thematic Fund",
+       "source_file": "fund_solaris_ai_thematic.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.4426,
+       "fusion_score": 0.03202,
+       "snippet": "Solaris AI & Automation Thematic Fund Factsheet: Solaris AI & Automation Thematic Fund olio simultaneously, and the diversification inside the fund is lower than the holding count suggests. **Suitability note:** thematic satellite only. House guidance is a maximum of 10% of total portfolio value for Balanced mandates and 20% for Growth and Aggressive mandates. Unsuitable for Conservative profiles in any size."
+      },
+      {
+       "marker": "S4",
+       "chunk_id": "FS-SAA-2026Q2::00",
+       "doc_id": "FS-SAA-2026Q2",
+       "title": "Solaris AI & Automation Thematic Fund Factsheet",
+       "section": "Solaris AI & Automation Thematic Fund",
+       "source_file": "fund_solaris_ai_thematic.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.3558,
+       "fusion_score": 0.032,
+       "snippet": "Solaris AI & Automation Thematic Fund Factsheet: Solaris AI & Automation Thematic Fund **Synthetic document. Fictional fund, fictional figures.** Solaris holds 28 to 35 positions across semiconductors, data-centre infrastructure, industrial automation and enterprise software. It is a deliberately concentrated expression of a single theme. **Risk rating:** 6 of 7 (High). **OCF:** 1.05%. **Dealing:** daily. The fund returned 18.4% year to date, the strongest in the fictional Aegis-covered range, and 61% of that came from six holdings. Tracking error against global equity is 9.2%. The manager notes that the strategy's fortunes are tied to the capital expenditure cycle of a small number of…"
+      },
+      {
+       "marker": "S5",
+       "chunk_id": "FS-CBM-2026Q2::00",
+       "doc_id": "FS-CBM-2026Q2",
+       "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+       "section": "Castellan Balanced Multi-Asset Fund",
+       "source_file": "fund_castellan_balanced.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.2084,
+       "fusion_score": 0.0315,
+       "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. Fictional fund, fictional figures.** Castellan runs a 55/35/10 split across equity, fixed income and alternatives, rebalanced quarterly with a tactical band of plus or minus ten percentage points on the equity sleeve. **Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily. Year to date the fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4."
+      },
+      {
+       "marker": "S6",
+       "chunk_id": "POL-SUIT-2026::00",
+       "doc_id": "POL-SUIT-2026",
+       "title": "Internal Note, Suitability Considerations for Advisory Recommendations",
+       "section": "Suitability considerations for advisory recommendations",
+       "source_file": "policy_suitability_note.md",
+       "doc_type": "policy_note",
+       "score": 0.1878,
+       "fusion_score": 0.01639,
+       "snippet": "Internal Note, Suitability Considerations for Advisory Recommendations: Suitability considerations for advisory recommendations **Synthetic internal note. Illustrative only. Not regulatory advice, and not a substitute for the firm's actual policies.** A recommendation is assessed against four things: the client's risk profile, their investment horizon and liquidity needs, their knowledge and experience, and any mandate constraints they have documented. Recurring failure patterns seen in file reviews: 1. High-risk instruments recommended into Conservative profiles on the argument that the position is small. Position size mitigates but does not remove the mismatch, and the rationale must be…"
+      },
+      {
+       "marker": "S7",
+       "chunk_id": "CM-EM-2026Q3::01",
+       "doc_id": "CM-EM-2026Q3",
+       "title": "Emerging Markets Outlook, Q3 2026",
+       "section": "Emerging markets outlook",
+       "source_file": "commentary_em_outlook.md",
+       "doc_type": "market_commentary",
+       "score": 0.1572,
+       "fusion_score": 0.01639,
+       "snippet": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook igh, and several central banks began cutting ahead of developed-market peers, which supports local bond prices. The dominant risk is dollar strength. A sustained rally in the dollar has historically been the largest single driver of emerging market debt drawdowns, exceeding the contribution of actual defaults. We are neutral on the asset class and would not increase allocations for clients whose risk profile makes a 15% drawdown unacceptable."
+      },
+      {
+       "marker": "S8",
+       "chunk_id": "POL-SUIT-2026::01",
+       "doc_id": "POL-SUIT-2026",
+       "title": "Internal Note, Suitability Considerations for Advisory Recommendations",
+       "section": "Suitability considerations for advisory recommendations",
+       "source_file": "policy_suitability_note.md",
+       "doc_type": "policy_note",
+       "score": 0.1827,
+       "fusion_score": 0.01613,
+       "snippet": "Internal Note, Suitability Considerations for Advisory Recommendations: Suitability considerations for advisory recommendations nts with near-term capital needs. Dealing frequency, notice periods and gates must be explained in writing before the recommendation is made. 3. Complex or leveraged products recommended to Retail clients without a completed appropriateness assessment. 4. Concentration building passively through performance rather than through a decision. Positions should be reviewed against limits at every meeting. 5. Advice given on a file where the suitability review is more than twelve months old. Where a flag is raised, the recommendation is not automatically prohibited. It…"
+      }
+     ],
+     "market_context": {
+      "summary": "Retrieved 8 passages from the research index covering CM-EQ-2026Q3, FS-SAA-2026Q2, HV-AA-2026Q3. Narrative summarisation was unavailable, so the key points below are extracted directly from the source passages.",
+      "key_points": [
+       {
+        "point": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. [S1]",
+        "sources": [
+         "S1"
+        ]
+       },
+       {
+        "point": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. [S2]",
+        "sources": [
+         "S2"
+        ]
+       },
+       {
+        "point": "Solaris AI & Automation Thematic Fund Factsheet: Solaris AI & Automation Thematic Fund olio simultaneously, and the diversification inside the fund is lower than the holding count suggests. [S3]",
+        "sources": [
+         "S3"
+        ]
+       },
+       {
+        "point": "Solaris AI & Automation Thematic Fund Factsheet: Solaris AI & Automation Thematic Fund **Synthetic document. [S4]",
+        "sources": [
+         "S4"
+        ]
+       }
+      ],
+      "relevance_to_client": "Review the cited passages directly. No model-generated interpretation was applied.",
+      "_generated_by": "deterministic_fallback",
+      "cited_markers": [
+       "S1",
+       "S2",
+       "S3",
+       "S4"
+      ]
+     }
+    },
+    "compliance": {
+     "status": "fail",
+     "flag_count": 1,
+     "flags": [
+      {
+       "rule_id": "R1",
+       "rule_name": "Risk profile alignment",
+       "severity": "high",
+       "instrument_id": "SAA",
+       "detail": "Solaris AI & Automation Thematic Fund is risk 6/7 against a maximum of 4/7 for a Conservative profile.",
+       "remediation": "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement."
+      }
+     ],
+     "proposals_checked": [
+      "SAA"
+     ],
+     "rules_evaluated": [
+      "R1-existing",
+      "R1:SAA",
+      "R2",
+      "R3:SAA",
+      "R4:SAA",
+      "R5:SAA",
+      "R6",
+      "R7:SAA"
+     ],
+     "adviser_note": "The suitability check returned FAIL with 1 flag(s), of which 1 are high severity. Each flag below cites the rule that produced it.",
+     "actions_before_meeting": [
+      "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement."
+     ],
+     "disclaimer": "Illustrative rules for a demonstration project. Not regulatory advice."
+    }
+   },
+   "output": {
+    "briefing": {
+     "generated_at": "2026-08-08T12:58:08+00:00",
+     "query": "Prep me for tomorrow's meeting. The client is asking about the Solaris AI fund",
+     "data_notice": "All client, portfolio and market data in this briefing is synthetic.",
+     "client": {
+      "client_id": "4521",
+      "name": "Margaret Ellwood-Vance (SYNTHETIC)",
+      "risk_profile": "Conservative",
+      "investor_classification": "Retail",
+      "horizon_years": 4,
+      "liquidity_needs": "High",
+      "next_meeting": "2026-08-08",
+      "adviser": "J. Okonkwo (synthetic)",
+      "objectives": [
+       "Preserve capital in real terms",
+       "Fund a property purchase in roughly three years",
+       "Predictable income to supplement pension drawdown"
+      ],
+      "constraints": [
+       "No single position above 20% of the portfolio",
+       "At least 10% held in cash or near-cash"
+      ],
+      "esg_mandate": false,
+      "esg_exclusions": []
+     },
+     "headline": "1 suitability issue(s) must be resolved before advising Margaret Ellwood-Vance (SYNTHETIC).",
+     "summary": "Margaret Ellwood-Vance (SYNTHETIC) holds £2,450,000 across 5 positions, 28.0% in growth assets, against a Conservative profile and a 4-year horizon. Year-to-date return is 2.44% (-1.96% versus benchmark). The largest position is Helvetia Short-Duration Bond Fund at 34.0%. The suitability check returned FAIL.",
+     "portfolio_snapshot": {
+      "as_of": "2026-08-06",
+      "total_value_gbp": 2450000,
+      "currency": "GBP",
+      "holdings": [
+       {
+        "instrument_id": "HSD",
+        "name": "Helvetia Short-Duration Bond Fund",
+        "asset_class": "Fixed Income",
+        "risk_rating": 2,
+        "risk_band": "Low",
+        "weight_pct": 34.0,
+        "value_gbp": 833000.0,
+        "ytd_return_pct": 2.1
+       },
+       {
+        "instrument_id": "GILT",
+        "name": "UK Gilt Ladder (2027-2032)",
+        "asset_class": "Government Bonds",
+        "risk_rating": 1,
+        "risk_band": "Low",
+        "weight_pct": 26.0,
+        "value_gbp": 637000.0,
+        "ytd_return_pct": 1.7
+       },
+       {
+        "instrument_id": "CBM",
+        "name": "Castellan Balanced Multi-Asset Fund",
+        "asset_class": "Multi-Asset",
+        "risk_rating": 4,
+        "risk_band": "Medium",
+        "weight_pct": 22.0,
+        "value_gbp": 539000.0,
+        "ytd_return_pct": 4.9
+       },
+       {
+        "instrument_id": "NII",
+        "name": "Northwind Infrastructure Income Fund",
+        "asset_class": "Infrastructure",
+        "risk_rating": 4,
+        "risk_band": "Medium",
+        "weight_pct": 6.0,
+        "value_gbp": 147000.0,
+        "ytd_return_pct": 3.4
+       },
+       {
+        "instrument_id": "CASH",
+        "name": "GBP Cash & Money Market",
+        "asset_class": "Cash",
+        "risk_rating": 1,
+        "risk_band": "Low",
+        "weight_pct": 12.0,
+        "value_gbp": 294000.0,
+        "ytd_return_pct": 0.0
+       }
+      ],
+      "allocation_by_asset_class": {
+       "Fixed Income": 34.0,
+       "Government Bonds": 26.0,
+       "Multi-Asset": 22.0,
+       "Cash": 12.0,
+       "Infrastructure": 6.0
+      },
+      "growth_asset_pct": 28.0,
+      "largest_position": {
+       "instrument_id": "HSD",
+       "name": "Helvetia Short-Duration Bond Fund",
+       "weight_pct": 34.0
+      },
+      "cash_pct": 12.0,
+      "weighted_risk_rating": 2.18,
+      "performance": {
+       "ytd_return_pct": 2.44,
+       "one_year_return_pct": 4.64,
+       "three_year_annualised_pct": 3.29,
+       "benchmark": "Synthetic composite benchmark",
+       "vs_benchmark_ytd_pct": -1.96,
+       "volatility_pct": 6.54,
+       "max_drawdown_pct": -8.67
+      }
+     },
+     "market_context": {
+      "summary": "Retrieved 8 passages from the research index covering CM-EQ-2026Q3, FS-SAA-2026Q2, HV-AA-2026Q3. Narrative summarisation was unavailable, so the key points below are extracted directly from the source passages.",
+      "key_points": [
+       {
+        "point": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. [S1]",
+        "sources": [
+         "S1"
+        ]
+       },
+       {
+        "point": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. [S2]",
+        "sources": [
+         "S2"
+        ]
+       },
+       {
+        "point": "Solaris AI & Automation Thematic Fund Factsheet: Solaris AI & Automation Thematic Fund olio simultaneously, and the diversification inside the fund is lower than the holding count suggests. [S3]",
+        "sources": [
+         "S3"
+        ]
+       },
+       {
+        "point": "Solaris AI & Automation Thematic Fund Factsheet: Solaris AI & Automation Thematic Fund **Synthetic document. [S4]",
+        "sources": [
+         "S4"
+        ]
+       }
+      ],
+      "relevance_to_client": "Review the cited passages directly. No model-generated interpretation was applied.",
+      "queries_run": [
+       "Prep me for tomorrow's meeting. The client is asking about the Solaris AI fund",
+       "Fixed Income outlook and positioning",
+       "Government Bonds outlook and positioning",
+       "asset allocation house view for a Conservative mandate",
+       "Solaris AI & Automation Thematic Fund outlook, risks and suitability"
+      ]
+     },
+     "compliance": {
+      "status": "fail",
+      "flag_count": 1,
+      "flags": [
+       {
+        "rule_id": "R1",
+        "rule_name": "Risk profile alignment",
+        "severity": "high",
+        "instrument_id": "SAA",
+        "detail": "Solaris AI & Automation Thematic Fund is risk 6/7 against a maximum of 4/7 for a Conservative profile.",
+        "remediation": "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement."
+       }
+      ],
+      "adviser_note": "The suitability check returned FAIL with 1 flag(s), of which 1 are high severity. Each flag below cites the rule that produced it.",
+      "actions_before_meeting": [
+       "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement."
+      ],
+      "proposals_checked": [
+       "SAA"
+      ],
+      "rules_evaluated": [
+       "R1-existing",
+       "R1:SAA",
+       "R2",
+       "R3:SAA",
+       "R4:SAA",
+       "R5:SAA",
+       "R6",
+       "R7:SAA"
+      ],
+      "disclaimer": "Illustrative rules for a demonstration project. Not regulatory advice."
+     },
+     "talking_points": [
+      {
+       "point": "Risk profile alignment: Solaris AI & Automation Thematic Fund is risk 6/7 against a maximum of 4/7 for a Conservative profile.",
+       "why": "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement.",
+       "sources": []
+      },
+      {
+       "point": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. [S1]",
+       "why": "Relevant market context for this mandate.",
+       "sources": [
+        "S1"
+       ]
+      },
+      {
+       "point": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. [S2]",
+       "why": "Relevant market context for this mandate.",
+       "sources": [
+        "S2"
+       ]
+      },
+      {
+       "point": "Solaris AI & Automation Thematic Fund Factsheet: Solaris AI & Automation Thematic Fund olio simultaneously, and the diversification inside the fund is lower than the holding count suggests. [S3]",
+       "why": "Relevant market context for this mandate.",
+       "sources": [
+        "S3"
+       ]
+      }
+     ],
+     "questions_to_ask": [
+      "Have your objectives or time horizon changed since the last review?",
+      "Has your liquidity position changed, or any expected calls on capital?",
+      "Are you comfortable with the current largest position size?"
+     ],
+     "watch_items": [
+      "Solaris AI & Automation Thematic Fund is risk 6/7 against a maximum of 4/7 for a Conservative profile."
+     ],
+     "citations": [
+      {
+       "marker": "S1",
+       "chunk_id": "CM-EQ-2026Q3::01",
+       "doc_id": "CM-EQ-2026Q3",
+       "title": "Global Equity Outlook, Q3 2026",
+       "section": "Global equity outlook",
+       "source_file": "commentary_equity_outlook.md",
+       "doc_type": "market_commentary",
+       "score": 0.2518,
+       "fusion_score": 0.0484,
+       "snippet": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheets over momentum, and we are cautious about adding to concentrated thematic exposure at current levels. The principal risk to this view is that the capital expenditure cycle driving current earnings growth proves shorter than expected. See the separate note on AI capital expenditure."
+      },
+      {
+       "marker": "S2",
+       "chunk_id": "HV-AA-2026Q3::00",
+       "doc_id": "HV-AA-2026Q3",
+       "title": "House View, Strategic and Tactical Asset Allocation Q3 2026",
+       "section": "House view: asset allocation",
+       "source_file": "house_view_asset_allocation.md",
+       "doc_type": "house_view",
+       "score": 0.3622,
+       "fusion_score": 0.03227,
+       "snippet": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. Illustrative only.** Tactical positions against strategic weights this quarter: - Equity: neutral. Valuation is unattractive but earnings momentum is intact. - Government bonds: neutral duration, preference for the 2 to 5 year part of the curve. - Investment grade credit: modest overweight, funded from high yield. - High yield: underweight, on spread levels rather than default expectations. - Real assets: modest overweight, chiefly listed infrastructure. - Cash: overweight, at 6 to 8% for most mandates, held as optionality. Model allocations by risk profile are unchanged:…"
+      },
+      {
+       "marker": "S3",
+       "chunk_id": "FS-SAA-2026Q2::01",
+       "doc_id": "FS-SAA-2026Q2",
+       "title": "Solaris AI & Automation Thematic Fund Factsheet",
+       "section": "Solaris AI & Automation Thematic Fund",
+       "source_file": "fund_solaris_ai_thematic.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.4426,
+       "fusion_score": 0.03202,
+       "snippet": "Solaris AI & Automation Thematic Fund Factsheet: Solaris AI & Automation Thematic Fund olio simultaneously, and the diversification inside the fund is lower than the holding count suggests. **Suitability note:** thematic satellite only. House guidance is a maximum of 10% of total portfolio value for Balanced mandates and 20% for Growth and Aggressive mandates. Unsuitable for Conservative profiles in any size."
+      },
+      {
+       "marker": "S4",
+       "chunk_id": "FS-SAA-2026Q2::00",
+       "doc_id": "FS-SAA-2026Q2",
+       "title": "Solaris AI & Automation Thematic Fund Factsheet",
+       "section": "Solaris AI & Automation Thematic Fund",
+       "source_file": "fund_solaris_ai_thematic.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.3558,
+       "fusion_score": 0.032,
+       "snippet": "Solaris AI & Automation Thematic Fund Factsheet: Solaris AI & Automation Thematic Fund **Synthetic document. Fictional fund, fictional figures.** Solaris holds 28 to 35 positions across semiconductors, data-centre infrastructure, industrial automation and enterprise software. It is a deliberately concentrated expression of a single theme. **Risk rating:** 6 of 7 (High). **OCF:** 1.05%. **Dealing:** daily. The fund returned 18.4% year to date, the strongest in the fictional Aegis-covered range, and 61% of that came from six holdings. Tracking error against global equity is 9.2%. The manager notes that the strategy's fortunes are tied to the capital expenditure cycle of a small number of…"
+      },
+      {
+       "marker": "S5",
+       "chunk_id": "FS-CBM-2026Q2::00",
+       "doc_id": "FS-CBM-2026Q2",
+       "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+       "section": "Castellan Balanced Multi-Asset Fund",
+       "source_file": "fund_castellan_balanced.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.2084,
+       "fusion_score": 0.0315,
+       "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. Fictional fund, fictional figures.** Castellan runs a 55/35/10 split across equity, fixed income and alternatives, rebalanced quarterly with a tactical band of plus or minus ten percentage points on the equity sleeve. **Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily. Year to date the fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4."
+      },
+      {
+       "marker": "S6",
+       "chunk_id": "POL-SUIT-2026::00",
+       "doc_id": "POL-SUIT-2026",
+       "title": "Internal Note, Suitability Considerations for Advisory Recommendations",
+       "section": "Suitability considerations for advisory recommendations",
+       "source_file": "policy_suitability_note.md",
+       "doc_type": "policy_note",
+       "score": 0.1878,
+       "fusion_score": 0.01639,
+       "snippet": "Internal Note, Suitability Considerations for Advisory Recommendations: Suitability considerations for advisory recommendations **Synthetic internal note. Illustrative only. Not regulatory advice, and not a substitute for the firm's actual policies.** A recommendation is assessed against four things: the client's risk profile, their investment horizon and liquidity needs, their knowledge and experience, and any mandate constraints they have documented. Recurring failure patterns seen in file reviews: 1. High-risk instruments recommended into Conservative profiles on the argument that the position is small. Position size mitigates but does not remove the mismatch, and the rationale must be…"
+      },
+      {
+       "marker": "S7",
+       "chunk_id": "CM-EM-2026Q3::01",
+       "doc_id": "CM-EM-2026Q3",
+       "title": "Emerging Markets Outlook, Q3 2026",
+       "section": "Emerging markets outlook",
+       "source_file": "commentary_em_outlook.md",
+       "doc_type": "market_commentary",
+       "score": 0.1572,
+       "fusion_score": 0.01639,
+       "snippet": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook igh, and several central banks began cutting ahead of developed-market peers, which supports local bond prices. The dominant risk is dollar strength. A sustained rally in the dollar has historically been the largest single driver of emerging market debt drawdowns, exceeding the contribution of actual defaults. We are neutral on the asset class and would not increase allocations for clients whose risk profile makes a 15% drawdown unacceptable."
+      },
+      {
+       "marker": "S8",
+       "chunk_id": "POL-SUIT-2026::01",
+       "doc_id": "POL-SUIT-2026",
+       "title": "Internal Note, Suitability Considerations for Advisory Recommendations",
+       "section": "Suitability considerations for advisory recommendations",
+       "source_file": "policy_suitability_note.md",
+       "doc_type": "policy_note",
+       "score": 0.1827,
+       "fusion_score": 0.01613,
+       "snippet": "Internal Note, Suitability Considerations for Advisory Recommendations: Suitability considerations for advisory recommendations nts with near-term capital needs. Dealing frequency, notice periods and gates must be explained in writing before the recommendation is made. 3. Complex or leveraged products recommended to Retail clients without a completed appropriateness assessment. 4. Concentration building passively through performance rather than through a decision. Positions should be reviewed against limits at every meeting. 5. Advice given on a file where the suitability review is more than twelve months old. Where a flag is raised, the recommendation is not automatically prohibited. It…"
+      }
+     ]
+    }
+   },
+   "error": null,
+   "meta": {
+    "task": "synthesise"
+   }
+  },
+  {
+   "id": "cf9b7ed5b3",
+   "parent_id": "5413b89926",
+   "kind": "llm",
+   "name": "synthesis.write_briefing",
+   "label": "LLM · mock/deterministic-stub",
+   "started_at": "2026-08-08T12:58:08.059+00:00",
+   "ended_at": "2026-08-08T12:58:08.059+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "system": "You prepare pre-meeting briefings for private bank advisers.\n\nYou receive: a client profile, a portfolio snapshot, cited market research, and\nthe output of a compliance rules engine.\n\nRules:\n- Cite market claims with the [S#] markers exactly as they appear in the research\n  you were given. Do not invent markers.\n- Never contradict or soften the compliance result. If the status is FAIL, the\n  talking points must reflect that the recommendation cannot proceed as framed.\n- Talking points are for the adviser to raise with the client. Make them\n  specific to this client's objectives and holdings, not generic.\n- British English. No sales language. All data is synthetic demo data.\n\nReturn JSON:\n{\n  \"headline\": \"one sentence the adviser reads first\",\n  \"summary\": \"3-5 sentences covering position, context and anything blocking\",\n  \"talking_points\": [\n    {\"point\": \"what to raise\", \"why\": \"why it matters to this client\", \"sources\": [\"S1\"]}\n  ],\n  \"questions_to_ask\": [\"question for the client\", \"...\"],\n  \"watch_items\": [\"something to monitor after the meeting\", \"...\"]\n}\n\nRespond with a single valid JSON object and nothing else. No prose before or after, no markdown code fences.",
+    "user": "Adviser request: Prep me for tomorrow's meeting. The client is asking about the Solaris AI fund\n\nCLIENT\nMargaret Ellwood-Vance (SYNTHETIC) (4521), Conservative profile,\nRetail, 4-year horizon,\nHigh liquidity needs.\nObjectives: Preserve capital in real terms; Fund a property purchase in roughly three years; Predictable income to supplement pension drawdown\nConstraints: No single position above 20% of the portfolio; At least 10% held in cash or near-cash\nAdviser notes: Risk-averse; reacted badly to 2022 drawdown. Values plain explanations.\n\nPORTFOLIO\nTotal £2,450,000 as at 2026-08-06.\nAllocation: {'Fixed Income': 34.0, 'Government Bonds': 26.0, 'Multi-Asset': 22.0, 'Cash': 12.0, 'Infrastructure': 6.0}\nGrowth assets: 28.0%. Cash: 12.0%.\nLargest position: Helvetia Short-Duration Bond Fund at\n34.0%.\nPerformance: {'ytd_return_pct': 2.44, 'one_year_return_pct': 4.64, 'three_year_annualised_pct': 3.29, 'benchmark': 'Synthetic composite benchmark', 'vs_benchmark_ytd_pct': -1.96, 'volatility_pct': 6.54, 'max_drawdown_pct': -8.67}\n\nMARKET RESEARCH (cite these markers only)\nRetrieved 8 passages from the research index covering CM-EQ-2026Q3, FS-SAA-2026Q2, HV-AA-2026Q3. Narrative summarisation was unavailable, so the key points below are extracted directly from the source passages.\n[S1] Global Equity Outlook, Q3 2026 · Global equity outlook: Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheet\n[S2] House View, Strategic and Tactical Asset Allocation Q3 2026 · House view: asset allocation: House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. Illustrative only.** Tactical positions against strategic weights this quarter: - Equity: neutral. Valuation is unattractive but earnings momentum is intact. - Govern\n[S3] Solaris AI & Automation Thematic Fund Factsheet · Solaris AI & Automation Thematic Fund: Solaris AI & Automation Thematic Fund Factsheet: Solaris AI & Automation Thematic Fund olio simultaneously, and the diversification inside the fund is lower than the holding count suggests. **Suitability note:** thematic satellite only. House guidance is a maximum of 10% of total\n[S4] Solaris AI & Automation Thematic Fund Factsheet · Solaris AI & Automation Thematic Fund: Solaris AI & Automation Thematic Fund Factsheet: Solaris AI & Automation Thematic Fund **Synthetic document. Fictional fund, fictional figures.** Solaris holds 28 to 35 positions across semiconductors, data-centre infrastructure, industrial automation and enterprise software. It \n[S5] Castellan Balanced Multi-Asset Fund Factsheet · Castellan Balanced Multi-Asset Fund: Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. Fictional fund, fictional figures.** Castellan runs a 55/35/10 split across equity, fixed income and alternatives, rebalanced quarterly with a tactical band of plus or minus t\n[S6] Internal Note, Suitability Considerations for Advisory Recommendations · Suitability considerations for advisory recommendations: Internal Note, Suitability Considerations for Advisory Recommendations: Suitability considerations for advisory recommendations **Synthetic internal note. Illustrative only. Not regulatory advice, and not a substitute for the firm's actual policies.** A recommendation is assessed\n[S7] Emerging Markets Outlook, Q3 2026 · Emerging markets outlook: Emerging Markets Outlook, Q3 2026: Emerging markets outlook igh, and several central banks began cutting ahead of developed-market peers, which supports local bond prices. The dominant risk is dollar strength. A sustained rally in the dollar has historically been the largest sing\n[S8] Internal Note, Suitability Considerations for Advisory Recommendations · Suitability considerations … [+484 chars]",
+    "temperature": 0.2
+   },
+   "output": "{\"_mock\": true, \"_note\": \"Deterministic stub output; agents fall back to rule-based assembly.\", \"_digest\": \"634fb0e4\"}",
+   "error": null,
+   "meta": {
+    "provider": "mock",
+    "model": "deterministic-stub",
+    "usage": {
+     "prompt_tokens": 1417,
+     "completion_tokens": 12
+    }
+   }
+  },
+  {
+   "id": "5490adfa2b",
+   "parent_id": "5413b89926",
+   "kind": "note",
+   "name": "synthesis.assembled",
+   "label": "Briefing assembled with 4 talking points and 8 citations",
+   "started_at": "2026-08-08T12:58:08.059+00:00",
+   "ended_at": "2026-08-08T12:58:08.059+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": {
+    "compliance_status": "fail",
+    "citations": [
+     "S1",
+     "S2",
+     "S3",
+     "S4",
+     "S5",
+     "S6",
+     "S7",
+     "S8"
+    ]
+   },
+   "error": null,
+   "meta": {}
+  }
+ ],
+ "trace_summary": {
+  "run_id": "071597632eeb",
+  "events": 32,
+  "by_kind": {
+   "agent": 5,
+   "llm": 5,
+   "note": 8,
+   "tool": 9,
+   "retrieval": 5
+  },
+  "errors": 0,
+  "elapsed_ms": 17.3
+ }
+}

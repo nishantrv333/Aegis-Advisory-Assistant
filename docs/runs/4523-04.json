@@ -1,0 +1,2855 @@
+{
+ "run_id": "fe1abaf982d0",
+ "client_id": "4523",
+ "query": "Would the Zephyr precious metals fund work as a diversifier here?",
+ "plan": {
+  "reasoning": "Default plan: full briefing across all agents.",
+  "run_research": true,
+  "research_queries": [],
+  "candidate_instruments": [
+   "ZPM"
+  ],
+  "intent": "meeting_prep",
+  "forced_steps": [
+   "portfolio",
+   "compliance",
+   "synthesis"
+  ],
+  "_generated_by": "llm"
+ },
+ "briefing": {
+  "generated_at": "2026-08-08T12:58:08+00:00",
+  "query": "Would the Zephyr precious metals fund work as a diversifier here?",
+  "data_notice": "All client, portfolio and market data in this briefing is synthetic.",
+  "client": {
+   "client_id": "4523",
+   "name": "Aoife Brennan-Marsh (SYNTHETIC)",
+   "risk_profile": "Balanced",
+   "investor_classification": "Retail",
+   "horizon_years": 10,
+   "liquidity_needs": "Medium",
+   "next_meeting": "2026-08-13",
+   "adviser": "J. Okonkwo (synthetic)",
+   "objectives": [
+    "Balanced growth consistent with a stated sustainability mandate",
+    "No exposure to extractive industries"
+   ],
+   "constraints": [
+    "Formal ESG exclusion list on file: mining, energy, defence"
+   ],
+   "esg_mandate": true,
+   "esg_exclusions": [
+    "Mining",
+    "Energy",
+    "Defence"
+   ]
+  },
+  "headline": "5 suitability issue(s) must be resolved before advising Aoife Brennan-Marsh (SYNTHETIC).",
+  "summary": "Aoife Brennan-Marsh (SYNTHETIC) holds £3,150,000 across 5 positions, 68.0% in growth assets, against a Balanced profile and a 10-year horizon. Year-to-date return is 4.09% (-0.31% versus benchmark). The largest position is Castellan Balanced Multi-Asset Fund at 38.0%. The suitability check returned FAIL.",
+  "portfolio_snapshot": {
+   "as_of": "2026-08-06",
+   "total_value_gbp": 3150000,
+   "currency": "GBP",
+   "holdings": [
+    {
+     "instrument_id": "CBM",
+     "name": "Castellan Balanced Multi-Asset Fund",
+     "asset_class": "Multi-Asset",
+     "risk_rating": 4,
+     "risk_band": "Medium",
+     "weight_pct": 38.0,
+     "value_gbp": 1197000.0,
+     "ytd_return_pct": 4.9
+    },
+    {
+     "instrument_id": "HSD",
+     "name": "Helvetia Short-Duration Bond Fund",
+     "asset_class": "Fixed Income",
+     "risk_rating": 2,
+     "risk_band": "Low",
+     "weight_pct": 22.0,
+     "value_gbp": 693000.0,
+     "ytd_return_pct": 2.1
+    },
+    {
+     "instrument_id": "NII",
+     "name": "Northwind Infrastructure Income Fund",
+     "asset_class": "Infrastructure",
+     "risk_rating": 4,
+     "risk_band": "Medium",
+     "weight_pct": 18.0,
+     "value_gbp": 567000.0,
+     "ytd_return_pct": 3.4
+    },
+    {
+     "instrument_id": "AGE",
+     "name": "Aurora Global Equity Fund",
+     "asset_class": "Global Equity",
+     "risk_rating": 6,
+     "risk_band": "High",
+     "weight_pct": 12.0,
+     "value_gbp": 378000.0,
+     "ytd_return_pct": 9.6
+    },
+    {
+     "instrument_id": "CASH",
+     "name": "GBP Cash & Money Market",
+     "asset_class": "Cash",
+     "risk_rating": 1,
+     "risk_band": "Low",
+     "weight_pct": 10.0,
+     "value_gbp": 315000.0,
+     "ytd_return_pct": 0.0
+    }
+   ],
+   "allocation_by_asset_class": {
+    "Multi-Asset": 38.0,
+    "Fixed Income": 22.0,
+    "Infrastructure": 18.0,
+    "Global Equity": 12.0,
+    "Cash": 10.0
+   },
+   "growth_asset_pct": 68.0,
+   "largest_position": {
+    "instrument_id": "CBM",
+    "name": "Castellan Balanced Multi-Asset Fund",
+    "weight_pct": 38.0
+   },
+   "cash_pct": 10.0,
+   "weighted_risk_rating": 3.5,
+   "performance": {
+    "ytd_return_pct": 4.09,
+    "one_year_return_pct": 7.77,
+    "three_year_annualised_pct": 5.52,
+    "benchmark": "Synthetic composite benchmark",
+    "vs_benchmark_ytd_pct": -0.31,
+    "volatility_pct": 9.05,
+    "max_drawdown_pct": -12.1
+   }
+  },
+  "market_context": {
+   "summary": "Retrieved 8 passages from the research index covering FS-CBM-2026Q2, FS-ZPM-2026Q2. Narrative summarisation was unavailable, so the key points below are extracted directly from the source passages.",
+   "key_points": [
+    {
+     "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. [S1]",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "point": "Zephyr Precious Metals Fund Factsheet: Zephyr Precious Metals Fund nder client mandates carrying a Mining or Energy exclusion. [S2]",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. [S3]",
+     "sources": [
+      "S3"
+     ]
+    },
+    {
+     "point": "Zephyr Precious Metals Fund Factsheet: Zephyr Precious Metals Fund **Synthetic document. [S4]",
+     "sources": [
+      "S4"
+     ]
+    }
+   ],
+   "relevance_to_client": "Review the cited passages directly. No model-generated interpretation was applied.",
+   "queries_run": [
+    "Would the Zephyr precious metals fund work as a diversifier here?",
+    "Multi-Asset outlook and positioning",
+    "Fixed Income outlook and positioning",
+    "asset allocation house view for a Balanced mandate",
+    "Zephyr Precious Metals Fund outlook, risks and suitability"
+   ]
+  },
+  "compliance": {
+   "status": "fail",
+   "flag_count": 5,
+   "flags": [
+    {
+     "rule_id": "R2",
+     "rule_name": "Single-position concentration",
+     "severity": "medium",
+     "instrument_id": "CBM",
+     "detail": "Castellan Balanced Multi-Asset Fund is 38.0% of the portfolio, above the 25% single-position limit.",
+     "remediation": "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement."
+    },
+    {
+     "rule_id": "R1",
+     "rule_name": "Risk profile alignment",
+     "severity": "high",
+     "instrument_id": "AGE",
+     "detail": "Existing holding Aurora Global Equity Fund is risk 6/7, above the maximum of 5/7 for a Balanced profile.",
+     "remediation": "Review whether this legacy position is still suitable and document the outcome."
+    },
+    {
+     "rule_id": "R1",
+     "rule_name": "Risk profile alignment",
+     "severity": "high",
+     "instrument_id": "ZPM",
+     "detail": "Zephyr Precious Metals Fund is risk 6/7 against a maximum of 5/7 for a Balanced profile.",
+     "remediation": "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement."
+    },
+    {
+     "rule_id": "R5",
+     "rule_name": "ESG mandate exclusions",
+     "severity": "high",
+     "instrument_id": "ZPM",
+     "detail": "Zephyr Precious Metals Fund has exposure to Mining, which is on the client's documented exclusion list.",
+     "remediation": "Remove from the recommendation, or obtain a formal, documented mandate variation before proceeding."
+    },
+    {
+     "rule_id": "R7",
+     "rule_name": "Cross-border registration",
+     "severity": "high",
+     "instrument_id": "ZPM",
+     "detail": "Zephyr Precious Metals Fund is not registered for distribution in IE (registered: GB, CH, AE).",
+     "remediation": "Do not solicit. Check for an equivalent share class registered in the client's domicile."
+    }
+   ],
+   "adviser_note": "The suitability check returned FAIL with 5 flag(s), of which 4 are high severity. Each flag below cites the rule that produced it.",
+   "actions_before_meeting": [
+    "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement.",
+    "Review whether this legacy position is still suitable and document the outcome.",
+    "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement.",
+    "Remove from the recommendation, or obtain a formal, documented mandate variation before proceeding.",
+    "Do not solicit. Check for an equivalent share class registered in the client's domicile."
+   ],
+   "proposals_checked": [
+    "ZPM"
+   ],
+   "rules_evaluated": [
+    "R1-existing",
+    "R1:ZPM",
+    "R2",
+    "R3:ZPM",
+    "R4:ZPM",
+    "R5:ZPM",
+    "R6",
+    "R7:ZPM"
+   ],
+   "disclaimer": "Illustrative rules for a demonstration project. Not regulatory advice."
+  },
+  "talking_points": [
+   {
+    "point": "Single-position concentration: Castellan Balanced Multi-Asset Fund is 38.0% of the portfolio, above the 25% single-position limit.",
+    "why": "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement.",
+    "sources": []
+   },
+   {
+    "point": "Risk profile alignment: Existing holding Aurora Global Equity Fund is risk 6/7, above the maximum of 5/7 for a Balanced profile.",
+    "why": "Review whether this legacy position is still suitable and document the outcome.",
+    "sources": []
+   },
+   {
+    "point": "Risk profile alignment: Zephyr Precious Metals Fund is risk 6/7 against a maximum of 5/7 for a Balanced profile.",
+    "why": "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement.",
+    "sources": []
+   },
+   {
+    "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. [S1]",
+    "why": "Relevant market context for this mandate.",
+    "sources": [
+     "S1"
+    ]
+   },
+   {
+    "point": "Zephyr Precious Metals Fund Factsheet: Zephyr Precious Metals Fund nder client mandates carrying a Mining or Energy exclusion. [S2]",
+    "why": "Relevant market context for this mandate.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. [S3]",
+    "why": "Relevant market context for this mandate.",
+    "sources": [
+     "S3"
+    ]
+   }
+  ],
+  "questions_to_ask": [
+   "Have your objectives or time horizon changed since the last review?",
+   "Has your liquidity position changed, or any expected calls on capital?",
+   "Are you comfortable with the current largest position size?"
+  ],
+  "watch_items": [
+   "Castellan Balanced Multi-Asset Fund is 38.0% of the portfolio, above the 25% single-position limit.",
+   "Existing holding Aurora Global Equity Fund is risk 6/7, above the maximum of 5/7 for a Balanced profile.",
+   "Zephyr Precious Metals Fund is risk 6/7 against a maximum of 5/7 for a Balanced profile."
+  ],
+  "citations": [
+   {
+    "marker": "S1",
+    "chunk_id": "FS-CBM-2026Q2::00",
+    "doc_id": "FS-CBM-2026Q2",
+    "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+    "section": "Castellan Balanced Multi-Asset Fund",
+    "source_file": "fund_castellan_balanced.md",
+    "doc_type": "fund_factsheet",
+    "score": 0.2378,
+    "fusion_score": 0.04712,
+    "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. Fictional fund, fictional figures.** Castellan runs a 55/35/10 split across equity, fixed income and alternatives, rebalanced quarterly with a tactical band of plus or minus ten percentage points on the equity sleeve. **Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily. Year to date the fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4."
+   },
+   {
+    "marker": "S2",
+    "chunk_id": "FS-ZPM-2026Q2::01",
+    "doc_id": "FS-ZPM-2026Q2",
+    "title": "Zephyr Precious Metals Fund Factsheet",
+    "section": "Zephyr Precious Metals Fund",
+    "source_file": "fund_zephyr_precious_metals.md",
+    "doc_type": "fund_factsheet",
+    "score": 0.4395,
+    "fusion_score": 0.03279,
+    "snippet": "Zephyr Precious Metals Fund Factsheet: Zephyr Precious Metals Fund nder client mandates carrying a Mining or Energy exclusion. **Suitability note:** diversifier sleeve, typically capped at 5 to 8% of portfolio value. Unsuitable for Conservative profiles and for clients with formal ESG exclusion lists covering mining or extractives."
+   },
+   {
+    "marker": "S3",
+    "chunk_id": "FS-CBM-2026Q2::01",
+    "doc_id": "FS-CBM-2026Q2",
+    "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+    "section": "Castellan Balanced Multi-Asset Fund",
+    "source_file": "fund_castellan_balanced.md",
+    "doc_type": "fund_factsheet",
+    "score": 0.3152,
+    "fusion_score": 0.03252,
+    "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4. Realised volatility over twelve months was 7.9%. The tactical overlay is currently 3 points underweight equity and holds an elevated 8% cash position, reflecting the house view that policy rates fall more slowly than forward markets imply. **Suitability note:** the default one-fund solution for Balanced mandates and a common core sleeve inside Conservative portfolios where the client accepts moderate equity exposure. Worst twelve-month period since launch was…"
+   },
+   {
+    "marker": "S4",
+    "chunk_id": "FS-ZPM-2026Q2::00",
+    "doc_id": "FS-ZPM-2026Q2",
+    "title": "Zephyr Precious Metals Fund Factsheet",
+    "section": "Zephyr Precious Metals Fund",
+    "source_file": "fund_zephyr_precious_metals.md",
+    "doc_type": "fund_factsheet",
+    "score": 0.3651,
+    "fusion_score": 0.03226,
+    "snippet": "Zephyr Precious Metals Fund Factsheet: Zephyr Precious Metals Fund **Synthetic document. Fictional fund, fictional figures.** Zephyr holds physical gold and silver exposure alongside listed precious metals miners, split roughly 55/45. The mining sleeve is the source of both the fund's upside gearing and its volatility. **Risk rating:** 6 of 7 (High). **OCF:** 0.74%. **Dealing:** daily. Year to date the fund returned 11.8%. Correlation to global equity over the last three years was 0.18, which is the diversification case for holding it. **ESG note:** the mining sleeve includes extractive operations in jurisdictions with limited environmental disclosure. This fund does not meet the criteria…"
+   },
+   {
+    "marker": "S5",
+    "chunk_id": "FS-AGE-2026Q2::01",
+    "doc_id": "FS-AGE-2026Q2",
+    "title": "Aurora Global Equity Fund Factsheet",
+    "section": "Aurora Global Equity Fund",
+    "source_file": "fund_aurora_global_equity.md",
+    "doc_type": "fund_factsheet",
+    "score": 0.2171,
+    "fusion_score": 0.0315,
+    "snippet": "Aurora Global Equity Fund Factsheet: Aurora Global Equity Fund manager has trimmed the technology overweight from 31% to 26% over the quarter, citing valuation dispersion rather than a change of view on earnings. Cash sits at 2.4%. **Suitability note:** as a single-sleeve equity holding this fund carries full equity drawdown risk. It is generally unsuitable as a majority position for clients with a Conservative profile or a horizon under five years. Maximum peak-to-trough drawdown since launch was 24.8%."
+   },
+   {
+    "marker": "S6",
+    "chunk_id": "CM-EQ-2026Q3::01",
+    "doc_id": "CM-EQ-2026Q3",
+    "title": "Global Equity Outlook, Q3 2026",
+    "section": "Global equity outlook",
+    "source_file": "commentary_equity_outlook.md",
+    "doc_type": "market_commentary",
+    "score": 0.2518,
+    "fusion_score": 0.01639,
+    "snippet": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheets over momentum, and we are cautious about adding to concentrated thematic exposure at current levels. The principal risk to this view is that the capital expenditure cycle driving current earnings growth proves shorter than expected. See the separate note on AI capital expenditure."
+   },
+   {
+    "marker": "S7",
+    "chunk_id": "HV-AA-2026Q3::00",
+    "doc_id": "HV-AA-2026Q3",
+    "title": "House View, Strategic and Tactical Asset Allocation Q3 2026",
+    "section": "House view: asset allocation",
+    "source_file": "house_view_asset_allocation.md",
+    "doc_type": "house_view",
+    "score": 0.347,
+    "fusion_score": 0.01639,
+    "snippet": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. Illustrative only.** Tactical positions against strategic weights this quarter: - Equity: neutral. Valuation is unattractive but earnings momentum is intact. - Government bonds: neutral duration, preference for the 2 to 5 year part of the curve. - Investment grade credit: modest overweight, funded from high yield. - High yield: underweight, on spread levels rather than default expectations. - Real assets: modest overweight, chiefly listed infrastructure. - Cash: overweight, at 6 to 8% for most mandates, held as optionality. Model allocations by risk profile are unchanged:…"
+   },
+   {
+    "marker": "S8",
+    "chunk_id": "CM-EM-2026Q3::01",
+    "doc_id": "CM-EM-2026Q3",
+    "title": "Emerging Markets Outlook, Q3 2026",
+    "section": "Emerging markets outlook",
+    "source_file": "commentary_em_outlook.md",
+    "doc_type": "market_commentary",
+    "score": 0.2285,
+    "fusion_score": 0.01613,
+    "snippet": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook igh, and several central banks began cutting ahead of developed-market peers, which supports local bond prices. The dominant risk is dollar strength. A sustained rally in the dollar has historically been the largest single driver of emerging market debt drawdowns, exceeding the contribution of actual defaults. We are neutral on the asset class and would not increase allocations for clients whose risk profile makes a 15% drawdown unacceptable."
+   }
+  ]
+ },
+ "trace": [
+  {
+   "id": "35d5c66941",
+   "parent_id": null,
+   "kind": "agent",
+   "name": "orchestrator",
+   "label": "orchestrator · plan and execute",
+   "started_at": "2026-08-08T12:58:08.117+00:00",
+   "ended_at": "2026-08-08T12:58:08.127+00:00",
+   "duration_ms": 9.8,
+   "status": "ok",
+   "input": {
+    "client_id": "4523",
+    "query": "Would the Zephyr precious metals fund work as a diversifier here?"
+   },
+   "output": null,
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "f0bdd39cd3",
+   "parent_id": "35d5c66941",
+   "kind": "llm",
+   "name": "orchestrator.plan",
+   "label": "LLM · mock/deterministic-stub",
+   "started_at": "2026-08-08T12:58:08.118+00:00",
+   "ended_at": "2026-08-08T12:58:08.118+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "system": "You are the orchestrator of a private bank's briefing assistant.\n\nGiven an adviser's request and the agents available, produce an execution plan.\n\nGuidance:\n- `portfolio` always runs first and is added automatically, so do not include it.\n- `compliance` always runs and is added automatically, so do not include it.\n- `synthesis` always runs last and is added automatically, so do not include it.\n- Decide whether `market_research` is needed. It usually is, unless the request\n  is purely about the client's own holdings or compliance position.\n- Identify any instruments the adviser is proposing or asking about, by their\n  ticker-style id, so the rules engine can check them.\n- Suggest up to 4 focused retrieval queries if research is needed.\n\nReturn JSON:\n{\n  \"reasoning\": \"one or two sentences on why this plan\",\n  \"run_research\": true,\n  \"research_queries\": [\"...\", \"...\"],\n  \"candidate_instruments\": [\"SAA\"],\n  \"intent\": \"meeting_prep | recommendation_check | portfolio_review | market_question\"\n}\n\nRespond with a single valid JSON object and nothing else. No prose before or after, no markdown code fences.",
+    "user": "Adviser request: Would the Zephyr precious metals fund work as a diversifier here?\nClient id: 4523\n\nAvailable agents:\n- portfolio: Retrieves a client's risk profile, mandate constraints, holdings, weights and performance from the book of record. (produces client_profile, portfolio_snapshot)\n- market_research: Runs vector search over the research corpus and summarises what is relevant to the client, with citations back to specific source passages. (produces market_context, citations)\n- compliance: Runs the deterministic suitability rule set against the client's holdings and any proposed instruments, and explains the result. (produces compliance_result)\n- synthesis: Combines portfolio, research and compliance output into the final structured client briefing. (produces briefing)\n\nAvailable tools:\n- portfolio.get_client_profile(client_id): Fetch a synthetic client's profile: risk profile, investor classification, horizon, liquidity needs, ESG mandate, objectives, constraints and suitability review date.\n- portfolio.get_holdings(client_id): Fetch a synthetic client's current holdings, weights, valuations, performance and portfolio-level risk metrics.\n- portfolio.list_clients(): List all synthetic client ids with names and risk profiles.\n- portfolio.lookup_instrument(instrument_id): Look up a fund or instrument in the synthetic product universe: asset class, risk rating, liquidity terms, sectors, leverage and registered jurisdictions.\n- research.search(query, k, doc_type): Semantic search over synthetic fund factsheets, market commentary, house views, research notes and internal policy notes. Returns citable chunks with source ids. Use one focused query per topic rather than one long combined query.\n- research.index_status(): Report how many chunks are indexed and which embedding model is in use.\n- compliance.check_suitability(client_id, proposed_instruments, include_existing_holdings): Run the suitability rule set for a client, over their existing holdings and any proposed instruments. Returns pass/review/fail plus itemised flags with remediation. Proposals may be instrument ids or objects with instrument_id and weight_pct.\n- compliance.list_rules(): Return the illustrative suitability rule set with ids, names and severities.\n- compliance.list_instruments(): List the synthetic product universe available for recommendation.",
+    "temperature": 0.2
+   },
+   "output": "{\"_mock\": true, \"_note\": \"Deterministic stub output; agents fall back to rule-based assembly.\", \"_digest\": \"d9e78d55\"}",
+   "error": null,
+   "meta": {
+    "provider": "mock",
+    "model": "deterministic-stub",
+    "usage": {
+     "prompt_tokens": 868,
+     "completion_tokens": 12
+    }
+   }
+  },
+  {
+   "id": "e3082df005",
+   "parent_id": "35d5c66941",
+   "kind": "note",
+   "name": "orchestrator.plan",
+   "label": "Intent 'meeting_prep' · research=True · instruments=['ZPM']",
+   "started_at": "2026-08-08T12:58:08.118+00:00",
+   "ended_at": "2026-08-08T12:58:08.118+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": {
+    "reasoning": "Default plan: full briefing across all agents.",
+    "run_research": true,
+    "research_queries": [],
+    "candidate_instruments": [
+     "ZPM"
+    ],
+    "intent": "meeting_prep",
+    "forced_steps": [
+     "portfolio",
+     "compliance",
+     "synthesis"
+    ],
+    "_generated_by": "llm"
+   },
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "1884361845",
+   "parent_id": "35d5c66941",
+   "kind": "agent",
+   "name": "portfolio",
+   "label": "orchestrator → portfolio · profile_and_holdings",
+   "started_at": "2026-08-08T12:58:08.118+00:00",
+   "ended_at": "2026-08-08T12:58:08.118+00:00",
+   "duration_ms": 0.2,
+   "status": "ok",
+   "input": {
+    "client_id": "4523"
+   },
+   "output": {
+    "client_profile": {
+     "client_id": "4523",
+     "name": "Aoife Brennan-Marsh (SYNTHETIC)",
+     "data_notice": "SYNTHETIC. Fictional client, not a real person",
+     "segment": "Private Client",
+     "domicile": "IE",
+     "adviser": "J. Okonkwo (synthetic)",
+     "risk_profile": "Balanced",
+     "investor_classification": "Retail",
+     "investment_horizon_years": 10,
+     "liquidity_needs": "Medium",
+     "esg_mandate": true,
+     "esg_exclusions": [
+      "Mining",
+      "Energy",
+      "Defence"
+     ],
+     "last_suitability_review": "2026-04-28",
+     "next_meeting": "2026-08-13",
+     "objectives": [
+      "Balanced growth consistent with a stated sustainability mandate",
+      "No exposure to extractive industries"
+     ],
+     "constraints": [
+      "Formal ESG exclusion list on file: mining, energy, defence"
+     ],
+     "adviser_notes": "Trustee of a family foundation; sustainability mandate is non-negotiable."
+    },
+    "portfolio_snapshot": {
+     "client_id": "4523",
+     "as_of": "2026-08-06",
+     "total_value_gbp": 3150000,
+     "currency": "GBP",
+     "holdings": [
+      {
+       "instrument_id": "CBM",
+       "name": "Castellan Balanced Multi-Asset Fund",
+       "asset_class": "Multi-Asset",
+       "risk_rating": 4,
+       "risk_band": "Medium",
+       "weight_pct": 38.0,
+       "value_gbp": 1197000.0,
+       "ytd_return_pct": 4.9
+      },
+      {
+       "instrument_id": "HSD",
+       "name": "Helvetia Short-Duration Bond Fund",
+       "asset_class": "Fixed Income",
+       "risk_rating": 2,
+       "risk_band": "Low",
+       "weight_pct": 22.0,
+       "value_gbp": 693000.0,
+       "ytd_return_pct": 2.1
+      },
+      {
+       "instrument_id": "NII",
+       "name": "Northwind Infrastructure Income Fund",
+       "asset_class": "Infrastructure",
+       "risk_rating": 4,
+       "risk_band": "Medium",
+       "weight_pct": 18.0,
+       "value_gbp": 567000.0,
+       "ytd_return_pct": 3.4
+      },
+      {
+       "instrument_id": "AGE",
+       "name": "Aurora Global Equity Fund",
+       "asset_class": "Global Equity",
+       "risk_rating": 6,
+       "risk_band": "High",
+       "weight_pct": 12.0,
+       "value_gbp": 378000.0,
+       "ytd_return_pct": 9.6
+      },
+      {
+       "instrument_id": "CASH",
+       "name": "GBP Cash & Money Market",
+       "asset_class": "Cash",
+       "risk_rating": 1,
+       "risk_band": "Low",
+       "weight_pct": 10.0,
+       "value_gbp": 315000.0,
+       "ytd_return_pct": 0.0
+      }
+     ],
+     "largest_position_pct": 38.0,
+     "cash_pct": 10.0,
+     "weighted_risk_rating": 3.5,
+     "performance": {
+      "ytd_return_pct": 4.09,
+      "one_year_return_pct": 7.77,
+      "three_year_annualised_pct": 5.52,
+      "benchmark": "Synthetic composite benchmark",
+      "vs_benchmark_ytd_pct": -0.31,
+      "volatility_pct": 9.05,
+      "max_drawdown_pct": -12.1
+     }
+    },
+    "derived": {
+     "growth_asset_pct": 68.0,
+     "allocation_by_asset_class": {
+      "Multi-Asset": 38.0,
+      "Fixed Income": 22.0,
+      "Infrastructure": 18.0,
+      "Global Equity": 12.0,
+      "Cash": 10.0
+     },
+     "largest_position": {
+      "instrument_id": "CBM",
+      "name": "Castellan Balanced Multi-Asset Fund",
+      "weight_pct": 38.0
+     },
+     "best_performer": {
+      "name": "Aurora Global Equity Fund",
+      "ytd_return_pct": 9.6
+     },
+     "worst_performer": {
+      "name": "GBP Cash & Money Market",
+      "ytd_return_pct": 0.0
+     },
+     "held_instrument_ids": [
+      "CBM",
+      "HSD",
+      "NII",
+      "AGE",
+      "CASH"
+     ],
+     "top_holdings": [
+      {
+       "instrument_id": "CBM",
+       "name": "Castellan Balanced Multi-Asset Fund",
+       "weight_pct": 38.0
+      },
+      {
+       "instrument_id": "NII",
+       "name": "Northwind Infrastructure Income Fund",
+       "weight_pct": 18.0
+      },
+      {
+       "instrument_id": "AGE",
+       "name": "Aurora Global Equity Fund",
+       "weight_pct": 12.0
+      }
+     ],
+     "risk_profile": "Balanced",
+     "horizon_years": 10
+    }
+   },
+   "error": null,
+   "meta": {
+    "task": "profile_and_holdings"
+   }
+  },
+  {
+   "id": "36ed77405f",
+   "parent_id": "1884361845",
+   "kind": "tool",
+   "name": "portfolio.get_client_profile",
+   "label": "tool · portfolio.get_client_profile",
+   "started_at": "2026-08-08T12:58:08.118+00:00",
+   "ended_at": "2026-08-08T12:58:08.118+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "client_id": "4523"
+   },
+   "output": {
+    "client_id": "4523",
+    "name": "Aoife Brennan-Marsh (SYNTHETIC)",
+    "data_notice": "SYNTHETIC. Fictional client, not a real person",
+    "segment": "Private Client",
+    "domicile": "IE",
+    "adviser": "J. Okonkwo (synthetic)",
+    "risk_profile": "Balanced",
+    "investor_classification": "Retail",
+    "investment_horizon_years": 10,
+    "liquidity_needs": "Medium",
+    "esg_mandate": true,
+    "esg_exclusions": [
+     "Mining",
+     "Energy",
+     "Defence"
+    ],
+    "last_suitability_review": "2026-04-28",
+    "next_meeting": "2026-08-13",
+    "objectives": [
+     "Balanced growth consistent with a stated sustainability mandate",
+     "No exposure to extractive industries"
+    ],
+    "constraints": [
+     "Formal ESG exclusion list on file: mining, energy, defence"
+    ],
+    "adviser_notes": "Trustee of a family foundation; sustainability mandate is non-negotiable."
+   },
+   "error": null,
+   "meta": {
+    "server": "portfolio"
+   }
+  },
+  {
+   "id": "10b35c4efd",
+   "parent_id": "1884361845",
+   "kind": "tool",
+   "name": "portfolio.get_holdings",
+   "label": "tool · portfolio.get_holdings",
+   "started_at": "2026-08-08T12:58:08.118+00:00",
+   "ended_at": "2026-08-08T12:58:08.118+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "client_id": "4523"
+   },
+   "output": {
+    "client_id": "4523",
+    "as_of": "2026-08-06",
+    "total_value_gbp": 3150000,
+    "currency": "GBP",
+    "holdings": [
+     {
+      "instrument_id": "CBM",
+      "name": "Castellan Balanced Multi-Asset Fund",
+      "asset_class": "Multi-Asset",
+      "risk_rating": 4,
+      "risk_band": "Medium",
+      "weight_pct": 38.0,
+      "value_gbp": 1197000.0,
+      "ytd_return_pct": 4.9
+     },
+     {
+      "instrument_id": "HSD",
+      "name": "Helvetia Short-Duration Bond Fund",
+      "asset_class": "Fixed Income",
+      "risk_rating": 2,
+      "risk_band": "Low",
+      "weight_pct": 22.0,
+      "value_gbp": 693000.0,
+      "ytd_return_pct": 2.1
+     },
+     {
+      "instrument_id": "NII",
+      "name": "Northwind Infrastructure Income Fund",
+      "asset_class": "Infrastructure",
+      "risk_rating": 4,
+      "risk_band": "Medium",
+      "weight_pct": 18.0,
+      "value_gbp": 567000.0,
+      "ytd_return_pct": 3.4
+     },
+     {
+      "instrument_id": "AGE",
+      "name": "Aurora Global Equity Fund",
+      "asset_class": "Global Equity",
+      "risk_rating": 6,
+      "risk_band": "High",
+      "weight_pct": 12.0,
+      "value_gbp": 378000.0,
+      "ytd_return_pct": 9.6
+     },
+     {
+      "instrument_id": "CASH",
+      "name": "GBP Cash & Money Market",
+      "asset_class": "Cash",
+      "risk_rating": 1,
+      "risk_band": "Low",
+      "weight_pct": 10.0,
+      "value_gbp": 315000.0,
+      "ytd_return_pct": 0.0
+     }
+    ],
+    "largest_position_pct": 38.0,
+    "cash_pct": 10.0,
+    "weighted_risk_rating": 3.5,
+    "performance": {
+     "ytd_return_pct": 4.09,
+     "one_year_return_pct": 7.77,
+     "three_year_annualised_pct": 5.52,
+     "benchmark": "Synthetic composite benchmark",
+     "vs_benchmark_ytd_pct": -0.31,
+     "volatility_pct": 9.05,
+     "max_drawdown_pct": -12.1
+    }
+   },
+   "error": null,
+   "meta": {
+    "server": "portfolio"
+   }
+  },
+  {
+   "id": "fb74c2ff81",
+   "parent_id": "1884361845",
+   "kind": "note",
+   "name": "portfolio.derived",
+   "label": "68.0% growth assets, largest position 38.0%",
+   "started_at": "2026-08-08T12:58:08.118+00:00",
+   "ended_at": "2026-08-08T12:58:08.118+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": {
+    "growth_asset_pct": 68.0,
+    "allocation_by_asset_class": {
+     "Multi-Asset": 38.0,
+     "Fixed Income": 22.0,
+     "Infrastructure": 18.0,
+     "Global Equity": 12.0,
+     "Cash": 10.0
+    },
+    "largest_position": {
+     "instrument_id": "CBM",
+     "name": "Castellan Balanced Multi-Asset Fund",
+     "weight_pct": 38.0
+    },
+    "best_performer": {
+     "name": "Aurora Global Equity Fund",
+     "ytd_return_pct": 9.6
+    },
+    "worst_performer": {
+     "name": "GBP Cash & Money Market",
+     "ytd_return_pct": 0.0
+    },
+    "held_instrument_ids": [
+     "CBM",
+     "HSD",
+     "NII",
+     "AGE",
+     "CASH"
+    ],
+    "top_holdings": [
+     {
+      "instrument_id": "CBM",
+      "name": "Castellan Balanced Multi-Asset Fund",
+      "weight_pct": 38.0
+     },
+     {
+      "instrument_id": "NII",
+      "name": "Northwind Infrastructure Income Fund",
+      "weight_pct": 18.0
+     },
+     {
+      "instrument_id": "AGE",
+      "name": "Aurora Global Equity Fund",
+      "weight_pct": 12.0
+     }
+    ],
+    "risk_profile": "Balanced",
+    "horizon_years": 10
+   },
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "aab115b9e8",
+   "parent_id": "35d5c66941",
+   "kind": "agent",
+   "name": "market_research",
+   "label": "orchestrator → market_research · research",
+   "started_at": "2026-08-08T12:58:08.118+00:00",
+   "ended_at": "2026-08-08T12:58:08.127+00:00",
+   "duration_ms": 8.5,
+   "status": "ok",
+   "input": {
+    "query": "Would the Zephyr precious metals fund work as a diversifier here?",
+    "research_queries": [],
+    "candidate_instruments": [
+     "ZPM"
+    ],
+    "portfolio_context": {
+     "growth_asset_pct": 68.0,
+     "allocation_by_asset_class": {
+      "Multi-Asset": 38.0,
+      "Fixed Income": 22.0,
+      "Infrastructure": 18.0,
+      "Global Equity": 12.0,
+      "Cash": 10.0
+     },
+     "largest_position": {
+      "instrument_id": "CBM",
+      "name": "Castellan Balanced Multi-Asset Fund",
+      "weight_pct": 38.0
+     },
+     "best_performer": {
+      "name": "Aurora Global Equity Fund",
+      "ytd_return_pct": 9.6
+     },
+     "worst_performer": {
+      "name": "GBP Cash & Money Market",
+      "ytd_return_pct": 0.0
+     },
+     "held_instrument_ids": [
+      "CBM",
+      "HSD",
+      "NII",
+      "AGE",
+      "CASH"
+     ],
+     "top_holdings": [
+      {
+       "instrument_id": "CBM",
+       "name": "Castellan Balanced Multi-Asset Fund",
+       "weight_pct": 38.0
+      },
+      {
+       "instrument_id": "NII",
+       "name": "Northwind Infrastructure Income Fund",
+       "weight_pct": 18.0
+      },
+      {
+       "instrument_id": "AGE",
+       "name": "Aurora Global Equity Fund",
+       "weight_pct": 12.0
+      }
+     ],
+     "risk_profile": "Balanced",
+     "horizon_years": 10
+    }
+   },
+   "output": {
+    "queries": [
+     "Would the Zephyr precious metals fund work as a diversifier here?",
+     "Multi-Asset outlook and positioning",
+     "Fixed Income outlook and positioning",
+     "asset allocation house view for a Balanced mandate",
+     "Zephyr Precious Metals Fund outlook, risks and suitability"
+    ],
+    "retrieval_by_query": [
+     {
+      "query": "Would the Zephyr precious metals fund work as a diversifier here?",
+      "hits": [
+       "FS-ZPM-2026Q2::01",
+       "FS-ZPM-2026Q2::00",
+       "FS-AGE-2026Q2::01",
+       "RS-ESG-2026::00"
+      ]
+     },
+     {
+      "query": "Multi-Asset outlook and positioning",
+      "hits": [
+       "FS-CBM-2026Q2::01",
+       "CM-EM-2026Q3::01",
+       "CM-EM-2026Q3::00",
+       "FS-CBM-2026Q2::00"
+      ]
+     },
+     {
+      "query": "Fixed Income outlook and positioning",
+      "hits": [
+       "CM-EQ-2026Q3::01",
+       "FS-MED-2026Q2::01",
+       "FS-CBM-2026Q2::00",
+       "CM-EQ-2026Q3::00"
+      ]
+     },
+     {
+      "query": "asset allocation house view for a Balanced mandate",
+      "hits": [
+       "HV-AA-2026Q3::00",
+       "FS-CBM-2026Q2::01",
+       "HV-ALTS-2026Q3::00",
+       "FS-CBM-2026Q2::00"
+      ]
+     },
+     {
+      "query": "Zephyr Precious Metals Fund outlook, risks and suitability",
+      "hits": [
+       "FS-ZPM-2026Q2::01",
+       "FS-ZPM-2026Q2::00",
+       "FS-BPC-2026Q2::01",
+       "FS-AGE-2026Q2::01"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "marker": "S1",
+      "chunk_id": "FS-CBM-2026Q2::00",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "score": 0.2378,
+      "fusion_score": 0.04712,
+      "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. Fictional fund, fictional figures.** Castellan runs a 55/35/10 split across equity, fixed income and alternatives, rebalanced quarterly with a tactical band of plus or minus ten percentage points on the equity sleeve. **Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily. Year to date the fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4."
+     },
+     {
+      "marker": "S2",
+      "chunk_id": "FS-ZPM-2026Q2::01",
+      "doc_id": "FS-ZPM-2026Q2",
+      "title": "Zephyr Precious Metals Fund Factsheet",
+      "section": "Zephyr Precious Metals Fund",
+      "source_file": "fund_zephyr_precious_metals.md",
+      "doc_type": "fund_factsheet",
+      "score": 0.4395,
+      "fusion_score": 0.03279,
+      "snippet": "Zephyr Precious Metals Fund Factsheet: Zephyr Precious Metals Fund nder client mandates carrying a Mining or Energy exclusion. **Suitability note:** diversifier sleeve, typically capped at 5 to 8% of portfolio value. Unsuitable for Conservative profiles and for clients with formal ESG exclusion lists covering mining or extractives."
+     },
+     {
+      "marker": "S3",
+      "chunk_id": "FS-CBM-2026Q2::01",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "score": 0.3152,
+      "fusion_score": 0.03252,
+      "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4. Realised volatility over twelve months was 7.9%. The tactical overlay is currently 3 points underweight equity and holds an elevated 8% cash position, reflecting the house view that policy rates fall more slowly than forward markets imply. **Suitability note:** the default one-fund solution for Balanced mandates and a common core sleeve inside Conservative portfolios where the client accepts moderate equity exposure. Worst twelve-month period since launch was…"
+     },
+     {
+      "marker": "S4",
+      "chunk_id": "FS-ZPM-2026Q2::00",
+      "doc_id": "FS-ZPM-2026Q2",
+      "title": "Zephyr Precious Metals Fund Factsheet",
+      "section": "Zephyr Precious Metals Fund",
+      "source_file": "fund_zephyr_precious_metals.md",
+      "doc_type": "fund_factsheet",
+      "score": 0.3651,
+      "fusion_score": 0.03226,
+      "snippet": "Zephyr Precious Metals Fund Factsheet: Zephyr Precious Metals Fund **Synthetic document. Fictional fund, fictional figures.** Zephyr holds physical gold and silver exposure alongside listed precious metals miners, split roughly 55/45. The mining sleeve is the source of both the fund's upside gearing and its volatility. **Risk rating:** 6 of 7 (High). **OCF:** 0.74%. **Dealing:** daily. Year to date the fund returned 11.8%. Correlation to global equity over the last three years was 0.18, which is the diversification case for holding it. **ESG note:** the mining sleeve includes extractive operations in jurisdictions with limited environmental disclosure. This fund does not meet the criteria…"
+     },
+     {
+      "marker": "S5",
+      "chunk_id": "FS-AGE-2026Q2::01",
+      "doc_id": "FS-AGE-2026Q2",
+      "title": "Aurora Global Equity Fund Factsheet",
+      "section": "Aurora Global Equity Fund",
+      "source_file": "fund_aurora_global_equity.md",
+      "doc_type": "fund_factsheet",
+      "score": 0.2171,
+      "fusion_score": 0.0315,
+      "snippet": "Aurora Global Equity Fund Factsheet: Aurora Global Equity Fund manager has trimmed the technology overweight from 31% to 26% over the quarter, citing valuation dispersion rather than a change of view on earnings. Cash sits at 2.4%. **Suitability note:** as a single-sleeve equity holding this fund carries full equity drawdown risk. It is generally unsuitable as a majority position for clients with a Conservative profile or a horizon under five years. Maximum peak-to-trough drawdown since launch was 24.8%."
+     },
+     {
+      "marker": "S6",
+      "chunk_id": "CM-EQ-2026Q3::01",
+      "doc_id": "CM-EQ-2026Q3",
+      "title": "Global Equity Outlook, Q3 2026",
+      "section": "Global equity outlook",
+      "source_file": "commentary_equity_outlook.md",
+      "doc_type": "market_commentary",
+      "score": 0.2518,
+      "fusion_score": 0.01639,
+      "snippet": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheets over momentum, and we are cautious about adding to concentrated thematic exposure at current levels. The principal risk to this view is that the capital expenditure cycle driving current earnings growth proves shorter than expected. See the separate note on AI capital expenditure."
+     },
+     {
+      "marker": "S7",
+      "chunk_id": "HV-AA-2026Q3::00",
+      "doc_id": "HV-AA-2026Q3",
+      "title": "House View, Strategic and Tactical Asset Allocation Q3 2026",
+      "section": "House view: asset allocation",
+      "source_file": "house_view_asset_allocation.md",
+      "doc_type": "house_view",
+      "score": 0.347,
+      "fusion_score": 0.01639,
+      "snippet": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. Illustrative only.** Tactical positions against strategic weights this quarter: - Equity: neutral. Valuation is unattractive but earnings momentum is intact. - Government bonds: neutral duration, preference for the 2 to 5 year part of the curve. - Investment grade credit: modest overweight, funded from high yield. - High yield: underweight, on spread levels rather than default expectations. - Real assets: modest overweight, chiefly listed infrastructure. - Cash: overweight, at 6 to 8% for most mandates, held as optionality. Model allocations by risk profile are unchanged:…"
+     },
+     {
+      "marker": "S8",
+      "chunk_id": "CM-EM-2026Q3::01",
+      "doc_id": "CM-EM-2026Q3",
+      "title": "Emerging Markets Outlook, Q3 2026",
+      "section": "Emerging markets outlook",
+      "source_file": "commentary_em_outlook.md",
+      "doc_type": "market_commentary",
+      "score": 0.2285,
+      "fusion_score": 0.01613,
+      "snippet": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook igh, and several central banks began cutting ahead of developed-market peers, which supports local bond prices. The dominant risk is dollar strength. A sustained rally in the dollar has historically been the largest single driver of emerging market debt drawdowns, exceeding the contribution of actual defaults. We are neutral on the asset class and would not increase allocations for clients whose risk profile makes a 15% drawdown unacceptable."
+     }
+    ],
+    "market_context": {
+     "summary": "Retrieved 8 passages from the research index covering FS-CBM-2026Q2, FS-ZPM-2026Q2. Narrative summarisation was unavailable, so the key points below are extracted directly from the source passages.",
+     "key_points": [
+      {
+       "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. [S1]",
+       "sources": [
+        "S1"
+       ]
+      },
+      {
+       "point": "Zephyr Precious Metals Fund Factsheet: Zephyr Precious Metals Fund nder client mandates carrying a Mining or Energy exclusion. [S2]",
+       "sources": [
+        "S2"
+       ]
+      },
+      {
+       "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. [S3]",
+       "sources": [
+        "S3"
+       ]
+      },
+      {
+       "point": "Zephyr Precious Metals Fund Factsheet: Zephyr Precious Metals Fund **Synthetic document. [S4]",
+       "sources": [
+        "S4"
+       ]
+      }
+     ],
+     "relevance_to_client": "Review the cited passages directly. No model-generated interpretation was applied.",
+     "_generated_by": "deterministic_fallback",
+     "cited_markers": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+     ]
+    }
+   },
+   "error": null,
+   "meta": {
+    "task": "research"
+   }
+  },
+  {
+   "id": "ea2bccdb36",
+   "parent_id": "aab115b9e8",
+   "kind": "llm",
+   "name": "research.plan_queries",
+   "label": "LLM · mock/deterministic-stub",
+   "started_at": "2026-08-08T12:58:08.118+00:00",
+   "ended_at": "2026-08-08T12:58:08.118+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "system": "You plan retrieval queries for a private bank's research index.\nThe index contains synthetic fund factsheets, market commentary, house views,\nresearch notes and one internal suitability policy note.\n\nGiven an adviser's request and a client's portfolio, produce up to 4 short,\nfocused search queries. One topic per query. Prefer the vocabulary a research\nanalyst would use over the adviser's phrasing.\n\nReturn JSON: {\"queries\": [\"...\", \"...\"], \"reasoning\": \"one sentence\"}\n\nRespond with a single valid JSON object and nothing else. No prose before or after, no markdown code fences.",
+    "user": "Adviser request: Would the Zephyr precious metals fund work as a diversifier here?\n\nClient context: risk profile Balanced, horizon 10y, allocation {'Multi-Asset': 38.0, 'Fixed Income': 22.0, 'Infrastructure': 18.0, 'Global Equity': 12.0, 'Cash': 10.0}, largest position Castellan Balanced Multi-Asset Fund",
+    "temperature": 0.2
+   },
+   "output": "{\"_mock\": true, \"_note\": \"Deterministic stub output; agents fall back to rule-based assembly.\", \"_digest\": \"f3634997\"}",
+   "error": null,
+   "meta": {
+    "provider": "mock",
+    "model": "deterministic-stub",
+    "usage": {
+     "prompt_tokens": 221,
+     "completion_tokens": 12
+    }
+   }
+  },
+  {
+   "id": "833e85d2b9",
+   "parent_id": "aab115b9e8",
+   "kind": "tool",
+   "name": "portfolio.lookup_instrument",
+   "label": "tool · portfolio.lookup_instrument",
+   "started_at": "2026-08-08T12:58:08.118+00:00",
+   "ended_at": "2026-08-08T12:58:08.118+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "instrument_id": "ZPM"
+   },
+   "output": {
+    "instrument_id": "ZPM",
+    "name": "Zephyr Precious Metals Fund",
+    "asset_class": "Commodities",
+    "risk_rating": 6,
+    "risk_band": "High",
+    "liquidity": "Daily",
+    "ocf_pct": 0.74,
+    "sectors": [
+     "Mining",
+     "Materials"
+    ],
+    "registered_jurisdictions": [
+     "GB",
+     "CH",
+     "AE"
+    ],
+    "leverage": false,
+    "doc": "fund_zephyr_precious_metals.md"
+   },
+   "error": null,
+   "meta": {
+    "server": "portfolio"
+   }
+  },
+  {
+   "id": "aec203e14e",
+   "parent_id": "aab115b9e8",
+   "kind": "note",
+   "name": "research.instrument_queries",
+   "label": "Added 1 product-specific quer(y/ies) for ['ZPM']",
+   "started_at": "2026-08-08T12:58:08.118+00:00",
+   "ended_at": "2026-08-08T12:58:08.118+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": [
+    "Zephyr Precious Metals Fund outlook, risks and suitability"
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "0d45c3c984",
+   "parent_id": "aab115b9e8",
+   "kind": "note",
+   "name": "research.queries",
+   "label": "5 retrieval queries planned",
+   "started_at": "2026-08-08T12:58:08.118+00:00",
+   "ended_at": "2026-08-08T12:58:08.118+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": [
+    "Would the Zephyr precious metals fund work as a diversifier here?",
+    "Multi-Asset outlook and positioning",
+    "Fixed Income outlook and positioning",
+    "asset allocation house view for a Balanced mandate",
+    "Zephyr Precious Metals Fund outlook, risks and suitability"
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "7d57a10a4f",
+   "parent_id": "aab115b9e8",
+   "kind": "retrieval",
+   "name": "research.search",
+   "label": "retrieve · Would the Zephyr precious metals fund work as a diversifier ",
+   "started_at": "2026-08-08T12:58:08.118+00:00",
+   "ended_at": "2026-08-08T12:58:08.120+00:00",
+   "duration_ms": 1.8,
+   "status": "ok",
+   "input": {
+    "query": "Would the Zephyr precious metals fund work as a diversifier here?"
+   },
+   "output": [
+    {
+     "doc_id": "FS-ZPM-2026Q2",
+     "section": "Zephyr Precious Metals Fund",
+     "score": 0.3989
+    },
+    {
+     "doc_id": "FS-ZPM-2026Q2",
+     "section": "Zephyr Precious Metals Fund",
+     "score": 0.3651
+    },
+    {
+     "doc_id": "FS-AGE-2026Q2",
+     "section": "Aurora Global Equity Fund",
+     "score": 0.2171
+    },
+    {
+     "doc_id": "RS-ESG-2026",
+     "section": "Transition investing and exclusion mandates",
+     "score": 0.2019
+    }
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "37e53e46b2",
+   "parent_id": "7d57a10a4f",
+   "kind": "tool",
+   "name": "research.search",
+   "label": "tool · research.search",
+   "started_at": "2026-08-08T12:58:08.118+00:00",
+   "ended_at": "2026-08-08T12:58:08.120+00:00",
+   "duration_ms": 1.8,
+   "status": "ok",
+   "input": {
+    "query": "Would the Zephyr precious metals fund work as a diversifier here?",
+    "k": 4
+   },
+   "output": {
+    "query": "Would the Zephyr precious metals fund work as a diversifier here?",
+    "embedding_model": "hashing-bow-512",
+    "hit_count": 4,
+    "hits": [
+     {
+      "chunk_id": "FS-ZPM-2026Q2::01",
+      "doc_id": "FS-ZPM-2026Q2",
+      "title": "Zephyr Precious Metals Fund Factsheet",
+      "section": "Zephyr Precious Metals Fund",
+      "source_file": "fund_zephyr_precious_metals.md",
+      "doc_type": "fund_factsheet",
+      "text": "Zephyr Precious Metals Fund Factsheet: Zephyr Precious Metals Fund\nnder client mandates carrying a Mining or Energy exclusion.\n\n**Suitability note:** diversifier sleeve, typically capped at 5 to 8% of\nportfolio value. Unsuitable for Conservative profiles and for clients with\nformal ESG exclusion lists covering mining or extractives.",
+      "score": 0.3989
+     },
+     {
+      "chunk_id": "FS-ZPM-2026Q2::00",
+      "doc_id": "FS-ZPM-2026Q2",
+      "title": "Zephyr Precious Metals Fund Factsheet",
+      "section": "Zephyr Precious Metals Fund",
+      "source_file": "fund_zephyr_precious_metals.md",
+      "doc_type": "fund_factsheet",
+      "text": "Zephyr Precious Metals Fund Factsheet: Zephyr Precious Metals Fund\n**Synthetic document. Fictional fund, fictional figures.**\n\nZephyr holds physical gold and silver exposure alongside listed precious\nmetals miners, split roughly 55/45. The mining sleeve is the source of both\nthe fund's upside gearing and its volatility.\n\n**Risk rating:** 6 of 7 (High). **OCF:** 0.74%. **Dealing:** daily.\n\nYear to date the fund returned 11.8%. Correlation to global equity over the\nlast three years was 0.18, which is the diversification case for holding it.\n\n**ESG note:** the mining sleeve includes extractive operations in\njurisdictions with limited environmental disclosure. This fund does not meet\nthe criteria of any sustainability-labelled mandate and is explicitly\nexcluded under client mandates carrying a Mining or Energy exclusion.\n\n**Suitability note:** diversifier sleeve, typically capped at 5 to 8% of\nportfolio value.",
+      "score": 0.3651
+     },
+     {
+      "chunk_id": "FS-AGE-2026Q2::01",
+      "doc_id": "FS-AGE-2026Q2",
+      "title": "Aurora Global Equity Fund Factsheet",
+      "section": "Aurora Global Equity Fund",
+      "source_file": "fund_aurora_global_equity.md",
+      "doc_type": "fund_factsheet",
+      "text": "Aurora Global Equity Fund Factsheet: Aurora Global Equity Fund\nmanager has trimmed the technology overweight from 31% to 26% over the\nquarter, citing valuation dispersion rather than a change of view on\nearnings. Cash sits at 2.4%.\n\n**Suitability note:** as a single-sleeve equity holding this fund carries\nfull equity drawdown risk. It is generally unsuitable as a majority position\nfor clients with a Conservative profile or a horizon under five years.\nMaximum peak-to-trough drawdown since launch was 24.8%.",
+      "score": 0.2171
+     },
+     {
+      "chunk_id": "RS-ESG-2026::00",
+      "doc_id": "RS-ESG-2026",
+      "title": "Transition Investing and Exclusion Mandates Research Note",
+      "section": "Transition investing and exclusion mandates",
+      "source_file": "research_esg_transition.md",
+      "doc_type": "research_note",
+      "text": "Transition Investing and Exclusion Mandates Research Note: Transition investing and exclusion mandates\n**Synthetic research. Fictional figures.**\n\nExclusion-based mandates are simple to administer and easy to explain, which\nis why most private client sustainability mandates still use them. The cost\nis tracking error: a mandate excluding mining, energy and defence carried a\nfictional 2.4% annualised tracking error against global equity over five\nyears, most of it concentrated in 2022.\n\nAdvisers should document exclusions precisely at the instrument level rather\nthan at the sector label. A precious metals fund holding listed miners\nbreaches a Mining exclusion even when it is described as a diversifier or a\ncommodity holding, and this is a recurring source of mandate breaches in\npractice.\n\nTransition-tilted strategies are the more analytically defensible approach\nbut require clients to accept holding companies they may find\nobjectionable today on the argument that they will change.",
+      "score": 0.2019
+     }
+    ]
+   },
+   "error": null,
+   "meta": {
+    "server": "research"
+   }
+  },
+  {
+   "id": "408a9d21fb",
+   "parent_id": "aab115b9e8",
+   "kind": "retrieval",
+   "name": "research.search",
+   "label": "retrieve · Multi-Asset outlook and positioning",
+   "started_at": "2026-08-08T12:58:08.120+00:00",
+   "ended_at": "2026-08-08T12:58:08.122+00:00",
+   "duration_ms": 1.5,
+   "status": "ok",
+   "input": {
+    "query": "Multi-Asset outlook and positioning"
+   },
+   "output": [
+    {
+     "doc_id": "FS-CBM-2026Q2",
+     "section": "Castellan Balanced Multi-Asset Fund",
+     "score": 0.2426
+    },
+    {
+     "doc_id": "CM-EM-2026Q3",
+     "section": "Emerging markets outlook",
+     "score": 0.2285
+    },
+    {
+     "doc_id": "CM-EM-2026Q3",
+     "section": "Emerging markets outlook",
+     "score": 0.212
+    },
+    {
+     "doc_id": "FS-CBM-2026Q2",
+     "section": "Castellan Balanced Multi-Asset Fund",
+     "score": 0.2084
+    }
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "4c404f5366",
+   "parent_id": "408a9d21fb",
+   "kind": "tool",
+   "name": "research.search",
+   "label": "tool · research.search",
+   "started_at": "2026-08-08T12:58:08.120+00:00",
+   "ended_at": "2026-08-08T12:58:08.122+00:00",
+   "duration_ms": 1.5,
+   "status": "ok",
+   "input": {
+    "query": "Multi-Asset outlook and positioning",
+    "k": 4
+   },
+   "output": {
+    "query": "Multi-Asset outlook and positioning",
+    "embedding_model": "hashing-bow-512",
+    "hit_count": 4,
+    "hits": [
+     {
+      "chunk_id": "FS-CBM-2026Q2::01",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "text": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund\nreturned 4.9%. Equity contributed 3.8 points, fixed\nincome 0.7, and the alternatives sleeve, chiefly listed infrastructure and\ngold, contributed 0.4. Realised volatility over twelve months was 7.9%.\n\nThe tactical overlay is currently 3 points underweight equity and holds an\nelevated 8% cash position, reflecting the house view that policy rates fall\nmore slowly than forward markets imply.\n\n**Suitability note:** the default one-fund solution for Balanced mandates\nand a common core sleeve inside Conservative portfolios where the client\naccepts moderate equity exposure. Worst twelve-month period since launch\nwas minus 11.2%.",
+      "score": 0.2426
+     },
+     {
+      "chunk_id": "CM-EM-2026Q3::01",
+      "doc_id": "CM-EM-2026Q3",
+      "title": "Emerging Markets Outlook, Q3 2026",
+      "section": "Emerging markets outlook",
+      "source_file": "commentary_em_outlook.md",
+      "doc_type": "market_commentary",
+      "text": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook\nigh, and several central\nbanks began cutting ahead of developed-market peers, which supports local\nbond prices.\n\nThe dominant risk is dollar strength. A sustained rally in the dollar has\nhistorically been the largest single driver of emerging market debt\ndrawdowns, exceeding the contribution of actual defaults.\n\nWe are neutral on the asset class and would not increase allocations for\nclients whose risk profile makes a 15% drawdown unacceptable.",
+      "score": 0.2285
+     },
+     {
+      "chunk_id": "CM-EM-2026Q3::00",
+      "doc_id": "CM-EM-2026Q3",
+      "title": "Emerging Markets Outlook, Q3 2026",
+      "section": "Emerging markets outlook",
+      "source_file": "commentary_em_outlook.md",
+      "doc_type": "market_commentary",
+      "text": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook\n**Synthetic commentary. Illustrative views, not investment advice.**\n\nEmerging market hard-currency spreads have compressed to a fictional 291\nbasis points, close to the tightest decile of the past decade. That leaves\nlimited room for further spread-driven return and makes the asset class\nincreasingly a carry trade rather than a valuation opportunity.\n\nLocal-currency debt is the more interesting side of the market. Real policy\nrates across the larger emerging economies remain high, and several central\nbanks began cutting ahead of developed-market peers, which supports local\nbond prices.\n\nThe dominant risk is dollar strength.",
+      "score": 0.212
+     },
+     {
+      "chunk_id": "FS-CBM-2026Q2::00",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "text": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund\n**Synthetic document. Fictional fund, fictional figures.**\n\nCastellan runs a 55/35/10 split across equity, fixed income and\nalternatives, rebalanced quarterly with a tactical band of plus or minus\nten percentage points on the equity sleeve.\n\n**Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily.\n\nYear to date the fund returned 4.9%. Equity contributed 3.8 points, fixed\nincome 0.7, and the alternatives sleeve, chiefly listed infrastructure and\ngold, contributed 0.4.",
+      "score": 0.2084
+     }
+    ]
+   },
+   "error": null,
+   "meta": {
+    "server": "research"
+   }
+  },
+  {
+   "id": "50f4b3f348",
+   "parent_id": "aab115b9e8",
+   "kind": "retrieval",
+   "name": "research.search",
+   "label": "retrieve · Fixed Income outlook and positioning",
+   "started_at": "2026-08-08T12:58:08.122+00:00",
+   "ended_at": "2026-08-08T12:58:08.123+00:00",
+   "duration_ms": 1.5,
+   "status": "ok",
+   "input": {
+    "query": "Fixed Income outlook and positioning"
+   },
+   "output": [
+    {
+     "doc_id": "CM-EQ-2026Q3",
+     "section": "Global equity outlook",
+     "score": 0.2518
+    },
+    {
+     "doc_id": "FS-MED-2026Q2",
+     "section": "Meridian Emerging Market Debt Fund",
+     "score": 0.2512
+    },
+    {
+     "doc_id": "FS-CBM-2026Q2",
+     "section": "Castellan Balanced Multi-Asset Fund",
+     "score": 0.2084
+    },
+    {
+     "doc_id": "CM-EQ-2026Q3",
+     "section": "Global equity outlook",
+     "score": 0.1963
+    }
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "313eda0f03",
+   "parent_id": "50f4b3f348",
+   "kind": "tool",
+   "name": "research.search",
+   "label": "tool · research.search",
+   "started_at": "2026-08-08T12:58:08.122+00:00",
+   "ended_at": "2026-08-08T12:58:08.123+00:00",
+   "duration_ms": 1.5,
+   "status": "ok",
+   "input": {
+    "query": "Fixed Income outlook and positioning",
+    "k": 4
+   },
+   "output": {
+    "query": "Fixed Income outlook and positioning",
+    "embedding_model": "hashing-bow-512",
+    "hit_count": 4,
+    "hits": [
+     {
+      "chunk_id": "CM-EQ-2026Q3::01",
+      "doc_id": "CM-EQ-2026Q3",
+      "title": "Global Equity Outlook, Q3 2026",
+      "section": "Global equity outlook",
+      "source_file": "commentary_equity_outlook.md",
+      "doc_type": "market_commentary",
+      "text": "Global Equity Outlook, Q3 2026: Global equity outlook\nthe first such run in eighteen months.\n\nEarnings revisions are positive in aggregate but negative in consumer\ndiscretionary and European industrials. We remain neutral equity overall,\nwith a preference for quality balance sheets over momentum, and we are\ncautious about adding to concentrated thematic exposure at current levels.\n\nThe principal risk to this view is that the capital expenditure cycle\ndriving current earnings growth proves shorter than expected. See the\nseparate note on AI capital expenditure.",
+      "score": 0.2518
+     },
+     {
+      "chunk_id": "FS-MED-2026Q2::01",
+      "doc_id": "FS-MED-2026Q2",
+      "title": "Meridian Emerging Market Debt Fund Factsheet",
+      "section": "Meridian Emerging Market Debt Fund",
+      "source_file": "fund_meridian_em_debt.md",
+      "doc_type": "fund_factsheet",
+      "text": "Meridian Emerging Market Debt Fund Factsheet: Meridian Emerging Market Debt Fund\nof drawdown for\nthis strategy, ahead of default losses.\n\n**Suitability note:** despite sitting in a fixed income wrapper, this is a\nhigh-risk holding. Clients frequently misread \"bond fund\" as \"defensive\".\nAdvisers should be explicit that drawdowns of 15% or more are within the\nnormal range for the asset class.",
+      "score": 0.2512
+     },
+     {
+      "chunk_id": "FS-CBM-2026Q2::00",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "text": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund\n**Synthetic document. Fictional fund, fictional figures.**\n\nCastellan runs a 55/35/10 split across equity, fixed income and\nalternatives, rebalanced quarterly with a tactical band of plus or minus\nten percentage points on the equity sleeve.\n\n**Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily.\n\nYear to date the fund returned 4.9%. Equity contributed 3.8 points, fixed\nincome 0.7, and the alternatives sleeve, chiefly listed infrastructure and\ngold, contributed 0.4.",
+      "score": 0.2084
+     },
+     {
+      "chunk_id": "CM-EQ-2026Q3::00",
+      "doc_id": "CM-EQ-2026Q3",
+      "title": "Global Equity Outlook, Q3 2026",
+      "section": "Global equity outlook",
+      "source_file": "commentary_equity_outlook.md",
+      "doc_type": "market_commentary",
+      "text": "Global Equity Outlook, Q3 2026: Global equity outlook\n**Synthetic commentary. Illustrative views, not investment advice.**\n\nIndex-level valuations look stretched, but the aggregate figure conceals an\nunusually wide dispersion. The largest ten constituents of the global index\naccount for a fictional 29% of market capitalisation and trade at a 68%\npremium to the remaining constituents.\n\nMarket breadth has improved modestly this quarter: the equal-weighted index\noutperformed the capitalisation-weighted index in two of the last three\nmonths, the first such run in eighteen months.\n\nEarnings revisions are positive in aggregate but negative in consumer\ndiscretionary and European industrials.",
+      "score": 0.1963
+     }
+    ]
+   },
+   "error": null,
+   "meta": {
+    "server": "research"
+   }
+  },
+  {
+   "id": "521d3ea39b",
+   "parent_id": "aab115b9e8",
+   "kind": "retrieval",
+   "name": "research.search",
+   "label": "retrieve · asset allocation house view for a Balanced mandate",
+   "started_at": "2026-08-08T12:58:08.123+00:00",
+   "ended_at": "2026-08-08T12:58:08.125+00:00",
+   "duration_ms": 1.4,
+   "status": "ok",
+   "input": {
+    "query": "asset allocation house view for a Balanced mandate"
+   },
+   "output": [
+    {
+     "doc_id": "HV-AA-2026Q3",
+     "section": "House view: asset allocation",
+     "score": 0.347
+    },
+    {
+     "doc_id": "FS-CBM-2026Q2",
+     "section": "Castellan Balanced Multi-Asset Fund",
+     "score": 0.3152
+    },
+    {
+     "doc_id": "HV-ALTS-2026Q3",
+     "section": "House view: alternatives and private markets",
+     "score": 0.2991
+    },
+    {
+     "doc_id": "FS-CBM-2026Q2",
+     "section": "Castellan Balanced Multi-Asset Fund",
+     "score": 0.2378
+    }
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "38764a76f2",
+   "parent_id": "521d3ea39b",
+   "kind": "tool",
+   "name": "research.search",
+   "label": "tool · research.search",
+   "started_at": "2026-08-08T12:58:08.123+00:00",
+   "ended_at": "2026-08-08T12:58:08.125+00:00",
+   "duration_ms": 1.4,
+   "status": "ok",
+   "input": {
+    "query": "asset allocation house view for a Balanced mandate",
+    "k": 4
+   },
+   "output": {
+    "query": "asset allocation house view for a Balanced mandate",
+    "embedding_model": "hashing-bow-512",
+    "hit_count": 4,
+    "hits": [
+     {
+      "chunk_id": "HV-AA-2026Q3::00",
+      "doc_id": "HV-AA-2026Q3",
+      "title": "House View, Strategic and Tactical Asset Allocation Q3 2026",
+      "section": "House view: asset allocation",
+      "source_file": "house_view_asset_allocation.md",
+      "doc_type": "house_view",
+      "text": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation\n**Synthetic house view. Illustrative only.**\n\nTactical positions against strategic weights this quarter:\n\n- Equity: neutral. Valuation is unattractive but earnings momentum is intact.\n- Government bonds: neutral duration, preference for the 2 to 5 year part of\n  the curve.\n- Investment grade credit: modest overweight, funded from high yield.\n- High yield: underweight, on spread levels rather than default expectations.\n- Real assets: modest overweight, chiefly listed infrastructure.\n- Cash: overweight, at 6 to 8% for most mandates, held as optionality.\n\nModel allocations by risk profile are unchanged: Conservative 25% growth\nassets, Balanced 50%, Growth 70%, Aggressive 85%.\n\nThe committee's stated conviction level this quarter is low. Where\nconviction is low, the correct response is smaller active positions, not\nmore of them.",
+      "score": 0.347
+     },
+     {
+      "chunk_id": "FS-CBM-2026Q2::01",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "text": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund\nreturned 4.9%. Equity contributed 3.8 points, fixed\nincome 0.7, and the alternatives sleeve, chiefly listed infrastructure and\ngold, contributed 0.4. Realised volatility over twelve months was 7.9%.\n\nThe tactical overlay is currently 3 points underweight equity and holds an\nelevated 8% cash position, reflecting the house view that policy rates fall\nmore slowly than forward markets imply.\n\n**Suitability note:** the default one-fund solution for Balanced mandates\nand a common core sleeve inside Conservative portfolios where the client\naccepts moderate equity exposure. Worst twelve-month period since launch\nwas minus 11.2%.",
+      "score": 0.3152
+     },
+     {
+      "chunk_id": "HV-ALTS-2026Q3::00",
+      "doc_id": "HV-ALTS-2026Q3",
+      "title": "House View, Alternatives and Private Markets Q3 2026",
+      "section": "House view: alternatives and private markets",
+      "source_file": "house_view_alternatives.md",
+      "doc_type": "house_view",
+      "text": "House View, Alternatives and Private Markets Q3 2026: House view: alternatives and private markets\n**Synthetic house view. Illustrative only.**\n\nThe committee's position is that the illiquidity premium in private credit\nhas compressed to the point where it no longer compensates for the\ngovernance and liquidity costs in most private client portfolios.\n\nIllustrative allocation limits: private markets exposure should not exceed\n15% of total portfolio value for Growth and Aggressive mandates, 5% for\nBalanced, and zero for Conservative mandates or any client with High\nliquidity needs.\n\nSemi-liquid structures deserve particular scrutiny. Quarterly dealing with\ngates offers the appearance of liquidity without the substance, and clients\nroutinely misunderstand what a gate does until it is applied.\n\nListed infrastructure and listed real assets remain the committee's\npreferred route into real asset exposure for portfolios below £10m, on\ngovernance grounds rather than expected return.",
+      "score": 0.2991
+     },
+     {
+      "chunk_id": "FS-CBM-2026Q2::00",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "text": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund\n**Synthetic document. Fictional fund, fictional figures.**\n\nCastellan runs a 55/35/10 split across equity, fixed income and\nalternatives, rebalanced quarterly with a tactical band of plus or minus\nten percentage points on the equity sleeve.\n\n**Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily.\n\nYear to date the fund returned 4.9%. Equity contributed 3.8 points, fixed\nincome 0.7, and the alternatives sleeve, chiefly listed infrastructure and\ngold, contributed 0.4.",
+      "score": 0.2378
+     }
+    ]
+   },
+   "error": null,
+   "meta": {
+    "server": "research"
+   }
+  },
+  {
+   "id": "37ad476ed8",
+   "parent_id": "aab115b9e8",
+   "kind": "retrieval",
+   "name": "research.search",
+   "label": "retrieve · Zephyr Precious Metals Fund outlook, risks and suitability",
+   "started_at": "2026-08-08T12:58:08.125+00:00",
+   "ended_at": "2026-08-08T12:58:08.126+00:00",
+   "duration_ms": 1.5,
+   "status": "ok",
+   "input": {
+    "query": "Zephyr Precious Metals Fund outlook, risks and suitability"
+   },
+   "output": [
+    {
+     "doc_id": "FS-ZPM-2026Q2",
+     "section": "Zephyr Precious Metals Fund",
+     "score": 0.4395
+    },
+    {
+     "doc_id": "FS-ZPM-2026Q2",
+     "section": "Zephyr Precious Metals Fund",
+     "score": 0.3466
+    },
+    {
+     "doc_id": "FS-BPC-2026Q2",
+     "section": "Bramble Private Credit Fund II",
+     "score": 0.1854
+    },
+    {
+     "doc_id": "FS-AGE-2026Q2",
+     "section": "Aurora Global Equity Fund",
+     "score": 0.1731
+    }
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "931f73be4c",
+   "parent_id": "37ad476ed8",
+   "kind": "tool",
+   "name": "research.search",
+   "label": "tool · research.search",
+   "started_at": "2026-08-08T12:58:08.125+00:00",
+   "ended_at": "2026-08-08T12:58:08.126+00:00",
+   "duration_ms": 1.5,
+   "status": "ok",
+   "input": {
+    "query": "Zephyr Precious Metals Fund outlook, risks and suitability",
+    "k": 4
+   },
+   "output": {
+    "query": "Zephyr Precious Metals Fund outlook, risks and suitability",
+    "embedding_model": "hashing-bow-512",
+    "hit_count": 4,
+    "hits": [
+     {
+      "chunk_id": "FS-ZPM-2026Q2::01",
+      "doc_id": "FS-ZPM-2026Q2",
+      "title": "Zephyr Precious Metals Fund Factsheet",
+      "section": "Zephyr Precious Metals Fund",
+      "source_file": "fund_zephyr_precious_metals.md",
+      "doc_type": "fund_factsheet",
+      "text": "Zephyr Precious Metals Fund Factsheet: Zephyr Precious Metals Fund\nnder client mandates carrying a Mining or Energy exclusion.\n\n**Suitability note:** diversifier sleeve, typically capped at 5 to 8% of\nportfolio value. Unsuitable for Conservative profiles and for clients with\nformal ESG exclusion lists covering mining or extractives.",
+      "score": 0.4395
+     },
+     {
+      "chunk_id": "FS-ZPM-2026Q2::00",
+      "doc_id": "FS-ZPM-2026Q2",
+      "title": "Zephyr Precious Metals Fund Factsheet",
+      "section": "Zephyr Precious Metals Fund",
+      "source_file": "fund_zephyr_precious_metals.md",
+      "doc_type": "fund_factsheet",
+      "text": "Zephyr Precious Metals Fund Factsheet: Zephyr Precious Metals Fund\n**Synthetic document. Fictional fund, fictional figures.**\n\nZephyr holds physical gold and silver exposure alongside listed precious\nmetals miners, split roughly 55/45. The mining sleeve is the source of both\nthe fund's upside gearing and its volatility.\n\n**Risk rating:** 6 of 7 (High). **OCF:** 0.74%. **Dealing:** daily.\n\nYear to date the fund returned 11.8%. Correlation to global equity over the\nlast three years was 0.18, which is the diversification case for holding it.\n\n**ESG note:** the mining sleeve includes extractive operations in\njurisdictions with limited environmental disclosure. This fund does not meet\nthe criteria of any sustainability-labelled mandate and is explicitly\nexcluded under client mandates carrying a Mining or Energy exclusion.\n\n**Suitability note:** diversifier sleeve, typically capped at 5 to 8% of\nportfolio value.",
+      "score": 0.3466
+     },
+     {
+      "chunk_id": "FS-BPC-2026Q2::01",
+      "doc_id": "FS-BPC-2026Q2",
+      "title": "Bramble Private Credit Fund II Factsheet",
+      "section": "Bramble Private Credit Fund II",
+      "source_file": "fund_bramble_private_credit.md",
+      "doc_type": "fund_factsheet",
+      "text": "Bramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II\n.9%.\n\n**Suitability note:** unsuitable where a client has High liquidity needs, a\nhorizon under seven years, or a known capital call in the near term. The\ncombination of gates and manager-marked valuations means the reported\nvolatility of this strategy materially understates its true risk.",
+      "score": 0.1854
+     },
+     {
+      "chunk_id": "FS-AGE-2026Q2::01",
+      "doc_id": "FS-AGE-2026Q2",
+      "title": "Aurora Global Equity Fund Factsheet",
+      "section": "Aurora Global Equity Fund",
+      "source_file": "fund_aurora_global_equity.md",
+      "doc_type": "fund_factsheet",
+      "text": "Aurora Global Equity Fund Factsheet: Aurora Global Equity Fund\nmanager has trimmed the technology overweight from 31% to 26% over the\nquarter, citing valuation dispersion rather than a change of view on\nearnings. Cash sits at 2.4%.\n\n**Suitability note:** as a single-sleeve equity holding this fund carries\nfull equity drawdown risk. It is generally unsuitable as a majority position\nfor clients with a Conservative profile or a horizon under five years.\nMaximum peak-to-trough drawdown since launch was 24.8%.",
+      "score": 0.1731
+     }
+    ]
+   },
+   "error": null,
+   "meta": {
+    "server": "research"
+   }
+  },
+  {
+   "id": "b91f703468",
+   "parent_id": "aab115b9e8",
+   "kind": "note",
+   "name": "research.fusion",
+   "label": "8 passages from 6 documents, fused across 5 queries by reciprocal rank",
+   "started_at": "2026-08-08T12:58:08.126+00:00",
+   "ended_at": "2026-08-08T12:58:08.126+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": [
+    "S1=FS-CBM-2026Q2 (rrf 0.04712)",
+    "S2=FS-ZPM-2026Q2 (rrf 0.03279)",
+    "S3=FS-CBM-2026Q2 (rrf 0.03252)",
+    "S4=FS-ZPM-2026Q2 (rrf 0.03226)",
+    "S5=FS-AGE-2026Q2 (rrf 0.0315)",
+    "S6=CM-EQ-2026Q3 (rrf 0.01639)",
+    "S7=HV-AA-2026Q3 (rrf 0.01639)",
+    "S8=CM-EM-2026Q3 (rrf 0.01613)"
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "4621e7c9c7",
+   "parent_id": "aab115b9e8",
+   "kind": "llm",
+   "name": "research.summarise",
+   "label": "LLM · mock/deterministic-stub",
+   "started_at": "2026-08-08T12:58:08.126+00:00",
+   "ended_at": "2026-08-08T12:58:08.127+00:00",
+   "duration_ms": 0.1,
+   "status": "ok",
+   "input": {
+    "system": "You are a research analyst at a private bank, writing for an\nadviser who is about to meet a client.\n\nRules:\n- Use ONLY the numbered sources provided. Never use outside knowledge.\n- Cite with the exact markers given, like [S1] or [S2, S4]. Every factual claim\n  needs a marker.\n- If the sources do not answer part of the request, say so plainly.\n- Neutral, specific, no sales language. British English.\n- All source material is synthetic demo data; do not imply otherwise.\n\nReturn JSON:\n{\n  \"summary\": \"3-5 sentences of market context relevant to this client, with [S#] markers\",\n  \"key_points\": [{\"point\": \"one sentence with [S#] markers\", \"sources\": [\"S1\"]}],\n  \"relevance_to_client\": \"2-3 sentences connecting the research to this client's mandate\"\n}\n\nRespond with a single valid JSON object and nothing else. No prose before or after, no markdown code fences.",
+    "user": "Adviser request: Would the Zephyr precious metals fund work as a diversifier here?\n\nClient context: risk profile Balanced, horizon 10y, allocation {'Multi-Asset': 38.0, 'Fixed Income': 22.0, 'Infrastructure': 18.0, 'Global Equity': 12.0, 'Cash': 10.0}, largest position Castellan Balanced Multi-Asset Fund\n\nSources:\n[S1] Castellan Balanced Multi-Asset Fund Factsheet · Castellan Balanced Multi-Asset Fund (doc_id FS-CBM-2026Q2)\nCastellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. Fictional fund, fictional figures.** Castellan runs a 55/35/10 split across equity, fixed income and alternatives, rebalanced quarterly with a tactical band of plus or minus ten percentage points on the equity sleeve. **Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily. Year to date the fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4.\n\n[S2] Zephyr Precious Metals Fund Factsheet · Zephyr Precious Metals Fund (doc_id FS-ZPM-2026Q2)\nZephyr Precious Metals Fund Factsheet: Zephyr Precious Metals Fund nder client mandates carrying a Mining or Energy exclusion. **Suitability note:** diversifier sleeve, typically capped at 5 to 8% of portfolio value. Unsuitable for Conservative profiles and for clients with formal ESG exclusion lists covering mining or extractives.\n\n[S3] Castellan Balanced Multi-Asset Fund Factsheet · Castellan Balanced Multi-Asset Fund (doc_id FS-CBM-2026Q2)\nCastellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4. Realised volatility over twelve months was 7.9%. The tactical overlay is currently 3 points underweight equity and holds an elevated 8% cash position, reflecting the house view that policy rates fall more slowly than forward markets imply. **Suitability note:** the default one-fund solution for Balanced mandates and a common core sleeve inside Conservative portfolios where the client accepts moderate equity exposure. Worst twelve-month period since launch was…\n\n[S4] Zephyr Precious Metals Fund Factsheet · Zephyr Precious Metals Fund (doc_id FS-ZPM-2026Q2)\nZephyr Precious Metals Fund Factsheet: Zephyr Precious Metals Fund **Synthetic document. Fictional fund, fictional figures.** Zephyr holds physical gold and silver exposure alongside listed precious metals miners, split roughly 55/45. The mining sleeve is the source of both the fund's upside gearing and its volatility. **Risk rating:** 6 of 7 (High). **OCF:** 0.74%. **Dealing:** daily. Year to date the fund returned 11.8%. Correlation to global equity over the last three years was 0.18, which is the diversification case for holding it. **ESG note:** the mining sleeve includes extractive operations in jurisdictions with limited environmental disclosure. This fund does not meet the criteria…\n\n[S5] Aurora Global Equity Fund Factsheet · Aurora Global Equity Fund (doc_id FS-AGE-2026Q2)\nAurora Global Equity Fund Factsheet: Aurora Global Equity Fund manager has trimmed the technology overweight from 31% to 26% over the quarter, citing valuation dispersion rather than a change of view on earnings. Cash sits at 2.4%. **Suitability note:** as a single-sleeve equity holding this fund carries full equity drawdown risk. It is generally unsuitable as a majority position for clients with a Conservative profile or a horizon under five years. Maximum peak-to-trough drawdown since launch was 24.8%.\n\n[S6] Global Equity Outlook, Q3 2026 · Global equity outlook (doc_id CM-EQ-2026Q3)\nGlobal Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheets o… [+1689 chars]",
+    "temperature": 0.2
+   },
+   "output": "{\"_mock\": true, \"_note\": \"Deterministic stub output; agents fall back to rule-based assembly.\", \"_digest\": \"761c3174\"}",
+   "error": null,
+   "meta": {
+    "provider": "mock",
+    "model": "deterministic-stub",
+    "usage": {
+     "prompt_tokens": 1637,
+     "completion_tokens": 12
+    }
+   }
+  },
+  {
+   "id": "50d5df6e7f",
+   "parent_id": "35d5c66941",
+   "kind": "agent",
+   "name": "compliance",
+   "label": "orchestrator → compliance · check",
+   "started_at": "2026-08-08T12:58:08.127+00:00",
+   "ended_at": "2026-08-08T12:58:08.127+00:00",
+   "duration_ms": 0.2,
+   "status": "ok",
+   "input": {
+    "client_id": "4523",
+    "query": "Would the Zephyr precious metals fund work as a diversifier here?",
+    "proposed_instruments": [
+     "ZPM"
+    ]
+   },
+   "output": {
+    "status": "fail",
+    "flag_count": 5,
+    "flags": [
+     {
+      "rule_id": "R2",
+      "rule_name": "Single-position concentration",
+      "severity": "medium",
+      "instrument_id": "CBM",
+      "detail": "Castellan Balanced Multi-Asset Fund is 38.0% of the portfolio, above the 25% single-position limit.",
+      "remediation": "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement."
+     },
+     {
+      "rule_id": "R1",
+      "rule_name": "Risk profile alignment",
+      "severity": "high",
+      "instrument_id": "AGE",
+      "detail": "Existing holding Aurora Global Equity Fund is risk 6/7, above the maximum of 5/7 for a Balanced profile.",
+      "remediation": "Review whether this legacy position is still suitable and document the outcome."
+     },
+     {
+      "rule_id": "R1",
+      "rule_name": "Risk profile alignment",
+      "severity": "high",
+      "instrument_id": "ZPM",
+      "detail": "Zephyr Precious Metals Fund is risk 6/7 against a maximum of 5/7 for a Balanced profile.",
+      "remediation": "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement."
+     },
+     {
+      "rule_id": "R5",
+      "rule_name": "ESG mandate exclusions",
+      "severity": "high",
+      "instrument_id": "ZPM",
+      "detail": "Zephyr Precious Metals Fund has exposure to Mining, which is on the client's documented exclusion list.",
+      "remediation": "Remove from the recommendation, or obtain a formal, documented mandate variation before proceeding."
+     },
+     {
+      "rule_id": "R7",
+      "rule_name": "Cross-border registration",
+      "severity": "high",
+      "instrument_id": "ZPM",
+      "detail": "Zephyr Precious Metals Fund is not registered for distribution in IE (registered: GB, CH, AE).",
+      "remediation": "Do not solicit. Check for an equivalent share class registered in the client's domicile."
+     }
+    ],
+    "proposals_checked": [
+     "ZPM"
+    ],
+    "rules_evaluated": [
+     "R1-existing",
+     "R1:ZPM",
+     "R2",
+     "R3:ZPM",
+     "R4:ZPM",
+     "R5:ZPM",
+     "R6",
+     "R7:ZPM"
+    ],
+    "adviser_note": "The suitability check returned FAIL with 5 flag(s), of which 4 are high severity. Each flag below cites the rule that produced it.",
+    "actions_before_meeting": [
+     "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement.",
+     "Review whether this legacy position is still suitable and document the outcome.",
+     "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement.",
+     "Remove from the recommendation, or obtain a formal, documented mandate variation before proceeding.",
+     "Do not solicit. Check for an equivalent share class registered in the client's domicile."
+    ],
+    "disclaimer": "Illustrative rules for a demonstration project. Not regulatory advice."
+   },
+   "error": null,
+   "meta": {
+    "task": "check"
+   }
+  },
+  {
+   "id": "a0212fd579",
+   "parent_id": "50d5df6e7f",
+   "kind": "note",
+   "name": "compliance.proposals",
+   "label": "Checking 1 instrument(s) proposed by the orchestrator",
+   "started_at": "2026-08-08T12:58:08.127+00:00",
+   "ended_at": "2026-08-08T12:58:08.127+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": [
+    "ZPM"
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "e7946e64a9",
+   "parent_id": "50d5df6e7f",
+   "kind": "tool",
+   "name": "compliance.check_suitability",
+   "label": "tool · compliance.check_suitability",
+   "started_at": "2026-08-08T12:58:08.127+00:00",
+   "ended_at": "2026-08-08T12:58:08.127+00:00",
+   "duration_ms": 0.1,
+   "status": "ok",
+   "input": {
+    "client_id": "4523",
+    "proposed_instruments": [
+     "ZPM"
+    ],
+    "include_existing_holdings": true
+   },
+   "output": {
+    "client_id": "4523",
+    "status": "fail",
+    "risk_profile": "Balanced",
+    "investor_classification": "Retail",
+    "proposals_checked": [
+     "ZPM"
+    ],
+    "unknown_instruments": [],
+    "existing_holdings_checked": true,
+    "rules_evaluated": [
+     "R1-existing",
+     "R1:ZPM",
+     "R2",
+     "R3:ZPM",
+     "R4:ZPM",
+     "R5:ZPM",
+     "R6",
+     "R7:ZPM"
+    ],
+    "flag_count": 5,
+    "flags": [
+     {
+      "rule_id": "R2",
+      "rule_name": "Single-position concentration",
+      "severity": "medium",
+      "instrument_id": "CBM",
+      "detail": "Castellan Balanced Multi-Asset Fund is 38.0% of the portfolio, above the 25% single-position limit.",
+      "remediation": "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement."
+     },
+     {
+      "rule_id": "R1",
+      "rule_name": "Risk profile alignment",
+      "severity": "high",
+      "instrument_id": "AGE",
+      "detail": "Existing holding Aurora Global Equity Fund is risk 6/7, above the maximum of 5/7 for a Balanced profile.",
+      "remediation": "Review whether this legacy position is still suitable and document the outcome."
+     },
+     {
+      "rule_id": "R1",
+      "rule_name": "Risk profile alignment",
+      "severity": "high",
+      "instrument_id": "ZPM",
+      "detail": "Zephyr Precious Metals Fund is risk 6/7 against a maximum of 5/7 for a Balanced profile.",
+      "remediation": "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement."
+     },
+     {
+      "rule_id": "R5",
+      "rule_name": "ESG mandate exclusions",
+      "severity": "high",
+      "instrument_id": "ZPM",
+      "detail": "Zephyr Precious Metals Fund has exposure to Mining, which is on the client's documented exclusion list.",
+      "remediation": "Remove from the recommendation, or obtain a formal, documented mandate variation before proceeding."
+     },
+     {
+      "rule_id": "R7",
+      "rule_name": "Cross-border registration",
+      "severity": "high",
+      "instrument_id": "ZPM",
+      "detail": "Zephyr Precious Metals Fund is not registered for distribution in IE (registered: GB, CH, AE).",
+      "remediation": "Do not solicit. Check for an equivalent share class registered in the client's domicile."
+     }
+    ],
+    "disclaimer": "Illustrative rules for a demonstration project. Not regulatory advice."
+   },
+   "error": null,
+   "meta": {
+    "server": "compliance"
+   }
+  },
+  {
+   "id": "d24f58dd6f",
+   "parent_id": "50d5df6e7f",
+   "kind": "note",
+   "name": "compliance.decision",
+   "label": "Status FAIL, 5 flag(s) from 8 rule evaluations",
+   "started_at": "2026-08-08T12:58:08.127+00:00",
+   "ended_at": "2026-08-08T12:58:08.127+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": {
+    "status": "fail",
+    "flags": [
+     "R2",
+     "R1",
+     "R1",
+     "R5",
+     "R7"
+    ]
+   },
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "5221d41105",
+   "parent_id": "50d5df6e7f",
+   "kind": "llm",
+   "name": "compliance.explain",
+   "label": "LLM · mock/deterministic-stub",
+   "started_at": "2026-08-08T12:58:08.127+00:00",
+   "ended_at": "2026-08-08T12:58:08.127+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "system": "You write compliance notes for advisers at a private bank.\n\nYou are given the output of a deterministic suitability rules engine. Your job\nis to explain it, not to judge it. You must not change the status, add flags,\nremove flags, or soften a finding.\n\nWrite plainly, in British English, for an adviser preparing for a meeting.\nState what was checked, what was flagged and what they must do before the\nmeeting. If nothing was flagged, say so without padding.\n\nReturn JSON:\n{\n  \"adviser_note\": \"2-4 sentences\",\n  \"actions_before_meeting\": [\"imperative action\", \"...\"]\n}\n\nRespond with a single valid JSON object and nothing else. No prose before or after, no markdown code fences.",
+    "user": "Status: FAIL\nClient risk profile: Balanced\nInvestor classification: Retail\nInstruments checked: ZPM\nFlags:\n- [R2 · medium] Single-position concentration: Castellan Balanced Multi-Asset Fund is 38.0% of the portfolio, above the 25% single-position limit. Remediation: Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement.\n- [R1 · high] Risk profile alignment: Existing holding Aurora Global Equity Fund is risk 6/7, above the maximum of 5/7 for a Balanced profile. Remediation: Review whether this legacy position is still suitable and document the outcome.\n- [R1 · high] Risk profile alignment: Zephyr Precious Metals Fund is risk 6/7 against a maximum of 5/7 for a Balanced profile. Remediation: Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement.\n- [R5 · high] ESG mandate exclusions: Zephyr Precious Metals Fund has exposure to Mining, which is on the client's documented exclusion list. Remediation: Remove from the recommendation, or obtain a formal, documented mandate variation before proceeding.\n- [R7 · high] Cross-border registration: Zephyr Precious Metals Fund is not registered for distribution in IE (registered: GB, CH, AE). Remediation: Do not solicit. Check for an equivalent share class registered in the client's domicile.",
+    "temperature": 0.2
+   },
+   "output": "{\"_mock\": true, \"_note\": \"Deterministic stub output; agents fall back to rule-based assembly.\", \"_digest\": \"fae81a8c\"}",
+   "error": null,
+   "meta": {
+    "provider": "mock",
+    "model": "deterministic-stub",
+    "usage": {
+     "prompt_tokens": 506,
+     "completion_tokens": 12
+    }
+   }
+  },
+  {
+   "id": "f4e719cda0",
+   "parent_id": "35d5c66941",
+   "kind": "agent",
+   "name": "synthesis",
+   "label": "orchestrator → synthesis · synthesise",
+   "started_at": "2026-08-08T12:58:08.127+00:00",
+   "ended_at": "2026-08-08T12:58:08.127+00:00",
+   "duration_ms": 0.2,
+   "status": "ok",
+   "input": {
+    "query": "Would the Zephyr precious metals fund work as a diversifier here?",
+    "portfolio": {
+     "client_profile": {
+      "client_id": "4523",
+      "name": "Aoife Brennan-Marsh (SYNTHETIC)",
+      "data_notice": "SYNTHETIC. Fictional client, not a real person",
+      "segment": "Private Client",
+      "domicile": "IE",
+      "adviser": "J. Okonkwo (synthetic)",
+      "risk_profile": "Balanced",
+      "investor_classification": "Retail",
+      "investment_horizon_years": 10,
+      "liquidity_needs": "Medium",
+      "esg_mandate": true,
+      "esg_exclusions": [
+       "Mining",
+       "Energy",
+       "Defence"
+      ],
+      "last_suitability_review": "2026-04-28",
+      "next_meeting": "2026-08-13",
+      "objectives": [
+       "Balanced growth consistent with a stated sustainability mandate",
+       "No exposure to extractive industries"
+      ],
+      "constraints": [
+       "Formal ESG exclusion list on file: mining, energy, defence"
+      ],
+      "adviser_notes": "Trustee of a family foundation; sustainability mandate is non-negotiable."
+     },
+     "portfolio_snapshot": {
+      "client_id": "4523",
+      "as_of": "2026-08-06",
+      "total_value_gbp": 3150000,
+      "currency": "GBP",
+      "holdings": [
+       {
+        "instrument_id": "CBM",
+        "name": "Castellan Balanced Multi-Asset Fund",
+        "asset_class": "Multi-Asset",
+        "risk_rating": 4,
+        "risk_band": "Medium",
+        "weight_pct": 38.0,
+        "value_gbp": 1197000.0,
+        "ytd_return_pct": 4.9
+       },
+       {
+        "instrument_id": "HSD",
+        "name": "Helvetia Short-Duration Bond Fund",
+        "asset_class": "Fixed Income",
+        "risk_rating": 2,
+        "risk_band": "Low",
+        "weight_pct": 22.0,
+        "value_gbp": 693000.0,
+        "ytd_return_pct": 2.1
+       },
+       {
+        "instrument_id": "NII",
+        "name": "Northwind Infrastructure Income Fund",
+        "asset_class": "Infrastructure",
+        "risk_rating": 4,
+        "risk_band": "Medium",
+        "weight_pct": 18.0,
+        "value_gbp": 567000.0,
+        "ytd_return_pct": 3.4
+       },
+       {
+        "instrument_id": "AGE",
+        "name": "Aurora Global Equity Fund",
+        "asset_class": "Global Equity",
+        "risk_rating": 6,
+        "risk_band": "High",
+        "weight_pct": 12.0,
+        "value_gbp": 378000.0,
+        "ytd_return_pct": 9.6
+       },
+       {
+        "instrument_id": "CASH",
+        "name": "GBP Cash & Money Market",
+        "asset_class": "Cash",
+        "risk_rating": 1,
+        "risk_band": "Low",
+        "weight_pct": 10.0,
+        "value_gbp": 315000.0,
+        "ytd_return_pct": 0.0
+       }
+      ],
+      "largest_position_pct": 38.0,
+      "cash_pct": 10.0,
+      "weighted_risk_rating": 3.5,
+      "performance": {
+       "ytd_return_pct": 4.09,
+       "one_year_return_pct": 7.77,
+       "three_year_annualised_pct": 5.52,
+       "benchmark": "Synthetic composite benchmark",
+       "vs_benchmark_ytd_pct": -0.31,
+       "volatility_pct": 9.05,
+       "max_drawdown_pct": -12.1
+      }
+     },
+     "derived": {
+      "growth_asset_pct": 68.0,
+      "allocation_by_asset_class": {
+       "Multi-Asset": 38.0,
+       "Fixed Income": 22.0,
+       "Infrastructure": 18.0,
+       "Global Equity": 12.0,
+       "Cash": 10.0
+      },
+      "largest_position": {
+       "instrument_id": "CBM",
+       "name": "Castellan Balanced Multi-Asset Fund",
+       "weight_pct": 38.0
+      },
+      "best_performer": {
+       "name": "Aurora Global Equity Fund",
+       "ytd_return_pct": 9.6
+      },
+      "worst_performer": {
+       "name": "GBP Cash & Money Market",
+       "ytd_return_pct": 0.0
+      },
+      "held_instrument_ids": [
+       "CBM",
+       "HSD",
+       "NII",
+       "AGE",
+       "CASH"
+      ],
+      "top_holdings": [
+       {
+        "instrument_id": "CBM",
+        "name": "Castellan Balanced Multi-Asset Fund",
+        "weight_pct": 38.0
+       },
+       {
+        "instrument_id": "NII",
+        "name": "Northwind Infrastructure Income Fund",
+        "weight_pct": 18.0
+       },
+       {
+        "instrument_id": "AGE",
+        "name": "Aurora Global Equity Fund",
+        "weight_pct": 12.0
+       }
+      ],
+      "risk_profile": "Balanced",
+      "horizon_years": 10
+     }
+    },
+    "research": {
+     "queries": [
+      "Would the Zephyr precious metals fund work as a diversifier here?",
+      "Multi-Asset outlook and positioning",
+      "Fixed Income outlook and positioning",
+      "asset allocation house view for a Balanced mandate",
+      "Zephyr Precious Metals Fund outlook, risks and suitability"
+     ],
+     "retrieval_by_query": [
+      {
+       "query": "Would the Zephyr precious metals fund work as a diversifier here?",
+       "hits": [
+        "FS-ZPM-2026Q2::01",
+        "FS-ZPM-2026Q2::00",
+        "FS-AGE-2026Q2::01",
+        "RS-ESG-2026::00"
+       ]
+      },
+      {
+       "query": "Multi-Asset outlook and positioning",
+       "hits": [
+        "FS-CBM-2026Q2::01",
+        "CM-EM-2026Q3::01",
+        "CM-EM-2026Q3::00",
+        "FS-CBM-2026Q2::00"
+       ]
+      },
+      {
+       "query": "Fixed Income outlook and positioning",
+       "hits": [
+        "CM-EQ-2026Q3::01",
+        "FS-MED-2026Q2::01",
+        "FS-CBM-2026Q2::00",
+        "CM-EQ-2026Q3::00"
+       ]
+      },
+      {
+       "query": "asset allocation house view for a Balanced mandate",
+       "hits": [
+        "HV-AA-2026Q3::00",
+        "FS-CBM-2026Q2::01",
+        "HV-ALTS-2026Q3::00",
+        "FS-CBM-2026Q2::00"
+       ]
+      },
+      {
+       "query": "Zephyr Precious Metals Fund outlook, risks and suitability",
+       "hits": [
+        "FS-ZPM-2026Q2::01",
+        "FS-ZPM-2026Q2::00",
+        "FS-BPC-2026Q2::01",
+        "FS-AGE-2026Q2::01"
+       ]
+      }
+     ],
+     "sources": [
+      {
+       "marker": "S1",
+       "chunk_id": "FS-CBM-2026Q2::00",
+       "doc_id": "FS-CBM-2026Q2",
+       "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+       "section": "Castellan Balanced Multi-Asset Fund",
+       "source_file": "fund_castellan_balanced.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.2378,
+       "fusion_score": 0.04712,
+       "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. Fictional fund, fictional figures.** Castellan runs a 55/35/10 split across equity, fixed income and alternatives, rebalanced quarterly with a tactical band of plus or minus ten percentage points on the equity sleeve. **Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily. Year to date the fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4."
+      },
+      {
+       "marker": "S2",
+       "chunk_id": "FS-ZPM-2026Q2::01",
+       "doc_id": "FS-ZPM-2026Q2",
+       "title": "Zephyr Precious Metals Fund Factsheet",
+       "section": "Zephyr Precious Metals Fund",
+       "source_file": "fund_zephyr_precious_metals.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.4395,
+       "fusion_score": 0.03279,
+       "snippet": "Zephyr Precious Metals Fund Factsheet: Zephyr Precious Metals Fund nder client mandates carrying a Mining or Energy exclusion. **Suitability note:** diversifier sleeve, typically capped at 5 to 8% of portfolio value. Unsuitable for Conservative profiles and for clients with formal ESG exclusion lists covering mining or extractives."
+      },
+      {
+       "marker": "S3",
+       "chunk_id": "FS-CBM-2026Q2::01",
+       "doc_id": "FS-CBM-2026Q2",
+       "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+       "section": "Castellan Balanced Multi-Asset Fund",
+       "source_file": "fund_castellan_balanced.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.3152,
+       "fusion_score": 0.03252,
+       "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4. Realised volatility over twelve months was 7.9%. The tactical overlay is currently 3 points underweight equity and holds an elevated 8% cash position, reflecting the house view that policy rates fall more slowly than forward markets imply. **Suitability note:** the default one-fund solution for Balanced mandates and a common core sleeve inside Conservative portfolios where the client accepts moderate equity exposure. Worst twelve-month period since launch was…"
+      },
+      {
+       "marker": "S4",
+       "chunk_id": "FS-ZPM-2026Q2::00",
+       "doc_id": "FS-ZPM-2026Q2",
+       "title": "Zephyr Precious Metals Fund Factsheet",
+       "section": "Zephyr Precious Metals Fund",
+       "source_file": "fund_zephyr_precious_metals.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.3651,
+       "fusion_score": 0.03226,
+       "snippet": "Zephyr Precious Metals Fund Factsheet: Zephyr Precious Metals Fund **Synthetic document. Fictional fund, fictional figures.** Zephyr holds physical gold and silver exposure alongside listed precious metals miners, split roughly 55/45. The mining sleeve is the source of both the fund's upside gearing and its volatility. **Risk rating:** 6 of 7 (High). **OCF:** 0.74%. **Dealing:** daily. Year to date the fund returned 11.8%. Correlation to global equity over the last three years was 0.18, which is the diversification case for holding it. **ESG note:** the mining sleeve includes extractive operations in jurisdictions with limited environmental disclosure. This fund does not meet the criteria…"
+      },
+      {
+       "marker": "S5",
+       "chunk_id": "FS-AGE-2026Q2::01",
+       "doc_id": "FS-AGE-2026Q2",
+       "title": "Aurora Global Equity Fund Factsheet",
+       "section": "Aurora Global Equity Fund",
+       "source_file": "fund_aurora_global_equity.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.2171,
+       "fusion_score": 0.0315,
+       "snippet": "Aurora Global Equity Fund Factsheet: Aurora Global Equity Fund manager has trimmed the technology overweight from 31% to 26% over the quarter, citing valuation dispersion rather than a change of view on earnings. Cash sits at 2.4%. **Suitability note:** as a single-sleeve equity holding this fund carries full equity drawdown risk. It is generally unsuitable as a majority position for clients with a Conservative profile or a horizon under five years. Maximum peak-to-trough drawdown since launch was 24.8%."
+      },
+      {
+       "marker": "S6",
+       "chunk_id": "CM-EQ-2026Q3::01",
+       "doc_id": "CM-EQ-2026Q3",
+       "title": "Global Equity Outlook, Q3 2026",
+       "section": "Global equity outlook",
+       "source_file": "commentary_equity_outlook.md",
+       "doc_type": "market_commentary",
+       "score": 0.2518,
+       "fusion_score": 0.01639,
+       "snippet": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheets over momentum, and we are cautious about adding to concentrated thematic exposure at current levels. The principal risk to this view is that the capital expenditure cycle driving current earnings growth proves shorter than expected. See the separate note on AI capital expenditure."
+      },
+      {
+       "marker": "S7",
+       "chunk_id": "HV-AA-2026Q3::00",
+       "doc_id": "HV-AA-2026Q3",
+       "title": "House View, Strategic and Tactical Asset Allocation Q3 2026",
+       "section": "House view: asset allocation",
+       "source_file": "house_view_asset_allocation.md",
+       "doc_type": "house_view",
+       "score": 0.347,
+       "fusion_score": 0.01639,
+       "snippet": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. Illustrative only.** Tactical positions against strategic weights this quarter: - Equity: neutral. Valuation is unattractive but earnings momentum is intact. - Government bonds: neutral duration, preference for the 2 to 5 year part of the curve. - Investment grade credit: modest overweight, funded from high yield. - High yield: underweight, on spread levels rather than default expectations. - Real assets: modest overweight, chiefly listed infrastructure. - Cash: overweight, at 6 to 8% for most mandates, held as optionality. Model allocations by risk profile are unchanged:…"
+      },
+      {
+       "marker": "S8",
+       "chunk_id": "CM-EM-2026Q3::01",
+       "doc_id": "CM-EM-2026Q3",
+       "title": "Emerging Markets Outlook, Q3 2026",
+       "section": "Emerging markets outlook",
+       "source_file": "commentary_em_outlook.md",
+       "doc_type": "market_commentary",
+       "score": 0.2285,
+       "fusion_score": 0.01613,
+       "snippet": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook igh, and several central banks began cutting ahead of developed-market peers, which supports local bond prices. The dominant risk is dollar strength. A sustained rally in the dollar has historically been the largest single driver of emerging market debt drawdowns, exceeding the contribution of actual defaults. We are neutral on the asset class and would not increase allocations for clients whose risk profile makes a 15% drawdown unacceptable."
+      }
+     ],
+     "market_context": {
+      "summary": "Retrieved 8 passages from the research index covering FS-CBM-2026Q2, FS-ZPM-2026Q2. Narrative summarisation was unavailable, so the key points below are extracted directly from the source passages.",
+      "key_points": [
+       {
+        "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. [S1]",
+        "sources": [
+         "S1"
+        ]
+       },
+       {
+        "point": "Zephyr Precious Metals Fund Factsheet: Zephyr Precious Metals Fund nder client mandates carrying a Mining or Energy exclusion. [S2]",
+        "sources": [
+         "S2"
+        ]
+       },
+       {
+        "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. [S3]",
+        "sources": [
+         "S3"
+        ]
+       },
+       {
+        "point": "Zephyr Precious Metals Fund Factsheet: Zephyr Precious Metals Fund **Synthetic document. [S4]",
+        "sources": [
+         "S4"
+        ]
+       }
+      ],
+      "relevance_to_client": "Review the cited passages directly. No model-generated interpretation was applied.",
+      "_generated_by": "deterministic_fallback",
+      "cited_markers": [
+       "S1",
+       "S2",
+       "S3",
+       "S4"
+      ]
+     }
+    },
+    "compliance": {
+     "status": "fail",
+     "flag_count": 5,
+     "flags": [
+      {
+       "rule_id": "R2",
+       "rule_name": "Single-position concentration",
+       "severity": "medium",
+       "instrument_id": "CBM",
+       "detail": "Castellan Balanced Multi-Asset Fund is 38.0% of the portfolio, above the 25% single-position limit.",
+       "remediation": "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement."
+      },
+      {
+       "rule_id": "R1",
+       "rule_name": "Risk profile alignment",
+       "severity": "high",
+       "instrument_id": "AGE",
+       "detail": "Existing holding Aurora Global Equity Fund is risk 6/7, above the maximum of 5/7 for a Balanced profile.",
+       "remediation": "Review whether this legacy position is still suitable and document the outcome."
+      },
+      {
+       "rule_id": "R1",
+       "rule_name": "Risk profile alignment",
+       "severity": "high",
+       "instrument_id": "ZPM",
+       "detail": "Zephyr Precious Metals Fund is risk 6/7 against a maximum of 5/7 for a Balanced profile.",
+       "remediation": "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement."
+      },
+      {
+       "rule_id": "R5",
+       "rule_name": "ESG mandate exclusions",
+       "severity": "high",
+       "instrument_id": "ZPM",
+       "detail": "Zephyr Precious Metals Fund has exposure to Mining, which is on the client's documented exclusion list.",
+       "remediation": "Remove from the recommendation, or obtain a formal, documented mandate variation before proceeding."
+      },
+      {
+       "rule_id": "R7",
+       "rule_name": "Cross-border registration",
+       "severity": "high",
+       "instrument_id": "ZPM",
+       "detail": "Zephyr Precious Metals Fund is not registered for distribution in IE (registered: GB, CH, AE).",
+       "remediation": "Do not solicit. Check for an equivalent share class registered in the client's domicile."
+      }
+     ],
+     "proposals_checked": [
+      "ZPM"
+     ],
+     "rules_evaluated": [
+      "R1-existing",
+      "R1:ZPM",
+      "R2",
+      "R3:ZPM",
+      "R4:ZPM",
+      "R5:ZPM",
+      "R6",
+      "R7:ZPM"
+     ],
+     "adviser_note": "The suitability check returned FAIL with 5 flag(s), of which 4 are high severity. Each flag below cites the rule that produced it.",
+     "actions_before_meeting": [
+      "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement.",
+      "Review whether this legacy position is still suitable and document the outcome.",
+      "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement.",
+      "Remove from the recommendation, or obtain a formal, documented mandate variation before proceeding.",
+      "Do not solicit. Check for an equivalent share class registered in the client's domicile."
+     ],
+     "disclaimer": "Illustrative rules for a demonstration project. Not regulatory advice."
+    }
+   },
+   "output": {
+    "briefing": {
+     "generated_at": "2026-08-08T12:58:08+00:00",
+     "query": "Would the Zephyr precious metals fund work as a diversifier here?",
+     "data_notice": "All client, portfolio and market data in this briefing is synthetic.",
+     "client": {
+      "client_id": "4523",
+      "name": "Aoife Brennan-Marsh (SYNTHETIC)",
+      "risk_profile": "Balanced",
+      "investor_classification": "Retail",
+      "horizon_years": 10,
+      "liquidity_needs": "Medium",
+      "next_meeting": "2026-08-13",
+      "adviser": "J. Okonkwo (synthetic)",
+      "objectives": [
+       "Balanced growth consistent with a stated sustainability mandate",
+       "No exposure to extractive industries"
+      ],
+      "constraints": [
+       "Formal ESG exclusion list on file: mining, energy, defence"
+      ],
+      "esg_mandate": true,
+      "esg_exclusions": [
+       "Mining",
+       "Energy",
+       "Defence"
+      ]
+     },
+     "headline": "5 suitability issue(s) must be resolved before advising Aoife Brennan-Marsh (SYNTHETIC).",
+     "summary": "Aoife Brennan-Marsh (SYNTHETIC) holds £3,150,000 across 5 positions, 68.0% in growth assets, against a Balanced profile and a 10-year horizon. Year-to-date return is 4.09% (-0.31% versus benchmark). The largest position is Castellan Balanced Multi-Asset Fund at 38.0%. The suitability check returned FAIL.",
+     "portfolio_snapshot": {
+      "as_of": "2026-08-06",
+      "total_value_gbp": 3150000,
+      "currency": "GBP",
+      "holdings": [
+       {
+        "instrument_id": "CBM",
+        "name": "Castellan Balanced Multi-Asset Fund",
+        "asset_class": "Multi-Asset",
+        "risk_rating": 4,
+        "risk_band": "Medium",
+        "weight_pct": 38.0,
+        "value_gbp": 1197000.0,
+        "ytd_return_pct": 4.9
+       },
+       {
+        "instrument_id": "HSD",
+        "name": "Helvetia Short-Duration Bond Fund",
+        "asset_class": "Fixed Income",
+        "risk_rating": 2,
+        "risk_band": "Low",
+        "weight_pct": 22.0,
+        "value_gbp": 693000.0,
+        "ytd_return_pct": 2.1
+       },
+       {
+        "instrument_id": "NII",
+        "name": "Northwind Infrastructure Income Fund",
+        "asset_class": "Infrastructure",
+        "risk_rating": 4,
+        "risk_band": "Medium",
+        "weight_pct": 18.0,
+        "value_gbp": 567000.0,
+        "ytd_return_pct": 3.4
+       },
+       {
+        "instrument_id": "AGE",
+        "name": "Aurora Global Equity Fund",
+        "asset_class": "Global Equity",
+        "risk_rating": 6,
+        "risk_band": "High",
+        "weight_pct": 12.0,
+        "value_gbp": 378000.0,
+        "ytd_return_pct": 9.6
+       },
+       {
+        "instrument_id": "CASH",
+        "name": "GBP Cash & Money Market",
+        "asset_class": "Cash",
+        "risk_rating": 1,
+        "risk_band": "Low",
+        "weight_pct": 10.0,
+        "value_gbp": 315000.0,
+        "ytd_return_pct": 0.0
+       }
+      ],
+      "allocation_by_asset_class": {
+       "Multi-Asset": 38.0,
+       "Fixed Income": 22.0,
+       "Infrastructure": 18.0,
+       "Global Equity": 12.0,
+       "Cash": 10.0
+      },
+      "growth_asset_pct": 68.0,
+      "largest_position": {
+       "instrument_id": "CBM",
+       "name": "Castellan Balanced Multi-Asset Fund",
+       "weight_pct": 38.0
+      },
+      "cash_pct": 10.0,
+      "weighted_risk_rating": 3.5,
+      "performance": {
+       "ytd_return_pct": 4.09,
+       "one_year_return_pct": 7.77,
+       "three_year_annualised_pct": 5.52,
+       "benchmark": "Synthetic composite benchmark",
+       "vs_benchmark_ytd_pct": -0.31,
+       "volatility_pct": 9.05,
+       "max_drawdown_pct": -12.1
+      }
+     },
+     "market_context": {
+      "summary": "Retrieved 8 passages from the research index covering FS-CBM-2026Q2, FS-ZPM-2026Q2. Narrative summarisation was unavailable, so the key points below are extracted directly from the source passages.",
+      "key_points": [
+       {
+        "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. [S1]",
+        "sources": [
+         "S1"
+        ]
+       },
+       {
+        "point": "Zephyr Precious Metals Fund Factsheet: Zephyr Precious Metals Fund nder client mandates carrying a Mining or Energy exclusion. [S2]",
+        "sources": [
+         "S2"
+        ]
+       },
+       {
+        "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. [S3]",
+        "sources": [
+         "S3"
+        ]
+       },
+       {
+        "point": "Zephyr Precious Metals Fund Factsheet: Zephyr Precious Metals Fund **Synthetic document. [S4]",
+        "sources": [
+         "S4"
+        ]
+       }
+      ],
+      "relevance_to_client": "Review the cited passages directly. No model-generated interpretation was applied.",
+      "queries_run": [
+       "Would the Zephyr precious metals fund work as a diversifier here?",
+       "Multi-Asset outlook and positioning",
+       "Fixed Income outlook and positioning",
+       "asset allocation house view for a Balanced mandate",
+       "Zephyr Precious Metals Fund outlook, risks and suitability"
+      ]
+     },
+     "compliance": {
+      "status": "fail",
+      "flag_count": 5,
+      "flags": [
+       {
+        "rule_id": "R2",
+        "rule_name": "Single-position concentration",
+        "severity": "medium",
+        "instrument_id": "CBM",
+        "detail": "Castellan Balanced Multi-Asset Fund is 38.0% of the portfolio, above the 25% single-position limit.",
+        "remediation": "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement."
+       },
+       {
+        "rule_id": "R1",
+        "rule_name": "Risk profile alignment",
+        "severity": "high",
+        "instrument_id": "AGE",
+        "detail": "Existing holding Aurora Global Equity Fund is risk 6/7, above the maximum of 5/7 for a Balanced profile.",
+        "remediation": "Review whether this legacy position is still suitable and document the outcome."
+       },
+       {
+        "rule_id": "R1",
+        "rule_name": "Risk profile alignment",
+        "severity": "high",
+        "instrument_id": "ZPM",
+        "detail": "Zephyr Precious Metals Fund is risk 6/7 against a maximum of 5/7 for a Balanced profile.",
+        "remediation": "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement."
+       },
+       {
+        "rule_id": "R5",
+        "rule_name": "ESG mandate exclusions",
+        "severity": "high",
+        "instrument_id": "ZPM",
+        "detail": "Zephyr Precious Metals Fund has exposure to Mining, which is on the client's documented exclusion list.",
+        "remediation": "Remove from the recommendation, or obtain a formal, documented mandate variation before proceeding."
+       },
+       {
+        "rule_id": "R7",
+        "rule_name": "Cross-border registration",
+        "severity": "high",
+        "instrument_id": "ZPM",
+        "detail": "Zephyr Precious Metals Fund is not registered for distribution in IE (registered: GB, CH, AE).",
+        "remediation": "Do not solicit. Check for an equivalent share class registered in the client's domicile."
+       }
+      ],
+      "adviser_note": "The suitability check returned FAIL with 5 flag(s), of which 4 are high severity. Each flag below cites the rule that produced it.",
+      "actions_before_meeting": [
+       "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement.",
+       "Review whether this legacy position is still suitable and document the outcome.",
+       "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement.",
+       "Remove from the recommendation, or obtain a formal, documented mandate variation before proceeding.",
+       "Do not solicit. Check for an equivalent share class registered in the client's domicile."
+      ],
+      "proposals_checked": [
+       "ZPM"
+      ],
+      "rules_evaluated": [
+       "R1-existing",
+       "R1:ZPM",
+       "R2",
+       "R3:ZPM",
+       "R4:ZPM",
+       "R5:ZPM",
+       "R6",
+       "R7:ZPM"
+      ],
+      "disclaimer": "Illustrative rules for a demonstration project. Not regulatory advice."
+     },
+     "talking_points": [
+      {
+       "point": "Single-position concentration: Castellan Balanced Multi-Asset Fund is 38.0% of the portfolio, above the 25% single-position limit.",
+       "why": "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement.",
+       "sources": []
+      },
+      {
+       "point": "Risk profile alignment: Existing holding Aurora Global Equity Fund is risk 6/7, above the maximum of 5/7 for a Balanced profile.",
+       "why": "Review whether this legacy position is still suitable and document the outcome.",
+       "sources": []
+      },
+      {
+       "point": "Risk profile alignment: Zephyr Precious Metals Fund is risk 6/7 against a maximum of 5/7 for a Balanced profile.",
+       "why": "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement.",
+       "sources": []
+      },
+      {
+       "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. [S1]",
+       "why": "Relevant market context for this mandate.",
+       "sources": [
+        "S1"
+       ]
+      },
+      {
+       "point": "Zephyr Precious Metals Fund Factsheet: Zephyr Precious Metals Fund nder client mandates carrying a Mining or Energy exclusion. [S2]",
+       "why": "Relevant market context for this mandate.",
+       "sources": [
+        "S2"
+       ]
+      },
+      {
+       "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. [S3]",
+       "why": "Relevant market context for this mandate.",
+       "sources": [
+        "S3"
+       ]
+      }
+     ],
+     "questions_to_ask": [
+      "Have your objectives or time horizon changed since the last review?",
+      "Has your liquidity position changed, or any expected calls on capital?",
+      "Are you comfortable with the current largest position size?"
+     ],
+     "watch_items": [
+      "Castellan Balanced Multi-Asset Fund is 38.0% of the portfolio, above the 25% single-position limit.",
+      "Existing holding Aurora Global Equity Fund is risk 6/7, above the maximum of 5/7 for a Balanced profile.",
+      "Zephyr Precious Metals Fund is risk 6/7 against a maximum of 5/7 for a Balanced profile."
+     ],
+     "citations": [
+      {
+       "marker": "S1",
+       "chunk_id": "FS-CBM-2026Q2::00",
+       "doc_id": "FS-CBM-2026Q2",
+       "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+       "section": "Castellan Balanced Multi-Asset Fund",
+       "source_file": "fund_castellan_balanced.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.2378,
+       "fusion_score": 0.04712,
+       "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. Fictional fund, fictional figures.** Castellan runs a 55/35/10 split across equity, fixed income and alternatives, rebalanced quarterly with a tactical band of plus or minus ten percentage points on the equity sleeve. **Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily. Year to date the fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4."
+      },
+      {
+       "marker": "S2",
+       "chunk_id": "FS-ZPM-2026Q2::01",
+       "doc_id": "FS-ZPM-2026Q2",
+       "title": "Zephyr Precious Metals Fund Factsheet",
+       "section": "Zephyr Precious Metals Fund",
+       "source_file": "fund_zephyr_precious_metals.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.4395,
+       "fusion_score": 0.03279,
+       "snippet": "Zephyr Precious Metals Fund Factsheet: Zephyr Precious Metals Fund nder client mandates carrying a Mining or Energy exclusion. **Suitability note:** diversifier sleeve, typically capped at 5 to 8% of portfolio value. Unsuitable for Conservative profiles and for clients with formal ESG exclusion lists covering mining or extractives."
+      },
+      {
+       "marker": "S3",
+       "chunk_id": "FS-CBM-2026Q2::01",
+       "doc_id": "FS-CBM-2026Q2",
+       "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+       "section": "Castellan Balanced Multi-Asset Fund",
+       "source_file": "fund_castellan_balanced.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.3152,
+       "fusion_score": 0.03252,
+       "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4. Realised volatility over twelve months was 7.9%. The tactical overlay is currently 3 points underweight equity and holds an elevated 8% cash position, reflecting the house view that policy rates fall more slowly than forward markets imply. **Suitability note:** the default one-fund solution for Balanced mandates and a common core sleeve inside Conservative portfolios where the client accepts moderate equity exposure. Worst twelve-month period since launch was…"
+      },
+      {
+       "marker": "S4",
+       "chunk_id": "FS-ZPM-2026Q2::00",
+       "doc_id": "FS-ZPM-2026Q2",
+       "title": "Zephyr Precious Metals Fund Factsheet",
+       "section": "Zephyr Precious Metals Fund",
+       "source_file": "fund_zephyr_precious_metals.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.3651,
+       "fusion_score": 0.03226,
+       "snippet": "Zephyr Precious Metals Fund Factsheet: Zephyr Precious Metals Fund **Synthetic document. Fictional fund, fictional figures.** Zephyr holds physical gold and silver exposure alongside listed precious metals miners, split roughly 55/45. The mining sleeve is the source of both the fund's upside gearing and its volatility. **Risk rating:** 6 of 7 (High). **OCF:** 0.74%. **Dealing:** daily. Year to date the fund returned 11.8%. Correlation to global equity over the last three years was 0.18, which is the diversification case for holding it. **ESG note:** the mining sleeve includes extractive operations in jurisdictions with limited environmental disclosure. This fund does not meet the criteria…"
+      },
+      {
+       "marker": "S5",
+       "chunk_id": "FS-AGE-2026Q2::01",
+       "doc_id": "FS-AGE-2026Q2",
+       "title": "Aurora Global Equity Fund Factsheet",
+       "section": "Aurora Global Equity Fund",
+       "source_file": "fund_aurora_global_equity.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.2171,
+       "fusion_score": 0.0315,
+       "snippet": "Aurora Global Equity Fund Factsheet: Aurora Global Equity Fund manager has trimmed the technology overweight from 31% to 26% over the quarter, citing valuation dispersion rather than a change of view on earnings. Cash sits at 2.4%. **Suitability note:** as a single-sleeve equity holding this fund carries full equity drawdown risk. It is generally unsuitable as a majority position for clients with a Conservative profile or a horizon under five years. Maximum peak-to-trough drawdown since launch was 24.8%."
+      },
+      {
+       "marker": "S6",
+       "chunk_id": "CM-EQ-2026Q3::01",
+       "doc_id": "CM-EQ-2026Q3",
+       "title": "Global Equity Outlook, Q3 2026",
+       "section": "Global equity outlook",
+       "source_file": "commentary_equity_outlook.md",
+       "doc_type": "market_commentary",
+       "score": 0.2518,
+       "fusion_score": 0.01639,
+       "snippet": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheets over momentum, and we are cautious about adding to concentrated thematic exposure at current levels. The principal risk to this view is that the capital expenditure cycle driving current earnings growth proves shorter than expected. See the separate note on AI capital expenditure."
+      },
+      {
+       "marker": "S7",
+       "chunk_id": "HV-AA-2026Q3::00",
+       "doc_id": "HV-AA-2026Q3",
+       "title": "House View, Strategic and Tactical Asset Allocation Q3 2026",
+       "section": "House view: asset allocation",
+       "source_file": "house_view_asset_allocation.md",
+       "doc_type": "house_view",
+       "score": 0.347,
+       "fusion_score": 0.01639,
+       "snippet": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. Illustrative only.** Tactical positions against strategic weights this quarter: - Equity: neutral. Valuation is unattractive but earnings momentum is intact. - Government bonds: neutral duration, preference for the 2 to 5 year part of the curve. - Investment grade credit: modest overweight, funded from high yield. - High yield: underweight, on spread levels rather than default expectations. - Real assets: modest overweight, chiefly listed infrastructure. - Cash: overweight, at 6 to 8% for most mandates, held as optionality. Model allocations by risk profile are unchanged:…"
+      },
+      {
+       "marker": "S8",
+       "chunk_id": "CM-EM-2026Q3::01",
+       "doc_id": "CM-EM-2026Q3",
+       "title": "Emerging Markets Outlook, Q3 2026",
+       "section": "Emerging markets outlook",
+       "source_file": "commentary_em_outlook.md",
+       "doc_type": "market_commentary",
+       "score": 0.2285,
+       "fusion_score": 0.01613,
+       "snippet": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook igh, and several central banks began cutting ahead of developed-market peers, which supports local bond prices. The dominant risk is dollar strength. A sustained rally in the dollar has historically been the largest single driver of emerging market debt drawdowns, exceeding the contribution of actual defaults. We are neutral on the asset class and would not increase allocations for clients whose risk profile makes a 15% drawdown unacceptable."
+      }
+     ]
+    }
+   },
+   "error": null,
+   "meta": {
+    "task": "synthesise"
+   }
+  },
+  {
+   "id": "d63290a644",
+   "parent_id": "f4e719cda0",
+   "kind": "llm",
+   "name": "synthesis.write_briefing",
+   "label": "LLM · mock/deterministic-stub",
+   "started_at": "2026-08-08T12:58:08.127+00:00",
+   "ended_at": "2026-08-08T12:58:08.127+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "system": "You prepare pre-meeting briefings for private bank advisers.\n\nYou receive: a client profile, a portfolio snapshot, cited market research, and\nthe output of a compliance rules engine.\n\nRules:\n- Cite market claims with the [S#] markers exactly as they appear in the research\n  you were given. Do not invent markers.\n- Never contradict or soften the compliance result. If the status is FAIL, the\n  talking points must reflect that the recommendation cannot proceed as framed.\n- Talking points are for the adviser to raise with the client. Make them\n  specific to this client's objectives and holdings, not generic.\n- British English. No sales language. All data is synthetic demo data.\n\nReturn JSON:\n{\n  \"headline\": \"one sentence the adviser reads first\",\n  \"summary\": \"3-5 sentences covering position, context and anything blocking\",\n  \"talking_points\": [\n    {\"point\": \"what to raise\", \"why\": \"why it matters to this client\", \"sources\": [\"S1\"]}\n  ],\n  \"questions_to_ask\": [\"question for the client\", \"...\"],\n  \"watch_items\": [\"something to monitor after the meeting\", \"...\"]\n}\n\nRespond with a single valid JSON object and nothing else. No prose before or after, no markdown code fences.",
+    "user": "Adviser request: Would the Zephyr precious metals fund work as a diversifier here?\n\nCLIENT\nAoife Brennan-Marsh (SYNTHETIC) (4523), Balanced profile,\nRetail, 10-year horizon,\nMedium liquidity needs.\nObjectives: Balanced growth consistent with a stated sustainability mandate; No exposure to extractive industries\nConstraints: Formal ESG exclusion list on file: mining, energy, defence\nAdviser notes: Trustee of a family foundation; sustainability mandate is non-negotiable.\n\nPORTFOLIO\nTotal £3,150,000 as at 2026-08-06.\nAllocation: {'Multi-Asset': 38.0, 'Fixed Income': 22.0, 'Infrastructure': 18.0, 'Global Equity': 12.0, 'Cash': 10.0}\nGrowth assets: 68.0%. Cash: 10.0%.\nLargest position: Castellan Balanced Multi-Asset Fund at\n38.0%.\nPerformance: {'ytd_return_pct': 4.09, 'one_year_return_pct': 7.77, 'three_year_annualised_pct': 5.52, 'benchmark': 'Synthetic composite benchmark', 'vs_benchmark_ytd_pct': -0.31, 'volatility_pct': 9.05, 'max_drawdown_pct': -12.1}\n\nMARKET RESEARCH (cite these markers only)\nRetrieved 8 passages from the research index covering FS-CBM-2026Q2, FS-ZPM-2026Q2. Narrative summarisation was unavailable, so the key points below are extracted directly from the source passages.\n[S1] Castellan Balanced Multi-Asset Fund Factsheet · Castellan Balanced Multi-Asset Fund: Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. Fictional fund, fictional figures.** Castellan runs a 55/35/10 split across equity, fixed income and alternatives, rebalanced quarterly with a tactical band of plus or minus t\n[S2] Zephyr Precious Metals Fund Factsheet · Zephyr Precious Metals Fund: Zephyr Precious Metals Fund Factsheet: Zephyr Precious Metals Fund nder client mandates carrying a Mining or Energy exclusion. **Suitability note:** diversifier sleeve, typically capped at 5 to 8% of portfolio value. Unsuitable for Conservative profiles and for clients with forma\n[S3] Castellan Balanced Multi-Asset Fund Factsheet · Castellan Balanced Multi-Asset Fund: Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4. Realised volatility over twelve months was 7.9%\n[S4] Zephyr Precious Metals Fund Factsheet · Zephyr Precious Metals Fund: Zephyr Precious Metals Fund Factsheet: Zephyr Precious Metals Fund **Synthetic document. Fictional fund, fictional figures.** Zephyr holds physical gold and silver exposure alongside listed precious metals miners, split roughly 55/45. The mining sleeve is the source of both the f\n[S5] Aurora Global Equity Fund Factsheet · Aurora Global Equity Fund: Aurora Global Equity Fund Factsheet: Aurora Global Equity Fund manager has trimmed the technology overweight from 31% to 26% over the quarter, citing valuation dispersion rather than a change of view on earnings. Cash sits at 2.4%. **Suitability note:** as a single-sleeve equity \n[S6] Global Equity Outlook, Q3 2026 · Global equity outlook: Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheet\n[S7] House View, Strategic and Tactical Asset Allocation Q3 2026 · House view: asset allocation: House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. Illustrative only.** Tactical positions against strategic weights this quarter: - Equity: neutral. Valuation is unattractive but earnings momentum is intact. - Govern\n[S8] Emerging Markets Outlook, Q3 2026 · Emerging markets outlook: Emerging Markets Outlook, Q3 2026: Emerging markets outlook igh, and several central banks began cutting ahead of developed-market peers, which supports local bond prices. The dominant risk is dollar stre… [+804 chars]",
+    "temperature": 0.2
+   },
+   "output": "{\"_mock\": true, \"_note\": \"Deterministic stub output; agents fall back to rule-based assembly.\", \"_digest\": \"0609014f\"}",
+   "error": null,
+   "meta": {
+    "provider": "mock",
+    "model": "deterministic-stub",
+    "usage": {
+     "prompt_tokens": 1497,
+     "completion_tokens": 12
+    }
+   }
+  },
+  {
+   "id": "85b60e24ad",
+   "parent_id": "f4e719cda0",
+   "kind": "note",
+   "name": "synthesis.assembled",
+   "label": "Briefing assembled with 6 talking points and 8 citations",
+   "started_at": "2026-08-08T12:58:08.127+00:00",
+   "ended_at": "2026-08-08T12:58:08.127+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": {
+    "compliance_status": "fail",
+    "citations": [
+     "S1",
+     "S2",
+     "S3",
+     "S4",
+     "S5",
+     "S6",
+     "S7",
+     "S8"
+    ]
+   },
+   "error": null,
+   "meta": {}
+  }
+ ],
+ "trace_summary": {
+  "run_id": "fe1abaf982d0",
+  "events": 32,
+  "by_kind": {
+   "agent": 5,
+   "llm": 5,
+   "note": 8,
+   "tool": 9,
+   "retrieval": 5
+  },
+  "errors": 0,
+  "elapsed_ms": 10.9
+ }
+}

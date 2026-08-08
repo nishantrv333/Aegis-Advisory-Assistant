@@ -1,0 +1,2688 @@
+{
+ "run_id": "6170f6aa32fd",
+ "client_id": "4525",
+ "query": "Can we add Bramble private credit for this client?",
+ "plan": {
+  "reasoning": "Default plan: full briefing across all agents.",
+  "run_research": true,
+  "research_queries": [],
+  "candidate_instruments": [
+   "BPC"
+  ],
+  "intent": "meeting_prep",
+  "forced_steps": [
+   "portfolio",
+   "compliance",
+   "synthesis"
+  ],
+  "_generated_by": "llm"
+ },
+ "briefing": {
+  "generated_at": "2026-08-08T12:58:08+00:00",
+  "query": "Can we add Bramble private credit for this client?",
+  "data_notice": "All client, portfolio and market data in this briefing is synthetic.",
+  "client": {
+   "client_id": "4525",
+   "name": "Wei-Lin Cheong (SYNTHETIC)",
+   "risk_profile": "Aggressive",
+   "investor_classification": "Elective Professional",
+   "horizon_years": 20,
+   "liquidity_needs": "Low",
+   "next_meeting": "2026-08-12",
+   "adviser": "R. Achterberg (synthetic)",
+   "objectives": [
+    "Aggressive growth with tolerance for illiquidity",
+    "Diversify away from single-market equity risk"
+   ],
+   "constraints": [
+    "Singapore resident, so cross-border registration must be checked"
+   ],
+   "esg_mandate": false,
+   "esg_exclusions": []
+  },
+  "headline": "2 suitability issue(s) must be resolved before advising Wei-Lin Cheong (SYNTHETIC).",
+  "summary": "Wei-Lin Cheong (SYNTHETIC) holds £21,400,000 across 5 positions, 85.0% in growth assets, against a Aggressive profile and a 20-year horizon. Year-to-date return is 8.32% (3.92% versus benchmark). The largest position is Aurora Global Equity Fund at 33.0%. The suitability check returned FAIL.",
+  "portfolio_snapshot": {
+   "as_of": "2026-08-06",
+   "total_value_gbp": 21400000,
+   "currency": "GBP",
+   "holdings": [
+    {
+     "instrument_id": "AGE",
+     "name": "Aurora Global Equity Fund",
+     "asset_class": "Global Equity",
+     "risk_rating": 6,
+     "risk_band": "High",
+     "weight_pct": 33.0,
+     "value_gbp": 7062000.0,
+     "ytd_return_pct": 9.6
+    },
+    {
+     "instrument_id": "SAA",
+     "name": "Solaris AI & Automation Thematic Fund",
+     "asset_class": "Thematic Equity",
+     "risk_rating": 6,
+     "risk_band": "High",
+     "weight_pct": 19.0,
+     "value_gbp": 4066000.0,
+     "ytd_return_pct": 18.4
+    },
+    {
+     "instrument_id": "CBM",
+     "name": "Castellan Balanced Multi-Asset Fund",
+     "asset_class": "Multi-Asset",
+     "risk_rating": 4,
+     "risk_band": "Medium",
+     "weight_pct": 20.0,
+     "value_gbp": 4280000.0,
+     "ytd_return_pct": 4.9
+    },
+    {
+     "instrument_id": "MED",
+     "name": "Meridian Emerging Market Debt Fund",
+     "asset_class": "Emerging Market Debt",
+     "risk_rating": 5,
+     "risk_band": "High",
+     "weight_pct": 13.0,
+     "value_gbp": 2782000.0,
+     "ytd_return_pct": 5.2
+    },
+    {
+     "instrument_id": "CASH",
+     "name": "GBP Cash & Money Market",
+     "asset_class": "Cash",
+     "risk_rating": 1,
+     "risk_band": "Low",
+     "weight_pct": 15.0,
+     "value_gbp": 3210000.0,
+     "ytd_return_pct": 0.0
+    }
+   ],
+   "allocation_by_asset_class": {
+    "Global Equity": 33.0,
+    "Multi-Asset": 20.0,
+    "Thematic Equity": 19.0,
+    "Cash": 15.0,
+    "Emerging Market Debt": 13.0
+   },
+   "growth_asset_pct": 85.0,
+   "largest_position": {
+    "instrument_id": "AGE",
+    "name": "Aurora Global Equity Fund",
+    "weight_pct": 33.0
+   },
+   "cash_pct": 15.0,
+   "weighted_risk_rating": 4.72,
+   "performance": {
+    "ytd_return_pct": 8.32,
+    "one_year_return_pct": 15.81,
+    "three_year_annualised_pct": 11.23,
+    "benchmark": "Synthetic composite benchmark",
+    "vs_benchmark_ytd_pct": 3.92,
+    "volatility_pct": 11.37,
+    "max_drawdown_pct": -15.27
+   }
+  },
+  "market_context": {
+   "summary": "Retrieved 8 passages from the research index covering FS-BPC-2026Q2, FS-CBM-2026Q2, HV-ALTS-2026Q3. Narrative summarisation was unavailable, so the key points below are extracted directly from the source passages.",
+   "key_points": [
+    {
+     "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. [S1]",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "point": "Bramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II .9%. [S2]",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "point": "Bramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II **Synthetic document. [S3]",
+     "sources": [
+      "S3"
+     ]
+    },
+    {
+     "point": "House View, Alternatives and Private Markets Q3 2026: House view: alternatives and private markets **Synthetic house view. [S4]",
+     "sources": [
+      "S4"
+     ]
+    }
+   ],
+   "relevance_to_client": "Review the cited passages directly. No model-generated interpretation was applied.",
+   "queries_run": [
+    "Can we add Bramble private credit for this client?",
+    "Global Equity outlook and positioning",
+    "Multi-Asset outlook and positioning",
+    "asset allocation house view for a Aggressive mandate",
+    "Bramble Private Credit Fund II outlook, risks and suitability"
+   ]
+  },
+  "compliance": {
+   "status": "fail",
+   "flag_count": 2,
+   "flags": [
+    {
+     "rule_id": "R2",
+     "rule_name": "Single-position concentration",
+     "severity": "medium",
+     "instrument_id": "AGE",
+     "detail": "Aurora Global Equity Fund is 33.0% of the portfolio, above the 25% single-position limit.",
+     "remediation": "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement."
+    },
+    {
+     "rule_id": "R7",
+     "rule_name": "Cross-border registration",
+     "severity": "high",
+     "instrument_id": "BPC",
+     "detail": "Bramble Private Credit Fund II is not registered for distribution in SG (registered: GB, IE, CH).",
+     "remediation": "Do not solicit. Check for an equivalent share class registered in the client's domicile."
+    }
+   ],
+   "adviser_note": "The suitability check returned FAIL with 2 flag(s), of which 1 are high severity. Each flag below cites the rule that produced it.",
+   "actions_before_meeting": [
+    "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement.",
+    "Do not solicit. Check for an equivalent share class registered in the client's domicile."
+   ],
+   "proposals_checked": [
+    "BPC"
+   ],
+   "rules_evaluated": [
+    "R1-existing",
+    "R1:BPC",
+    "R2",
+    "R3:BPC",
+    "R4:BPC",
+    "R5:BPC",
+    "R6",
+    "R7:BPC"
+   ],
+   "disclaimer": "Illustrative rules for a demonstration project. Not regulatory advice."
+  },
+  "talking_points": [
+   {
+    "point": "Single-position concentration: Aurora Global Equity Fund is 33.0% of the portfolio, above the 25% single-position limit.",
+    "why": "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement.",
+    "sources": []
+   },
+   {
+    "point": "Cross-border registration: Bramble Private Credit Fund II is not registered for distribution in SG (registered: GB, IE, CH).",
+    "why": "Do not solicit. Check for an equivalent share class registered in the client's domicile.",
+    "sources": []
+   },
+   {
+    "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. [S1]",
+    "why": "Relevant market context for this mandate.",
+    "sources": [
+     "S1"
+    ]
+   },
+   {
+    "point": "Bramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II .9%. [S2]",
+    "why": "Relevant market context for this mandate.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "point": "Bramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II **Synthetic document. [S3]",
+    "why": "Relevant market context for this mandate.",
+    "sources": [
+     "S3"
+    ]
+   }
+  ],
+  "questions_to_ask": [
+   "Have your objectives or time horizon changed since the last review?",
+   "Has your liquidity position changed, or any expected calls on capital?",
+   "Are you comfortable with the current largest position size?"
+  ],
+  "watch_items": [
+   "Aurora Global Equity Fund is 33.0% of the portfolio, above the 25% single-position limit.",
+   "Bramble Private Credit Fund II is not registered for distribution in SG (registered: GB, IE, CH)."
+  ],
+  "citations": [
+   {
+    "marker": "S1",
+    "chunk_id": "FS-CBM-2026Q2::01",
+    "doc_id": "FS-CBM-2026Q2",
+    "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+    "section": "Castellan Balanced Multi-Asset Fund",
+    "source_file": "fund_castellan_balanced.md",
+    "doc_type": "fund_factsheet",
+    "score": 0.2426,
+    "fusion_score": 0.04814,
+    "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4. Realised volatility over twelve months was 7.9%. The tactical overlay is currently 3 points underweight equity and holds an elevated 8% cash position, reflecting the house view that policy rates fall more slowly than forward markets imply. **Suitability note:** the default one-fund solution for Balanced mandates and a common core sleeve inside Conservative portfolios where the client accepts moderate equity exposure. Worst twelve-month period since launch was…"
+   },
+   {
+    "marker": "S2",
+    "chunk_id": "FS-BPC-2026Q2::01",
+    "doc_id": "FS-BPC-2026Q2",
+    "title": "Bramble Private Credit Fund II Factsheet",
+    "section": "Bramble Private Credit Fund II",
+    "source_file": "fund_bramble_private_credit.md",
+    "doc_type": "fund_factsheet",
+    "score": 0.4312,
+    "fusion_score": 0.03279,
+    "snippet": "Bramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II .9%. **Suitability note:** unsuitable where a client has High liquidity needs, a horizon under seven years, or a known capital call in the near term. The combination of gates and manager-marked valuations means the reported volatility of this strategy materially understates its true risk."
+   },
+   {
+    "marker": "S3",
+    "chunk_id": "FS-BPC-2026Q2::00",
+    "doc_id": "FS-BPC-2026Q2",
+    "title": "Bramble Private Credit Fund II Factsheet",
+    "section": "Bramble Private Credit Fund II",
+    "source_file": "fund_bramble_private_credit.md",
+    "doc_type": "fund_factsheet",
+    "score": 0.3013,
+    "fusion_score": 0.03226,
+    "snippet": "Bramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II **Synthetic document. Fictional fund, fictional figures.** Bramble II makes senior secured loans to mid-market borrowers, with a smaller speciality finance sleeve. The vehicle uses fund-level leverage of up to 0.4 times net asset value. **Risk rating:** 5 of 7 (High). **OCF:** 1.35% plus performance fee. **Liquidity, and please read this carefully.** Dealing is quarterly, subject to a 5% investor-level gate and 90 days' notice. In a stressed quarter a redeeming investor may receive a fraction of their request and wait multiple quarters for the balance. Valuations are manager-marked monthly, not observable market…"
+   },
+   {
+    "marker": "S4",
+    "chunk_id": "HV-ALTS-2026Q3::00",
+    "doc_id": "HV-ALTS-2026Q3",
+    "title": "House View, Alternatives and Private Markets Q3 2026",
+    "section": "House view: alternatives and private markets",
+    "source_file": "house_view_alternatives.md",
+    "doc_type": "house_view",
+    "score": 0.2881,
+    "fusion_score": 0.032,
+    "snippet": "House View, Alternatives and Private Markets Q3 2026: House view: alternatives and private markets **Synthetic house view. Illustrative only.** The committee's position is that the illiquidity premium in private credit has compressed to the point where it no longer compensates for the governance and liquidity costs in most private client portfolios. Illustrative allocation limits: private markets exposure should not exceed 15% of total portfolio value for Growth and Aggressive mandates, 5% for Balanced, and zero for Conservative mandates or any client with High liquidity needs. Semi-liquid structures deserve particular scrutiny. Quarterly dealing with gates offers the appearance of…"
+   },
+   {
+    "marker": "S5",
+    "chunk_id": "CM-EQ-2026Q3::01",
+    "doc_id": "CM-EQ-2026Q3",
+    "title": "Global Equity Outlook, Q3 2026",
+    "section": "Global equity outlook",
+    "source_file": "commentary_equity_outlook.md",
+    "doc_type": "market_commentary",
+    "score": 0.3767,
+    "fusion_score": 0.01639,
+    "snippet": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheets over momentum, and we are cautious about adding to concentrated thematic exposure at current levels. The principal risk to this view is that the capital expenditure cycle driving current earnings growth proves shorter than expected. See the separate note on AI capital expenditure."
+   },
+   {
+    "marker": "S6",
+    "chunk_id": "HV-AA-2026Q3::00",
+    "doc_id": "HV-AA-2026Q3",
+    "title": "House View, Strategic and Tactical Asset Allocation Q3 2026",
+    "section": "House view: asset allocation",
+    "source_file": "house_view_asset_allocation.md",
+    "doc_type": "house_view",
+    "score": 0.3355,
+    "fusion_score": 0.01639,
+    "snippet": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. Illustrative only.** Tactical positions against strategic weights this quarter: - Equity: neutral. Valuation is unattractive but earnings momentum is intact. - Government bonds: neutral duration, preference for the 2 to 5 year part of the curve. - Investment grade credit: modest overweight, funded from high yield. - High yield: underweight, on spread levels rather than default expectations. - Real assets: modest overweight, chiefly listed infrastructure. - Cash: overweight, at 6 to 8% for most mandates, held as optionality. Model allocations by risk profile are unchanged:…"
+   },
+   {
+    "marker": "S7",
+    "chunk_id": "FS-AGE-2026Q2::01",
+    "doc_id": "FS-AGE-2026Q2",
+    "title": "Aurora Global Equity Fund Factsheet",
+    "section": "Aurora Global Equity Fund",
+    "source_file": "fund_aurora_global_equity.md",
+    "doc_type": "fund_factsheet",
+    "score": 0.3482,
+    "fusion_score": 0.01613,
+    "snippet": "Aurora Global Equity Fund Factsheet: Aurora Global Equity Fund manager has trimmed the technology overweight from 31% to 26% over the quarter, citing valuation dispersion rather than a change of view on earnings. Cash sits at 2.4%. **Suitability note:** as a single-sleeve equity holding this fund carries full equity drawdown risk. It is generally unsuitable as a majority position for clients with a Conservative profile or a horizon under five years. Maximum peak-to-trough drawdown since launch was 24.8%."
+   },
+   {
+    "marker": "S8",
+    "chunk_id": "CM-EM-2026Q3::01",
+    "doc_id": "CM-EM-2026Q3",
+    "title": "Emerging Markets Outlook, Q3 2026",
+    "section": "Emerging markets outlook",
+    "source_file": "commentary_em_outlook.md",
+    "doc_type": "market_commentary",
+    "score": 0.2285,
+    "fusion_score": 0.01613,
+    "snippet": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook igh, and several central banks began cutting ahead of developed-market peers, which supports local bond prices. The dominant risk is dollar strength. A sustained rally in the dollar has historically been the largest single driver of emerging market debt drawdowns, exceeding the contribution of actual defaults. We are neutral on the asset class and would not increase allocations for clients whose risk profile makes a 15% drawdown unacceptable."
+   }
+  ]
+ },
+ "trace": [
+  {
+   "id": "445d35baa0",
+   "parent_id": null,
+   "kind": "agent",
+   "name": "orchestrator",
+   "label": "orchestrator · plan and execute",
+   "started_at": "2026-08-08T12:58:08.146+00:00",
+   "ended_at": "2026-08-08T12:58:08.156+00:00",
+   "duration_ms": 9.9,
+   "status": "ok",
+   "input": {
+    "client_id": "4525",
+    "query": "Can we add Bramble private credit for this client?"
+   },
+   "output": null,
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "f40274a1ee",
+   "parent_id": "445d35baa0",
+   "kind": "llm",
+   "name": "orchestrator.plan",
+   "label": "LLM · mock/deterministic-stub",
+   "started_at": "2026-08-08T12:58:08.147+00:00",
+   "ended_at": "2026-08-08T12:58:08.147+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "system": "You are the orchestrator of a private bank's briefing assistant.\n\nGiven an adviser's request and the agents available, produce an execution plan.\n\nGuidance:\n- `portfolio` always runs first and is added automatically, so do not include it.\n- `compliance` always runs and is added automatically, so do not include it.\n- `synthesis` always runs last and is added automatically, so do not include it.\n- Decide whether `market_research` is needed. It usually is, unless the request\n  is purely about the client's own holdings or compliance position.\n- Identify any instruments the adviser is proposing or asking about, by their\n  ticker-style id, so the rules engine can check them.\n- Suggest up to 4 focused retrieval queries if research is needed.\n\nReturn JSON:\n{\n  \"reasoning\": \"one or two sentences on why this plan\",\n  \"run_research\": true,\n  \"research_queries\": [\"...\", \"...\"],\n  \"candidate_instruments\": [\"SAA\"],\n  \"intent\": \"meeting_prep | recommendation_check | portfolio_review | market_question\"\n}\n\nRespond with a single valid JSON object and nothing else. No prose before or after, no markdown code fences.",
+    "user": "Adviser request: Can we add Bramble private credit for this client?\nClient id: 4525\n\nAvailable agents:\n- portfolio: Retrieves a client's risk profile, mandate constraints, holdings, weights and performance from the book of record. (produces client_profile, portfolio_snapshot)\n- market_research: Runs vector search over the research corpus and summarises what is relevant to the client, with citations back to specific source passages. (produces market_context, citations)\n- compliance: Runs the deterministic suitability rule set against the client's holdings and any proposed instruments, and explains the result. (produces compliance_result)\n- synthesis: Combines portfolio, research and compliance output into the final structured client briefing. (produces briefing)\n\nAvailable tools:\n- portfolio.get_client_profile(client_id): Fetch a synthetic client's profile: risk profile, investor classification, horizon, liquidity needs, ESG mandate, objectives, constraints and suitability review date.\n- portfolio.get_holdings(client_id): Fetch a synthetic client's current holdings, weights, valuations, performance and portfolio-level risk metrics.\n- portfolio.list_clients(): List all synthetic client ids with names and risk profiles.\n- portfolio.lookup_instrument(instrument_id): Look up a fund or instrument in the synthetic product universe: asset class, risk rating, liquidity terms, sectors, leverage and registered jurisdictions.\n- research.search(query, k, doc_type): Semantic search over synthetic fund factsheets, market commentary, house views, research notes and internal policy notes. Returns citable chunks with source ids. Use one focused query per topic rather than one long combined query.\n- research.index_status(): Report how many chunks are indexed and which embedding model is in use.\n- compliance.check_suitability(client_id, proposed_instruments, include_existing_holdings): Run the suitability rule set for a client, over their existing holdings and any proposed instruments. Returns pass/review/fail plus itemised flags with remediation. Proposals may be instrument ids or objects with instrument_id and weight_pct.\n- compliance.list_rules(): Return the illustrative suitability rule set with ids, names and severities.\n- compliance.list_instruments(): List the synthetic product universe available for recommendation.",
+    "temperature": 0.2
+   },
+   "output": "{\"_mock\": true, \"_note\": \"Deterministic stub output; agents fall back to rule-based assembly.\", \"_digest\": \"451c2309\"}",
+   "error": null,
+   "meta": {
+    "provider": "mock",
+    "model": "deterministic-stub",
+    "usage": {
+     "prompt_tokens": 864,
+     "completion_tokens": 12
+    }
+   }
+  },
+  {
+   "id": "d9b9434572",
+   "parent_id": "445d35baa0",
+   "kind": "note",
+   "name": "orchestrator.plan",
+   "label": "Intent 'meeting_prep' · research=True · instruments=['BPC']",
+   "started_at": "2026-08-08T12:58:08.147+00:00",
+   "ended_at": "2026-08-08T12:58:08.147+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": {
+    "reasoning": "Default plan: full briefing across all agents.",
+    "run_research": true,
+    "research_queries": [],
+    "candidate_instruments": [
+     "BPC"
+    ],
+    "intent": "meeting_prep",
+    "forced_steps": [
+     "portfolio",
+     "compliance",
+     "synthesis"
+    ],
+    "_generated_by": "llm"
+   },
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "466a7cfeb5",
+   "parent_id": "445d35baa0",
+   "kind": "agent",
+   "name": "portfolio",
+   "label": "orchestrator → portfolio · profile_and_holdings",
+   "started_at": "2026-08-08T12:58:08.147+00:00",
+   "ended_at": "2026-08-08T12:58:08.147+00:00",
+   "duration_ms": 0.1,
+   "status": "ok",
+   "input": {
+    "client_id": "4525"
+   },
+   "output": {
+    "client_profile": {
+     "client_id": "4525",
+     "name": "Wei-Lin Cheong (SYNTHETIC)",
+     "data_notice": "SYNTHETIC. Fictional client, not a real person",
+     "segment": "UHNW",
+     "domicile": "SG",
+     "adviser": "R. Achterberg (synthetic)",
+     "risk_profile": "Aggressive",
+     "investor_classification": "Elective Professional",
+     "investment_horizon_years": 20,
+     "liquidity_needs": "Low",
+     "esg_mandate": false,
+     "esg_exclusions": [],
+     "last_suitability_review": "2026-06-19",
+     "next_meeting": "2026-08-12",
+     "objectives": [
+      "Aggressive growth with tolerance for illiquidity",
+      "Diversify away from single-market equity risk"
+     ],
+     "constraints": [
+      "Singapore resident, so cross-border registration must be checked"
+     ],
+     "adviser_notes": "Books through the Singapore branch; product registration is the usual blocker."
+    },
+    "portfolio_snapshot": {
+     "client_id": "4525",
+     "as_of": "2026-08-06",
+     "total_value_gbp": 21400000,
+     "currency": "GBP",
+     "holdings": [
+      {
+       "instrument_id": "AGE",
+       "name": "Aurora Global Equity Fund",
+       "asset_class": "Global Equity",
+       "risk_rating": 6,
+       "risk_band": "High",
+       "weight_pct": 33.0,
+       "value_gbp": 7062000.0,
+       "ytd_return_pct": 9.6
+      },
+      {
+       "instrument_id": "SAA",
+       "name": "Solaris AI & Automation Thematic Fund",
+       "asset_class": "Thematic Equity",
+       "risk_rating": 6,
+       "risk_band": "High",
+       "weight_pct": 19.0,
+       "value_gbp": 4066000.0,
+       "ytd_return_pct": 18.4
+      },
+      {
+       "instrument_id": "CBM",
+       "name": "Castellan Balanced Multi-Asset Fund",
+       "asset_class": "Multi-Asset",
+       "risk_rating": 4,
+       "risk_band": "Medium",
+       "weight_pct": 20.0,
+       "value_gbp": 4280000.0,
+       "ytd_return_pct": 4.9
+      },
+      {
+       "instrument_id": "MED",
+       "name": "Meridian Emerging Market Debt Fund",
+       "asset_class": "Emerging Market Debt",
+       "risk_rating": 5,
+       "risk_band": "High",
+       "weight_pct": 13.0,
+       "value_gbp": 2782000.0,
+       "ytd_return_pct": 5.2
+      },
+      {
+       "instrument_id": "CASH",
+       "name": "GBP Cash & Money Market",
+       "asset_class": "Cash",
+       "risk_rating": 1,
+       "risk_band": "Low",
+       "weight_pct": 15.0,
+       "value_gbp": 3210000.0,
+       "ytd_return_pct": 0.0
+      }
+     ],
+     "largest_position_pct": 33.0,
+     "cash_pct": 15.0,
+     "weighted_risk_rating": 4.72,
+     "performance": {
+      "ytd_return_pct": 8.32,
+      "one_year_return_pct": 15.81,
+      "three_year_annualised_pct": 11.23,
+      "benchmark": "Synthetic composite benchmark",
+      "vs_benchmark_ytd_pct": 3.92,
+      "volatility_pct": 11.37,
+      "max_drawdown_pct": -15.27
+     }
+    },
+    "derived": {
+     "growth_asset_pct": 85.0,
+     "allocation_by_asset_class": {
+      "Global Equity": 33.0,
+      "Multi-Asset": 20.0,
+      "Thematic Equity": 19.0,
+      "Cash": 15.0,
+      "Emerging Market Debt": 13.0
+     },
+     "largest_position": {
+      "instrument_id": "AGE",
+      "name": "Aurora Global Equity Fund",
+      "weight_pct": 33.0
+     },
+     "best_performer": {
+      "name": "Solaris AI & Automation Thematic Fund",
+      "ytd_return_pct": 18.4
+     },
+     "worst_performer": {
+      "name": "GBP Cash & Money Market",
+      "ytd_return_pct": 0.0
+     },
+     "held_instrument_ids": [
+      "AGE",
+      "SAA",
+      "CBM",
+      "MED",
+      "CASH"
+     ],
+     "top_holdings": [
+      {
+       "instrument_id": "AGE",
+       "name": "Aurora Global Equity Fund",
+       "weight_pct": 33.0
+      },
+      {
+       "instrument_id": "CBM",
+       "name": "Castellan Balanced Multi-Asset Fund",
+       "weight_pct": 20.0
+      },
+      {
+       "instrument_id": "SAA",
+       "name": "Solaris AI & Automation Thematic Fund",
+       "weight_pct": 19.0
+      }
+     ],
+     "risk_profile": "Aggressive",
+     "horizon_years": 20
+    }
+   },
+   "error": null,
+   "meta": {
+    "task": "profile_and_holdings"
+   }
+  },
+  {
+   "id": "3ce3b805ce",
+   "parent_id": "466a7cfeb5",
+   "kind": "tool",
+   "name": "portfolio.get_client_profile",
+   "label": "tool · portfolio.get_client_profile",
+   "started_at": "2026-08-08T12:58:08.147+00:00",
+   "ended_at": "2026-08-08T12:58:08.147+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "client_id": "4525"
+   },
+   "output": {
+    "client_id": "4525",
+    "name": "Wei-Lin Cheong (SYNTHETIC)",
+    "data_notice": "SYNTHETIC. Fictional client, not a real person",
+    "segment": "UHNW",
+    "domicile": "SG",
+    "adviser": "R. Achterberg (synthetic)",
+    "risk_profile": "Aggressive",
+    "investor_classification": "Elective Professional",
+    "investment_horizon_years": 20,
+    "liquidity_needs": "Low",
+    "esg_mandate": false,
+    "esg_exclusions": [],
+    "last_suitability_review": "2026-06-19",
+    "next_meeting": "2026-08-12",
+    "objectives": [
+     "Aggressive growth with tolerance for illiquidity",
+     "Diversify away from single-market equity risk"
+    ],
+    "constraints": [
+     "Singapore resident, so cross-border registration must be checked"
+    ],
+    "adviser_notes": "Books through the Singapore branch; product registration is the usual blocker."
+   },
+   "error": null,
+   "meta": {
+    "server": "portfolio"
+   }
+  },
+  {
+   "id": "6ba4a00322",
+   "parent_id": "466a7cfeb5",
+   "kind": "tool",
+   "name": "portfolio.get_holdings",
+   "label": "tool · portfolio.get_holdings",
+   "started_at": "2026-08-08T12:58:08.147+00:00",
+   "ended_at": "2026-08-08T12:58:08.147+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "client_id": "4525"
+   },
+   "output": {
+    "client_id": "4525",
+    "as_of": "2026-08-06",
+    "total_value_gbp": 21400000,
+    "currency": "GBP",
+    "holdings": [
+     {
+      "instrument_id": "AGE",
+      "name": "Aurora Global Equity Fund",
+      "asset_class": "Global Equity",
+      "risk_rating": 6,
+      "risk_band": "High",
+      "weight_pct": 33.0,
+      "value_gbp": 7062000.0,
+      "ytd_return_pct": 9.6
+     },
+     {
+      "instrument_id": "SAA",
+      "name": "Solaris AI & Automation Thematic Fund",
+      "asset_class": "Thematic Equity",
+      "risk_rating": 6,
+      "risk_band": "High",
+      "weight_pct": 19.0,
+      "value_gbp": 4066000.0,
+      "ytd_return_pct": 18.4
+     },
+     {
+      "instrument_id": "CBM",
+      "name": "Castellan Balanced Multi-Asset Fund",
+      "asset_class": "Multi-Asset",
+      "risk_rating": 4,
+      "risk_band": "Medium",
+      "weight_pct": 20.0,
+      "value_gbp": 4280000.0,
+      "ytd_return_pct": 4.9
+     },
+     {
+      "instrument_id": "MED",
+      "name": "Meridian Emerging Market Debt Fund",
+      "asset_class": "Emerging Market Debt",
+      "risk_rating": 5,
+      "risk_band": "High",
+      "weight_pct": 13.0,
+      "value_gbp": 2782000.0,
+      "ytd_return_pct": 5.2
+     },
+     {
+      "instrument_id": "CASH",
+      "name": "GBP Cash & Money Market",
+      "asset_class": "Cash",
+      "risk_rating": 1,
+      "risk_band": "Low",
+      "weight_pct": 15.0,
+      "value_gbp": 3210000.0,
+      "ytd_return_pct": 0.0
+     }
+    ],
+    "largest_position_pct": 33.0,
+    "cash_pct": 15.0,
+    "weighted_risk_rating": 4.72,
+    "performance": {
+     "ytd_return_pct": 8.32,
+     "one_year_return_pct": 15.81,
+     "three_year_annualised_pct": 11.23,
+     "benchmark": "Synthetic composite benchmark",
+     "vs_benchmark_ytd_pct": 3.92,
+     "volatility_pct": 11.37,
+     "max_drawdown_pct": -15.27
+    }
+   },
+   "error": null,
+   "meta": {
+    "server": "portfolio"
+   }
+  },
+  {
+   "id": "010c5a6de3",
+   "parent_id": "466a7cfeb5",
+   "kind": "note",
+   "name": "portfolio.derived",
+   "label": "85.0% growth assets, largest position 33.0%",
+   "started_at": "2026-08-08T12:58:08.147+00:00",
+   "ended_at": "2026-08-08T12:58:08.147+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": {
+    "growth_asset_pct": 85.0,
+    "allocation_by_asset_class": {
+     "Global Equity": 33.0,
+     "Multi-Asset": 20.0,
+     "Thematic Equity": 19.0,
+     "Cash": 15.0,
+     "Emerging Market Debt": 13.0
+    },
+    "largest_position": {
+     "instrument_id": "AGE",
+     "name": "Aurora Global Equity Fund",
+     "weight_pct": 33.0
+    },
+    "best_performer": {
+     "name": "Solaris AI & Automation Thematic Fund",
+     "ytd_return_pct": 18.4
+    },
+    "worst_performer": {
+     "name": "GBP Cash & Money Market",
+     "ytd_return_pct": 0.0
+    },
+    "held_instrument_ids": [
+     "AGE",
+     "SAA",
+     "CBM",
+     "MED",
+     "CASH"
+    ],
+    "top_holdings": [
+     {
+      "instrument_id": "AGE",
+      "name": "Aurora Global Equity Fund",
+      "weight_pct": 33.0
+     },
+     {
+      "instrument_id": "CBM",
+      "name": "Castellan Balanced Multi-Asset Fund",
+      "weight_pct": 20.0
+     },
+     {
+      "instrument_id": "SAA",
+      "name": "Solaris AI & Automation Thematic Fund",
+      "weight_pct": 19.0
+     }
+    ],
+    "risk_profile": "Aggressive",
+    "horizon_years": 20
+   },
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "47691983d5",
+   "parent_id": "445d35baa0",
+   "kind": "agent",
+   "name": "market_research",
+   "label": "orchestrator → market_research · research",
+   "started_at": "2026-08-08T12:58:08.147+00:00",
+   "ended_at": "2026-08-08T12:58:08.156+00:00",
+   "duration_ms": 8.7,
+   "status": "ok",
+   "input": {
+    "query": "Can we add Bramble private credit for this client?",
+    "research_queries": [],
+    "candidate_instruments": [
+     "BPC"
+    ],
+    "portfolio_context": {
+     "growth_asset_pct": 85.0,
+     "allocation_by_asset_class": {
+      "Global Equity": 33.0,
+      "Multi-Asset": 20.0,
+      "Thematic Equity": 19.0,
+      "Cash": 15.0,
+      "Emerging Market Debt": 13.0
+     },
+     "largest_position": {
+      "instrument_id": "AGE",
+      "name": "Aurora Global Equity Fund",
+      "weight_pct": 33.0
+     },
+     "best_performer": {
+      "name": "Solaris AI & Automation Thematic Fund",
+      "ytd_return_pct": 18.4
+     },
+     "worst_performer": {
+      "name": "GBP Cash & Money Market",
+      "ytd_return_pct": 0.0
+     },
+     "held_instrument_ids": [
+      "AGE",
+      "SAA",
+      "CBM",
+      "MED",
+      "CASH"
+     ],
+     "top_holdings": [
+      {
+       "instrument_id": "AGE",
+       "name": "Aurora Global Equity Fund",
+       "weight_pct": 33.0
+      },
+      {
+       "instrument_id": "CBM",
+       "name": "Castellan Balanced Multi-Asset Fund",
+       "weight_pct": 20.0
+      },
+      {
+       "instrument_id": "SAA",
+       "name": "Solaris AI & Automation Thematic Fund",
+       "weight_pct": 19.0
+      }
+     ],
+     "risk_profile": "Aggressive",
+     "horizon_years": 20
+    }
+   },
+   "output": {
+    "queries": [
+     "Can we add Bramble private credit for this client?",
+     "Global Equity outlook and positioning",
+     "Multi-Asset outlook and positioning",
+     "asset allocation house view for a Aggressive mandate",
+     "Bramble Private Credit Fund II outlook, risks and suitability"
+    ],
+    "retrieval_by_query": [
+     {
+      "query": "Can we add Bramble private credit for this client?",
+      "hits": [
+       "FS-BPC-2026Q2::01",
+       "FS-BPC-2026Q2::00",
+       "HV-ALTS-2026Q3::00",
+       "POL-SUIT-2026::01"
+      ]
+     },
+     {
+      "query": "Global Equity outlook and positioning",
+      "hits": [
+       "CM-EQ-2026Q3::01",
+       "FS-AGE-2026Q2::01",
+       "CM-EQ-2026Q3::00",
+       "FS-AGE-2026Q2::00"
+      ]
+     },
+     {
+      "query": "Multi-Asset outlook and positioning",
+      "hits": [
+       "FS-CBM-2026Q2::01",
+       "CM-EM-2026Q3::01",
+       "CM-EM-2026Q3::00",
+       "FS-CBM-2026Q2::00"
+      ]
+     },
+     {
+      "query": "asset allocation house view for a Aggressive mandate",
+      "hits": [
+       "HV-AA-2026Q3::00",
+       "HV-ALTS-2026Q3::00",
+       "FS-CBM-2026Q2::01",
+       "FS-SAA-2026Q2::01"
+      ]
+     },
+     {
+      "query": "Bramble Private Credit Fund II outlook, risks and suitability",
+      "hits": [
+       "FS-BPC-2026Q2::01",
+       "FS-BPC-2026Q2::00",
+       "FS-CBM-2026Q2::01",
+       "FS-ZPM-2026Q2::01"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "marker": "S1",
+      "chunk_id": "FS-CBM-2026Q2::01",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "score": 0.2426,
+      "fusion_score": 0.04814,
+      "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4. Realised volatility over twelve months was 7.9%. The tactical overlay is currently 3 points underweight equity and holds an elevated 8% cash position, reflecting the house view that policy rates fall more slowly than forward markets imply. **Suitability note:** the default one-fund solution for Balanced mandates and a common core sleeve inside Conservative portfolios where the client accepts moderate equity exposure. Worst twelve-month period since launch was…"
+     },
+     {
+      "marker": "S2",
+      "chunk_id": "FS-BPC-2026Q2::01",
+      "doc_id": "FS-BPC-2026Q2",
+      "title": "Bramble Private Credit Fund II Factsheet",
+      "section": "Bramble Private Credit Fund II",
+      "source_file": "fund_bramble_private_credit.md",
+      "doc_type": "fund_factsheet",
+      "score": 0.4312,
+      "fusion_score": 0.03279,
+      "snippet": "Bramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II .9%. **Suitability note:** unsuitable where a client has High liquidity needs, a horizon under seven years, or a known capital call in the near term. The combination of gates and manager-marked valuations means the reported volatility of this strategy materially understates its true risk."
+     },
+     {
+      "marker": "S3",
+      "chunk_id": "FS-BPC-2026Q2::00",
+      "doc_id": "FS-BPC-2026Q2",
+      "title": "Bramble Private Credit Fund II Factsheet",
+      "section": "Bramble Private Credit Fund II",
+      "source_file": "fund_bramble_private_credit.md",
+      "doc_type": "fund_factsheet",
+      "score": 0.3013,
+      "fusion_score": 0.03226,
+      "snippet": "Bramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II **Synthetic document. Fictional fund, fictional figures.** Bramble II makes senior secured loans to mid-market borrowers, with a smaller speciality finance sleeve. The vehicle uses fund-level leverage of up to 0.4 times net asset value. **Risk rating:** 5 of 7 (High). **OCF:** 1.35% plus performance fee. **Liquidity, and please read this carefully.** Dealing is quarterly, subject to a 5% investor-level gate and 90 days' notice. In a stressed quarter a redeeming investor may receive a fraction of their request and wait multiple quarters for the balance. Valuations are manager-marked monthly, not observable market…"
+     },
+     {
+      "marker": "S4",
+      "chunk_id": "HV-ALTS-2026Q3::00",
+      "doc_id": "HV-ALTS-2026Q3",
+      "title": "House View, Alternatives and Private Markets Q3 2026",
+      "section": "House view: alternatives and private markets",
+      "source_file": "house_view_alternatives.md",
+      "doc_type": "house_view",
+      "score": 0.2881,
+      "fusion_score": 0.032,
+      "snippet": "House View, Alternatives and Private Markets Q3 2026: House view: alternatives and private markets **Synthetic house view. Illustrative only.** The committee's position is that the illiquidity premium in private credit has compressed to the point where it no longer compensates for the governance and liquidity costs in most private client portfolios. Illustrative allocation limits: private markets exposure should not exceed 15% of total portfolio value for Growth and Aggressive mandates, 5% for Balanced, and zero for Conservative mandates or any client with High liquidity needs. Semi-liquid structures deserve particular scrutiny. Quarterly dealing with gates offers the appearance of…"
+     },
+     {
+      "marker": "S5",
+      "chunk_id": "CM-EQ-2026Q3::01",
+      "doc_id": "CM-EQ-2026Q3",
+      "title": "Global Equity Outlook, Q3 2026",
+      "section": "Global equity outlook",
+      "source_file": "commentary_equity_outlook.md",
+      "doc_type": "market_commentary",
+      "score": 0.3767,
+      "fusion_score": 0.01639,
+      "snippet": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheets over momentum, and we are cautious about adding to concentrated thematic exposure at current levels. The principal risk to this view is that the capital expenditure cycle driving current earnings growth proves shorter than expected. See the separate note on AI capital expenditure."
+     },
+     {
+      "marker": "S6",
+      "chunk_id": "HV-AA-2026Q3::00",
+      "doc_id": "HV-AA-2026Q3",
+      "title": "House View, Strategic and Tactical Asset Allocation Q3 2026",
+      "section": "House view: asset allocation",
+      "source_file": "house_view_asset_allocation.md",
+      "doc_type": "house_view",
+      "score": 0.3355,
+      "fusion_score": 0.01639,
+      "snippet": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. Illustrative only.** Tactical positions against strategic weights this quarter: - Equity: neutral. Valuation is unattractive but earnings momentum is intact. - Government bonds: neutral duration, preference for the 2 to 5 year part of the curve. - Investment grade credit: modest overweight, funded from high yield. - High yield: underweight, on spread levels rather than default expectations. - Real assets: modest overweight, chiefly listed infrastructure. - Cash: overweight, at 6 to 8% for most mandates, held as optionality. Model allocations by risk profile are unchanged:…"
+     },
+     {
+      "marker": "S7",
+      "chunk_id": "FS-AGE-2026Q2::01",
+      "doc_id": "FS-AGE-2026Q2",
+      "title": "Aurora Global Equity Fund Factsheet",
+      "section": "Aurora Global Equity Fund",
+      "source_file": "fund_aurora_global_equity.md",
+      "doc_type": "fund_factsheet",
+      "score": 0.3482,
+      "fusion_score": 0.01613,
+      "snippet": "Aurora Global Equity Fund Factsheet: Aurora Global Equity Fund manager has trimmed the technology overweight from 31% to 26% over the quarter, citing valuation dispersion rather than a change of view on earnings. Cash sits at 2.4%. **Suitability note:** as a single-sleeve equity holding this fund carries full equity drawdown risk. It is generally unsuitable as a majority position for clients with a Conservative profile or a horizon under five years. Maximum peak-to-trough drawdown since launch was 24.8%."
+     },
+     {
+      "marker": "S8",
+      "chunk_id": "CM-EM-2026Q3::01",
+      "doc_id": "CM-EM-2026Q3",
+      "title": "Emerging Markets Outlook, Q3 2026",
+      "section": "Emerging markets outlook",
+      "source_file": "commentary_em_outlook.md",
+      "doc_type": "market_commentary",
+      "score": 0.2285,
+      "fusion_score": 0.01613,
+      "snippet": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook igh, and several central banks began cutting ahead of developed-market peers, which supports local bond prices. The dominant risk is dollar strength. A sustained rally in the dollar has historically been the largest single driver of emerging market debt drawdowns, exceeding the contribution of actual defaults. We are neutral on the asset class and would not increase allocations for clients whose risk profile makes a 15% drawdown unacceptable."
+     }
+    ],
+    "market_context": {
+     "summary": "Retrieved 8 passages from the research index covering FS-BPC-2026Q2, FS-CBM-2026Q2, HV-ALTS-2026Q3. Narrative summarisation was unavailable, so the key points below are extracted directly from the source passages.",
+     "key_points": [
+      {
+       "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. [S1]",
+       "sources": [
+        "S1"
+       ]
+      },
+      {
+       "point": "Bramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II .9%. [S2]",
+       "sources": [
+        "S2"
+       ]
+      },
+      {
+       "point": "Bramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II **Synthetic document. [S3]",
+       "sources": [
+        "S3"
+       ]
+      },
+      {
+       "point": "House View, Alternatives and Private Markets Q3 2026: House view: alternatives and private markets **Synthetic house view. [S4]",
+       "sources": [
+        "S4"
+       ]
+      }
+     ],
+     "relevance_to_client": "Review the cited passages directly. No model-generated interpretation was applied.",
+     "_generated_by": "deterministic_fallback",
+     "cited_markers": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+     ]
+    }
+   },
+   "error": null,
+   "meta": {
+    "task": "research"
+   }
+  },
+  {
+   "id": "7d1d92b0fd",
+   "parent_id": "47691983d5",
+   "kind": "llm",
+   "name": "research.plan_queries",
+   "label": "LLM · mock/deterministic-stub",
+   "started_at": "2026-08-08T12:58:08.147+00:00",
+   "ended_at": "2026-08-08T12:58:08.147+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "system": "You plan retrieval queries for a private bank's research index.\nThe index contains synthetic fund factsheets, market commentary, house views,\nresearch notes and one internal suitability policy note.\n\nGiven an adviser's request and a client's portfolio, produce up to 4 short,\nfocused search queries. One topic per query. Prefer the vocabulary a research\nanalyst would use over the adviser's phrasing.\n\nReturn JSON: {\"queries\": [\"...\", \"...\"], \"reasoning\": \"one sentence\"}\n\nRespond with a single valid JSON object and nothing else. No prose before or after, no markdown code fences.",
+    "user": "Adviser request: Can we add Bramble private credit for this client?\n\nClient context: risk profile Aggressive, horizon 20y, allocation {'Global Equity': 33.0, 'Multi-Asset': 20.0, 'Thematic Equity': 19.0, 'Cash': 15.0, 'Emerging Market Debt': 13.0}, largest position Aurora Global Equity Fund",
+    "temperature": 0.2
+   },
+   "output": "{\"_mock\": true, \"_note\": \"Deterministic stub output; agents fall back to rule-based assembly.\", \"_digest\": \"0ec6600c\"}",
+   "error": null,
+   "meta": {
+    "provider": "mock",
+    "model": "deterministic-stub",
+    "usage": {
+     "prompt_tokens": 218,
+     "completion_tokens": 12
+    }
+   }
+  },
+  {
+   "id": "ce849bac9c",
+   "parent_id": "47691983d5",
+   "kind": "tool",
+   "name": "portfolio.lookup_instrument",
+   "label": "tool · portfolio.lookup_instrument",
+   "started_at": "2026-08-08T12:58:08.147+00:00",
+   "ended_at": "2026-08-08T12:58:08.147+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "instrument_id": "BPC"
+   },
+   "output": {
+    "instrument_id": "BPC",
+    "name": "Bramble Private Credit Fund II",
+    "asset_class": "Private Credit",
+    "risk_rating": 5,
+    "risk_band": "High",
+    "liquidity": "Quarterly, 5% gate, 90-day notice",
+    "ocf_pct": 1.35,
+    "sectors": [
+     "Direct Lending",
+     "Speciality Finance"
+    ],
+    "registered_jurisdictions": [
+     "GB",
+     "IE",
+     "CH"
+    ],
+    "leverage": true,
+    "doc": "fund_bramble_private_credit.md"
+   },
+   "error": null,
+   "meta": {
+    "server": "portfolio"
+   }
+  },
+  {
+   "id": "f35f580937",
+   "parent_id": "47691983d5",
+   "kind": "note",
+   "name": "research.instrument_queries",
+   "label": "Added 1 product-specific quer(y/ies) for ['BPC']",
+   "started_at": "2026-08-08T12:58:08.147+00:00",
+   "ended_at": "2026-08-08T12:58:08.147+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": [
+    "Bramble Private Credit Fund II outlook, risks and suitability"
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "fa2382d683",
+   "parent_id": "47691983d5",
+   "kind": "note",
+   "name": "research.queries",
+   "label": "5 retrieval queries planned",
+   "started_at": "2026-08-08T12:58:08.147+00:00",
+   "ended_at": "2026-08-08T12:58:08.147+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": [
+    "Can we add Bramble private credit for this client?",
+    "Global Equity outlook and positioning",
+    "Multi-Asset outlook and positioning",
+    "asset allocation house view for a Aggressive mandate",
+    "Bramble Private Credit Fund II outlook, risks and suitability"
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "b81f5d91ad",
+   "parent_id": "47691983d5",
+   "kind": "retrieval",
+   "name": "research.search",
+   "label": "retrieve · Can we add Bramble private credit for this client?",
+   "started_at": "2026-08-08T12:58:08.147+00:00",
+   "ended_at": "2026-08-08T12:58:08.149+00:00",
+   "duration_ms": 1.8,
+   "status": "ok",
+   "input": {
+    "query": "Can we add Bramble private credit for this client?"
+   },
+   "output": [
+    {
+     "doc_id": "FS-BPC-2026Q2",
+     "section": "Bramble Private Credit Fund II",
+     "score": 0.3659
+    },
+    {
+     "doc_id": "FS-BPC-2026Q2",
+     "section": "Bramble Private Credit Fund II",
+     "score": 0.2697
+    },
+    {
+     "doc_id": "HV-ALTS-2026Q3",
+     "section": "House view: alternatives and private markets",
+     "score": 0.1995
+    },
+    {
+     "doc_id": "POL-SUIT-2026",
+     "section": "Suitability considerations for advisory recommendations",
+     "score": 0.1419
+    }
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "90d32acb61",
+   "parent_id": "b81f5d91ad",
+   "kind": "tool",
+   "name": "research.search",
+   "label": "tool · research.search",
+   "started_at": "2026-08-08T12:58:08.147+00:00",
+   "ended_at": "2026-08-08T12:58:08.149+00:00",
+   "duration_ms": 1.8,
+   "status": "ok",
+   "input": {
+    "query": "Can we add Bramble private credit for this client?",
+    "k": 4
+   },
+   "output": {
+    "query": "Can we add Bramble private credit for this client?",
+    "embedding_model": "hashing-bow-512",
+    "hit_count": 4,
+    "hits": [
+     {
+      "chunk_id": "FS-BPC-2026Q2::01",
+      "doc_id": "FS-BPC-2026Q2",
+      "title": "Bramble Private Credit Fund II Factsheet",
+      "section": "Bramble Private Credit Fund II",
+      "source_file": "fund_bramble_private_credit.md",
+      "doc_type": "fund_factsheet",
+      "text": "Bramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II\n.9%.\n\n**Suitability note:** unsuitable where a client has High liquidity needs, a\nhorizon under seven years, or a known capital call in the near term. The\ncombination of gates and manager-marked valuations means the reported\nvolatility of this strategy materially understates its true risk.",
+      "score": 0.3659
+     },
+     {
+      "chunk_id": "FS-BPC-2026Q2::00",
+      "doc_id": "FS-BPC-2026Q2",
+      "title": "Bramble Private Credit Fund II Factsheet",
+      "section": "Bramble Private Credit Fund II",
+      "source_file": "fund_bramble_private_credit.md",
+      "doc_type": "fund_factsheet",
+      "text": "Bramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II\n**Synthetic document. Fictional fund, fictional figures.**\n\nBramble II makes senior secured loans to mid-market borrowers, with a\nsmaller speciality finance sleeve. The vehicle uses fund-level leverage of\nup to 0.4 times net asset value.\n\n**Risk rating:** 5 of 7 (High). **OCF:** 1.35% plus performance fee.\n\n**Liquidity, and please read this carefully.** Dealing is quarterly, subject to a 5%\ninvestor-level gate and 90 days' notice. In a stressed quarter a redeeming\ninvestor may receive a fraction of their request and wait multiple quarters\nfor the balance. Valuations are manager-marked monthly, not observable\nmarket prices.\n\nYear-to-date return is 6.1% with a running yield of 8.9%.\n\n**Suitability note:** unsuitable where a client has High liquidity needs, a\nhorizon under seven years, or a known capital call in the near term.",
+      "score": 0.2697
+     },
+     {
+      "chunk_id": "HV-ALTS-2026Q3::00",
+      "doc_id": "HV-ALTS-2026Q3",
+      "title": "House View, Alternatives and Private Markets Q3 2026",
+      "section": "House view: alternatives and private markets",
+      "source_file": "house_view_alternatives.md",
+      "doc_type": "house_view",
+      "text": "House View, Alternatives and Private Markets Q3 2026: House view: alternatives and private markets\n**Synthetic house view. Illustrative only.**\n\nThe committee's position is that the illiquidity premium in private credit\nhas compressed to the point where it no longer compensates for the\ngovernance and liquidity costs in most private client portfolios.\n\nIllustrative allocation limits: private markets exposure should not exceed\n15% of total portfolio value for Growth and Aggressive mandates, 5% for\nBalanced, and zero for Conservative mandates or any client with High\nliquidity needs.\n\nSemi-liquid structures deserve particular scrutiny. Quarterly dealing with\ngates offers the appearance of liquidity without the substance, and clients\nroutinely misunderstand what a gate does until it is applied.\n\nListed infrastructure and listed real assets remain the committee's\npreferred route into real asset exposure for portfolios below £10m, on\ngovernance grounds rather than expected return.",
+      "score": 0.1995
+     },
+     {
+      "chunk_id": "POL-SUIT-2026::01",
+      "doc_id": "POL-SUIT-2026",
+      "title": "Internal Note, Suitability Considerations for Advisory Recommendations",
+      "section": "Suitability considerations for advisory recommendations",
+      "source_file": "policy_suitability_note.md",
+      "doc_type": "policy_note",
+      "text": "Internal Note, Suitability Considerations for Advisory Recommendations: Suitability considerations for advisory recommendations\nnts with near-term capital\n   needs. Dealing frequency, notice periods and gates must be explained in\n   writing before the recommendation is made.\n3. Complex or leveraged products recommended to Retail clients without a\n   completed appropriateness assessment.\n4. Concentration building passively through performance rather than through\n   a decision. Positions should be reviewed against limits at every meeting.\n5. Advice given on a file where the suitability review is more than twelve\n   months old.\n\nWhere a flag is raised, the recommendation is not automatically prohibited.\nIt requires documented rationale, client acknowledgement, and in several\ncases second-line sign-off before it proceeds.",
+      "score": 0.1419
+     }
+    ]
+   },
+   "error": null,
+   "meta": {
+    "server": "research"
+   }
+  },
+  {
+   "id": "670ce2459e",
+   "parent_id": "47691983d5",
+   "kind": "retrieval",
+   "name": "research.search",
+   "label": "retrieve · Global Equity outlook and positioning",
+   "started_at": "2026-08-08T12:58:08.149+00:00",
+   "ended_at": "2026-08-08T12:58:08.151+00:00",
+   "duration_ms": 1.6,
+   "status": "ok",
+   "input": {
+    "query": "Global Equity outlook and positioning"
+   },
+   "output": [
+    {
+     "doc_id": "CM-EQ-2026Q3",
+     "section": "Global equity outlook",
+     "score": 0.3767
+    },
+    {
+     "doc_id": "FS-AGE-2026Q2",
+     "section": "Aurora Global Equity Fund",
+     "score": 0.3482
+    },
+    {
+     "doc_id": "CM-EQ-2026Q3",
+     "section": "Global equity outlook",
+     "score": 0.3421
+    },
+    {
+     "doc_id": "FS-AGE-2026Q2",
+     "section": "Aurora Global Equity Fund",
+     "score": 0.2784
+    }
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "5353e3ed94",
+   "parent_id": "670ce2459e",
+   "kind": "tool",
+   "name": "research.search",
+   "label": "tool · research.search",
+   "started_at": "2026-08-08T12:58:08.149+00:00",
+   "ended_at": "2026-08-08T12:58:08.151+00:00",
+   "duration_ms": 1.5,
+   "status": "ok",
+   "input": {
+    "query": "Global Equity outlook and positioning",
+    "k": 4
+   },
+   "output": {
+    "query": "Global Equity outlook and positioning",
+    "embedding_model": "hashing-bow-512",
+    "hit_count": 4,
+    "hits": [
+     {
+      "chunk_id": "CM-EQ-2026Q3::01",
+      "doc_id": "CM-EQ-2026Q3",
+      "title": "Global Equity Outlook, Q3 2026",
+      "section": "Global equity outlook",
+      "source_file": "commentary_equity_outlook.md",
+      "doc_type": "market_commentary",
+      "text": "Global Equity Outlook, Q3 2026: Global equity outlook\nthe first such run in eighteen months.\n\nEarnings revisions are positive in aggregate but negative in consumer\ndiscretionary and European industrials. We remain neutral equity overall,\nwith a preference for quality balance sheets over momentum, and we are\ncautious about adding to concentrated thematic exposure at current levels.\n\nThe principal risk to this view is that the capital expenditure cycle\ndriving current earnings growth proves shorter than expected. See the\nseparate note on AI capital expenditure.",
+      "score": 0.3767
+     },
+     {
+      "chunk_id": "FS-AGE-2026Q2::01",
+      "doc_id": "FS-AGE-2026Q2",
+      "title": "Aurora Global Equity Fund Factsheet",
+      "section": "Aurora Global Equity Fund",
+      "source_file": "fund_aurora_global_equity.md",
+      "doc_type": "fund_factsheet",
+      "text": "Aurora Global Equity Fund Factsheet: Aurora Global Equity Fund\nmanager has trimmed the technology overweight from 31% to 26% over the\nquarter, citing valuation dispersion rather than a change of view on\nearnings. Cash sits at 2.4%.\n\n**Suitability note:** as a single-sleeve equity holding this fund carries\nfull equity drawdown risk. It is generally unsuitable as a majority position\nfor clients with a Conservative profile or a horizon under five years.\nMaximum peak-to-trough drawdown since launch was 24.8%.",
+      "score": 0.3482
+     },
+     {
+      "chunk_id": "CM-EQ-2026Q3::00",
+      "doc_id": "CM-EQ-2026Q3",
+      "title": "Global Equity Outlook, Q3 2026",
+      "section": "Global equity outlook",
+      "source_file": "commentary_equity_outlook.md",
+      "doc_type": "market_commentary",
+      "text": "Global Equity Outlook, Q3 2026: Global equity outlook\n**Synthetic commentary. Illustrative views, not investment advice.**\n\nIndex-level valuations look stretched, but the aggregate figure conceals an\nunusually wide dispersion. The largest ten constituents of the global index\naccount for a fictional 29% of market capitalisation and trade at a 68%\npremium to the remaining constituents.\n\nMarket breadth has improved modestly this quarter: the equal-weighted index\noutperformed the capitalisation-weighted index in two of the last three\nmonths, the first such run in eighteen months.\n\nEarnings revisions are positive in aggregate but negative in consumer\ndiscretionary and European industrials.",
+      "score": 0.3421
+     },
+     {
+      "chunk_id": "FS-AGE-2026Q2::00",
+      "doc_id": "FS-AGE-2026Q2",
+      "title": "Aurora Global Equity Fund Factsheet",
+      "section": "Aurora Global Equity Fund",
+      "source_file": "fund_aurora_global_equity.md",
+      "doc_type": "fund_factsheet",
+      "text": "Aurora Global Equity Fund Factsheet: Aurora Global Equity Fund\n**Synthetic document. Fictional fund, fictional figures.**\n\nAurora is a core global developed-market equity strategy holding 60 to 80\npositions with a median holding period of four years. The manager, Ines\nVillalobos, has run the strategy since its fictional launch in 2014.\n\n**Risk rating:** 6 of 7 (High). **OCF:** 0.82%. **Dealing:** daily.\n\nAurora returned 9.6% year to date against 8.1% for its composite benchmark.\nAttribution was dominated by semiconductor and industrial automation names;\nan underweight to European utilities detracted 40 basis points. Regional\nweights are 62% North America, 21% Europe, 11% Japan, 6% other developed.\n\nThe manager has trimmed the technology overweight from 31% to 26% over the\nquarter, citing valuation dispersion rather than a change of view on\nearnings.",
+      "score": 0.2784
+     }
+    ]
+   },
+   "error": null,
+   "meta": {
+    "server": "research"
+   }
+  },
+  {
+   "id": "1b32871a82",
+   "parent_id": "47691983d5",
+   "kind": "retrieval",
+   "name": "research.search",
+   "label": "retrieve · Multi-Asset outlook and positioning",
+   "started_at": "2026-08-08T12:58:08.151+00:00",
+   "ended_at": "2026-08-08T12:58:08.152+00:00",
+   "duration_ms": 1.5,
+   "status": "ok",
+   "input": {
+    "query": "Multi-Asset outlook and positioning"
+   },
+   "output": [
+    {
+     "doc_id": "FS-CBM-2026Q2",
+     "section": "Castellan Balanced Multi-Asset Fund",
+     "score": 0.2426
+    },
+    {
+     "doc_id": "CM-EM-2026Q3",
+     "section": "Emerging markets outlook",
+     "score": 0.2285
+    },
+    {
+     "doc_id": "CM-EM-2026Q3",
+     "section": "Emerging markets outlook",
+     "score": 0.212
+    },
+    {
+     "doc_id": "FS-CBM-2026Q2",
+     "section": "Castellan Balanced Multi-Asset Fund",
+     "score": 0.2084
+    }
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "c9b11d4ad5",
+   "parent_id": "1b32871a82",
+   "kind": "tool",
+   "name": "research.search",
+   "label": "tool · research.search",
+   "started_at": "2026-08-08T12:58:08.151+00:00",
+   "ended_at": "2026-08-08T12:58:08.152+00:00",
+   "duration_ms": 1.5,
+   "status": "ok",
+   "input": {
+    "query": "Multi-Asset outlook and positioning",
+    "k": 4
+   },
+   "output": {
+    "query": "Multi-Asset outlook and positioning",
+    "embedding_model": "hashing-bow-512",
+    "hit_count": 4,
+    "hits": [
+     {
+      "chunk_id": "FS-CBM-2026Q2::01",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "text": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund\nreturned 4.9%. Equity contributed 3.8 points, fixed\nincome 0.7, and the alternatives sleeve, chiefly listed infrastructure and\ngold, contributed 0.4. Realised volatility over twelve months was 7.9%.\n\nThe tactical overlay is currently 3 points underweight equity and holds an\nelevated 8% cash position, reflecting the house view that policy rates fall\nmore slowly than forward markets imply.\n\n**Suitability note:** the default one-fund solution for Balanced mandates\nand a common core sleeve inside Conservative portfolios where the client\naccepts moderate equity exposure. Worst twelve-month period since launch\nwas minus 11.2%.",
+      "score": 0.2426
+     },
+     {
+      "chunk_id": "CM-EM-2026Q3::01",
+      "doc_id": "CM-EM-2026Q3",
+      "title": "Emerging Markets Outlook, Q3 2026",
+      "section": "Emerging markets outlook",
+      "source_file": "commentary_em_outlook.md",
+      "doc_type": "market_commentary",
+      "text": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook\nigh, and several central\nbanks began cutting ahead of developed-market peers, which supports local\nbond prices.\n\nThe dominant risk is dollar strength. A sustained rally in the dollar has\nhistorically been the largest single driver of emerging market debt\ndrawdowns, exceeding the contribution of actual defaults.\n\nWe are neutral on the asset class and would not increase allocations for\nclients whose risk profile makes a 15% drawdown unacceptable.",
+      "score": 0.2285
+     },
+     {
+      "chunk_id": "CM-EM-2026Q3::00",
+      "doc_id": "CM-EM-2026Q3",
+      "title": "Emerging Markets Outlook, Q3 2026",
+      "section": "Emerging markets outlook",
+      "source_file": "commentary_em_outlook.md",
+      "doc_type": "market_commentary",
+      "text": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook\n**Synthetic commentary. Illustrative views, not investment advice.**\n\nEmerging market hard-currency spreads have compressed to a fictional 291\nbasis points, close to the tightest decile of the past decade. That leaves\nlimited room for further spread-driven return and makes the asset class\nincreasingly a carry trade rather than a valuation opportunity.\n\nLocal-currency debt is the more interesting side of the market. Real policy\nrates across the larger emerging economies remain high, and several central\nbanks began cutting ahead of developed-market peers, which supports local\nbond prices.\n\nThe dominant risk is dollar strength.",
+      "score": 0.212
+     },
+     {
+      "chunk_id": "FS-CBM-2026Q2::00",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "text": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund\n**Synthetic document. Fictional fund, fictional figures.**\n\nCastellan runs a 55/35/10 split across equity, fixed income and\nalternatives, rebalanced quarterly with a tactical band of plus or minus\nten percentage points on the equity sleeve.\n\n**Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily.\n\nYear to date the fund returned 4.9%. Equity contributed 3.8 points, fixed\nincome 0.7, and the alternatives sleeve, chiefly listed infrastructure and\ngold, contributed 0.4.",
+      "score": 0.2084
+     }
+    ]
+   },
+   "error": null,
+   "meta": {
+    "server": "research"
+   }
+  },
+  {
+   "id": "d47c641a99",
+   "parent_id": "47691983d5",
+   "kind": "retrieval",
+   "name": "research.search",
+   "label": "retrieve · asset allocation house view for a Aggressive mandate",
+   "started_at": "2026-08-08T12:58:08.152+00:00",
+   "ended_at": "2026-08-08T12:58:08.154+00:00",
+   "duration_ms": 1.5,
+   "status": "ok",
+   "input": {
+    "query": "asset allocation house view for a Aggressive mandate"
+   },
+   "output": [
+    {
+     "doc_id": "HV-AA-2026Q3",
+     "section": "House view: asset allocation",
+     "score": 0.3355
+    },
+    {
+     "doc_id": "HV-ALTS-2026Q3",
+     "section": "House view: alternatives and private markets",
+     "score": 0.2881
+    },
+    {
+     "doc_id": "FS-CBM-2026Q2",
+     "section": "Castellan Balanced Multi-Asset Fund",
+     "score": 0.238
+    },
+    {
+     "doc_id": "FS-SAA-2026Q2",
+     "section": "Solaris AI & Automation Thematic Fund",
+     "score": 0.1703
+    }
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "ba5fe836a0",
+   "parent_id": "d47c641a99",
+   "kind": "tool",
+   "name": "research.search",
+   "label": "tool · research.search",
+   "started_at": "2026-08-08T12:58:08.152+00:00",
+   "ended_at": "2026-08-08T12:58:08.154+00:00",
+   "duration_ms": 1.4,
+   "status": "ok",
+   "input": {
+    "query": "asset allocation house view for a Aggressive mandate",
+    "k": 4
+   },
+   "output": {
+    "query": "asset allocation house view for a Aggressive mandate",
+    "embedding_model": "hashing-bow-512",
+    "hit_count": 4,
+    "hits": [
+     {
+      "chunk_id": "HV-AA-2026Q3::00",
+      "doc_id": "HV-AA-2026Q3",
+      "title": "House View, Strategic and Tactical Asset Allocation Q3 2026",
+      "section": "House view: asset allocation",
+      "source_file": "house_view_asset_allocation.md",
+      "doc_type": "house_view",
+      "text": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation\n**Synthetic house view. Illustrative only.**\n\nTactical positions against strategic weights this quarter:\n\n- Equity: neutral. Valuation is unattractive but earnings momentum is intact.\n- Government bonds: neutral duration, preference for the 2 to 5 year part of\n  the curve.\n- Investment grade credit: modest overweight, funded from high yield.\n- High yield: underweight, on spread levels rather than default expectations.\n- Real assets: modest overweight, chiefly listed infrastructure.\n- Cash: overweight, at 6 to 8% for most mandates, held as optionality.\n\nModel allocations by risk profile are unchanged: Conservative 25% growth\nassets, Balanced 50%, Growth 70%, Aggressive 85%.\n\nThe committee's stated conviction level this quarter is low. Where\nconviction is low, the correct response is smaller active positions, not\nmore of them.",
+      "score": 0.3355
+     },
+     {
+      "chunk_id": "HV-ALTS-2026Q3::00",
+      "doc_id": "HV-ALTS-2026Q3",
+      "title": "House View, Alternatives and Private Markets Q3 2026",
+      "section": "House view: alternatives and private markets",
+      "source_file": "house_view_alternatives.md",
+      "doc_type": "house_view",
+      "text": "House View, Alternatives and Private Markets Q3 2026: House view: alternatives and private markets\n**Synthetic house view. Illustrative only.**\n\nThe committee's position is that the illiquidity premium in private credit\nhas compressed to the point where it no longer compensates for the\ngovernance and liquidity costs in most private client portfolios.\n\nIllustrative allocation limits: private markets exposure should not exceed\n15% of total portfolio value for Growth and Aggressive mandates, 5% for\nBalanced, and zero for Conservative mandates or any client with High\nliquidity needs.\n\nSemi-liquid structures deserve particular scrutiny. Quarterly dealing with\ngates offers the appearance of liquidity without the substance, and clients\nroutinely misunderstand what a gate does until it is applied.\n\nListed infrastructure and listed real assets remain the committee's\npreferred route into real asset exposure for portfolios below £10m, on\ngovernance grounds rather than expected return.",
+      "score": 0.2881
+     },
+     {
+      "chunk_id": "FS-CBM-2026Q2::01",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "text": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund\nreturned 4.9%. Equity contributed 3.8 points, fixed\nincome 0.7, and the alternatives sleeve, chiefly listed infrastructure and\ngold, contributed 0.4. Realised volatility over twelve months was 7.9%.\n\nThe tactical overlay is currently 3 points underweight equity and holds an\nelevated 8% cash position, reflecting the house view that policy rates fall\nmore slowly than forward markets imply.\n\n**Suitability note:** the default one-fund solution for Balanced mandates\nand a common core sleeve inside Conservative portfolios where the client\naccepts moderate equity exposure. Worst twelve-month period since launch\nwas minus 11.2%.",
+      "score": 0.238
+     },
+     {
+      "chunk_id": "FS-SAA-2026Q2::01",
+      "doc_id": "FS-SAA-2026Q2",
+      "title": "Solaris AI & Automation Thematic Fund Factsheet",
+      "section": "Solaris AI & Automation Thematic Fund",
+      "source_file": "fund_solaris_ai_thematic.md",
+      "doc_type": "fund_factsheet",
+      "text": "Solaris AI & Automation Thematic Fund Factsheet: Solaris AI & Automation Thematic Fund\nolio\nsimultaneously, and the diversification inside the fund is lower than the\nholding count suggests.\n\n**Suitability note:** thematic satellite only. House guidance is a maximum\nof 10% of total portfolio value for Balanced mandates and 20% for Growth\nand Aggressive mandates. Unsuitable for Conservative profiles in any size.",
+      "score": 0.1703
+     }
+    ]
+   },
+   "error": null,
+   "meta": {
+    "server": "research"
+   }
+  },
+  {
+   "id": "dd21cb1afb",
+   "parent_id": "47691983d5",
+   "kind": "retrieval",
+   "name": "research.search",
+   "label": "retrieve · Bramble Private Credit Fund II outlook, risks and suitabilit",
+   "started_at": "2026-08-08T12:58:08.154+00:00",
+   "ended_at": "2026-08-08T12:58:08.155+00:00",
+   "duration_ms": 1.7,
+   "status": "ok",
+   "input": {
+    "query": "Bramble Private Credit Fund II outlook, risks and suitability"
+   },
+   "output": [
+    {
+     "doc_id": "FS-BPC-2026Q2",
+     "section": "Bramble Private Credit Fund II",
+     "score": 0.4312
+    },
+    {
+     "doc_id": "FS-BPC-2026Q2",
+     "section": "Bramble Private Credit Fund II",
+     "score": 0.3013
+    },
+    {
+     "doc_id": "FS-CBM-2026Q2",
+     "section": "Castellan Balanced Multi-Asset Fund",
+     "score": 0.2035
+    },
+    {
+     "doc_id": "FS-ZPM-2026Q2",
+     "section": "Zephyr Precious Metals Fund",
+     "score": 0.1991
+    }
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "c8abab443d",
+   "parent_id": "dd21cb1afb",
+   "kind": "tool",
+   "name": "research.search",
+   "label": "tool · research.search",
+   "started_at": "2026-08-08T12:58:08.154+00:00",
+   "ended_at": "2026-08-08T12:58:08.155+00:00",
+   "duration_ms": 1.6,
+   "status": "ok",
+   "input": {
+    "query": "Bramble Private Credit Fund II outlook, risks and suitability",
+    "k": 4
+   },
+   "output": {
+    "query": "Bramble Private Credit Fund II outlook, risks and suitability",
+    "embedding_model": "hashing-bow-512",
+    "hit_count": 4,
+    "hits": [
+     {
+      "chunk_id": "FS-BPC-2026Q2::01",
+      "doc_id": "FS-BPC-2026Q2",
+      "title": "Bramble Private Credit Fund II Factsheet",
+      "section": "Bramble Private Credit Fund II",
+      "source_file": "fund_bramble_private_credit.md",
+      "doc_type": "fund_factsheet",
+      "text": "Bramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II\n.9%.\n\n**Suitability note:** unsuitable where a client has High liquidity needs, a\nhorizon under seven years, or a known capital call in the near term. The\ncombination of gates and manager-marked valuations means the reported\nvolatility of this strategy materially understates its true risk.",
+      "score": 0.4312
+     },
+     {
+      "chunk_id": "FS-BPC-2026Q2::00",
+      "doc_id": "FS-BPC-2026Q2",
+      "title": "Bramble Private Credit Fund II Factsheet",
+      "section": "Bramble Private Credit Fund II",
+      "source_file": "fund_bramble_private_credit.md",
+      "doc_type": "fund_factsheet",
+      "text": "Bramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II\n**Synthetic document. Fictional fund, fictional figures.**\n\nBramble II makes senior secured loans to mid-market borrowers, with a\nsmaller speciality finance sleeve. The vehicle uses fund-level leverage of\nup to 0.4 times net asset value.\n\n**Risk rating:** 5 of 7 (High). **OCF:** 1.35% plus performance fee.\n\n**Liquidity, and please read this carefully.** Dealing is quarterly, subject to a 5%\ninvestor-level gate and 90 days' notice. In a stressed quarter a redeeming\ninvestor may receive a fraction of their request and wait multiple quarters\nfor the balance. Valuations are manager-marked monthly, not observable\nmarket prices.\n\nYear-to-date return is 6.1% with a running yield of 8.9%.\n\n**Suitability note:** unsuitable where a client has High liquidity needs, a\nhorizon under seven years, or a known capital call in the near term.",
+      "score": 0.3013
+     },
+     {
+      "chunk_id": "FS-CBM-2026Q2::01",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "text": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund\nreturned 4.9%. Equity contributed 3.8 points, fixed\nincome 0.7, and the alternatives sleeve, chiefly listed infrastructure and\ngold, contributed 0.4. Realised volatility over twelve months was 7.9%.\n\nThe tactical overlay is currently 3 points underweight equity and holds an\nelevated 8% cash position, reflecting the house view that policy rates fall\nmore slowly than forward markets imply.\n\n**Suitability note:** the default one-fund solution for Balanced mandates\nand a common core sleeve inside Conservative portfolios where the client\naccepts moderate equity exposure. Worst twelve-month period since launch\nwas minus 11.2%.",
+      "score": 0.2035
+     },
+     {
+      "chunk_id": "FS-ZPM-2026Q2::01",
+      "doc_id": "FS-ZPM-2026Q2",
+      "title": "Zephyr Precious Metals Fund Factsheet",
+      "section": "Zephyr Precious Metals Fund",
+      "source_file": "fund_zephyr_precious_metals.md",
+      "doc_type": "fund_factsheet",
+      "text": "Zephyr Precious Metals Fund Factsheet: Zephyr Precious Metals Fund\nnder client mandates carrying a Mining or Energy exclusion.\n\n**Suitability note:** diversifier sleeve, typically capped at 5 to 8% of\nportfolio value. Unsuitable for Conservative profiles and for clients with\nformal ESG exclusion lists covering mining or extractives.",
+      "score": 0.1991
+     }
+    ]
+   },
+   "error": null,
+   "meta": {
+    "server": "research"
+   }
+  },
+  {
+   "id": "bdeefd1ae8",
+   "parent_id": "47691983d5",
+   "kind": "note",
+   "name": "research.fusion",
+   "label": "8 passages from 7 documents, fused across 5 queries by reciprocal rank",
+   "started_at": "2026-08-08T12:58:08.155+00:00",
+   "ended_at": "2026-08-08T12:58:08.155+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": [
+    "S1=FS-CBM-2026Q2 (rrf 0.04814)",
+    "S2=FS-BPC-2026Q2 (rrf 0.03279)",
+    "S3=FS-BPC-2026Q2 (rrf 0.03226)",
+    "S4=HV-ALTS-2026Q3 (rrf 0.032)",
+    "S5=CM-EQ-2026Q3 (rrf 0.01639)",
+    "S6=HV-AA-2026Q3 (rrf 0.01639)",
+    "S7=FS-AGE-2026Q2 (rrf 0.01613)",
+    "S8=CM-EM-2026Q3 (rrf 0.01613)"
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "94d35bb959",
+   "parent_id": "47691983d5",
+   "kind": "llm",
+   "name": "research.summarise",
+   "label": "LLM · mock/deterministic-stub",
+   "started_at": "2026-08-08T12:58:08.156+00:00",
+   "ended_at": "2026-08-08T12:58:08.156+00:00",
+   "duration_ms": 0.1,
+   "status": "ok",
+   "input": {
+    "system": "You are a research analyst at a private bank, writing for an\nadviser who is about to meet a client.\n\nRules:\n- Use ONLY the numbered sources provided. Never use outside knowledge.\n- Cite with the exact markers given, like [S1] or [S2, S4]. Every factual claim\n  needs a marker.\n- If the sources do not answer part of the request, say so plainly.\n- Neutral, specific, no sales language. British English.\n- All source material is synthetic demo data; do not imply otherwise.\n\nReturn JSON:\n{\n  \"summary\": \"3-5 sentences of market context relevant to this client, with [S#] markers\",\n  \"key_points\": [{\"point\": \"one sentence with [S#] markers\", \"sources\": [\"S1\"]}],\n  \"relevance_to_client\": \"2-3 sentences connecting the research to this client's mandate\"\n}\n\nRespond with a single valid JSON object and nothing else. No prose before or after, no markdown code fences.",
+    "user": "Adviser request: Can we add Bramble private credit for this client?\n\nClient context: risk profile Aggressive, horizon 20y, allocation {'Global Equity': 33.0, 'Multi-Asset': 20.0, 'Thematic Equity': 19.0, 'Cash': 15.0, 'Emerging Market Debt': 13.0}, largest position Aurora Global Equity Fund\n\nSources:\n[S1] Castellan Balanced Multi-Asset Fund Factsheet · Castellan Balanced Multi-Asset Fund (doc_id FS-CBM-2026Q2)\nCastellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4. Realised volatility over twelve months was 7.9%. The tactical overlay is currently 3 points underweight equity and holds an elevated 8% cash position, reflecting the house view that policy rates fall more slowly than forward markets imply. **Suitability note:** the default one-fund solution for Balanced mandates and a common core sleeve inside Conservative portfolios where the client accepts moderate equity exposure. Worst twelve-month period since launch was…\n\n[S2] Bramble Private Credit Fund II Factsheet · Bramble Private Credit Fund II (doc_id FS-BPC-2026Q2)\nBramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II .9%. **Suitability note:** unsuitable where a client has High liquidity needs, a horizon under seven years, or a known capital call in the near term. The combination of gates and manager-marked valuations means the reported volatility of this strategy materially understates its true risk.\n\n[S3] Bramble Private Credit Fund II Factsheet · Bramble Private Credit Fund II (doc_id FS-BPC-2026Q2)\nBramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II **Synthetic document. Fictional fund, fictional figures.** Bramble II makes senior secured loans to mid-market borrowers, with a smaller speciality finance sleeve. The vehicle uses fund-level leverage of up to 0.4 times net asset value. **Risk rating:** 5 of 7 (High). **OCF:** 1.35% plus performance fee. **Liquidity, and please read this carefully.** Dealing is quarterly, subject to a 5% investor-level gate and 90 days' notice. In a stressed quarter a redeeming investor may receive a fraction of their request and wait multiple quarters for the balance. Valuations are manager-marked monthly, not observable market…\n\n[S4] House View, Alternatives and Private Markets Q3 2026 · House view: alternatives and private markets (doc_id HV-ALTS-2026Q3)\nHouse View, Alternatives and Private Markets Q3 2026: House view: alternatives and private markets **Synthetic house view. Illustrative only.** The committee's position is that the illiquidity premium in private credit has compressed to the point where it no longer compensates for the governance and liquidity costs in most private client portfolios. Illustrative allocation limits: private markets exposure should not exceed 15% of total portfolio value for Growth and Aggressive mandates, 5% for Balanced, and zero for Conservative mandates or any client with High liquidity needs. Semi-liquid structures deserve particular scrutiny. Quarterly dealing with gates offers the appearance of…\n\n[S5] Global Equity Outlook, Q3 2026 · Global equity outlook (doc_id CM-EQ-2026Q3)\nGlobal Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheets over momentum, and we are cautious about adding to concentrated thematic exposure at current levels. The principal risk to this view is that the capital expenditure cycle driving current earnings growth proves shorter than expected. See the separate note on AI capital expenditure.\n\n[S6] House View, Strategic and Tactical Asset Allocation Q3 2026 · House view: asset allocation (doc_id HV-AA-2026Q3)\nHouse View, Strategic and Tactical As… [+1855 chars]",
+    "temperature": 0.2
+   },
+   "output": "{\"_mock\": true, \"_note\": \"Deterministic stub output; agents fall back to rule-based assembly.\", \"_digest\": \"9b18fbbd\"}",
+   "error": null,
+   "meta": {
+    "provider": "mock",
+    "model": "deterministic-stub",
+    "usage": {
+     "prompt_tokens": 1679,
+     "completion_tokens": 12
+    }
+   }
+  },
+  {
+   "id": "746bdcd416",
+   "parent_id": "445d35baa0",
+   "kind": "agent",
+   "name": "compliance",
+   "label": "orchestrator → compliance · check",
+   "started_at": "2026-08-08T12:58:08.156+00:00",
+   "ended_at": "2026-08-08T12:58:08.156+00:00",
+   "duration_ms": 0.2,
+   "status": "ok",
+   "input": {
+    "client_id": "4525",
+    "query": "Can we add Bramble private credit for this client?",
+    "proposed_instruments": [
+     "BPC"
+    ]
+   },
+   "output": {
+    "status": "fail",
+    "flag_count": 2,
+    "flags": [
+     {
+      "rule_id": "R2",
+      "rule_name": "Single-position concentration",
+      "severity": "medium",
+      "instrument_id": "AGE",
+      "detail": "Aurora Global Equity Fund is 33.0% of the portfolio, above the 25% single-position limit.",
+      "remediation": "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement."
+     },
+     {
+      "rule_id": "R7",
+      "rule_name": "Cross-border registration",
+      "severity": "high",
+      "instrument_id": "BPC",
+      "detail": "Bramble Private Credit Fund II is not registered for distribution in SG (registered: GB, IE, CH).",
+      "remediation": "Do not solicit. Check for an equivalent share class registered in the client's domicile."
+     }
+    ],
+    "proposals_checked": [
+     "BPC"
+    ],
+    "rules_evaluated": [
+     "R1-existing",
+     "R1:BPC",
+     "R2",
+     "R3:BPC",
+     "R4:BPC",
+     "R5:BPC",
+     "R6",
+     "R7:BPC"
+    ],
+    "adviser_note": "The suitability check returned FAIL with 2 flag(s), of which 1 are high severity. Each flag below cites the rule that produced it.",
+    "actions_before_meeting": [
+     "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement.",
+     "Do not solicit. Check for an equivalent share class registered in the client's domicile."
+    ],
+    "disclaimer": "Illustrative rules for a demonstration project. Not regulatory advice."
+   },
+   "error": null,
+   "meta": {
+    "task": "check"
+   }
+  },
+  {
+   "id": "8f2dbc987d",
+   "parent_id": "746bdcd416",
+   "kind": "note",
+   "name": "compliance.proposals",
+   "label": "Checking 1 instrument(s) proposed by the orchestrator",
+   "started_at": "2026-08-08T12:58:08.156+00:00",
+   "ended_at": "2026-08-08T12:58:08.156+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": [
+    "BPC"
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "24c1ca3b55",
+   "parent_id": "746bdcd416",
+   "kind": "tool",
+   "name": "compliance.check_suitability",
+   "label": "tool · compliance.check_suitability",
+   "started_at": "2026-08-08T12:58:08.156+00:00",
+   "ended_at": "2026-08-08T12:58:08.156+00:00",
+   "duration_ms": 0.1,
+   "status": "ok",
+   "input": {
+    "client_id": "4525",
+    "proposed_instruments": [
+     "BPC"
+    ],
+    "include_existing_holdings": true
+   },
+   "output": {
+    "client_id": "4525",
+    "status": "fail",
+    "risk_profile": "Aggressive",
+    "investor_classification": "Elective Professional",
+    "proposals_checked": [
+     "BPC"
+    ],
+    "unknown_instruments": [],
+    "existing_holdings_checked": true,
+    "rules_evaluated": [
+     "R1-existing",
+     "R1:BPC",
+     "R2",
+     "R3:BPC",
+     "R4:BPC",
+     "R5:BPC",
+     "R6",
+     "R7:BPC"
+    ],
+    "flag_count": 2,
+    "flags": [
+     {
+      "rule_id": "R2",
+      "rule_name": "Single-position concentration",
+      "severity": "medium",
+      "instrument_id": "AGE",
+      "detail": "Aurora Global Equity Fund is 33.0% of the portfolio, above the 25% single-position limit.",
+      "remediation": "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement."
+     },
+     {
+      "rule_id": "R7",
+      "rule_name": "Cross-border registration",
+      "severity": "high",
+      "instrument_id": "BPC",
+      "detail": "Bramble Private Credit Fund II is not registered for distribution in SG (registered: GB, IE, CH).",
+      "remediation": "Do not solicit. Check for an equivalent share class registered in the client's domicile."
+     }
+    ],
+    "disclaimer": "Illustrative rules for a demonstration project. Not regulatory advice."
+   },
+   "error": null,
+   "meta": {
+    "server": "compliance"
+   }
+  },
+  {
+   "id": "14c729ffc1",
+   "parent_id": "746bdcd416",
+   "kind": "note",
+   "name": "compliance.decision",
+   "label": "Status FAIL, 2 flag(s) from 8 rule evaluations",
+   "started_at": "2026-08-08T12:58:08.156+00:00",
+   "ended_at": "2026-08-08T12:58:08.156+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": {
+    "status": "fail",
+    "flags": [
+     "R2",
+     "R7"
+    ]
+   },
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "15998a36e5",
+   "parent_id": "746bdcd416",
+   "kind": "llm",
+   "name": "compliance.explain",
+   "label": "LLM · mock/deterministic-stub",
+   "started_at": "2026-08-08T12:58:08.156+00:00",
+   "ended_at": "2026-08-08T12:58:08.156+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "system": "You write compliance notes for advisers at a private bank.\n\nYou are given the output of a deterministic suitability rules engine. Your job\nis to explain it, not to judge it. You must not change the status, add flags,\nremove flags, or soften a finding.\n\nWrite plainly, in British English, for an adviser preparing for a meeting.\nState what was checked, what was flagged and what they must do before the\nmeeting. If nothing was flagged, say so without padding.\n\nReturn JSON:\n{\n  \"adviser_note\": \"2-4 sentences\",\n  \"actions_before_meeting\": [\"imperative action\", \"...\"]\n}\n\nRespond with a single valid JSON object and nothing else. No prose before or after, no markdown code fences.",
+    "user": "Status: FAIL\nClient risk profile: Aggressive\nInvestor classification: Elective Professional\nInstruments checked: BPC\nFlags:\n- [R2 · medium] Single-position concentration: Aurora Global Equity Fund is 33.0% of the portfolio, above the 25% single-position limit. Remediation: Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement.\n- [R7 · high] Cross-border registration: Bramble Private Credit Fund II is not registered for distribution in SG (registered: GB, IE, CH). Remediation: Do not solicit. Check for an equivalent share class registered in the client's domicile.",
+    "temperature": 0.2
+   },
+   "output": "{\"_mock\": true, \"_note\": \"Deterministic stub output; agents fall back to rule-based assembly.\", \"_digest\": \"c98d7440\"}",
+   "error": null,
+   "meta": {
+    "provider": "mock",
+    "model": "deterministic-stub",
+    "usage": {
+     "prompt_tokens": 326,
+     "completion_tokens": 12
+    }
+   }
+  },
+  {
+   "id": "38a8e1ab28",
+   "parent_id": "445d35baa0",
+   "kind": "agent",
+   "name": "synthesis",
+   "label": "orchestrator → synthesis · synthesise",
+   "started_at": "2026-08-08T12:58:08.156+00:00",
+   "ended_at": "2026-08-08T12:58:08.156+00:00",
+   "duration_ms": 0.2,
+   "status": "ok",
+   "input": {
+    "query": "Can we add Bramble private credit for this client?",
+    "portfolio": {
+     "client_profile": {
+      "client_id": "4525",
+      "name": "Wei-Lin Cheong (SYNTHETIC)",
+      "data_notice": "SYNTHETIC. Fictional client, not a real person",
+      "segment": "UHNW",
+      "domicile": "SG",
+      "adviser": "R. Achterberg (synthetic)",
+      "risk_profile": "Aggressive",
+      "investor_classification": "Elective Professional",
+      "investment_horizon_years": 20,
+      "liquidity_needs": "Low",
+      "esg_mandate": false,
+      "esg_exclusions": [],
+      "last_suitability_review": "2026-06-19",
+      "next_meeting": "2026-08-12",
+      "objectives": [
+       "Aggressive growth with tolerance for illiquidity",
+       "Diversify away from single-market equity risk"
+      ],
+      "constraints": [
+       "Singapore resident, so cross-border registration must be checked"
+      ],
+      "adviser_notes": "Books through the Singapore branch; product registration is the usual blocker."
+     },
+     "portfolio_snapshot": {
+      "client_id": "4525",
+      "as_of": "2026-08-06",
+      "total_value_gbp": 21400000,
+      "currency": "GBP",
+      "holdings": [
+       {
+        "instrument_id": "AGE",
+        "name": "Aurora Global Equity Fund",
+        "asset_class": "Global Equity",
+        "risk_rating": 6,
+        "risk_band": "High",
+        "weight_pct": 33.0,
+        "value_gbp": 7062000.0,
+        "ytd_return_pct": 9.6
+       },
+       {
+        "instrument_id": "SAA",
+        "name": "Solaris AI & Automation Thematic Fund",
+        "asset_class": "Thematic Equity",
+        "risk_rating": 6,
+        "risk_band": "High",
+        "weight_pct": 19.0,
+        "value_gbp": 4066000.0,
+        "ytd_return_pct": 18.4
+       },
+       {
+        "instrument_id": "CBM",
+        "name": "Castellan Balanced Multi-Asset Fund",
+        "asset_class": "Multi-Asset",
+        "risk_rating": 4,
+        "risk_band": "Medium",
+        "weight_pct": 20.0,
+        "value_gbp": 4280000.0,
+        "ytd_return_pct": 4.9
+       },
+       {
+        "instrument_id": "MED",
+        "name": "Meridian Emerging Market Debt Fund",
+        "asset_class": "Emerging Market Debt",
+        "risk_rating": 5,
+        "risk_band": "High",
+        "weight_pct": 13.0,
+        "value_gbp": 2782000.0,
+        "ytd_return_pct": 5.2
+       },
+       {
+        "instrument_id": "CASH",
+        "name": "GBP Cash & Money Market",
+        "asset_class": "Cash",
+        "risk_rating": 1,
+        "risk_band": "Low",
+        "weight_pct": 15.0,
+        "value_gbp": 3210000.0,
+        "ytd_return_pct": 0.0
+       }
+      ],
+      "largest_position_pct": 33.0,
+      "cash_pct": 15.0,
+      "weighted_risk_rating": 4.72,
+      "performance": {
+       "ytd_return_pct": 8.32,
+       "one_year_return_pct": 15.81,
+       "three_year_annualised_pct": 11.23,
+       "benchmark": "Synthetic composite benchmark",
+       "vs_benchmark_ytd_pct": 3.92,
+       "volatility_pct": 11.37,
+       "max_drawdown_pct": -15.27
+      }
+     },
+     "derived": {
+      "growth_asset_pct": 85.0,
+      "allocation_by_asset_class": {
+       "Global Equity": 33.0,
+       "Multi-Asset": 20.0,
+       "Thematic Equity": 19.0,
+       "Cash": 15.0,
+       "Emerging Market Debt": 13.0
+      },
+      "largest_position": {
+       "instrument_id": "AGE",
+       "name": "Aurora Global Equity Fund",
+       "weight_pct": 33.0
+      },
+      "best_performer": {
+       "name": "Solaris AI & Automation Thematic Fund",
+       "ytd_return_pct": 18.4
+      },
+      "worst_performer": {
+       "name": "GBP Cash & Money Market",
+       "ytd_return_pct": 0.0
+      },
+      "held_instrument_ids": [
+       "AGE",
+       "SAA",
+       "CBM",
+       "MED",
+       "CASH"
+      ],
+      "top_holdings": [
+       {
+        "instrument_id": "AGE",
+        "name": "Aurora Global Equity Fund",
+        "weight_pct": 33.0
+       },
+       {
+        "instrument_id": "CBM",
+        "name": "Castellan Balanced Multi-Asset Fund",
+        "weight_pct": 20.0
+       },
+       {
+        "instrument_id": "SAA",
+        "name": "Solaris AI & Automation Thematic Fund",
+        "weight_pct": 19.0
+       }
+      ],
+      "risk_profile": "Aggressive",
+      "horizon_years": 20
+     }
+    },
+    "research": {
+     "queries": [
+      "Can we add Bramble private credit for this client?",
+      "Global Equity outlook and positioning",
+      "Multi-Asset outlook and positioning",
+      "asset allocation house view for a Aggressive mandate",
+      "Bramble Private Credit Fund II outlook, risks and suitability"
+     ],
+     "retrieval_by_query": [
+      {
+       "query": "Can we add Bramble private credit for this client?",
+       "hits": [
+        "FS-BPC-2026Q2::01",
+        "FS-BPC-2026Q2::00",
+        "HV-ALTS-2026Q3::00",
+        "POL-SUIT-2026::01"
+       ]
+      },
+      {
+       "query": "Global Equity outlook and positioning",
+       "hits": [
+        "CM-EQ-2026Q3::01",
+        "FS-AGE-2026Q2::01",
+        "CM-EQ-2026Q3::00",
+        "FS-AGE-2026Q2::00"
+       ]
+      },
+      {
+       "query": "Multi-Asset outlook and positioning",
+       "hits": [
+        "FS-CBM-2026Q2::01",
+        "CM-EM-2026Q3::01",
+        "CM-EM-2026Q3::00",
+        "FS-CBM-2026Q2::00"
+       ]
+      },
+      {
+       "query": "asset allocation house view for a Aggressive mandate",
+       "hits": [
+        "HV-AA-2026Q3::00",
+        "HV-ALTS-2026Q3::00",
+        "FS-CBM-2026Q2::01",
+        "FS-SAA-2026Q2::01"
+       ]
+      },
+      {
+       "query": "Bramble Private Credit Fund II outlook, risks and suitability",
+       "hits": [
+        "FS-BPC-2026Q2::01",
+        "FS-BPC-2026Q2::00",
+        "FS-CBM-2026Q2::01",
+        "FS-ZPM-2026Q2::01"
+       ]
+      }
+     ],
+     "sources": [
+      {
+       "marker": "S1",
+       "chunk_id": "FS-CBM-2026Q2::01",
+       "doc_id": "FS-CBM-2026Q2",
+       "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+       "section": "Castellan Balanced Multi-Asset Fund",
+       "source_file": "fund_castellan_balanced.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.2426,
+       "fusion_score": 0.04814,
+       "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4. Realised volatility over twelve months was 7.9%. The tactical overlay is currently 3 points underweight equity and holds an elevated 8% cash position, reflecting the house view that policy rates fall more slowly than forward markets imply. **Suitability note:** the default one-fund solution for Balanced mandates and a common core sleeve inside Conservative portfolios where the client accepts moderate equity exposure. Worst twelve-month period since launch was…"
+      },
+      {
+       "marker": "S2",
+       "chunk_id": "FS-BPC-2026Q2::01",
+       "doc_id": "FS-BPC-2026Q2",
+       "title": "Bramble Private Credit Fund II Factsheet",
+       "section": "Bramble Private Credit Fund II",
+       "source_file": "fund_bramble_private_credit.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.4312,
+       "fusion_score": 0.03279,
+       "snippet": "Bramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II .9%. **Suitability note:** unsuitable where a client has High liquidity needs, a horizon under seven years, or a known capital call in the near term. The combination of gates and manager-marked valuations means the reported volatility of this strategy materially understates its true risk."
+      },
+      {
+       "marker": "S3",
+       "chunk_id": "FS-BPC-2026Q2::00",
+       "doc_id": "FS-BPC-2026Q2",
+       "title": "Bramble Private Credit Fund II Factsheet",
+       "section": "Bramble Private Credit Fund II",
+       "source_file": "fund_bramble_private_credit.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.3013,
+       "fusion_score": 0.03226,
+       "snippet": "Bramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II **Synthetic document. Fictional fund, fictional figures.** Bramble II makes senior secured loans to mid-market borrowers, with a smaller speciality finance sleeve. The vehicle uses fund-level leverage of up to 0.4 times net asset value. **Risk rating:** 5 of 7 (High). **OCF:** 1.35% plus performance fee. **Liquidity, and please read this carefully.** Dealing is quarterly, subject to a 5% investor-level gate and 90 days' notice. In a stressed quarter a redeeming investor may receive a fraction of their request and wait multiple quarters for the balance. Valuations are manager-marked monthly, not observable market…"
+      },
+      {
+       "marker": "S4",
+       "chunk_id": "HV-ALTS-2026Q3::00",
+       "doc_id": "HV-ALTS-2026Q3",
+       "title": "House View, Alternatives and Private Markets Q3 2026",
+       "section": "House view: alternatives and private markets",
+       "source_file": "house_view_alternatives.md",
+       "doc_type": "house_view",
+       "score": 0.2881,
+       "fusion_score": 0.032,
+       "snippet": "House View, Alternatives and Private Markets Q3 2026: House view: alternatives and private markets **Synthetic house view. Illustrative only.** The committee's position is that the illiquidity premium in private credit has compressed to the point where it no longer compensates for the governance and liquidity costs in most private client portfolios. Illustrative allocation limits: private markets exposure should not exceed 15% of total portfolio value for Growth and Aggressive mandates, 5% for Balanced, and zero for Conservative mandates or any client with High liquidity needs. Semi-liquid structures deserve particular scrutiny. Quarterly dealing with gates offers the appearance of…"
+      },
+      {
+       "marker": "S5",
+       "chunk_id": "CM-EQ-2026Q3::01",
+       "doc_id": "CM-EQ-2026Q3",
+       "title": "Global Equity Outlook, Q3 2026",
+       "section": "Global equity outlook",
+       "source_file": "commentary_equity_outlook.md",
+       "doc_type": "market_commentary",
+       "score": 0.3767,
+       "fusion_score": 0.01639,
+       "snippet": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheets over momentum, and we are cautious about adding to concentrated thematic exposure at current levels. The principal risk to this view is that the capital expenditure cycle driving current earnings growth proves shorter than expected. See the separate note on AI capital expenditure."
+      },
+      {
+       "marker": "S6",
+       "chunk_id": "HV-AA-2026Q3::00",
+       "doc_id": "HV-AA-2026Q3",
+       "title": "House View, Strategic and Tactical Asset Allocation Q3 2026",
+       "section": "House view: asset allocation",
+       "source_file": "house_view_asset_allocation.md",
+       "doc_type": "house_view",
+       "score": 0.3355,
+       "fusion_score": 0.01639,
+       "snippet": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. Illustrative only.** Tactical positions against strategic weights this quarter: - Equity: neutral. Valuation is unattractive but earnings momentum is intact. - Government bonds: neutral duration, preference for the 2 to 5 year part of the curve. - Investment grade credit: modest overweight, funded from high yield. - High yield: underweight, on spread levels rather than default expectations. - Real assets: modest overweight, chiefly listed infrastructure. - Cash: overweight, at 6 to 8% for most mandates, held as optionality. Model allocations by risk profile are unchanged:…"
+      },
+      {
+       "marker": "S7",
+       "chunk_id": "FS-AGE-2026Q2::01",
+       "doc_id": "FS-AGE-2026Q2",
+       "title": "Aurora Global Equity Fund Factsheet",
+       "section": "Aurora Global Equity Fund",
+       "source_file": "fund_aurora_global_equity.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.3482,
+       "fusion_score": 0.01613,
+       "snippet": "Aurora Global Equity Fund Factsheet: Aurora Global Equity Fund manager has trimmed the technology overweight from 31% to 26% over the quarter, citing valuation dispersion rather than a change of view on earnings. Cash sits at 2.4%. **Suitability note:** as a single-sleeve equity holding this fund carries full equity drawdown risk. It is generally unsuitable as a majority position for clients with a Conservative profile or a horizon under five years. Maximum peak-to-trough drawdown since launch was 24.8%."
+      },
+      {
+       "marker": "S8",
+       "chunk_id": "CM-EM-2026Q3::01",
+       "doc_id": "CM-EM-2026Q3",
+       "title": "Emerging Markets Outlook, Q3 2026",
+       "section": "Emerging markets outlook",
+       "source_file": "commentary_em_outlook.md",
+       "doc_type": "market_commentary",
+       "score": 0.2285,
+       "fusion_score": 0.01613,
+       "snippet": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook igh, and several central banks began cutting ahead of developed-market peers, which supports local bond prices. The dominant risk is dollar strength. A sustained rally in the dollar has historically been the largest single driver of emerging market debt drawdowns, exceeding the contribution of actual defaults. We are neutral on the asset class and would not increase allocations for clients whose risk profile makes a 15% drawdown unacceptable."
+      }
+     ],
+     "market_context": {
+      "summary": "Retrieved 8 passages from the research index covering FS-BPC-2026Q2, FS-CBM-2026Q2, HV-ALTS-2026Q3. Narrative summarisation was unavailable, so the key points below are extracted directly from the source passages.",
+      "key_points": [
+       {
+        "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. [S1]",
+        "sources": [
+         "S1"
+        ]
+       },
+       {
+        "point": "Bramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II .9%. [S2]",
+        "sources": [
+         "S2"
+        ]
+       },
+       {
+        "point": "Bramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II **Synthetic document. [S3]",
+        "sources": [
+         "S3"
+        ]
+       },
+       {
+        "point": "House View, Alternatives and Private Markets Q3 2026: House view: alternatives and private markets **Synthetic house view. [S4]",
+        "sources": [
+         "S4"
+        ]
+       }
+      ],
+      "relevance_to_client": "Review the cited passages directly. No model-generated interpretation was applied.",
+      "_generated_by": "deterministic_fallback",
+      "cited_markers": [
+       "S1",
+       "S2",
+       "S3",
+       "S4"
+      ]
+     }
+    },
+    "compliance": {
+     "status": "fail",
+     "flag_count": 2,
+     "flags": [
+      {
+       "rule_id": "R2",
+       "rule_name": "Single-position concentration",
+       "severity": "medium",
+       "instrument_id": "AGE",
+       "detail": "Aurora Global Equity Fund is 33.0% of the portfolio, above the 25% single-position limit.",
+       "remediation": "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement."
+      },
+      {
+       "rule_id": "R7",
+       "rule_name": "Cross-border registration",
+       "severity": "high",
+       "instrument_id": "BPC",
+       "detail": "Bramble Private Credit Fund II is not registered for distribution in SG (registered: GB, IE, CH).",
+       "remediation": "Do not solicit. Check for an equivalent share class registered in the client's domicile."
+      }
+     ],
+     "proposals_checked": [
+      "BPC"
+     ],
+     "rules_evaluated": [
+      "R1-existing",
+      "R1:BPC",
+      "R2",
+      "R3:BPC",
+      "R4:BPC",
+      "R5:BPC",
+      "R6",
+      "R7:BPC"
+     ],
+     "adviser_note": "The suitability check returned FAIL with 2 flag(s), of which 1 are high severity. Each flag below cites the rule that produced it.",
+     "actions_before_meeting": [
+      "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement.",
+      "Do not solicit. Check for an equivalent share class registered in the client's domicile."
+     ],
+     "disclaimer": "Illustrative rules for a demonstration project. Not regulatory advice."
+    }
+   },
+   "output": {
+    "briefing": {
+     "generated_at": "2026-08-08T12:58:08+00:00",
+     "query": "Can we add Bramble private credit for this client?",
+     "data_notice": "All client, portfolio and market data in this briefing is synthetic.",
+     "client": {
+      "client_id": "4525",
+      "name": "Wei-Lin Cheong (SYNTHETIC)",
+      "risk_profile": "Aggressive",
+      "investor_classification": "Elective Professional",
+      "horizon_years": 20,
+      "liquidity_needs": "Low",
+      "next_meeting": "2026-08-12",
+      "adviser": "R. Achterberg (synthetic)",
+      "objectives": [
+       "Aggressive growth with tolerance for illiquidity",
+       "Diversify away from single-market equity risk"
+      ],
+      "constraints": [
+       "Singapore resident, so cross-border registration must be checked"
+      ],
+      "esg_mandate": false,
+      "esg_exclusions": []
+     },
+     "headline": "2 suitability issue(s) must be resolved before advising Wei-Lin Cheong (SYNTHETIC).",
+     "summary": "Wei-Lin Cheong (SYNTHETIC) holds £21,400,000 across 5 positions, 85.0% in growth assets, against a Aggressive profile and a 20-year horizon. Year-to-date return is 8.32% (3.92% versus benchmark). The largest position is Aurora Global Equity Fund at 33.0%. The suitability check returned FAIL.",
+     "portfolio_snapshot": {
+      "as_of": "2026-08-06",
+      "total_value_gbp": 21400000,
+      "currency": "GBP",
+      "holdings": [
+       {
+        "instrument_id": "AGE",
+        "name": "Aurora Global Equity Fund",
+        "asset_class": "Global Equity",
+        "risk_rating": 6,
+        "risk_band": "High",
+        "weight_pct": 33.0,
+        "value_gbp": 7062000.0,
+        "ytd_return_pct": 9.6
+       },
+       {
+        "instrument_id": "SAA",
+        "name": "Solaris AI & Automation Thematic Fund",
+        "asset_class": "Thematic Equity",
+        "risk_rating": 6,
+        "risk_band": "High",
+        "weight_pct": 19.0,
+        "value_gbp": 4066000.0,
+        "ytd_return_pct": 18.4
+       },
+       {
+        "instrument_id": "CBM",
+        "name": "Castellan Balanced Multi-Asset Fund",
+        "asset_class": "Multi-Asset",
+        "risk_rating": 4,
+        "risk_band": "Medium",
+        "weight_pct": 20.0,
+        "value_gbp": 4280000.0,
+        "ytd_return_pct": 4.9
+       },
+       {
+        "instrument_id": "MED",
+        "name": "Meridian Emerging Market Debt Fund",
+        "asset_class": "Emerging Market Debt",
+        "risk_rating": 5,
+        "risk_band": "High",
+        "weight_pct": 13.0,
+        "value_gbp": 2782000.0,
+        "ytd_return_pct": 5.2
+       },
+       {
+        "instrument_id": "CASH",
+        "name": "GBP Cash & Money Market",
+        "asset_class": "Cash",
+        "risk_rating": 1,
+        "risk_band": "Low",
+        "weight_pct": 15.0,
+        "value_gbp": 3210000.0,
+        "ytd_return_pct": 0.0
+       }
+      ],
+      "allocation_by_asset_class": {
+       "Global Equity": 33.0,
+       "Multi-Asset": 20.0,
+       "Thematic Equity": 19.0,
+       "Cash": 15.0,
+       "Emerging Market Debt": 13.0
+      },
+      "growth_asset_pct": 85.0,
+      "largest_position": {
+       "instrument_id": "AGE",
+       "name": "Aurora Global Equity Fund",
+       "weight_pct": 33.0
+      },
+      "cash_pct": 15.0,
+      "weighted_risk_rating": 4.72,
+      "performance": {
+       "ytd_return_pct": 8.32,
+       "one_year_return_pct": 15.81,
+       "three_year_annualised_pct": 11.23,
+       "benchmark": "Synthetic composite benchmark",
+       "vs_benchmark_ytd_pct": 3.92,
+       "volatility_pct": 11.37,
+       "max_drawdown_pct": -15.27
+      }
+     },
+     "market_context": {
+      "summary": "Retrieved 8 passages from the research index covering FS-BPC-2026Q2, FS-CBM-2026Q2, HV-ALTS-2026Q3. Narrative summarisation was unavailable, so the key points below are extracted directly from the source passages.",
+      "key_points": [
+       {
+        "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. [S1]",
+        "sources": [
+         "S1"
+        ]
+       },
+       {
+        "point": "Bramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II .9%. [S2]",
+        "sources": [
+         "S2"
+        ]
+       },
+       {
+        "point": "Bramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II **Synthetic document. [S3]",
+        "sources": [
+         "S3"
+        ]
+       },
+       {
+        "point": "House View, Alternatives and Private Markets Q3 2026: House view: alternatives and private markets **Synthetic house view. [S4]",
+        "sources": [
+         "S4"
+        ]
+       }
+      ],
+      "relevance_to_client": "Review the cited passages directly. No model-generated interpretation was applied.",
+      "queries_run": [
+       "Can we add Bramble private credit for this client?",
+       "Global Equity outlook and positioning",
+       "Multi-Asset outlook and positioning",
+       "asset allocation house view for a Aggressive mandate",
+       "Bramble Private Credit Fund II outlook, risks and suitability"
+      ]
+     },
+     "compliance": {
+      "status": "fail",
+      "flag_count": 2,
+      "flags": [
+       {
+        "rule_id": "R2",
+        "rule_name": "Single-position concentration",
+        "severity": "medium",
+        "instrument_id": "AGE",
+        "detail": "Aurora Global Equity Fund is 33.0% of the portfolio, above the 25% single-position limit.",
+        "remediation": "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement."
+       },
+       {
+        "rule_id": "R7",
+        "rule_name": "Cross-border registration",
+        "severity": "high",
+        "instrument_id": "BPC",
+        "detail": "Bramble Private Credit Fund II is not registered for distribution in SG (registered: GB, IE, CH).",
+        "remediation": "Do not solicit. Check for an equivalent share class registered in the client's domicile."
+       }
+      ],
+      "adviser_note": "The suitability check returned FAIL with 2 flag(s), of which 1 are high severity. Each flag below cites the rule that produced it.",
+      "actions_before_meeting": [
+       "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement.",
+       "Do not solicit. Check for an equivalent share class registered in the client's domicile."
+      ],
+      "proposals_checked": [
+       "BPC"
+      ],
+      "rules_evaluated": [
+       "R1-existing",
+       "R1:BPC",
+       "R2",
+       "R3:BPC",
+       "R4:BPC",
+       "R5:BPC",
+       "R6",
+       "R7:BPC"
+      ],
+      "disclaimer": "Illustrative rules for a demonstration project. Not regulatory advice."
+     },
+     "talking_points": [
+      {
+       "point": "Single-position concentration: Aurora Global Equity Fund is 33.0% of the portfolio, above the 25% single-position limit.",
+       "why": "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement.",
+       "sources": []
+      },
+      {
+       "point": "Cross-border registration: Bramble Private Credit Fund II is not registered for distribution in SG (registered: GB, IE, CH).",
+       "why": "Do not solicit. Check for an equivalent share class registered in the client's domicile.",
+       "sources": []
+      },
+      {
+       "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. [S1]",
+       "why": "Relevant market context for this mandate.",
+       "sources": [
+        "S1"
+       ]
+      },
+      {
+       "point": "Bramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II .9%. [S2]",
+       "why": "Relevant market context for this mandate.",
+       "sources": [
+        "S2"
+       ]
+      },
+      {
+       "point": "Bramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II **Synthetic document. [S3]",
+       "why": "Relevant market context for this mandate.",
+       "sources": [
+        "S3"
+       ]
+      }
+     ],
+     "questions_to_ask": [
+      "Have your objectives or time horizon changed since the last review?",
+      "Has your liquidity position changed, or any expected calls on capital?",
+      "Are you comfortable with the current largest position size?"
+     ],
+     "watch_items": [
+      "Aurora Global Equity Fund is 33.0% of the portfolio, above the 25% single-position limit.",
+      "Bramble Private Credit Fund II is not registered for distribution in SG (registered: GB, IE, CH)."
+     ],
+     "citations": [
+      {
+       "marker": "S1",
+       "chunk_id": "FS-CBM-2026Q2::01",
+       "doc_id": "FS-CBM-2026Q2",
+       "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+       "section": "Castellan Balanced Multi-Asset Fund",
+       "source_file": "fund_castellan_balanced.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.2426,
+       "fusion_score": 0.04814,
+       "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4. Realised volatility over twelve months was 7.9%. The tactical overlay is currently 3 points underweight equity and holds an elevated 8% cash position, reflecting the house view that policy rates fall more slowly than forward markets imply. **Suitability note:** the default one-fund solution for Balanced mandates and a common core sleeve inside Conservative portfolios where the client accepts moderate equity exposure. Worst twelve-month period since launch was…"
+      },
+      {
+       "marker": "S2",
+       "chunk_id": "FS-BPC-2026Q2::01",
+       "doc_id": "FS-BPC-2026Q2",
+       "title": "Bramble Private Credit Fund II Factsheet",
+       "section": "Bramble Private Credit Fund II",
+       "source_file": "fund_bramble_private_credit.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.4312,
+       "fusion_score": 0.03279,
+       "snippet": "Bramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II .9%. **Suitability note:** unsuitable where a client has High liquidity needs, a horizon under seven years, or a known capital call in the near term. The combination of gates and manager-marked valuations means the reported volatility of this strategy materially understates its true risk."
+      },
+      {
+       "marker": "S3",
+       "chunk_id": "FS-BPC-2026Q2::00",
+       "doc_id": "FS-BPC-2026Q2",
+       "title": "Bramble Private Credit Fund II Factsheet",
+       "section": "Bramble Private Credit Fund II",
+       "source_file": "fund_bramble_private_credit.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.3013,
+       "fusion_score": 0.03226,
+       "snippet": "Bramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II **Synthetic document. Fictional fund, fictional figures.** Bramble II makes senior secured loans to mid-market borrowers, with a smaller speciality finance sleeve. The vehicle uses fund-level leverage of up to 0.4 times net asset value. **Risk rating:** 5 of 7 (High). **OCF:** 1.35% plus performance fee. **Liquidity, and please read this carefully.** Dealing is quarterly, subject to a 5% investor-level gate and 90 days' notice. In a stressed quarter a redeeming investor may receive a fraction of their request and wait multiple quarters for the balance. Valuations are manager-marked monthly, not observable market…"
+      },
+      {
+       "marker": "S4",
+       "chunk_id": "HV-ALTS-2026Q3::00",
+       "doc_id": "HV-ALTS-2026Q3",
+       "title": "House View, Alternatives and Private Markets Q3 2026",
+       "section": "House view: alternatives and private markets",
+       "source_file": "house_view_alternatives.md",
+       "doc_type": "house_view",
+       "score": 0.2881,
+       "fusion_score": 0.032,
+       "snippet": "House View, Alternatives and Private Markets Q3 2026: House view: alternatives and private markets **Synthetic house view. Illustrative only.** The committee's position is that the illiquidity premium in private credit has compressed to the point where it no longer compensates for the governance and liquidity costs in most private client portfolios. Illustrative allocation limits: private markets exposure should not exceed 15% of total portfolio value for Growth and Aggressive mandates, 5% for Balanced, and zero for Conservative mandates or any client with High liquidity needs. Semi-liquid structures deserve particular scrutiny. Quarterly dealing with gates offers the appearance of…"
+      },
+      {
+       "marker": "S5",
+       "chunk_id": "CM-EQ-2026Q3::01",
+       "doc_id": "CM-EQ-2026Q3",
+       "title": "Global Equity Outlook, Q3 2026",
+       "section": "Global equity outlook",
+       "source_file": "commentary_equity_outlook.md",
+       "doc_type": "market_commentary",
+       "score": 0.3767,
+       "fusion_score": 0.01639,
+       "snippet": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheets over momentum, and we are cautious about adding to concentrated thematic exposure at current levels. The principal risk to this view is that the capital expenditure cycle driving current earnings growth proves shorter than expected. See the separate note on AI capital expenditure."
+      },
+      {
+       "marker": "S6",
+       "chunk_id": "HV-AA-2026Q3::00",
+       "doc_id": "HV-AA-2026Q3",
+       "title": "House View, Strategic and Tactical Asset Allocation Q3 2026",
+       "section": "House view: asset allocation",
+       "source_file": "house_view_asset_allocation.md",
+       "doc_type": "house_view",
+       "score": 0.3355,
+       "fusion_score": 0.01639,
+       "snippet": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. Illustrative only.** Tactical positions against strategic weights this quarter: - Equity: neutral. Valuation is unattractive but earnings momentum is intact. - Government bonds: neutral duration, preference for the 2 to 5 year part of the curve. - Investment grade credit: modest overweight, funded from high yield. - High yield: underweight, on spread levels rather than default expectations. - Real assets: modest overweight, chiefly listed infrastructure. - Cash: overweight, at 6 to 8% for most mandates, held as optionality. Model allocations by risk profile are unchanged:…"
+      },
+      {
+       "marker": "S7",
+       "chunk_id": "FS-AGE-2026Q2::01",
+       "doc_id": "FS-AGE-2026Q2",
+       "title": "Aurora Global Equity Fund Factsheet",
+       "section": "Aurora Global Equity Fund",
+       "source_file": "fund_aurora_global_equity.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.3482,
+       "fusion_score": 0.01613,
+       "snippet": "Aurora Global Equity Fund Factsheet: Aurora Global Equity Fund manager has trimmed the technology overweight from 31% to 26% over the quarter, citing valuation dispersion rather than a change of view on earnings. Cash sits at 2.4%. **Suitability note:** as a single-sleeve equity holding this fund carries full equity drawdown risk. It is generally unsuitable as a majority position for clients with a Conservative profile or a horizon under five years. Maximum peak-to-trough drawdown since launch was 24.8%."
+      },
+      {
+       "marker": "S8",
+       "chunk_id": "CM-EM-2026Q3::01",
+       "doc_id": "CM-EM-2026Q3",
+       "title": "Emerging Markets Outlook, Q3 2026",
+       "section": "Emerging markets outlook",
+       "source_file": "commentary_em_outlook.md",
+       "doc_type": "market_commentary",
+       "score": 0.2285,
+       "fusion_score": 0.01613,
+       "snippet": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook igh, and several central banks began cutting ahead of developed-market peers, which supports local bond prices. The dominant risk is dollar strength. A sustained rally in the dollar has historically been the largest single driver of emerging market debt drawdowns, exceeding the contribution of actual defaults. We are neutral on the asset class and would not increase allocations for clients whose risk profile makes a 15% drawdown unacceptable."
+      }
+     ]
+    }
+   },
+   "error": null,
+   "meta": {
+    "task": "synthesise"
+   }
+  },
+  {
+   "id": "66f98b54ea",
+   "parent_id": "38a8e1ab28",
+   "kind": "llm",
+   "name": "synthesis.write_briefing",
+   "label": "LLM · mock/deterministic-stub",
+   "started_at": "2026-08-08T12:58:08.156+00:00",
+   "ended_at": "2026-08-08T12:58:08.156+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "system": "You prepare pre-meeting briefings for private bank advisers.\n\nYou receive: a client profile, a portfolio snapshot, cited market research, and\nthe output of a compliance rules engine.\n\nRules:\n- Cite market claims with the [S#] markers exactly as they appear in the research\n  you were given. Do not invent markers.\n- Never contradict or soften the compliance result. If the status is FAIL, the\n  talking points must reflect that the recommendation cannot proceed as framed.\n- Talking points are for the adviser to raise with the client. Make them\n  specific to this client's objectives and holdings, not generic.\n- British English. No sales language. All data is synthetic demo data.\n\nReturn JSON:\n{\n  \"headline\": \"one sentence the adviser reads first\",\n  \"summary\": \"3-5 sentences covering position, context and anything blocking\",\n  \"talking_points\": [\n    {\"point\": \"what to raise\", \"why\": \"why it matters to this client\", \"sources\": [\"S1\"]}\n  ],\n  \"questions_to_ask\": [\"question for the client\", \"...\"],\n  \"watch_items\": [\"something to monitor after the meeting\", \"...\"]\n}\n\nRespond with a single valid JSON object and nothing else. No prose before or after, no markdown code fences.",
+    "user": "Adviser request: Can we add Bramble private credit for this client?\n\nCLIENT\nWei-Lin Cheong (SYNTHETIC) (4525), Aggressive profile,\nElective Professional, 20-year horizon,\nLow liquidity needs.\nObjectives: Aggressive growth with tolerance for illiquidity; Diversify away from single-market equity risk\nConstraints: Singapore resident, so cross-border registration must be checked\nAdviser notes: Books through the Singapore branch; product registration is the usual blocker.\n\nPORTFOLIO\nTotal £21,400,000 as at 2026-08-06.\nAllocation: {'Global Equity': 33.0, 'Multi-Asset': 20.0, 'Thematic Equity': 19.0, 'Cash': 15.0, 'Emerging Market Debt': 13.0}\nGrowth assets: 85.0%. Cash: 15.0%.\nLargest position: Aurora Global Equity Fund at\n33.0%.\nPerformance: {'ytd_return_pct': 8.32, 'one_year_return_pct': 15.81, 'three_year_annualised_pct': 11.23, 'benchmark': 'Synthetic composite benchmark', 'vs_benchmark_ytd_pct': 3.92, 'volatility_pct': 11.37, 'max_drawdown_pct': -15.27}\n\nMARKET RESEARCH (cite these markers only)\nRetrieved 8 passages from the research index covering FS-BPC-2026Q2, FS-CBM-2026Q2, HV-ALTS-2026Q3. Narrative summarisation was unavailable, so the key points below are extracted directly from the source passages.\n[S1] Castellan Balanced Multi-Asset Fund Factsheet · Castellan Balanced Multi-Asset Fund: Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4. Realised volatility over twelve months was 7.9%\n[S2] Bramble Private Credit Fund II Factsheet · Bramble Private Credit Fund II: Bramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II .9%. **Suitability note:** unsuitable where a client has High liquidity needs, a horizon under seven years, or a known capital call in the near term. The combination of gates and manager-marked valuations me\n[S3] Bramble Private Credit Fund II Factsheet · Bramble Private Credit Fund II: Bramble Private Credit Fund II Factsheet: Bramble Private Credit Fund II **Synthetic document. Fictional fund, fictional figures.** Bramble II makes senior secured loans to mid-market borrowers, with a smaller speciality finance sleeve. The vehicle uses fund-level leverage of up \n[S4] House View, Alternatives and Private Markets Q3 2026 · House view: alternatives and private markets: House View, Alternatives and Private Markets Q3 2026: House view: alternatives and private markets **Synthetic house view. Illustrative only.** The committee's position is that the illiquidity premium in private credit has compressed to the point where it no longer compensates fo\n[S5] Global Equity Outlook, Q3 2026 · Global equity outlook: Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheet\n[S6] House View, Strategic and Tactical Asset Allocation Q3 2026 · House view: asset allocation: House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. Illustrative only.** Tactical positions against strategic weights this quarter: - Equity: neutral. Valuation is unattractive but earnings momentum is intact. - Govern\n[S7] Aurora Global Equity Fund Factsheet · Aurora Global Equity Fund: Aurora Global Equity Fund Factsheet: Aurora Global Equity Fund manager has trimmed the technology overweight from 31% to 26% over the quarter, citing valuation dispersion rather than a change of view on earnings. Cash sits at 2.4%. **Suitability note:** as a single-sleeve equity \n[S8] Emerging Markets Outlook, Q3 2026 · Emerging markets outlook: Emerging Markets Outlook, Q3 2026: Emerging markets outlook igh, and several central banks began cutting ahead of developed-market peers, which supports local… [+431 chars]",
+    "temperature": 0.2
+   },
+   "output": "{\"_mock\": true, \"_note\": \"Deterministic stub output; agents fall back to rule-based assembly.\", \"_digest\": \"eee68de5\"}",
+   "error": null,
+   "meta": {
+    "provider": "mock",
+    "model": "deterministic-stub",
+    "usage": {
+     "prompt_tokens": 1404,
+     "completion_tokens": 12
+    }
+   }
+  },
+  {
+   "id": "f6ae549b54",
+   "parent_id": "38a8e1ab28",
+   "kind": "note",
+   "name": "synthesis.assembled",
+   "label": "Briefing assembled with 5 talking points and 8 citations",
+   "started_at": "2026-08-08T12:58:08.156+00:00",
+   "ended_at": "2026-08-08T12:58:08.156+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": {
+    "compliance_status": "fail",
+    "citations": [
+     "S1",
+     "S2",
+     "S3",
+     "S4",
+     "S5",
+     "S6",
+     "S7",
+     "S8"
+    ]
+   },
+   "error": null,
+   "meta": {}
+  }
+ ],
+ "trace_summary": {
+  "run_id": "6170f6aa32fd",
+  "events": 32,
+  "by_kind": {
+   "agent": 5,
+   "llm": 5,
+   "note": 8,
+   "tool": 9,
+   "retrieval": 5
+  },
+  "errors": 0,
+  "elapsed_ms": 11.0
+ }
+}

@@ -1,0 +1,754 @@
+{
+  "_notice": "SYNTHETIC DATA, generated for a portfolio demo. No real clients.",
+  "generated_by": "data/generate_data.py",
+  "clients": [
+    {
+      "client_id": "4521",
+      "name": "Margaret Ellwood-Vance (SYNTHETIC)",
+      "data_notice": "SYNTHETIC. Fictional client, not a real person",
+      "segment": "Private Client",
+      "domicile": "GB",
+      "adviser": "J. Okonkwo (synthetic)",
+      "risk_profile": "Conservative",
+      "investor_classification": "Retail",
+      "investment_horizon_years": 4,
+      "liquidity_needs": "High",
+      "esg_mandate": false,
+      "esg_exclusions": [],
+      "last_suitability_review": "2026-05-14",
+      "next_meeting": "2026-08-08",
+      "objectives": [
+        "Preserve capital in real terms",
+        "Fund a property purchase in roughly three years",
+        "Predictable income to supplement pension drawdown"
+      ],
+      "constraints": [
+        "No single position above 20% of the portfolio",
+        "At least 10% held in cash or near-cash"
+      ],
+      "adviser_notes": "Risk-averse; reacted badly to 2022 drawdown. Values plain explanations.",
+      "designed_to_test": "R1 low-risk profile vs high-risk proposals",
+      "portfolio": {
+        "total_value_gbp": 2450000,
+        "currency": "GBP",
+        "as_of": "2026-08-06",
+        "holdings": [
+          {
+            "instrument_id": "HSD",
+            "name": "Helvetia Short-Duration Bond Fund",
+            "asset_class": "Fixed Income",
+            "risk_rating": 2,
+            "risk_band": "Low",
+            "weight_pct": 34.0,
+            "value_gbp": 833000.0,
+            "ytd_return_pct": 2.1
+          },
+          {
+            "instrument_id": "GILT",
+            "name": "UK Gilt Ladder (2027-2032)",
+            "asset_class": "Government Bonds",
+            "risk_rating": 1,
+            "risk_band": "Low",
+            "weight_pct": 26.0,
+            "value_gbp": 637000.0,
+            "ytd_return_pct": 1.7
+          },
+          {
+            "instrument_id": "CBM",
+            "name": "Castellan Balanced Multi-Asset Fund",
+            "asset_class": "Multi-Asset",
+            "risk_rating": 4,
+            "risk_band": "Medium",
+            "weight_pct": 22.0,
+            "value_gbp": 539000.0,
+            "ytd_return_pct": 4.9
+          },
+          {
+            "instrument_id": "NII",
+            "name": "Northwind Infrastructure Income Fund",
+            "asset_class": "Infrastructure",
+            "risk_rating": 4,
+            "risk_band": "Medium",
+            "weight_pct": 6.0,
+            "value_gbp": 147000.0,
+            "ytd_return_pct": 3.4
+          },
+          {
+            "instrument_id": "CASH",
+            "name": "GBP Cash & Money Market",
+            "asset_class": "Cash",
+            "risk_rating": 1,
+            "risk_band": "Low",
+            "weight_pct": 12.0,
+            "value_gbp": 294000.0,
+            "ytd_return_pct": 0.0
+          }
+        ],
+        "largest_position_pct": 34.0,
+        "cash_pct": 12.0,
+        "weighted_risk_rating": 2.18
+      },
+      "performance": {
+        "ytd_return_pct": 2.44,
+        "one_year_return_pct": 4.64,
+        "three_year_annualised_pct": 3.29,
+        "benchmark": "Synthetic composite benchmark",
+        "vs_benchmark_ytd_pct": -1.96,
+        "volatility_pct": 6.54,
+        "max_drawdown_pct": -8.67
+      }
+    },
+    {
+      "client_id": "4522",
+      "name": "Devesh Ramanathan (SYNTHETIC)",
+      "data_notice": "SYNTHETIC. Fictional client, not a real person",
+      "segment": "Private Client",
+      "domicile": "GB",
+      "adviser": "P. Lindqvist (synthetic)",
+      "risk_profile": "Growth",
+      "investor_classification": "Elective Professional",
+      "investment_horizon_years": 15,
+      "liquidity_needs": "Low",
+      "esg_mandate": false,
+      "esg_exclusions": [],
+      "last_suitability_review": "2026-06-02",
+      "next_meeting": "2026-08-11",
+      "objectives": [
+        "Long-horizon capital growth",
+        "Meaningful exposure to the automation and AI capex cycle"
+      ],
+      "constraints": [
+        "Comfortable with volatility; wants concentration monitored"
+      ],
+      "adviser_notes": "Founder, sold a logistics software business. Technically literate.",
+      "designed_to_test": "R2 single-position concentration above threshold",
+      "portfolio": {
+        "total_value_gbp": 8900000,
+        "currency": "GBP",
+        "as_of": "2026-08-06",
+        "holdings": [
+          {
+            "instrument_id": "SAA",
+            "name": "Solaris AI & Automation Thematic Fund",
+            "asset_class": "Thematic Equity",
+            "risk_rating": 6,
+            "risk_band": "High",
+            "weight_pct": 31.0,
+            "value_gbp": 2759000.0,
+            "ytd_return_pct": 18.4
+          },
+          {
+            "instrument_id": "AGE",
+            "name": "Aurora Global Equity Fund",
+            "asset_class": "Global Equity",
+            "risk_rating": 6,
+            "risk_band": "High",
+            "weight_pct": 27.0,
+            "value_gbp": 2403000.0,
+            "ytd_return_pct": 9.6
+          },
+          {
+            "instrument_id": "MED",
+            "name": "Meridian Emerging Market Debt Fund",
+            "asset_class": "Emerging Market Debt",
+            "risk_rating": 5,
+            "risk_band": "High",
+            "weight_pct": 14.0,
+            "value_gbp": 1246000.0,
+            "ytd_return_pct": 5.2
+          },
+          {
+            "instrument_id": "CBM",
+            "name": "Castellan Balanced Multi-Asset Fund",
+            "asset_class": "Multi-Asset",
+            "risk_rating": 4,
+            "risk_band": "Medium",
+            "weight_pct": 16.0,
+            "value_gbp": 1424000.0,
+            "ytd_return_pct": 4.9
+          },
+          {
+            "instrument_id": "CASH",
+            "name": "GBP Cash & Money Market",
+            "asset_class": "Cash",
+            "risk_rating": 1,
+            "risk_band": "Low",
+            "weight_pct": 12.0,
+            "value_gbp": 1068000.0,
+            "ytd_return_pct": 0.0
+          }
+        ],
+        "largest_position_pct": 31.0,
+        "cash_pct": 12.0,
+        "weighted_risk_rating": 4.94
+      },
+      "performance": {
+        "ytd_return_pct": 9.81,
+        "one_year_return_pct": 18.64,
+        "three_year_annualised_pct": 13.24,
+        "benchmark": "Synthetic composite benchmark",
+        "vs_benchmark_ytd_pct": 5.41,
+        "volatility_pct": 11.79,
+        "max_drawdown_pct": -15.84
+      }
+    },
+    {
+      "client_id": "4523",
+      "name": "Aoife Brennan-Marsh (SYNTHETIC)",
+      "data_notice": "SYNTHETIC. Fictional client, not a real person",
+      "segment": "Private Client",
+      "domicile": "IE",
+      "adviser": "J. Okonkwo (synthetic)",
+      "risk_profile": "Balanced",
+      "investor_classification": "Retail",
+      "investment_horizon_years": 10,
+      "liquidity_needs": "Medium",
+      "esg_mandate": true,
+      "esg_exclusions": [
+        "Mining",
+        "Energy",
+        "Defence"
+      ],
+      "last_suitability_review": "2026-04-28",
+      "next_meeting": "2026-08-13",
+      "objectives": [
+        "Balanced growth consistent with a stated sustainability mandate",
+        "No exposure to extractive industries"
+      ],
+      "constraints": [
+        "Formal ESG exclusion list on file: mining, energy, defence"
+      ],
+      "adviser_notes": "Trustee of a family foundation; sustainability mandate is non-negotiable.",
+      "designed_to_test": "R5 ESG mandate breach",
+      "portfolio": {
+        "total_value_gbp": 3150000,
+        "currency": "GBP",
+        "as_of": "2026-08-06",
+        "holdings": [
+          {
+            "instrument_id": "CBM",
+            "name": "Castellan Balanced Multi-Asset Fund",
+            "asset_class": "Multi-Asset",
+            "risk_rating": 4,
+            "risk_band": "Medium",
+            "weight_pct": 38.0,
+            "value_gbp": 1197000.0,
+            "ytd_return_pct": 4.9
+          },
+          {
+            "instrument_id": "HSD",
+            "name": "Helvetia Short-Duration Bond Fund",
+            "asset_class": "Fixed Income",
+            "risk_rating": 2,
+            "risk_band": "Low",
+            "weight_pct": 22.0,
+            "value_gbp": 693000.0,
+            "ytd_return_pct": 2.1
+          },
+          {
+            "instrument_id": "NII",
+            "name": "Northwind Infrastructure Income Fund",
+            "asset_class": "Infrastructure",
+            "risk_rating": 4,
+            "risk_band": "Medium",
+            "weight_pct": 18.0,
+            "value_gbp": 567000.0,
+            "ytd_return_pct": 3.4
+          },
+          {
+            "instrument_id": "AGE",
+            "name": "Aurora Global Equity Fund",
+            "asset_class": "Global Equity",
+            "risk_rating": 6,
+            "risk_band": "High",
+            "weight_pct": 12.0,
+            "value_gbp": 378000.0,
+            "ytd_return_pct": 9.6
+          },
+          {
+            "instrument_id": "CASH",
+            "name": "GBP Cash & Money Market",
+            "asset_class": "Cash",
+            "risk_rating": 1,
+            "risk_band": "Low",
+            "weight_pct": 10.0,
+            "value_gbp": 315000.0,
+            "ytd_return_pct": 0.0
+          }
+        ],
+        "largest_position_pct": 38.0,
+        "cash_pct": 10.0,
+        "weighted_risk_rating": 3.5
+      },
+      "performance": {
+        "ytd_return_pct": 4.09,
+        "one_year_return_pct": 7.77,
+        "three_year_annualised_pct": 5.52,
+        "benchmark": "Synthetic composite benchmark",
+        "vs_benchmark_ytd_pct": -0.31,
+        "volatility_pct": 9.05,
+        "max_drawdown_pct": -12.1
+      }
+    },
+    {
+      "client_id": "4524",
+      "name": "Harold Pemberton-Ives (SYNTHETIC)",
+      "data_notice": "SYNTHETIC. Fictional client, not a real person",
+      "segment": "Private Client",
+      "domicile": "GB",
+      "adviser": "P. Lindqvist (synthetic)",
+      "risk_profile": "Conservative",
+      "investor_classification": "Retail",
+      "investment_horizon_years": 6,
+      "liquidity_needs": "Medium",
+      "esg_mandate": false,
+      "esg_exclusions": [],
+      "last_suitability_review": "2025-01-09",
+      "next_meeting": "2026-08-10",
+      "objectives": [
+        "Steady income",
+        "Modest real growth"
+      ],
+      "constraints": [
+        "Prefers to avoid single-country concentration"
+      ],
+      "adviser_notes": "Annual review is overdue, so chase documentation before advising.",
+      "designed_to_test": "R6 stale suitability review",
+      "portfolio": {
+        "total_value_gbp": 1780000,
+        "currency": "GBP",
+        "as_of": "2026-08-06",
+        "holdings": [
+          {
+            "instrument_id": "HSD",
+            "name": "Helvetia Short-Duration Bond Fund",
+            "asset_class": "Fixed Income",
+            "risk_rating": 2,
+            "risk_band": "Low",
+            "weight_pct": 40.0,
+            "value_gbp": 712000.0,
+            "ytd_return_pct": 2.1
+          },
+          {
+            "instrument_id": "GILT",
+            "name": "UK Gilt Ladder (2027-2032)",
+            "asset_class": "Government Bonds",
+            "risk_rating": 1,
+            "risk_band": "Low",
+            "weight_pct": 20.0,
+            "value_gbp": 356000.0,
+            "ytd_return_pct": 1.7
+          },
+          {
+            "instrument_id": "CBM",
+            "name": "Castellan Balanced Multi-Asset Fund",
+            "asset_class": "Multi-Asset",
+            "risk_rating": 4,
+            "risk_band": "Medium",
+            "weight_pct": 25.0,
+            "value_gbp": 445000.0,
+            "ytd_return_pct": 4.9
+          },
+          {
+            "instrument_id": "CASH",
+            "name": "GBP Cash & Money Market",
+            "asset_class": "Cash",
+            "risk_rating": 1,
+            "risk_band": "Low",
+            "weight_pct": 15.0,
+            "value_gbp": 267000.0,
+            "ytd_return_pct": 0.0
+          }
+        ],
+        "largest_position_pct": 40.0,
+        "cash_pct": 15.0,
+        "weighted_risk_rating": 2.15
+      },
+      "performance": {
+        "ytd_return_pct": 2.4,
+        "one_year_return_pct": 4.56,
+        "three_year_annualised_pct": 3.24,
+        "benchmark": "Synthetic composite benchmark",
+        "vs_benchmark_ytd_pct": -2.0,
+        "volatility_pct": 6.48,
+        "max_drawdown_pct": -8.59
+      }
+    },
+    {
+      "client_id": "4525",
+      "name": "Wei-Lin Cheong (SYNTHETIC)",
+      "data_notice": "SYNTHETIC. Fictional client, not a real person",
+      "segment": "UHNW",
+      "domicile": "SG",
+      "adviser": "R. Achterberg (synthetic)",
+      "risk_profile": "Aggressive",
+      "investor_classification": "Elective Professional",
+      "investment_horizon_years": 20,
+      "liquidity_needs": "Low",
+      "esg_mandate": false,
+      "esg_exclusions": [],
+      "last_suitability_review": "2026-06-19",
+      "next_meeting": "2026-08-12",
+      "objectives": [
+        "Aggressive growth with tolerance for illiquidity",
+        "Diversify away from single-market equity risk"
+      ],
+      "constraints": [
+        "Singapore resident, so cross-border registration must be checked"
+      ],
+      "adviser_notes": "Books through the Singapore branch; product registration is the usual blocker.",
+      "designed_to_test": "R7 cross-border registration",
+      "portfolio": {
+        "total_value_gbp": 21400000,
+        "currency": "GBP",
+        "as_of": "2026-08-06",
+        "holdings": [
+          {
+            "instrument_id": "AGE",
+            "name": "Aurora Global Equity Fund",
+            "asset_class": "Global Equity",
+            "risk_rating": 6,
+            "risk_band": "High",
+            "weight_pct": 33.0,
+            "value_gbp": 7062000.0,
+            "ytd_return_pct": 9.6
+          },
+          {
+            "instrument_id": "SAA",
+            "name": "Solaris AI & Automation Thematic Fund",
+            "asset_class": "Thematic Equity",
+            "risk_rating": 6,
+            "risk_band": "High",
+            "weight_pct": 19.0,
+            "value_gbp": 4066000.0,
+            "ytd_return_pct": 18.4
+          },
+          {
+            "instrument_id": "CBM",
+            "name": "Castellan Balanced Multi-Asset Fund",
+            "asset_class": "Multi-Asset",
+            "risk_rating": 4,
+            "risk_band": "Medium",
+            "weight_pct": 20.0,
+            "value_gbp": 4280000.0,
+            "ytd_return_pct": 4.9
+          },
+          {
+            "instrument_id": "MED",
+            "name": "Meridian Emerging Market Debt Fund",
+            "asset_class": "Emerging Market Debt",
+            "risk_rating": 5,
+            "risk_band": "High",
+            "weight_pct": 13.0,
+            "value_gbp": 2782000.0,
+            "ytd_return_pct": 5.2
+          },
+          {
+            "instrument_id": "CASH",
+            "name": "GBP Cash & Money Market",
+            "asset_class": "Cash",
+            "risk_rating": 1,
+            "risk_band": "Low",
+            "weight_pct": 15.0,
+            "value_gbp": 3210000.0,
+            "ytd_return_pct": 0.0
+          }
+        ],
+        "largest_position_pct": 33.0,
+        "cash_pct": 15.0,
+        "weighted_risk_rating": 4.72
+      },
+      "performance": {
+        "ytd_return_pct": 8.32,
+        "one_year_return_pct": 15.81,
+        "three_year_annualised_pct": 11.23,
+        "benchmark": "Synthetic composite benchmark",
+        "vs_benchmark_ytd_pct": 3.92,
+        "volatility_pct": 11.37,
+        "max_drawdown_pct": -15.27
+      }
+    },
+    {
+      "client_id": "4526",
+      "name": "Sofia Delacroix-Owen (SYNTHETIC)",
+      "data_notice": "SYNTHETIC. Fictional client, not a real person",
+      "segment": "Private Client",
+      "domicile": "GB",
+      "adviser": "R. Achterberg (synthetic)",
+      "risk_profile": "Balanced",
+      "investor_classification": "Retail",
+      "investment_horizon_years": 2,
+      "liquidity_needs": "High",
+      "esg_mandate": false,
+      "esg_exclusions": [],
+      "last_suitability_review": "2026-03-30",
+      "next_meeting": "2026-08-14",
+      "objectives": [
+        "Bridge liquidity ahead of a business buy-out in 2028",
+        "Keep pace with inflation without locking capital up"
+      ],
+      "constraints": [
+        "Must be able to redeem the full portfolio within 30 days"
+      ],
+      "adviser_notes": "Short horizon and a hard liquidity date. Illiquid products are out.",
+      "designed_to_test": "R3 illiquidity vs horizon/liquidity needs",
+      "portfolio": {
+        "total_value_gbp": 1240000,
+        "currency": "GBP",
+        "as_of": "2026-08-06",
+        "holdings": [
+          {
+            "instrument_id": "CBM",
+            "name": "Castellan Balanced Multi-Asset Fund",
+            "asset_class": "Multi-Asset",
+            "risk_rating": 4,
+            "risk_band": "Medium",
+            "weight_pct": 30.0,
+            "value_gbp": 372000.0,
+            "ytd_return_pct": 4.9
+          },
+          {
+            "instrument_id": "HSD",
+            "name": "Helvetia Short-Duration Bond Fund",
+            "asset_class": "Fixed Income",
+            "risk_rating": 2,
+            "risk_band": "Low",
+            "weight_pct": 28.0,
+            "value_gbp": 347200.0,
+            "ytd_return_pct": 2.1
+          },
+          {
+            "instrument_id": "AGE",
+            "name": "Aurora Global Equity Fund",
+            "asset_class": "Global Equity",
+            "risk_rating": 6,
+            "risk_band": "High",
+            "weight_pct": 14.0,
+            "value_gbp": 173600.0,
+            "ytd_return_pct": 9.6
+          },
+          {
+            "instrument_id": "GILT",
+            "name": "UK Gilt Ladder (2027-2032)",
+            "asset_class": "Government Bonds",
+            "risk_rating": 1,
+            "risk_band": "Low",
+            "weight_pct": 10.0,
+            "value_gbp": 124000.0,
+            "ytd_return_pct": 1.7
+          },
+          {
+            "instrument_id": "CASH",
+            "name": "GBP Cash & Money Market",
+            "asset_class": "Cash",
+            "risk_rating": 1,
+            "risk_band": "Low",
+            "weight_pct": 18.0,
+            "value_gbp": 223200.0,
+            "ytd_return_pct": 0.0
+          }
+        ],
+        "largest_position_pct": 30.0,
+        "cash_pct": 18.0,
+        "weighted_risk_rating": 2.88
+      },
+      "performance": {
+        "ytd_return_pct": 3.57,
+        "one_year_return_pct": 6.78,
+        "three_year_annualised_pct": 4.82,
+        "benchmark": "Synthetic composite benchmark",
+        "vs_benchmark_ytd_pct": -0.83,
+        "volatility_pct": 7.87,
+        "max_drawdown_pct": -10.49
+      }
+    },
+    {
+      "client_id": "4527",
+      "name": "Tomasz Wielgus (SYNTHETIC)",
+      "data_notice": "SYNTHETIC. Fictional client, not a real person",
+      "segment": "Private Client",
+      "domicile": "GB",
+      "adviser": "P. Lindqvist (synthetic)",
+      "risk_profile": "Balanced",
+      "investor_classification": "Retail",
+      "investment_horizon_years": 12,
+      "liquidity_needs": "Low",
+      "esg_mandate": false,
+      "esg_exclusions": [],
+      "last_suitability_review": "2026-05-02",
+      "next_meeting": "2026-08-17",
+      "objectives": [
+        "Long-term growth",
+        "Interested in structured payoffs"
+      ],
+      "constraints": [
+        "Retail classification, so complex products need extra justification"
+      ],
+      "adviser_notes": "Has asked twice about leveraged notes after reading about them.",
+      "designed_to_test": "R4 complex/leveraged product for a retail client",
+      "portfolio": {
+        "total_value_gbp": 4600000,
+        "currency": "GBP",
+        "as_of": "2026-08-06",
+        "holdings": [
+          {
+            "instrument_id": "AGE",
+            "name": "Aurora Global Equity Fund",
+            "asset_class": "Global Equity",
+            "risk_rating": 6,
+            "risk_band": "High",
+            "weight_pct": 24.0,
+            "value_gbp": 1104000.0,
+            "ytd_return_pct": 9.6
+          },
+          {
+            "instrument_id": "CBM",
+            "name": "Castellan Balanced Multi-Asset Fund",
+            "asset_class": "Multi-Asset",
+            "risk_rating": 4,
+            "risk_band": "Medium",
+            "weight_pct": 26.0,
+            "value_gbp": 1196000.0,
+            "ytd_return_pct": 4.9
+          },
+          {
+            "instrument_id": "HSD",
+            "name": "Helvetia Short-Duration Bond Fund",
+            "asset_class": "Fixed Income",
+            "risk_rating": 2,
+            "risk_band": "Low",
+            "weight_pct": 20.0,
+            "value_gbp": 920000.0,
+            "ytd_return_pct": 2.1
+          },
+          {
+            "instrument_id": "NII",
+            "name": "Northwind Infrastructure Income Fund",
+            "asset_class": "Infrastructure",
+            "risk_rating": 4,
+            "risk_band": "Medium",
+            "weight_pct": 16.0,
+            "value_gbp": 736000.0,
+            "ytd_return_pct": 3.4
+          },
+          {
+            "instrument_id": "CASH",
+            "name": "GBP Cash & Money Market",
+            "asset_class": "Cash",
+            "risk_rating": 1,
+            "risk_band": "Low",
+            "weight_pct": 14.0,
+            "value_gbp": 644000.0,
+            "ytd_return_pct": 0.0
+          }
+        ],
+        "largest_position_pct": 26.0,
+        "cash_pct": 14.0,
+        "weighted_risk_rating": 3.66
+      },
+      "performance": {
+        "ytd_return_pct": 4.54,
+        "one_year_return_pct": 8.63,
+        "three_year_annualised_pct": 6.13,
+        "benchmark": "Synthetic composite benchmark",
+        "vs_benchmark_ytd_pct": 0.14,
+        "volatility_pct": 9.35,
+        "max_drawdown_pct": -12.52
+      }
+    },
+    {
+      "client_id": "4528",
+      "name": "Beatrix Nkemdirim (SYNTHETIC)",
+      "data_notice": "SYNTHETIC. Fictional client, not a real person",
+      "segment": "Private Client",
+      "domicile": "GB",
+      "adviser": "J. Okonkwo (synthetic)",
+      "risk_profile": "Growth",
+      "investor_classification": "Retail",
+      "investment_horizon_years": 18,
+      "liquidity_needs": "Low",
+      "esg_mandate": false,
+      "esg_exclusions": [],
+      "last_suitability_review": "2026-07-01",
+      "next_meeting": "2026-08-18",
+      "objectives": [
+        "Long-horizon growth",
+        "Gradual diversification into real assets"
+      ],
+      "constraints": [
+        "No single position above 25%"
+      ],
+      "adviser_notes": "Control case: a well-constructed portfolio that should pass cleanly.",
+      "designed_to_test": "Clean pass, no flags expected",
+      "portfolio": {
+        "total_value_gbp": 5050000,
+        "currency": "GBP",
+        "as_of": "2026-08-06",
+        "holdings": [
+          {
+            "instrument_id": "AGE",
+            "name": "Aurora Global Equity Fund",
+            "asset_class": "Global Equity",
+            "risk_rating": 6,
+            "risk_band": "High",
+            "weight_pct": 22.0,
+            "value_gbp": 1111000.0,
+            "ytd_return_pct": 9.6
+          },
+          {
+            "instrument_id": "CBM",
+            "name": "Castellan Balanced Multi-Asset Fund",
+            "asset_class": "Multi-Asset",
+            "risk_rating": 4,
+            "risk_band": "Medium",
+            "weight_pct": 24.0,
+            "value_gbp": 1212000.0,
+            "ytd_return_pct": 4.9
+          },
+          {
+            "instrument_id": "NII",
+            "name": "Northwind Infrastructure Income Fund",
+            "asset_class": "Infrastructure",
+            "risk_rating": 4,
+            "risk_band": "Medium",
+            "weight_pct": 18.0,
+            "value_gbp": 909000.0,
+            "ytd_return_pct": 3.4
+          },
+          {
+            "instrument_id": "HSD",
+            "name": "Helvetia Short-Duration Bond Fund",
+            "asset_class": "Fixed Income",
+            "risk_rating": 2,
+            "risk_band": "Low",
+            "weight_pct": 21.0,
+            "value_gbp": 1060500.0,
+            "ytd_return_pct": 2.1
+          },
+          {
+            "instrument_id": "CASH",
+            "name": "GBP Cash & Money Market",
+            "asset_class": "Cash",
+            "risk_rating": 1,
+            "risk_band": "Low",
+            "weight_pct": 15.0,
+            "value_gbp": 757500.0,
+            "ytd_return_pct": 0.0
+          }
+        ],
+        "largest_position_pct": 24.0,
+        "cash_pct": 15.0,
+        "weighted_risk_rating": 3.57
+      },
+      "performance": {
+        "ytd_return_pct": 4.34,
+        "one_year_return_pct": 8.25,
+        "three_year_annualised_pct": 5.86,
+        "benchmark": "Synthetic composite benchmark",
+        "vs_benchmark_ytd_pct": -0.06,
+        "volatility_pct": 9.18,
+        "max_drawdown_pct": -12.28
+      }
+    }
+  ]
+}

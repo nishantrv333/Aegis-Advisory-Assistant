@@ -1,0 +1,2788 @@
+{
+ "run_id": "1fa76778e186",
+ "client_id": "4527",
+ "query": "The client has read about the Lyra leveraged note and wants in",
+ "plan": {
+  "reasoning": "Default plan: full briefing across all agents.",
+  "run_research": true,
+  "research_queries": [],
+  "candidate_instruments": [
+   "LSN"
+  ],
+  "intent": "meeting_prep",
+  "forced_steps": [
+   "portfolio",
+   "compliance",
+   "synthesis"
+  ],
+  "_generated_by": "llm"
+ },
+ "briefing": {
+  "generated_at": "2026-08-08T12:58:08+00:00",
+  "query": "The client has read about the Lyra leveraged note and wants in",
+  "data_notice": "All client, portfolio and market data in this briefing is synthetic.",
+  "client": {
+   "client_id": "4527",
+   "name": "Tomasz Wielgus (SYNTHETIC)",
+   "risk_profile": "Balanced",
+   "investor_classification": "Retail",
+   "horizon_years": 12,
+   "liquidity_needs": "Low",
+   "next_meeting": "2026-08-17",
+   "adviser": "P. Lindqvist (synthetic)",
+   "objectives": [
+    "Long-term growth",
+    "Interested in structured payoffs"
+   ],
+   "constraints": [
+    "Retail classification, so complex products need extra justification"
+   ],
+   "esg_mandate": false,
+   "esg_exclusions": []
+  },
+  "headline": "4 suitability issue(s) must be resolved before advising Tomasz Wielgus (SYNTHETIC).",
+  "summary": "Tomasz Wielgus (SYNTHETIC) holds £4,600,000 across 5 positions, 66.0% in growth assets, against a Balanced profile and a 12-year horizon. Year-to-date return is 4.54% (0.14% versus benchmark). The largest position is Castellan Balanced Multi-Asset Fund at 26.0%. The suitability check returned FAIL.",
+  "portfolio_snapshot": {
+   "as_of": "2026-08-06",
+   "total_value_gbp": 4600000,
+   "currency": "GBP",
+   "holdings": [
+    {
+     "instrument_id": "AGE",
+     "name": "Aurora Global Equity Fund",
+     "asset_class": "Global Equity",
+     "risk_rating": 6,
+     "risk_band": "High",
+     "weight_pct": 24.0,
+     "value_gbp": 1104000.0,
+     "ytd_return_pct": 9.6
+    },
+    {
+     "instrument_id": "CBM",
+     "name": "Castellan Balanced Multi-Asset Fund",
+     "asset_class": "Multi-Asset",
+     "risk_rating": 4,
+     "risk_band": "Medium",
+     "weight_pct": 26.0,
+     "value_gbp": 1196000.0,
+     "ytd_return_pct": 4.9
+    },
+    {
+     "instrument_id": "HSD",
+     "name": "Helvetia Short-Duration Bond Fund",
+     "asset_class": "Fixed Income",
+     "risk_rating": 2,
+     "risk_band": "Low",
+     "weight_pct": 20.0,
+     "value_gbp": 920000.0,
+     "ytd_return_pct": 2.1
+    },
+    {
+     "instrument_id": "NII",
+     "name": "Northwind Infrastructure Income Fund",
+     "asset_class": "Infrastructure",
+     "risk_rating": 4,
+     "risk_band": "Medium",
+     "weight_pct": 16.0,
+     "value_gbp": 736000.0,
+     "ytd_return_pct": 3.4
+    },
+    {
+     "instrument_id": "CASH",
+     "name": "GBP Cash & Money Market",
+     "asset_class": "Cash",
+     "risk_rating": 1,
+     "risk_band": "Low",
+     "weight_pct": 14.0,
+     "value_gbp": 644000.0,
+     "ytd_return_pct": 0.0
+    }
+   ],
+   "allocation_by_asset_class": {
+    "Multi-Asset": 26.0,
+    "Global Equity": 24.0,
+    "Fixed Income": 20.0,
+    "Infrastructure": 16.0,
+    "Cash": 14.0
+   },
+   "growth_asset_pct": 66.0,
+   "largest_position": {
+    "instrument_id": "CBM",
+    "name": "Castellan Balanced Multi-Asset Fund",
+    "weight_pct": 26.0
+   },
+   "cash_pct": 14.0,
+   "weighted_risk_rating": 3.66,
+   "performance": {
+    "ytd_return_pct": 4.54,
+    "one_year_return_pct": 8.63,
+    "three_year_annualised_pct": 6.13,
+    "benchmark": "Synthetic composite benchmark",
+    "vs_benchmark_ytd_pct": 0.14,
+    "volatility_pct": 9.35,
+    "max_drawdown_pct": -12.52
+   }
+  },
+  "market_context": {
+   "summary": "Retrieved 8 passages from the research index covering CM-EQ-2026Q3, FS-CBM-2026Q2, FS-LSN-2026Q2. Narrative summarisation was unavailable, so the key points below are extracted directly from the source passages.",
+   "key_points": [
+    {
+     "point": "Lyra 3x Leveraged Equity Note 2029 Product Summary: Lyra 3x Leveraged Equity Note 2029 favour above it. [S1]",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. [S2]",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "point": "Lyra 3x Leveraged Equity Note 2029 Product Summary: Lyra 3x Leveraged Equity Note 2029 **Synthetic document. [S3]",
+     "sources": [
+      "S3"
+     ]
+    },
+    {
+     "point": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. [S4]",
+     "sources": [
+      "S4"
+     ]
+    }
+   ],
+   "relevance_to_client": "Review the cited passages directly. No model-generated interpretation was applied.",
+   "queries_run": [
+    "The client has read about the Lyra leveraged note and wants in",
+    "Multi-Asset outlook and positioning",
+    "Global Equity outlook and positioning",
+    "asset allocation house view for a Balanced mandate",
+    "Lyra 3x Leveraged Equity Note 2029 outlook, risks and suitability"
+   ]
+  },
+  "compliance": {
+   "status": "fail",
+   "flag_count": 4,
+   "flags": [
+    {
+     "rule_id": "R2",
+     "rule_name": "Single-position concentration",
+     "severity": "medium",
+     "instrument_id": "CBM",
+     "detail": "Castellan Balanced Multi-Asset Fund is 26.0% of the portfolio, above the 25% single-position limit.",
+     "remediation": "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement."
+    },
+    {
+     "rule_id": "R1",
+     "rule_name": "Risk profile alignment",
+     "severity": "high",
+     "instrument_id": "AGE",
+     "detail": "Existing holding Aurora Global Equity Fund is risk 6/7, above the maximum of 5/7 for a Balanced profile.",
+     "remediation": "Review whether this legacy position is still suitable and document the outcome."
+    },
+    {
+     "rule_id": "R1",
+     "rule_name": "Risk profile alignment",
+     "severity": "high",
+     "instrument_id": "LSN",
+     "detail": "Lyra 3x Leveraged Equity Note 2029 is risk 7/7 against a maximum of 5/7 for a Balanced profile.",
+     "remediation": "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement."
+    },
+    {
+     "rule_id": "R4",
+     "rule_name": "Complex and leveraged products",
+     "severity": "high",
+     "instrument_id": "LSN",
+     "detail": "Lyra 3x Leveraged Equity Note 2029 is leveraged or structured and the client is classified Retail.",
+     "remediation": "Blocked pending a completed complex products appropriateness assessment and second-line sign-off."
+    }
+   ],
+   "adviser_note": "The suitability check returned FAIL with 4 flag(s), of which 3 are high severity. Each flag below cites the rule that produced it.",
+   "actions_before_meeting": [
+    "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement.",
+    "Review whether this legacy position is still suitable and document the outcome.",
+    "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement.",
+    "Blocked pending a completed complex products appropriateness assessment and second-line sign-off."
+   ],
+   "proposals_checked": [
+    "LSN"
+   ],
+   "rules_evaluated": [
+    "R1-existing",
+    "R1:LSN",
+    "R2",
+    "R3:LSN",
+    "R4:LSN",
+    "R5:LSN",
+    "R6",
+    "R7:LSN"
+   ],
+   "disclaimer": "Illustrative rules for a demonstration project. Not regulatory advice."
+  },
+  "talking_points": [
+   {
+    "point": "Single-position concentration: Castellan Balanced Multi-Asset Fund is 26.0% of the portfolio, above the 25% single-position limit.",
+    "why": "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement.",
+    "sources": []
+   },
+   {
+    "point": "Risk profile alignment: Existing holding Aurora Global Equity Fund is risk 6/7, above the maximum of 5/7 for a Balanced profile.",
+    "why": "Review whether this legacy position is still suitable and document the outcome.",
+    "sources": []
+   },
+   {
+    "point": "Risk profile alignment: Lyra 3x Leveraged Equity Note 2029 is risk 7/7 against a maximum of 5/7 for a Balanced profile.",
+    "why": "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement.",
+    "sources": []
+   },
+   {
+    "point": "Lyra 3x Leveraged Equity Note 2029 Product Summary: Lyra 3x Leveraged Equity Note 2029 favour above it. [S1]",
+    "why": "Relevant market context for this mandate.",
+    "sources": [
+     "S1"
+    ]
+   },
+   {
+    "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. [S2]",
+    "why": "Relevant market context for this mandate.",
+    "sources": [
+     "S2"
+    ]
+   },
+   {
+    "point": "Lyra 3x Leveraged Equity Note 2029 Product Summary: Lyra 3x Leveraged Equity Note 2029 **Synthetic document. [S3]",
+    "why": "Relevant market context for this mandate.",
+    "sources": [
+     "S3"
+    ]
+   }
+  ],
+  "questions_to_ask": [
+   "Have your objectives or time horizon changed since the last review?",
+   "Has your liquidity position changed, or any expected calls on capital?",
+   "Are you comfortable with the current largest position size?"
+  ],
+  "watch_items": [
+   "Castellan Balanced Multi-Asset Fund is 26.0% of the portfolio, above the 25% single-position limit.",
+   "Existing holding Aurora Global Equity Fund is risk 6/7, above the maximum of 5/7 for a Balanced profile.",
+   "Lyra 3x Leveraged Equity Note 2029 is risk 7/7 against a maximum of 5/7 for a Balanced profile."
+  ],
+  "citations": [
+   {
+    "marker": "S1",
+    "chunk_id": "FS-LSN-2026Q2::01",
+    "doc_id": "FS-LSN-2026Q2",
+    "title": "Lyra 3x Leveraged Equity Note 2029 Product Summary",
+    "section": "Lyra 3x Leveraged Equity Note 2029",
+    "source_file": "fund_lyra_structured_note.md",
+    "doc_type": "fund_factsheet",
+    "score": 0.4797,
+    "fusion_score": 0.03279,
+    "snippet": "Lyra 3x Leveraged Equity Note 2029 Product Summary: Lyra 3x Leveraged Equity Note 2029 favour above it. Understanding it requires familiarity with option payoff structures. **Suitability note:** this is a complex, leveraged instrument. Under the firm's illustrative policy it may only be recommended to clients classified as Professional or Elective Professional who have completed a complex products appropriateness assessment. It must not be recommended to Retail clients."
+   },
+   {
+    "marker": "S2",
+    "chunk_id": "FS-CBM-2026Q2::01",
+    "doc_id": "FS-CBM-2026Q2",
+    "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+    "section": "Castellan Balanced Multi-Asset Fund",
+    "source_file": "fund_castellan_balanced.md",
+    "doc_type": "fund_factsheet",
+    "score": 0.3152,
+    "fusion_score": 0.03252,
+    "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4. Realised volatility over twelve months was 7.9%. The tactical overlay is currently 3 points underweight equity and holds an elevated 8% cash position, reflecting the house view that policy rates fall more slowly than forward markets imply. **Suitability note:** the default one-fund solution for Balanced mandates and a common core sleeve inside Conservative portfolios where the client accepts moderate equity exposure. Worst twelve-month period since launch was…"
+   },
+   {
+    "marker": "S3",
+    "chunk_id": "FS-LSN-2026Q2::00",
+    "doc_id": "FS-LSN-2026Q2",
+    "title": "Lyra 3x Leveraged Equity Note 2029 Product Summary",
+    "section": "Lyra 3x Leveraged Equity Note 2029",
+    "source_file": "fund_lyra_structured_note.md",
+    "doc_type": "fund_factsheet",
+    "score": 0.4036,
+    "fusion_score": 0.03226,
+    "snippet": "Lyra 3x Leveraged Equity Note 2029 Product Summary: Lyra 3x Leveraged Equity Note 2029 **Synthetic document. Fictional product, fictional figures.** A three-year note offering three times the upside of a fictional equity index, capped at 45%, with a 60% European barrier on the downside. If the index closes below the barrier at maturity, the investor takes the full index loss with no leverage applied on the way down. **Risk rating:** 7 of 7 (High). **Fees:** 1.60% embedded. **Liquidity:** secondary market only; the issuer provides indicative bids but is not obliged to make a market. The payoff is asymmetric in the investor's disfavour below the barrier and capped in their favour above it.…"
+   },
+   {
+    "marker": "S4",
+    "chunk_id": "CM-EQ-2026Q3::01",
+    "doc_id": "CM-EQ-2026Q3",
+    "title": "Global Equity Outlook, Q3 2026",
+    "section": "Global equity outlook",
+    "source_file": "commentary_equity_outlook.md",
+    "doc_type": "market_commentary",
+    "score": 0.3767,
+    "fusion_score": 0.03202,
+    "snippet": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheets over momentum, and we are cautious about adding to concentrated thematic exposure at current levels. The principal risk to this view is that the capital expenditure cycle driving current earnings growth proves shorter than expected. See the separate note on AI capital expenditure."
+   },
+   {
+    "marker": "S5",
+    "chunk_id": "FS-AGE-2026Q2::01",
+    "doc_id": "FS-AGE-2026Q2",
+    "title": "Aurora Global Equity Fund Factsheet",
+    "section": "Aurora Global Equity Fund",
+    "source_file": "fund_aurora_global_equity.md",
+    "doc_type": "fund_factsheet",
+    "score": 0.3482,
+    "fusion_score": 0.032,
+    "snippet": "Aurora Global Equity Fund Factsheet: Aurora Global Equity Fund manager has trimmed the technology overweight from 31% to 26% over the quarter, citing valuation dispersion rather than a change of view on earnings. Cash sits at 2.4%. **Suitability note:** as a single-sleeve equity holding this fund carries full equity drawdown risk. It is generally unsuitable as a majority position for clients with a Conservative profile or a horizon under five years. Maximum peak-to-trough drawdown since launch was 24.8%."
+   },
+   {
+    "marker": "S6",
+    "chunk_id": "FS-CBM-2026Q2::00",
+    "doc_id": "FS-CBM-2026Q2",
+    "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+    "section": "Castellan Balanced Multi-Asset Fund",
+    "source_file": "fund_castellan_balanced.md",
+    "doc_type": "fund_factsheet",
+    "score": 0.2378,
+    "fusion_score": 0.03125,
+    "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. Fictional fund, fictional figures.** Castellan runs a 55/35/10 split across equity, fixed income and alternatives, rebalanced quarterly with a tactical band of plus or minus ten percentage points on the equity sleeve. **Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily. Year to date the fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4."
+   },
+   {
+    "marker": "S7",
+    "chunk_id": "HV-AA-2026Q3::00",
+    "doc_id": "HV-AA-2026Q3",
+    "title": "House View, Strategic and Tactical Asset Allocation Q3 2026",
+    "section": "House view: asset allocation",
+    "source_file": "house_view_asset_allocation.md",
+    "doc_type": "house_view",
+    "score": 0.347,
+    "fusion_score": 0.01639,
+    "snippet": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. Illustrative only.** Tactical positions against strategic weights this quarter: - Equity: neutral. Valuation is unattractive but earnings momentum is intact. - Government bonds: neutral duration, preference for the 2 to 5 year part of the curve. - Investment grade credit: modest overweight, funded from high yield. - High yield: underweight, on spread levels rather than default expectations. - Real assets: modest overweight, chiefly listed infrastructure. - Cash: overweight, at 6 to 8% for most mandates, held as optionality. Model allocations by risk profile are unchanged:…"
+   },
+   {
+    "marker": "S8",
+    "chunk_id": "CM-EM-2026Q3::01",
+    "doc_id": "CM-EM-2026Q3",
+    "title": "Emerging Markets Outlook, Q3 2026",
+    "section": "Emerging markets outlook",
+    "source_file": "commentary_em_outlook.md",
+    "doc_type": "market_commentary",
+    "score": 0.2285,
+    "fusion_score": 0.01613,
+    "snippet": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook igh, and several central banks began cutting ahead of developed-market peers, which supports local bond prices. The dominant risk is dollar strength. A sustained rally in the dollar has historically been the largest single driver of emerging market debt drawdowns, exceeding the contribution of actual defaults. We are neutral on the asset class and would not increase allocations for clients whose risk profile makes a 15% drawdown unacceptable."
+   }
+  ]
+ },
+ "trace": [
+  {
+   "id": "182d5518fb",
+   "parent_id": null,
+   "kind": "agent",
+   "name": "orchestrator",
+   "label": "orchestrator · plan and execute",
+   "started_at": "2026-08-08T12:58:08.083+00:00",
+   "ended_at": "2026-08-08T12:58:08.093+00:00",
+   "duration_ms": 10.6,
+   "status": "ok",
+   "input": {
+    "client_id": "4527",
+    "query": "The client has read about the Lyra leveraged note and wants in"
+   },
+   "output": null,
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "83cda65753",
+   "parent_id": "182d5518fb",
+   "kind": "llm",
+   "name": "orchestrator.plan",
+   "label": "LLM · mock/deterministic-stub",
+   "started_at": "2026-08-08T12:58:08.083+00:00",
+   "ended_at": "2026-08-08T12:58:08.083+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "system": "You are the orchestrator of a private bank's briefing assistant.\n\nGiven an adviser's request and the agents available, produce an execution plan.\n\nGuidance:\n- `portfolio` always runs first and is added automatically, so do not include it.\n- `compliance` always runs and is added automatically, so do not include it.\n- `synthesis` always runs last and is added automatically, so do not include it.\n- Decide whether `market_research` is needed. It usually is, unless the request\n  is purely about the client's own holdings or compliance position.\n- Identify any instruments the adviser is proposing or asking about, by their\n  ticker-style id, so the rules engine can check them.\n- Suggest up to 4 focused retrieval queries if research is needed.\n\nReturn JSON:\n{\n  \"reasoning\": \"one or two sentences on why this plan\",\n  \"run_research\": true,\n  \"research_queries\": [\"...\", \"...\"],\n  \"candidate_instruments\": [\"SAA\"],\n  \"intent\": \"meeting_prep | recommendation_check | portfolio_review | market_question\"\n}\n\nRespond with a single valid JSON object and nothing else. No prose before or after, no markdown code fences.",
+    "user": "Adviser request: The client has read about the Lyra leveraged note and wants in\nClient id: 4527\n\nAvailable agents:\n- portfolio: Retrieves a client's risk profile, mandate constraints, holdings, weights and performance from the book of record. (produces client_profile, portfolio_snapshot)\n- market_research: Runs vector search over the research corpus and summarises what is relevant to the client, with citations back to specific source passages. (produces market_context, citations)\n- compliance: Runs the deterministic suitability rule set against the client's holdings and any proposed instruments, and explains the result. (produces compliance_result)\n- synthesis: Combines portfolio, research and compliance output into the final structured client briefing. (produces briefing)\n\nAvailable tools:\n- portfolio.get_client_profile(client_id): Fetch a synthetic client's profile: risk profile, investor classification, horizon, liquidity needs, ESG mandate, objectives, constraints and suitability review date.\n- portfolio.get_holdings(client_id): Fetch a synthetic client's current holdings, weights, valuations, performance and portfolio-level risk metrics.\n- portfolio.list_clients(): List all synthetic client ids with names and risk profiles.\n- portfolio.lookup_instrument(instrument_id): Look up a fund or instrument in the synthetic product universe: asset class, risk rating, liquidity terms, sectors, leverage and registered jurisdictions.\n- research.search(query, k, doc_type): Semantic search over synthetic fund factsheets, market commentary, house views, research notes and internal policy notes. Returns citable chunks with source ids. Use one focused query per topic rather than one long combined query.\n- research.index_status(): Report how many chunks are indexed and which embedding model is in use.\n- compliance.check_suitability(client_id, proposed_instruments, include_existing_holdings): Run the suitability rule set for a client, over their existing holdings and any proposed instruments. Returns pass/review/fail plus itemised flags with remediation. Proposals may be instrument ids or objects with instrument_id and weight_pct.\n- compliance.list_rules(): Return the illustrative suitability rule set with ids, names and severities.\n- compliance.list_instruments(): List the synthetic product universe available for recommendation.",
+    "temperature": 0.2
+   },
+   "output": "{\"_mock\": true, \"_note\": \"Deterministic stub output; agents fall back to rule-based assembly.\", \"_digest\": \"8038dca2\"}",
+   "error": null,
+   "meta": {
+    "provider": "mock",
+    "model": "deterministic-stub",
+    "usage": {
+     "prompt_tokens": 867,
+     "completion_tokens": 12
+    }
+   }
+  },
+  {
+   "id": "5bf6d9256b",
+   "parent_id": "182d5518fb",
+   "kind": "note",
+   "name": "orchestrator.plan",
+   "label": "Intent 'meeting_prep' · research=True · instruments=['LSN']",
+   "started_at": "2026-08-08T12:58:08.083+00:00",
+   "ended_at": "2026-08-08T12:58:08.083+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": {
+    "reasoning": "Default plan: full briefing across all agents.",
+    "run_research": true,
+    "research_queries": [],
+    "candidate_instruments": [
+     "LSN"
+    ],
+    "intent": "meeting_prep",
+    "forced_steps": [
+     "portfolio",
+     "compliance",
+     "synthesis"
+    ],
+    "_generated_by": "llm"
+   },
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "bbc3f81d11",
+   "parent_id": "182d5518fb",
+   "kind": "agent",
+   "name": "portfolio",
+   "label": "orchestrator → portfolio · profile_and_holdings",
+   "started_at": "2026-08-08T12:58:08.083+00:00",
+   "ended_at": "2026-08-08T12:58:08.083+00:00",
+   "duration_ms": 0.1,
+   "status": "ok",
+   "input": {
+    "client_id": "4527"
+   },
+   "output": {
+    "client_profile": {
+     "client_id": "4527",
+     "name": "Tomasz Wielgus (SYNTHETIC)",
+     "data_notice": "SYNTHETIC. Fictional client, not a real person",
+     "segment": "Private Client",
+     "domicile": "GB",
+     "adviser": "P. Lindqvist (synthetic)",
+     "risk_profile": "Balanced",
+     "investor_classification": "Retail",
+     "investment_horizon_years": 12,
+     "liquidity_needs": "Low",
+     "esg_mandate": false,
+     "esg_exclusions": [],
+     "last_suitability_review": "2026-05-02",
+     "next_meeting": "2026-08-17",
+     "objectives": [
+      "Long-term growth",
+      "Interested in structured payoffs"
+     ],
+     "constraints": [
+      "Retail classification, so complex products need extra justification"
+     ],
+     "adviser_notes": "Has asked twice about leveraged notes after reading about them."
+    },
+    "portfolio_snapshot": {
+     "client_id": "4527",
+     "as_of": "2026-08-06",
+     "total_value_gbp": 4600000,
+     "currency": "GBP",
+     "holdings": [
+      {
+       "instrument_id": "AGE",
+       "name": "Aurora Global Equity Fund",
+       "asset_class": "Global Equity",
+       "risk_rating": 6,
+       "risk_band": "High",
+       "weight_pct": 24.0,
+       "value_gbp": 1104000.0,
+       "ytd_return_pct": 9.6
+      },
+      {
+       "instrument_id": "CBM",
+       "name": "Castellan Balanced Multi-Asset Fund",
+       "asset_class": "Multi-Asset",
+       "risk_rating": 4,
+       "risk_band": "Medium",
+       "weight_pct": 26.0,
+       "value_gbp": 1196000.0,
+       "ytd_return_pct": 4.9
+      },
+      {
+       "instrument_id": "HSD",
+       "name": "Helvetia Short-Duration Bond Fund",
+       "asset_class": "Fixed Income",
+       "risk_rating": 2,
+       "risk_band": "Low",
+       "weight_pct": 20.0,
+       "value_gbp": 920000.0,
+       "ytd_return_pct": 2.1
+      },
+      {
+       "instrument_id": "NII",
+       "name": "Northwind Infrastructure Income Fund",
+       "asset_class": "Infrastructure",
+       "risk_rating": 4,
+       "risk_band": "Medium",
+       "weight_pct": 16.0,
+       "value_gbp": 736000.0,
+       "ytd_return_pct": 3.4
+      },
+      {
+       "instrument_id": "CASH",
+       "name": "GBP Cash & Money Market",
+       "asset_class": "Cash",
+       "risk_rating": 1,
+       "risk_band": "Low",
+       "weight_pct": 14.0,
+       "value_gbp": 644000.0,
+       "ytd_return_pct": 0.0
+      }
+     ],
+     "largest_position_pct": 26.0,
+     "cash_pct": 14.0,
+     "weighted_risk_rating": 3.66,
+     "performance": {
+      "ytd_return_pct": 4.54,
+      "one_year_return_pct": 8.63,
+      "three_year_annualised_pct": 6.13,
+      "benchmark": "Synthetic composite benchmark",
+      "vs_benchmark_ytd_pct": 0.14,
+      "volatility_pct": 9.35,
+      "max_drawdown_pct": -12.52
+     }
+    },
+    "derived": {
+     "growth_asset_pct": 66.0,
+     "allocation_by_asset_class": {
+      "Multi-Asset": 26.0,
+      "Global Equity": 24.0,
+      "Fixed Income": 20.0,
+      "Infrastructure": 16.0,
+      "Cash": 14.0
+     },
+     "largest_position": {
+      "instrument_id": "CBM",
+      "name": "Castellan Balanced Multi-Asset Fund",
+      "weight_pct": 26.0
+     },
+     "best_performer": {
+      "name": "Aurora Global Equity Fund",
+      "ytd_return_pct": 9.6
+     },
+     "worst_performer": {
+      "name": "GBP Cash & Money Market",
+      "ytd_return_pct": 0.0
+     },
+     "held_instrument_ids": [
+      "AGE",
+      "CBM",
+      "HSD",
+      "NII",
+      "CASH"
+     ],
+     "top_holdings": [
+      {
+       "instrument_id": "CBM",
+       "name": "Castellan Balanced Multi-Asset Fund",
+       "weight_pct": 26.0
+      },
+      {
+       "instrument_id": "AGE",
+       "name": "Aurora Global Equity Fund",
+       "weight_pct": 24.0
+      },
+      {
+       "instrument_id": "NII",
+       "name": "Northwind Infrastructure Income Fund",
+       "weight_pct": 16.0
+      }
+     ],
+     "risk_profile": "Balanced",
+     "horizon_years": 12
+    }
+   },
+   "error": null,
+   "meta": {
+    "task": "profile_and_holdings"
+   }
+  },
+  {
+   "id": "736730d952",
+   "parent_id": "bbc3f81d11",
+   "kind": "tool",
+   "name": "portfolio.get_client_profile",
+   "label": "tool · portfolio.get_client_profile",
+   "started_at": "2026-08-08T12:58:08.083+00:00",
+   "ended_at": "2026-08-08T12:58:08.083+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "client_id": "4527"
+   },
+   "output": {
+    "client_id": "4527",
+    "name": "Tomasz Wielgus (SYNTHETIC)",
+    "data_notice": "SYNTHETIC. Fictional client, not a real person",
+    "segment": "Private Client",
+    "domicile": "GB",
+    "adviser": "P. Lindqvist (synthetic)",
+    "risk_profile": "Balanced",
+    "investor_classification": "Retail",
+    "investment_horizon_years": 12,
+    "liquidity_needs": "Low",
+    "esg_mandate": false,
+    "esg_exclusions": [],
+    "last_suitability_review": "2026-05-02",
+    "next_meeting": "2026-08-17",
+    "objectives": [
+     "Long-term growth",
+     "Interested in structured payoffs"
+    ],
+    "constraints": [
+     "Retail classification, so complex products need extra justification"
+    ],
+    "adviser_notes": "Has asked twice about leveraged notes after reading about them."
+   },
+   "error": null,
+   "meta": {
+    "server": "portfolio"
+   }
+  },
+  {
+   "id": "cb2067fb3f",
+   "parent_id": "bbc3f81d11",
+   "kind": "tool",
+   "name": "portfolio.get_holdings",
+   "label": "tool · portfolio.get_holdings",
+   "started_at": "2026-08-08T12:58:08.083+00:00",
+   "ended_at": "2026-08-08T12:58:08.083+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "client_id": "4527"
+   },
+   "output": {
+    "client_id": "4527",
+    "as_of": "2026-08-06",
+    "total_value_gbp": 4600000,
+    "currency": "GBP",
+    "holdings": [
+     {
+      "instrument_id": "AGE",
+      "name": "Aurora Global Equity Fund",
+      "asset_class": "Global Equity",
+      "risk_rating": 6,
+      "risk_band": "High",
+      "weight_pct": 24.0,
+      "value_gbp": 1104000.0,
+      "ytd_return_pct": 9.6
+     },
+     {
+      "instrument_id": "CBM",
+      "name": "Castellan Balanced Multi-Asset Fund",
+      "asset_class": "Multi-Asset",
+      "risk_rating": 4,
+      "risk_band": "Medium",
+      "weight_pct": 26.0,
+      "value_gbp": 1196000.0,
+      "ytd_return_pct": 4.9
+     },
+     {
+      "instrument_id": "HSD",
+      "name": "Helvetia Short-Duration Bond Fund",
+      "asset_class": "Fixed Income",
+      "risk_rating": 2,
+      "risk_band": "Low",
+      "weight_pct": 20.0,
+      "value_gbp": 920000.0,
+      "ytd_return_pct": 2.1
+     },
+     {
+      "instrument_id": "NII",
+      "name": "Northwind Infrastructure Income Fund",
+      "asset_class": "Infrastructure",
+      "risk_rating": 4,
+      "risk_band": "Medium",
+      "weight_pct": 16.0,
+      "value_gbp": 736000.0,
+      "ytd_return_pct": 3.4
+     },
+     {
+      "instrument_id": "CASH",
+      "name": "GBP Cash & Money Market",
+      "asset_class": "Cash",
+      "risk_rating": 1,
+      "risk_band": "Low",
+      "weight_pct": 14.0,
+      "value_gbp": 644000.0,
+      "ytd_return_pct": 0.0
+     }
+    ],
+    "largest_position_pct": 26.0,
+    "cash_pct": 14.0,
+    "weighted_risk_rating": 3.66,
+    "performance": {
+     "ytd_return_pct": 4.54,
+     "one_year_return_pct": 8.63,
+     "three_year_annualised_pct": 6.13,
+     "benchmark": "Synthetic composite benchmark",
+     "vs_benchmark_ytd_pct": 0.14,
+     "volatility_pct": 9.35,
+     "max_drawdown_pct": -12.52
+    }
+   },
+   "error": null,
+   "meta": {
+    "server": "portfolio"
+   }
+  },
+  {
+   "id": "bc59a9c847",
+   "parent_id": "bbc3f81d11",
+   "kind": "note",
+   "name": "portfolio.derived",
+   "label": "66.0% growth assets, largest position 26.0%",
+   "started_at": "2026-08-08T12:58:08.083+00:00",
+   "ended_at": "2026-08-08T12:58:08.083+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": {
+    "growth_asset_pct": 66.0,
+    "allocation_by_asset_class": {
+     "Multi-Asset": 26.0,
+     "Global Equity": 24.0,
+     "Fixed Income": 20.0,
+     "Infrastructure": 16.0,
+     "Cash": 14.0
+    },
+    "largest_position": {
+     "instrument_id": "CBM",
+     "name": "Castellan Balanced Multi-Asset Fund",
+     "weight_pct": 26.0
+    },
+    "best_performer": {
+     "name": "Aurora Global Equity Fund",
+     "ytd_return_pct": 9.6
+    },
+    "worst_performer": {
+     "name": "GBP Cash & Money Market",
+     "ytd_return_pct": 0.0
+    },
+    "held_instrument_ids": [
+     "AGE",
+     "CBM",
+     "HSD",
+     "NII",
+     "CASH"
+    ],
+    "top_holdings": [
+     {
+      "instrument_id": "CBM",
+      "name": "Castellan Balanced Multi-Asset Fund",
+      "weight_pct": 26.0
+     },
+     {
+      "instrument_id": "AGE",
+      "name": "Aurora Global Equity Fund",
+      "weight_pct": 24.0
+     },
+     {
+      "instrument_id": "NII",
+      "name": "Northwind Infrastructure Income Fund",
+      "weight_pct": 16.0
+     }
+    ],
+    "risk_profile": "Balanced",
+    "horizon_years": 12
+   },
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "090e1de6e3",
+   "parent_id": "182d5518fb",
+   "kind": "agent",
+   "name": "market_research",
+   "label": "orchestrator → market_research · research",
+   "started_at": "2026-08-08T12:58:08.083+00:00",
+   "ended_at": "2026-08-08T12:58:08.093+00:00",
+   "duration_ms": 9.4,
+   "status": "ok",
+   "input": {
+    "query": "The client has read about the Lyra leveraged note and wants in",
+    "research_queries": [],
+    "candidate_instruments": [
+     "LSN"
+    ],
+    "portfolio_context": {
+     "growth_asset_pct": 66.0,
+     "allocation_by_asset_class": {
+      "Multi-Asset": 26.0,
+      "Global Equity": 24.0,
+      "Fixed Income": 20.0,
+      "Infrastructure": 16.0,
+      "Cash": 14.0
+     },
+     "largest_position": {
+      "instrument_id": "CBM",
+      "name": "Castellan Balanced Multi-Asset Fund",
+      "weight_pct": 26.0
+     },
+     "best_performer": {
+      "name": "Aurora Global Equity Fund",
+      "ytd_return_pct": 9.6
+     },
+     "worst_performer": {
+      "name": "GBP Cash & Money Market",
+      "ytd_return_pct": 0.0
+     },
+     "held_instrument_ids": [
+      "AGE",
+      "CBM",
+      "HSD",
+      "NII",
+      "CASH"
+     ],
+     "top_holdings": [
+      {
+       "instrument_id": "CBM",
+       "name": "Castellan Balanced Multi-Asset Fund",
+       "weight_pct": 26.0
+      },
+      {
+       "instrument_id": "AGE",
+       "name": "Aurora Global Equity Fund",
+       "weight_pct": 24.0
+      },
+      {
+       "instrument_id": "NII",
+       "name": "Northwind Infrastructure Income Fund",
+       "weight_pct": 16.0
+      }
+     ],
+     "risk_profile": "Balanced",
+     "horizon_years": 12
+    }
+   },
+   "output": {
+    "queries": [
+     "The client has read about the Lyra leveraged note and wants in",
+     "Multi-Asset outlook and positioning",
+     "Global Equity outlook and positioning",
+     "asset allocation house view for a Balanced mandate",
+     "Lyra 3x Leveraged Equity Note 2029 outlook, risks and suitability"
+    ],
+    "retrieval_by_query": [
+     {
+      "query": "The client has read about the Lyra leveraged note and wants in",
+      "hits": [
+       "FS-LSN-2026Q2::01",
+       "FS-LSN-2026Q2::00",
+       "POL-SUIT-2026::01",
+       "POL-SUIT-2026::00"
+      ]
+     },
+     {
+      "query": "Multi-Asset outlook and positioning",
+      "hits": [
+       "FS-CBM-2026Q2::01",
+       "CM-EM-2026Q3::01",
+       "CM-EM-2026Q3::00",
+       "FS-CBM-2026Q2::00"
+      ]
+     },
+     {
+      "query": "Global Equity outlook and positioning",
+      "hits": [
+       "CM-EQ-2026Q3::01",
+       "FS-AGE-2026Q2::01",
+       "CM-EQ-2026Q3::00",
+       "FS-AGE-2026Q2::00"
+      ]
+     },
+     {
+      "query": "asset allocation house view for a Balanced mandate",
+      "hits": [
+       "HV-AA-2026Q3::00",
+       "FS-CBM-2026Q2::01",
+       "HV-ALTS-2026Q3::00",
+       "FS-CBM-2026Q2::00"
+      ]
+     },
+     {
+      "query": "Lyra 3x Leveraged Equity Note 2029 outlook, risks and suitability",
+      "hits": [
+       "FS-LSN-2026Q2::01",
+       "FS-LSN-2026Q2::00",
+       "FS-AGE-2026Q2::01",
+       "CM-EQ-2026Q3::01"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "marker": "S1",
+      "chunk_id": "FS-LSN-2026Q2::01",
+      "doc_id": "FS-LSN-2026Q2",
+      "title": "Lyra 3x Leveraged Equity Note 2029 Product Summary",
+      "section": "Lyra 3x Leveraged Equity Note 2029",
+      "source_file": "fund_lyra_structured_note.md",
+      "doc_type": "fund_factsheet",
+      "score": 0.4797,
+      "fusion_score": 0.03279,
+      "snippet": "Lyra 3x Leveraged Equity Note 2029 Product Summary: Lyra 3x Leveraged Equity Note 2029 favour above it. Understanding it requires familiarity with option payoff structures. **Suitability note:** this is a complex, leveraged instrument. Under the firm's illustrative policy it may only be recommended to clients classified as Professional or Elective Professional who have completed a complex products appropriateness assessment. It must not be recommended to Retail clients."
+     },
+     {
+      "marker": "S2",
+      "chunk_id": "FS-CBM-2026Q2::01",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "score": 0.3152,
+      "fusion_score": 0.03252,
+      "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4. Realised volatility over twelve months was 7.9%. The tactical overlay is currently 3 points underweight equity and holds an elevated 8% cash position, reflecting the house view that policy rates fall more slowly than forward markets imply. **Suitability note:** the default one-fund solution for Balanced mandates and a common core sleeve inside Conservative portfolios where the client accepts moderate equity exposure. Worst twelve-month period since launch was…"
+     },
+     {
+      "marker": "S3",
+      "chunk_id": "FS-LSN-2026Q2::00",
+      "doc_id": "FS-LSN-2026Q2",
+      "title": "Lyra 3x Leveraged Equity Note 2029 Product Summary",
+      "section": "Lyra 3x Leveraged Equity Note 2029",
+      "source_file": "fund_lyra_structured_note.md",
+      "doc_type": "fund_factsheet",
+      "score": 0.4036,
+      "fusion_score": 0.03226,
+      "snippet": "Lyra 3x Leveraged Equity Note 2029 Product Summary: Lyra 3x Leveraged Equity Note 2029 **Synthetic document. Fictional product, fictional figures.** A three-year note offering three times the upside of a fictional equity index, capped at 45%, with a 60% European barrier on the downside. If the index closes below the barrier at maturity, the investor takes the full index loss with no leverage applied on the way down. **Risk rating:** 7 of 7 (High). **Fees:** 1.60% embedded. **Liquidity:** secondary market only; the issuer provides indicative bids but is not obliged to make a market. The payoff is asymmetric in the investor's disfavour below the barrier and capped in their favour above it.…"
+     },
+     {
+      "marker": "S4",
+      "chunk_id": "CM-EQ-2026Q3::01",
+      "doc_id": "CM-EQ-2026Q3",
+      "title": "Global Equity Outlook, Q3 2026",
+      "section": "Global equity outlook",
+      "source_file": "commentary_equity_outlook.md",
+      "doc_type": "market_commentary",
+      "score": 0.3767,
+      "fusion_score": 0.03202,
+      "snippet": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheets over momentum, and we are cautious about adding to concentrated thematic exposure at current levels. The principal risk to this view is that the capital expenditure cycle driving current earnings growth proves shorter than expected. See the separate note on AI capital expenditure."
+     },
+     {
+      "marker": "S5",
+      "chunk_id": "FS-AGE-2026Q2::01",
+      "doc_id": "FS-AGE-2026Q2",
+      "title": "Aurora Global Equity Fund Factsheet",
+      "section": "Aurora Global Equity Fund",
+      "source_file": "fund_aurora_global_equity.md",
+      "doc_type": "fund_factsheet",
+      "score": 0.3482,
+      "fusion_score": 0.032,
+      "snippet": "Aurora Global Equity Fund Factsheet: Aurora Global Equity Fund manager has trimmed the technology overweight from 31% to 26% over the quarter, citing valuation dispersion rather than a change of view on earnings. Cash sits at 2.4%. **Suitability note:** as a single-sleeve equity holding this fund carries full equity drawdown risk. It is generally unsuitable as a majority position for clients with a Conservative profile or a horizon under five years. Maximum peak-to-trough drawdown since launch was 24.8%."
+     },
+     {
+      "marker": "S6",
+      "chunk_id": "FS-CBM-2026Q2::00",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "score": 0.2378,
+      "fusion_score": 0.03125,
+      "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. Fictional fund, fictional figures.** Castellan runs a 55/35/10 split across equity, fixed income and alternatives, rebalanced quarterly with a tactical band of plus or minus ten percentage points on the equity sleeve. **Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily. Year to date the fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4."
+     },
+     {
+      "marker": "S7",
+      "chunk_id": "HV-AA-2026Q3::00",
+      "doc_id": "HV-AA-2026Q3",
+      "title": "House View, Strategic and Tactical Asset Allocation Q3 2026",
+      "section": "House view: asset allocation",
+      "source_file": "house_view_asset_allocation.md",
+      "doc_type": "house_view",
+      "score": 0.347,
+      "fusion_score": 0.01639,
+      "snippet": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. Illustrative only.** Tactical positions against strategic weights this quarter: - Equity: neutral. Valuation is unattractive but earnings momentum is intact. - Government bonds: neutral duration, preference for the 2 to 5 year part of the curve. - Investment grade credit: modest overweight, funded from high yield. - High yield: underweight, on spread levels rather than default expectations. - Real assets: modest overweight, chiefly listed infrastructure. - Cash: overweight, at 6 to 8% for most mandates, held as optionality. Model allocations by risk profile are unchanged:…"
+     },
+     {
+      "marker": "S8",
+      "chunk_id": "CM-EM-2026Q3::01",
+      "doc_id": "CM-EM-2026Q3",
+      "title": "Emerging Markets Outlook, Q3 2026",
+      "section": "Emerging markets outlook",
+      "source_file": "commentary_em_outlook.md",
+      "doc_type": "market_commentary",
+      "score": 0.2285,
+      "fusion_score": 0.01613,
+      "snippet": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook igh, and several central banks began cutting ahead of developed-market peers, which supports local bond prices. The dominant risk is dollar strength. A sustained rally in the dollar has historically been the largest single driver of emerging market debt drawdowns, exceeding the contribution of actual defaults. We are neutral on the asset class and would not increase allocations for clients whose risk profile makes a 15% drawdown unacceptable."
+     }
+    ],
+    "market_context": {
+     "summary": "Retrieved 8 passages from the research index covering CM-EQ-2026Q3, FS-CBM-2026Q2, FS-LSN-2026Q2. Narrative summarisation was unavailable, so the key points below are extracted directly from the source passages.",
+     "key_points": [
+      {
+       "point": "Lyra 3x Leveraged Equity Note 2029 Product Summary: Lyra 3x Leveraged Equity Note 2029 favour above it. [S1]",
+       "sources": [
+        "S1"
+       ]
+      },
+      {
+       "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. [S2]",
+       "sources": [
+        "S2"
+       ]
+      },
+      {
+       "point": "Lyra 3x Leveraged Equity Note 2029 Product Summary: Lyra 3x Leveraged Equity Note 2029 **Synthetic document. [S3]",
+       "sources": [
+        "S3"
+       ]
+      },
+      {
+       "point": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. [S4]",
+       "sources": [
+        "S4"
+       ]
+      }
+     ],
+     "relevance_to_client": "Review the cited passages directly. No model-generated interpretation was applied.",
+     "_generated_by": "deterministic_fallback",
+     "cited_markers": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+     ]
+    }
+   },
+   "error": null,
+   "meta": {
+    "task": "research"
+   }
+  },
+  {
+   "id": "eeea4eda9f",
+   "parent_id": "090e1de6e3",
+   "kind": "llm",
+   "name": "research.plan_queries",
+   "label": "LLM · mock/deterministic-stub",
+   "started_at": "2026-08-08T12:58:08.083+00:00",
+   "ended_at": "2026-08-08T12:58:08.083+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "system": "You plan retrieval queries for a private bank's research index.\nThe index contains synthetic fund factsheets, market commentary, house views,\nresearch notes and one internal suitability policy note.\n\nGiven an adviser's request and a client's portfolio, produce up to 4 short,\nfocused search queries. One topic per query. Prefer the vocabulary a research\nanalyst would use over the adviser's phrasing.\n\nReturn JSON: {\"queries\": [\"...\", \"...\"], \"reasoning\": \"one sentence\"}\n\nRespond with a single valid JSON object and nothing else. No prose before or after, no markdown code fences.",
+    "user": "Adviser request: The client has read about the Lyra leveraged note and wants in\n\nClient context: risk profile Balanced, horizon 12y, allocation {'Multi-Asset': 26.0, 'Global Equity': 24.0, 'Fixed Income': 20.0, 'Infrastructure': 16.0, 'Cash': 14.0}, largest position Castellan Balanced Multi-Asset Fund",
+    "temperature": 0.2
+   },
+   "output": "{\"_mock\": true, \"_note\": \"Deterministic stub output; agents fall back to rule-based assembly.\", \"_digest\": \"3ac7ca5d\"}",
+   "error": null,
+   "meta": {
+    "provider": "mock",
+    "model": "deterministic-stub",
+    "usage": {
+     "prompt_tokens": 220,
+     "completion_tokens": 12
+    }
+   }
+  },
+  {
+   "id": "e9f6620d81",
+   "parent_id": "090e1de6e3",
+   "kind": "tool",
+   "name": "portfolio.lookup_instrument",
+   "label": "tool · portfolio.lookup_instrument",
+   "started_at": "2026-08-08T12:58:08.083+00:00",
+   "ended_at": "2026-08-08T12:58:08.083+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "instrument_id": "LSN"
+   },
+   "output": {
+    "instrument_id": "LSN",
+    "name": "Lyra 3x Leveraged Equity Note 2029",
+    "asset_class": "Structured Product",
+    "risk_rating": 7,
+    "risk_band": "High",
+    "liquidity": "Secondary market only",
+    "ocf_pct": 1.6,
+    "sectors": [
+     "Equity Derivatives"
+    ],
+    "registered_jurisdictions": [
+     "GB",
+     "CH"
+    ],
+    "leverage": true,
+    "doc": "fund_lyra_structured_note.md"
+   },
+   "error": null,
+   "meta": {
+    "server": "portfolio"
+   }
+  },
+  {
+   "id": "57d783225b",
+   "parent_id": "090e1de6e3",
+   "kind": "note",
+   "name": "research.instrument_queries",
+   "label": "Added 1 product-specific quer(y/ies) for ['LSN']",
+   "started_at": "2026-08-08T12:58:08.083+00:00",
+   "ended_at": "2026-08-08T12:58:08.083+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": [
+    "Lyra 3x Leveraged Equity Note 2029 outlook, risks and suitability"
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "de9ea05682",
+   "parent_id": "090e1de6e3",
+   "kind": "note",
+   "name": "research.queries",
+   "label": "5 retrieval queries planned",
+   "started_at": "2026-08-08T12:58:08.083+00:00",
+   "ended_at": "2026-08-08T12:58:08.083+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": [
+    "The client has read about the Lyra leveraged note and wants in",
+    "Multi-Asset outlook and positioning",
+    "Global Equity outlook and positioning",
+    "asset allocation house view for a Balanced mandate",
+    "Lyra 3x Leveraged Equity Note 2029 outlook, risks and suitability"
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "40b98fbfba",
+   "parent_id": "090e1de6e3",
+   "kind": "retrieval",
+   "name": "research.search",
+   "label": "retrieve · The client has read about the Lyra leveraged note and wants ",
+   "started_at": "2026-08-08T12:58:08.083+00:00",
+   "ended_at": "2026-08-08T12:58:08.086+00:00",
+   "duration_ms": 2.1,
+   "status": "ok",
+   "input": {
+    "query": "The client has read about the Lyra leveraged note and wants in"
+   },
+   "output": [
+    {
+     "doc_id": "FS-LSN-2026Q2",
+     "section": "Lyra 3x Leveraged Equity Note 2029",
+     "score": 0.3237
+    },
+    {
+     "doc_id": "FS-LSN-2026Q2",
+     "section": "Lyra 3x Leveraged Equity Note 2029",
+     "score": 0.2145
+    },
+    {
+     "doc_id": "POL-SUIT-2026",
+     "section": "Suitability considerations for advisory recommendations",
+     "score": 0.1772
+    },
+    {
+     "doc_id": "POL-SUIT-2026",
+     "section": "Suitability considerations for advisory recommendations",
+     "score": 0.1749
+    }
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "edd2cb93b9",
+   "parent_id": "40b98fbfba",
+   "kind": "tool",
+   "name": "research.search",
+   "label": "tool · research.search",
+   "started_at": "2026-08-08T12:58:08.083+00:00",
+   "ended_at": "2026-08-08T12:58:08.086+00:00",
+   "duration_ms": 2.1,
+   "status": "ok",
+   "input": {
+    "query": "The client has read about the Lyra leveraged note and wants in",
+    "k": 4
+   },
+   "output": {
+    "query": "The client has read about the Lyra leveraged note and wants in",
+    "embedding_model": "hashing-bow-512",
+    "hit_count": 4,
+    "hits": [
+     {
+      "chunk_id": "FS-LSN-2026Q2::01",
+      "doc_id": "FS-LSN-2026Q2",
+      "title": "Lyra 3x Leveraged Equity Note 2029 Product Summary",
+      "section": "Lyra 3x Leveraged Equity Note 2029",
+      "source_file": "fund_lyra_structured_note.md",
+      "doc_type": "fund_factsheet",
+      "text": "Lyra 3x Leveraged Equity Note 2029 Product Summary: Lyra 3x Leveraged Equity Note 2029\nfavour above it. Understanding it requires familiarity with\noption payoff structures.\n\n**Suitability note:** this is a complex, leveraged instrument. Under the\nfirm's illustrative policy it may only be recommended to clients classified\nas Professional or Elective Professional who have completed a complex\nproducts appropriateness assessment. It must not be recommended to Retail\nclients.",
+      "score": 0.3237
+     },
+     {
+      "chunk_id": "FS-LSN-2026Q2::00",
+      "doc_id": "FS-LSN-2026Q2",
+      "title": "Lyra 3x Leveraged Equity Note 2029 Product Summary",
+      "section": "Lyra 3x Leveraged Equity Note 2029",
+      "source_file": "fund_lyra_structured_note.md",
+      "doc_type": "fund_factsheet",
+      "text": "Lyra 3x Leveraged Equity Note 2029 Product Summary: Lyra 3x Leveraged Equity Note 2029\n**Synthetic document. Fictional product, fictional figures.**\n\nA three-year note offering three times the upside of a fictional equity\nindex, capped at 45%, with a 60% European barrier on the downside. If the\nindex closes below the barrier at maturity, the investor takes the full\nindex loss with no leverage applied on the way down.\n\n**Risk rating:** 7 of 7 (High). **Fees:** 1.60% embedded. **Liquidity:**\nsecondary market only; the issuer provides indicative bids but is not\nobliged to make a market.\n\nThe payoff is asymmetric in the investor's disfavour below the barrier and\ncapped in their favour above it. Understanding it requires familiarity with\noption payoff structures.\n\n**Suitability note:** this is a complex, leveraged instrument.",
+      "score": 0.2145
+     },
+     {
+      "chunk_id": "POL-SUIT-2026::01",
+      "doc_id": "POL-SUIT-2026",
+      "title": "Internal Note, Suitability Considerations for Advisory Recommendations",
+      "section": "Suitability considerations for advisory recommendations",
+      "source_file": "policy_suitability_note.md",
+      "doc_type": "policy_note",
+      "text": "Internal Note, Suitability Considerations for Advisory Recommendations: Suitability considerations for advisory recommendations\nnts with near-term capital\n   needs. Dealing frequency, notice periods and gates must be explained in\n   writing before the recommendation is made.\n3. Complex or leveraged products recommended to Retail clients without a\n   completed appropriateness assessment.\n4. Concentration building passively through performance rather than through\n   a decision. Positions should be reviewed against limits at every meeting.\n5. Advice given on a file where the suitability review is more than twelve\n   months old.\n\nWhere a flag is raised, the recommendation is not automatically prohibited.\nIt requires documented rationale, client acknowledgement, and in several\ncases second-line sign-off before it proceeds.",
+      "score": 0.1772
+     },
+     {
+      "chunk_id": "POL-SUIT-2026::00",
+      "doc_id": "POL-SUIT-2026",
+      "title": "Internal Note, Suitability Considerations for Advisory Recommendations",
+      "section": "Suitability considerations for advisory recommendations",
+      "source_file": "policy_suitability_note.md",
+      "doc_type": "policy_note",
+      "text": "Internal Note, Suitability Considerations for Advisory Recommendations: Suitability considerations for advisory recommendations\n**Synthetic internal note. Illustrative only. Not regulatory advice, and\nnot a substitute for the firm's actual policies.**\n\nA recommendation is assessed against four things: the client's risk\nprofile, their investment horizon and liquidity needs, their knowledge and\nexperience, and any mandate constraints they have documented.\n\nRecurring failure patterns seen in file reviews:\n\n1. High-risk instruments recommended into Conservative profiles on the\n   argument that the position is small. Position size mitigates but does not\n   remove the mismatch, and the rationale must be documented.\n2. Illiquid or gated products recommended to clients with near-term capital\n   needs. Dealing frequency, notice periods and gates must be explained in\n   writing before the recommendation is made.\n3.",
+      "score": 0.1749
+     }
+    ]
+   },
+   "error": null,
+   "meta": {
+    "server": "research"
+   }
+  },
+  {
+   "id": "796f797ca8",
+   "parent_id": "090e1de6e3",
+   "kind": "retrieval",
+   "name": "research.search",
+   "label": "retrieve · Multi-Asset outlook and positioning",
+   "started_at": "2026-08-08T12:58:08.086+00:00",
+   "ended_at": "2026-08-08T12:58:08.087+00:00",
+   "duration_ms": 1.6,
+   "status": "ok",
+   "input": {
+    "query": "Multi-Asset outlook and positioning"
+   },
+   "output": [
+    {
+     "doc_id": "FS-CBM-2026Q2",
+     "section": "Castellan Balanced Multi-Asset Fund",
+     "score": 0.2426
+    },
+    {
+     "doc_id": "CM-EM-2026Q3",
+     "section": "Emerging markets outlook",
+     "score": 0.2285
+    },
+    {
+     "doc_id": "CM-EM-2026Q3",
+     "section": "Emerging markets outlook",
+     "score": 0.212
+    },
+    {
+     "doc_id": "FS-CBM-2026Q2",
+     "section": "Castellan Balanced Multi-Asset Fund",
+     "score": 0.2084
+    }
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "368b29dfd0",
+   "parent_id": "796f797ca8",
+   "kind": "tool",
+   "name": "research.search",
+   "label": "tool · research.search",
+   "started_at": "2026-08-08T12:58:08.086+00:00",
+   "ended_at": "2026-08-08T12:58:08.087+00:00",
+   "duration_ms": 1.6,
+   "status": "ok",
+   "input": {
+    "query": "Multi-Asset outlook and positioning",
+    "k": 4
+   },
+   "output": {
+    "query": "Multi-Asset outlook and positioning",
+    "embedding_model": "hashing-bow-512",
+    "hit_count": 4,
+    "hits": [
+     {
+      "chunk_id": "FS-CBM-2026Q2::01",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "text": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund\nreturned 4.9%. Equity contributed 3.8 points, fixed\nincome 0.7, and the alternatives sleeve, chiefly listed infrastructure and\ngold, contributed 0.4. Realised volatility over twelve months was 7.9%.\n\nThe tactical overlay is currently 3 points underweight equity and holds an\nelevated 8% cash position, reflecting the house view that policy rates fall\nmore slowly than forward markets imply.\n\n**Suitability note:** the default one-fund solution for Balanced mandates\nand a common core sleeve inside Conservative portfolios where the client\naccepts moderate equity exposure. Worst twelve-month period since launch\nwas minus 11.2%.",
+      "score": 0.2426
+     },
+     {
+      "chunk_id": "CM-EM-2026Q3::01",
+      "doc_id": "CM-EM-2026Q3",
+      "title": "Emerging Markets Outlook, Q3 2026",
+      "section": "Emerging markets outlook",
+      "source_file": "commentary_em_outlook.md",
+      "doc_type": "market_commentary",
+      "text": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook\nigh, and several central\nbanks began cutting ahead of developed-market peers, which supports local\nbond prices.\n\nThe dominant risk is dollar strength. A sustained rally in the dollar has\nhistorically been the largest single driver of emerging market debt\ndrawdowns, exceeding the contribution of actual defaults.\n\nWe are neutral on the asset class and would not increase allocations for\nclients whose risk profile makes a 15% drawdown unacceptable.",
+      "score": 0.2285
+     },
+     {
+      "chunk_id": "CM-EM-2026Q3::00",
+      "doc_id": "CM-EM-2026Q3",
+      "title": "Emerging Markets Outlook, Q3 2026",
+      "section": "Emerging markets outlook",
+      "source_file": "commentary_em_outlook.md",
+      "doc_type": "market_commentary",
+      "text": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook\n**Synthetic commentary. Illustrative views, not investment advice.**\n\nEmerging market hard-currency spreads have compressed to a fictional 291\nbasis points, close to the tightest decile of the past decade. That leaves\nlimited room for further spread-driven return and makes the asset class\nincreasingly a carry trade rather than a valuation opportunity.\n\nLocal-currency debt is the more interesting side of the market. Real policy\nrates across the larger emerging economies remain high, and several central\nbanks began cutting ahead of developed-market peers, which supports local\nbond prices.\n\nThe dominant risk is dollar strength.",
+      "score": 0.212
+     },
+     {
+      "chunk_id": "FS-CBM-2026Q2::00",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "text": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund\n**Synthetic document. Fictional fund, fictional figures.**\n\nCastellan runs a 55/35/10 split across equity, fixed income and\nalternatives, rebalanced quarterly with a tactical band of plus or minus\nten percentage points on the equity sleeve.\n\n**Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily.\n\nYear to date the fund returned 4.9%. Equity contributed 3.8 points, fixed\nincome 0.7, and the alternatives sleeve, chiefly listed infrastructure and\ngold, contributed 0.4.",
+      "score": 0.2084
+     }
+    ]
+   },
+   "error": null,
+   "meta": {
+    "server": "research"
+   }
+  },
+  {
+   "id": "74c183706e",
+   "parent_id": "090e1de6e3",
+   "kind": "retrieval",
+   "name": "research.search",
+   "label": "retrieve · Global Equity outlook and positioning",
+   "started_at": "2026-08-08T12:58:08.087+00:00",
+   "ended_at": "2026-08-08T12:58:08.089+00:00",
+   "duration_ms": 1.6,
+   "status": "ok",
+   "input": {
+    "query": "Global Equity outlook and positioning"
+   },
+   "output": [
+    {
+     "doc_id": "CM-EQ-2026Q3",
+     "section": "Global equity outlook",
+     "score": 0.3767
+    },
+    {
+     "doc_id": "FS-AGE-2026Q2",
+     "section": "Aurora Global Equity Fund",
+     "score": 0.3482
+    },
+    {
+     "doc_id": "CM-EQ-2026Q3",
+     "section": "Global equity outlook",
+     "score": 0.3421
+    },
+    {
+     "doc_id": "FS-AGE-2026Q2",
+     "section": "Aurora Global Equity Fund",
+     "score": 0.2784
+    }
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "c3775fec1f",
+   "parent_id": "74c183706e",
+   "kind": "tool",
+   "name": "research.search",
+   "label": "tool · research.search",
+   "started_at": "2026-08-08T12:58:08.087+00:00",
+   "ended_at": "2026-08-08T12:58:08.089+00:00",
+   "duration_ms": 1.5,
+   "status": "ok",
+   "input": {
+    "query": "Global Equity outlook and positioning",
+    "k": 4
+   },
+   "output": {
+    "query": "Global Equity outlook and positioning",
+    "embedding_model": "hashing-bow-512",
+    "hit_count": 4,
+    "hits": [
+     {
+      "chunk_id": "CM-EQ-2026Q3::01",
+      "doc_id": "CM-EQ-2026Q3",
+      "title": "Global Equity Outlook, Q3 2026",
+      "section": "Global equity outlook",
+      "source_file": "commentary_equity_outlook.md",
+      "doc_type": "market_commentary",
+      "text": "Global Equity Outlook, Q3 2026: Global equity outlook\nthe first such run in eighteen months.\n\nEarnings revisions are positive in aggregate but negative in consumer\ndiscretionary and European industrials. We remain neutral equity overall,\nwith a preference for quality balance sheets over momentum, and we are\ncautious about adding to concentrated thematic exposure at current levels.\n\nThe principal risk to this view is that the capital expenditure cycle\ndriving current earnings growth proves shorter than expected. See the\nseparate note on AI capital expenditure.",
+      "score": 0.3767
+     },
+     {
+      "chunk_id": "FS-AGE-2026Q2::01",
+      "doc_id": "FS-AGE-2026Q2",
+      "title": "Aurora Global Equity Fund Factsheet",
+      "section": "Aurora Global Equity Fund",
+      "source_file": "fund_aurora_global_equity.md",
+      "doc_type": "fund_factsheet",
+      "text": "Aurora Global Equity Fund Factsheet: Aurora Global Equity Fund\nmanager has trimmed the technology overweight from 31% to 26% over the\nquarter, citing valuation dispersion rather than a change of view on\nearnings. Cash sits at 2.4%.\n\n**Suitability note:** as a single-sleeve equity holding this fund carries\nfull equity drawdown risk. It is generally unsuitable as a majority position\nfor clients with a Conservative profile or a horizon under five years.\nMaximum peak-to-trough drawdown since launch was 24.8%.",
+      "score": 0.3482
+     },
+     {
+      "chunk_id": "CM-EQ-2026Q3::00",
+      "doc_id": "CM-EQ-2026Q3",
+      "title": "Global Equity Outlook, Q3 2026",
+      "section": "Global equity outlook",
+      "source_file": "commentary_equity_outlook.md",
+      "doc_type": "market_commentary",
+      "text": "Global Equity Outlook, Q3 2026: Global equity outlook\n**Synthetic commentary. Illustrative views, not investment advice.**\n\nIndex-level valuations look stretched, but the aggregate figure conceals an\nunusually wide dispersion. The largest ten constituents of the global index\naccount for a fictional 29% of market capitalisation and trade at a 68%\npremium to the remaining constituents.\n\nMarket breadth has improved modestly this quarter: the equal-weighted index\noutperformed the capitalisation-weighted index in two of the last three\nmonths, the first such run in eighteen months.\n\nEarnings revisions are positive in aggregate but negative in consumer\ndiscretionary and European industrials.",
+      "score": 0.3421
+     },
+     {
+      "chunk_id": "FS-AGE-2026Q2::00",
+      "doc_id": "FS-AGE-2026Q2",
+      "title": "Aurora Global Equity Fund Factsheet",
+      "section": "Aurora Global Equity Fund",
+      "source_file": "fund_aurora_global_equity.md",
+      "doc_type": "fund_factsheet",
+      "text": "Aurora Global Equity Fund Factsheet: Aurora Global Equity Fund\n**Synthetic document. Fictional fund, fictional figures.**\n\nAurora is a core global developed-market equity strategy holding 60 to 80\npositions with a median holding period of four years. The manager, Ines\nVillalobos, has run the strategy since its fictional launch in 2014.\n\n**Risk rating:** 6 of 7 (High). **OCF:** 0.82%. **Dealing:** daily.\n\nAurora returned 9.6% year to date against 8.1% for its composite benchmark.\nAttribution was dominated by semiconductor and industrial automation names;\nan underweight to European utilities detracted 40 basis points. Regional\nweights are 62% North America, 21% Europe, 11% Japan, 6% other developed.\n\nThe manager has trimmed the technology overweight from 31% to 26% over the\nquarter, citing valuation dispersion rather than a change of view on\nearnings.",
+      "score": 0.2784
+     }
+    ]
+   },
+   "error": null,
+   "meta": {
+    "server": "research"
+   }
+  },
+  {
+   "id": "7bf40135c1",
+   "parent_id": "090e1de6e3",
+   "kind": "retrieval",
+   "name": "research.search",
+   "label": "retrieve · asset allocation house view for a Balanced mandate",
+   "started_at": "2026-08-08T12:58:08.089+00:00",
+   "ended_at": "2026-08-08T12:58:08.091+00:00",
+   "duration_ms": 1.7,
+   "status": "ok",
+   "input": {
+    "query": "asset allocation house view for a Balanced mandate"
+   },
+   "output": [
+    {
+     "doc_id": "HV-AA-2026Q3",
+     "section": "House view: asset allocation",
+     "score": 0.347
+    },
+    {
+     "doc_id": "FS-CBM-2026Q2",
+     "section": "Castellan Balanced Multi-Asset Fund",
+     "score": 0.3152
+    },
+    {
+     "doc_id": "HV-ALTS-2026Q3",
+     "section": "House view: alternatives and private markets",
+     "score": 0.2991
+    },
+    {
+     "doc_id": "FS-CBM-2026Q2",
+     "section": "Castellan Balanced Multi-Asset Fund",
+     "score": 0.2378
+    }
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "8d1c46a6f9",
+   "parent_id": "7bf40135c1",
+   "kind": "tool",
+   "name": "research.search",
+   "label": "tool · research.search",
+   "started_at": "2026-08-08T12:58:08.089+00:00",
+   "ended_at": "2026-08-08T12:58:08.091+00:00",
+   "duration_ms": 1.6,
+   "status": "ok",
+   "input": {
+    "query": "asset allocation house view for a Balanced mandate",
+    "k": 4
+   },
+   "output": {
+    "query": "asset allocation house view for a Balanced mandate",
+    "embedding_model": "hashing-bow-512",
+    "hit_count": 4,
+    "hits": [
+     {
+      "chunk_id": "HV-AA-2026Q3::00",
+      "doc_id": "HV-AA-2026Q3",
+      "title": "House View, Strategic and Tactical Asset Allocation Q3 2026",
+      "section": "House view: asset allocation",
+      "source_file": "house_view_asset_allocation.md",
+      "doc_type": "house_view",
+      "text": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation\n**Synthetic house view. Illustrative only.**\n\nTactical positions against strategic weights this quarter:\n\n- Equity: neutral. Valuation is unattractive but earnings momentum is intact.\n- Government bonds: neutral duration, preference for the 2 to 5 year part of\n  the curve.\n- Investment grade credit: modest overweight, funded from high yield.\n- High yield: underweight, on spread levels rather than default expectations.\n- Real assets: modest overweight, chiefly listed infrastructure.\n- Cash: overweight, at 6 to 8% for most mandates, held as optionality.\n\nModel allocations by risk profile are unchanged: Conservative 25% growth\nassets, Balanced 50%, Growth 70%, Aggressive 85%.\n\nThe committee's stated conviction level this quarter is low. Where\nconviction is low, the correct response is smaller active positions, not\nmore of them.",
+      "score": 0.347
+     },
+     {
+      "chunk_id": "FS-CBM-2026Q2::01",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "text": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund\nreturned 4.9%. Equity contributed 3.8 points, fixed\nincome 0.7, and the alternatives sleeve, chiefly listed infrastructure and\ngold, contributed 0.4. Realised volatility over twelve months was 7.9%.\n\nThe tactical overlay is currently 3 points underweight equity and holds an\nelevated 8% cash position, reflecting the house view that policy rates fall\nmore slowly than forward markets imply.\n\n**Suitability note:** the default one-fund solution for Balanced mandates\nand a common core sleeve inside Conservative portfolios where the client\naccepts moderate equity exposure. Worst twelve-month period since launch\nwas minus 11.2%.",
+      "score": 0.3152
+     },
+     {
+      "chunk_id": "HV-ALTS-2026Q3::00",
+      "doc_id": "HV-ALTS-2026Q3",
+      "title": "House View, Alternatives and Private Markets Q3 2026",
+      "section": "House view: alternatives and private markets",
+      "source_file": "house_view_alternatives.md",
+      "doc_type": "house_view",
+      "text": "House View, Alternatives and Private Markets Q3 2026: House view: alternatives and private markets\n**Synthetic house view. Illustrative only.**\n\nThe committee's position is that the illiquidity premium in private credit\nhas compressed to the point where it no longer compensates for the\ngovernance and liquidity costs in most private client portfolios.\n\nIllustrative allocation limits: private markets exposure should not exceed\n15% of total portfolio value for Growth and Aggressive mandates, 5% for\nBalanced, and zero for Conservative mandates or any client with High\nliquidity needs.\n\nSemi-liquid structures deserve particular scrutiny. Quarterly dealing with\ngates offers the appearance of liquidity without the substance, and clients\nroutinely misunderstand what a gate does until it is applied.\n\nListed infrastructure and listed real assets remain the committee's\npreferred route into real asset exposure for portfolios below £10m, on\ngovernance grounds rather than expected return.",
+      "score": 0.2991
+     },
+     {
+      "chunk_id": "FS-CBM-2026Q2::00",
+      "doc_id": "FS-CBM-2026Q2",
+      "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+      "section": "Castellan Balanced Multi-Asset Fund",
+      "source_file": "fund_castellan_balanced.md",
+      "doc_type": "fund_factsheet",
+      "text": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund\n**Synthetic document. Fictional fund, fictional figures.**\n\nCastellan runs a 55/35/10 split across equity, fixed income and\nalternatives, rebalanced quarterly with a tactical band of plus or minus\nten percentage points on the equity sleeve.\n\n**Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily.\n\nYear to date the fund returned 4.9%. Equity contributed 3.8 points, fixed\nincome 0.7, and the alternatives sleeve, chiefly listed infrastructure and\ngold, contributed 0.4.",
+      "score": 0.2378
+     }
+    ]
+   },
+   "error": null,
+   "meta": {
+    "server": "research"
+   }
+  },
+  {
+   "id": "484765fca9",
+   "parent_id": "090e1de6e3",
+   "kind": "retrieval",
+   "name": "research.search",
+   "label": "retrieve · Lyra 3x Leveraged Equity Note 2029 outlook, risks and suitab",
+   "started_at": "2026-08-08T12:58:08.091+00:00",
+   "ended_at": "2026-08-08T12:58:08.092+00:00",
+   "duration_ms": 1.6,
+   "status": "ok",
+   "input": {
+    "query": "Lyra 3x Leveraged Equity Note 2029 outlook, risks and suitability"
+   },
+   "output": [
+    {
+     "doc_id": "FS-LSN-2026Q2",
+     "section": "Lyra 3x Leveraged Equity Note 2029",
+     "score": 0.4797
+    },
+    {
+     "doc_id": "FS-LSN-2026Q2",
+     "section": "Lyra 3x Leveraged Equity Note 2029",
+     "score": 0.4036
+    },
+    {
+     "doc_id": "FS-AGE-2026Q2",
+     "section": "Aurora Global Equity Fund",
+     "score": 0.2467
+    },
+    {
+     "doc_id": "CM-EQ-2026Q3",
+     "section": "Global equity outlook",
+     "score": 0.2191
+    }
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "0ced1694b5",
+   "parent_id": "484765fca9",
+   "kind": "tool",
+   "name": "research.search",
+   "label": "tool · research.search",
+   "started_at": "2026-08-08T12:58:08.091+00:00",
+   "ended_at": "2026-08-08T12:58:08.092+00:00",
+   "duration_ms": 1.6,
+   "status": "ok",
+   "input": {
+    "query": "Lyra 3x Leveraged Equity Note 2029 outlook, risks and suitability",
+    "k": 4
+   },
+   "output": {
+    "query": "Lyra 3x Leveraged Equity Note 2029 outlook, risks and suitability",
+    "embedding_model": "hashing-bow-512",
+    "hit_count": 4,
+    "hits": [
+     {
+      "chunk_id": "FS-LSN-2026Q2::01",
+      "doc_id": "FS-LSN-2026Q2",
+      "title": "Lyra 3x Leveraged Equity Note 2029 Product Summary",
+      "section": "Lyra 3x Leveraged Equity Note 2029",
+      "source_file": "fund_lyra_structured_note.md",
+      "doc_type": "fund_factsheet",
+      "text": "Lyra 3x Leveraged Equity Note 2029 Product Summary: Lyra 3x Leveraged Equity Note 2029\nfavour above it. Understanding it requires familiarity with\noption payoff structures.\n\n**Suitability note:** this is a complex, leveraged instrument. Under the\nfirm's illustrative policy it may only be recommended to clients classified\nas Professional or Elective Professional who have completed a complex\nproducts appropriateness assessment. It must not be recommended to Retail\nclients.",
+      "score": 0.4797
+     },
+     {
+      "chunk_id": "FS-LSN-2026Q2::00",
+      "doc_id": "FS-LSN-2026Q2",
+      "title": "Lyra 3x Leveraged Equity Note 2029 Product Summary",
+      "section": "Lyra 3x Leveraged Equity Note 2029",
+      "source_file": "fund_lyra_structured_note.md",
+      "doc_type": "fund_factsheet",
+      "text": "Lyra 3x Leveraged Equity Note 2029 Product Summary: Lyra 3x Leveraged Equity Note 2029\n**Synthetic document. Fictional product, fictional figures.**\n\nA three-year note offering three times the upside of a fictional equity\nindex, capped at 45%, with a 60% European barrier on the downside. If the\nindex closes below the barrier at maturity, the investor takes the full\nindex loss with no leverage applied on the way down.\n\n**Risk rating:** 7 of 7 (High). **Fees:** 1.60% embedded. **Liquidity:**\nsecondary market only; the issuer provides indicative bids but is not\nobliged to make a market.\n\nThe payoff is asymmetric in the investor's disfavour below the barrier and\ncapped in their favour above it. Understanding it requires familiarity with\noption payoff structures.\n\n**Suitability note:** this is a complex, leveraged instrument.",
+      "score": 0.4036
+     },
+     {
+      "chunk_id": "FS-AGE-2026Q2::01",
+      "doc_id": "FS-AGE-2026Q2",
+      "title": "Aurora Global Equity Fund Factsheet",
+      "section": "Aurora Global Equity Fund",
+      "source_file": "fund_aurora_global_equity.md",
+      "doc_type": "fund_factsheet",
+      "text": "Aurora Global Equity Fund Factsheet: Aurora Global Equity Fund\nmanager has trimmed the technology overweight from 31% to 26% over the\nquarter, citing valuation dispersion rather than a change of view on\nearnings. Cash sits at 2.4%.\n\n**Suitability note:** as a single-sleeve equity holding this fund carries\nfull equity drawdown risk. It is generally unsuitable as a majority position\nfor clients with a Conservative profile or a horizon under five years.\nMaximum peak-to-trough drawdown since launch was 24.8%.",
+      "score": 0.2467
+     },
+     {
+      "chunk_id": "CM-EQ-2026Q3::01",
+      "doc_id": "CM-EQ-2026Q3",
+      "title": "Global Equity Outlook, Q3 2026",
+      "section": "Global equity outlook",
+      "source_file": "commentary_equity_outlook.md",
+      "doc_type": "market_commentary",
+      "text": "Global Equity Outlook, Q3 2026: Global equity outlook\nthe first such run in eighteen months.\n\nEarnings revisions are positive in aggregate but negative in consumer\ndiscretionary and European industrials. We remain neutral equity overall,\nwith a preference for quality balance sheets over momentum, and we are\ncautious about adding to concentrated thematic exposure at current levels.\n\nThe principal risk to this view is that the capital expenditure cycle\ndriving current earnings growth proves shorter than expected. See the\nseparate note on AI capital expenditure.",
+      "score": 0.2191
+     }
+    ]
+   },
+   "error": null,
+   "meta": {
+    "server": "research"
+   }
+  },
+  {
+   "id": "1159f1b62f",
+   "parent_id": "090e1de6e3",
+   "kind": "note",
+   "name": "research.fusion",
+   "label": "8 passages from 6 documents, fused across 5 queries by reciprocal rank",
+   "started_at": "2026-08-08T12:58:08.092+00:00",
+   "ended_at": "2026-08-08T12:58:08.092+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": [
+    "S1=FS-LSN-2026Q2 (rrf 0.03279)",
+    "S2=FS-CBM-2026Q2 (rrf 0.03252)",
+    "S3=FS-LSN-2026Q2 (rrf 0.03226)",
+    "S4=CM-EQ-2026Q3 (rrf 0.03202)",
+    "S5=FS-AGE-2026Q2 (rrf 0.032)",
+    "S6=FS-CBM-2026Q2 (rrf 0.03125)",
+    "S7=HV-AA-2026Q3 (rrf 0.01639)",
+    "S8=CM-EM-2026Q3 (rrf 0.01613)"
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "2fb235e5fe",
+   "parent_id": "090e1de6e3",
+   "kind": "llm",
+   "name": "research.summarise",
+   "label": "LLM · mock/deterministic-stub",
+   "started_at": "2026-08-08T12:58:08.092+00:00",
+   "ended_at": "2026-08-08T12:58:08.093+00:00",
+   "duration_ms": 0.1,
+   "status": "ok",
+   "input": {
+    "system": "You are a research analyst at a private bank, writing for an\nadviser who is about to meet a client.\n\nRules:\n- Use ONLY the numbered sources provided. Never use outside knowledge.\n- Cite with the exact markers given, like [S1] or [S2, S4]. Every factual claim\n  needs a marker.\n- If the sources do not answer part of the request, say so plainly.\n- Neutral, specific, no sales language. British English.\n- All source material is synthetic demo data; do not imply otherwise.\n\nReturn JSON:\n{\n  \"summary\": \"3-5 sentences of market context relevant to this client, with [S#] markers\",\n  \"key_points\": [{\"point\": \"one sentence with [S#] markers\", \"sources\": [\"S1\"]}],\n  \"relevance_to_client\": \"2-3 sentences connecting the research to this client's mandate\"\n}\n\nRespond with a single valid JSON object and nothing else. No prose before or after, no markdown code fences.",
+    "user": "Adviser request: The client has read about the Lyra leveraged note and wants in\n\nClient context: risk profile Balanced, horizon 12y, allocation {'Multi-Asset': 26.0, 'Global Equity': 24.0, 'Fixed Income': 20.0, 'Infrastructure': 16.0, 'Cash': 14.0}, largest position Castellan Balanced Multi-Asset Fund\n\nSources:\n[S1] Lyra 3x Leveraged Equity Note 2029 Product Summary · Lyra 3x Leveraged Equity Note 2029 (doc_id FS-LSN-2026Q2)\nLyra 3x Leveraged Equity Note 2029 Product Summary: Lyra 3x Leveraged Equity Note 2029 favour above it. Understanding it requires familiarity with option payoff structures. **Suitability note:** this is a complex, leveraged instrument. Under the firm's illustrative policy it may only be recommended to clients classified as Professional or Elective Professional who have completed a complex products appropriateness assessment. It must not be recommended to Retail clients.\n\n[S2] Castellan Balanced Multi-Asset Fund Factsheet · Castellan Balanced Multi-Asset Fund (doc_id FS-CBM-2026Q2)\nCastellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4. Realised volatility over twelve months was 7.9%. The tactical overlay is currently 3 points underweight equity and holds an elevated 8% cash position, reflecting the house view that policy rates fall more slowly than forward markets imply. **Suitability note:** the default one-fund solution for Balanced mandates and a common core sleeve inside Conservative portfolios where the client accepts moderate equity exposure. Worst twelve-month period since launch was…\n\n[S3] Lyra 3x Leveraged Equity Note 2029 Product Summary · Lyra 3x Leveraged Equity Note 2029 (doc_id FS-LSN-2026Q2)\nLyra 3x Leveraged Equity Note 2029 Product Summary: Lyra 3x Leveraged Equity Note 2029 **Synthetic document. Fictional product, fictional figures.** A three-year note offering three times the upside of a fictional equity index, capped at 45%, with a 60% European barrier on the downside. If the index closes below the barrier at maturity, the investor takes the full index loss with no leverage applied on the way down. **Risk rating:** 7 of 7 (High). **Fees:** 1.60% embedded. **Liquidity:** secondary market only; the issuer provides indicative bids but is not obliged to make a market. The payoff is asymmetric in the investor's disfavour below the barrier and capped in their favour above it.…\n\n[S4] Global Equity Outlook, Q3 2026 · Global equity outlook (doc_id CM-EQ-2026Q3)\nGlobal Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheets over momentum, and we are cautious about adding to concentrated thematic exposure at current levels. The principal risk to this view is that the capital expenditure cycle driving current earnings growth proves shorter than expected. See the separate note on AI capital expenditure.\n\n[S5] Aurora Global Equity Fund Factsheet · Aurora Global Equity Fund (doc_id FS-AGE-2026Q2)\nAurora Global Equity Fund Factsheet: Aurora Global Equity Fund manager has trimmed the technology overweight from 31% to 26% over the quarter, citing valuation dispersion rather than a change of view on earnings. Cash sits at 2.4%. **Suitability note:** as a single-sleeve equity holding this fund carries full equity drawdown risk. It is generally unsuitable as a majority position for clients with a Conservative profile or a horizon under five years. Maximum peak-to-trough drawdown since launch was 24.8%.\n\n[S6] Castellan Balanced Multi-Asset Fund Factsheet · Castellan Balanced Multi-Asset Fund (doc_id FS-CBM-2026Q2)\nCastellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. Fi… [+1866 chars]",
+    "temperature": 0.2
+   },
+   "output": "{\"_mock\": true, \"_note\": \"Deterministic stub output; agents fall back to rule-based assembly.\", \"_digest\": \"fc72c266\"}",
+   "error": null,
+   "meta": {
+    "provider": "mock",
+    "model": "deterministic-stub",
+    "usage": {
+     "prompt_tokens": 1682,
+     "completion_tokens": 12
+    }
+   }
+  },
+  {
+   "id": "4153928520",
+   "parent_id": "182d5518fb",
+   "kind": "agent",
+   "name": "compliance",
+   "label": "orchestrator → compliance · check",
+   "started_at": "2026-08-08T12:58:08.093+00:00",
+   "ended_at": "2026-08-08T12:58:08.093+00:00",
+   "duration_ms": 0.3,
+   "status": "ok",
+   "input": {
+    "client_id": "4527",
+    "query": "The client has read about the Lyra leveraged note and wants in",
+    "proposed_instruments": [
+     "LSN"
+    ]
+   },
+   "output": {
+    "status": "fail",
+    "flag_count": 4,
+    "flags": [
+     {
+      "rule_id": "R2",
+      "rule_name": "Single-position concentration",
+      "severity": "medium",
+      "instrument_id": "CBM",
+      "detail": "Castellan Balanced Multi-Asset Fund is 26.0% of the portfolio, above the 25% single-position limit.",
+      "remediation": "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement."
+     },
+     {
+      "rule_id": "R1",
+      "rule_name": "Risk profile alignment",
+      "severity": "high",
+      "instrument_id": "AGE",
+      "detail": "Existing holding Aurora Global Equity Fund is risk 6/7, above the maximum of 5/7 for a Balanced profile.",
+      "remediation": "Review whether this legacy position is still suitable and document the outcome."
+     },
+     {
+      "rule_id": "R1",
+      "rule_name": "Risk profile alignment",
+      "severity": "high",
+      "instrument_id": "LSN",
+      "detail": "Lyra 3x Leveraged Equity Note 2029 is risk 7/7 against a maximum of 5/7 for a Balanced profile.",
+      "remediation": "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement."
+     },
+     {
+      "rule_id": "R4",
+      "rule_name": "Complex and leveraged products",
+      "severity": "high",
+      "instrument_id": "LSN",
+      "detail": "Lyra 3x Leveraged Equity Note 2029 is leveraged or structured and the client is classified Retail.",
+      "remediation": "Blocked pending a completed complex products appropriateness assessment and second-line sign-off."
+     }
+    ],
+    "proposals_checked": [
+     "LSN"
+    ],
+    "rules_evaluated": [
+     "R1-existing",
+     "R1:LSN",
+     "R2",
+     "R3:LSN",
+     "R4:LSN",
+     "R5:LSN",
+     "R6",
+     "R7:LSN"
+    ],
+    "adviser_note": "The suitability check returned FAIL with 4 flag(s), of which 3 are high severity. Each flag below cites the rule that produced it.",
+    "actions_before_meeting": [
+     "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement.",
+     "Review whether this legacy position is still suitable and document the outcome.",
+     "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement.",
+     "Blocked pending a completed complex products appropriateness assessment and second-line sign-off."
+    ],
+    "disclaimer": "Illustrative rules for a demonstration project. Not regulatory advice."
+   },
+   "error": null,
+   "meta": {
+    "task": "check"
+   }
+  },
+  {
+   "id": "6ec05d7ba5",
+   "parent_id": "4153928520",
+   "kind": "note",
+   "name": "compliance.proposals",
+   "label": "Checking 1 instrument(s) proposed by the orchestrator",
+   "started_at": "2026-08-08T12:58:08.093+00:00",
+   "ended_at": "2026-08-08T12:58:08.093+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": [
+    "LSN"
+   ],
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "7bece90af1",
+   "parent_id": "4153928520",
+   "kind": "tool",
+   "name": "compliance.check_suitability",
+   "label": "tool · compliance.check_suitability",
+   "started_at": "2026-08-08T12:58:08.093+00:00",
+   "ended_at": "2026-08-08T12:58:08.093+00:00",
+   "duration_ms": 0.1,
+   "status": "ok",
+   "input": {
+    "client_id": "4527",
+    "proposed_instruments": [
+     "LSN"
+    ],
+    "include_existing_holdings": true
+   },
+   "output": {
+    "client_id": "4527",
+    "status": "fail",
+    "risk_profile": "Balanced",
+    "investor_classification": "Retail",
+    "proposals_checked": [
+     "LSN"
+    ],
+    "unknown_instruments": [],
+    "existing_holdings_checked": true,
+    "rules_evaluated": [
+     "R1-existing",
+     "R1:LSN",
+     "R2",
+     "R3:LSN",
+     "R4:LSN",
+     "R5:LSN",
+     "R6",
+     "R7:LSN"
+    ],
+    "flag_count": 4,
+    "flags": [
+     {
+      "rule_id": "R2",
+      "rule_name": "Single-position concentration",
+      "severity": "medium",
+      "instrument_id": "CBM",
+      "detail": "Castellan Balanced Multi-Asset Fund is 26.0% of the portfolio, above the 25% single-position limit.",
+      "remediation": "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement."
+     },
+     {
+      "rule_id": "R1",
+      "rule_name": "Risk profile alignment",
+      "severity": "high",
+      "instrument_id": "AGE",
+      "detail": "Existing holding Aurora Global Equity Fund is risk 6/7, above the maximum of 5/7 for a Balanced profile.",
+      "remediation": "Review whether this legacy position is still suitable and document the outcome."
+     },
+     {
+      "rule_id": "R1",
+      "rule_name": "Risk profile alignment",
+      "severity": "high",
+      "instrument_id": "LSN",
+      "detail": "Lyra 3x Leveraged Equity Note 2029 is risk 7/7 against a maximum of 5/7 for a Balanced profile.",
+      "remediation": "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement."
+     },
+     {
+      "rule_id": "R4",
+      "rule_name": "Complex and leveraged products",
+      "severity": "high",
+      "instrument_id": "LSN",
+      "detail": "Lyra 3x Leveraged Equity Note 2029 is leveraged or structured and the client is classified Retail.",
+      "remediation": "Blocked pending a completed complex products appropriateness assessment and second-line sign-off."
+     }
+    ],
+    "disclaimer": "Illustrative rules for a demonstration project. Not regulatory advice."
+   },
+   "error": null,
+   "meta": {
+    "server": "compliance"
+   }
+  },
+  {
+   "id": "3e5f6aef80",
+   "parent_id": "4153928520",
+   "kind": "note",
+   "name": "compliance.decision",
+   "label": "Status FAIL, 4 flag(s) from 8 rule evaluations",
+   "started_at": "2026-08-08T12:58:08.093+00:00",
+   "ended_at": "2026-08-08T12:58:08.093+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": {
+    "status": "fail",
+    "flags": [
+     "R2",
+     "R1",
+     "R1",
+     "R4"
+    ]
+   },
+   "error": null,
+   "meta": {}
+  },
+  {
+   "id": "a48396b2e4",
+   "parent_id": "4153928520",
+   "kind": "llm",
+   "name": "compliance.explain",
+   "label": "LLM · mock/deterministic-stub",
+   "started_at": "2026-08-08T12:58:08.093+00:00",
+   "ended_at": "2026-08-08T12:58:08.093+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "system": "You write compliance notes for advisers at a private bank.\n\nYou are given the output of a deterministic suitability rules engine. Your job\nis to explain it, not to judge it. You must not change the status, add flags,\nremove flags, or soften a finding.\n\nWrite plainly, in British English, for an adviser preparing for a meeting.\nState what was checked, what was flagged and what they must do before the\nmeeting. If nothing was flagged, say so without padding.\n\nReturn JSON:\n{\n  \"adviser_note\": \"2-4 sentences\",\n  \"actions_before_meeting\": [\"imperative action\", \"...\"]\n}\n\nRespond with a single valid JSON object and nothing else. No prose before or after, no markdown code fences.",
+    "user": "Status: FAIL\nClient risk profile: Balanced\nInvestor classification: Retail\nInstruments checked: LSN\nFlags:\n- [R2 · medium] Single-position concentration: Castellan Balanced Multi-Asset Fund is 26.0% of the portfolio, above the 25% single-position limit. Remediation: Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement.\n- [R1 · high] Risk profile alignment: Existing holding Aurora Global Equity Fund is risk 6/7, above the maximum of 5/7 for a Balanced profile. Remediation: Review whether this legacy position is still suitable and document the outcome.\n- [R1 · high] Risk profile alignment: Lyra 3x Leveraged Equity Note 2029 is risk 7/7 against a maximum of 5/7 for a Balanced profile. Remediation: Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement.\n- [R4 · high] Complex and leveraged products: Lyra 3x Leveraged Equity Note 2029 is leveraged or structured and the client is classified Retail. Remediation: Blocked pending a completed complex products appropriateness assessment and second-line sign-off.",
+    "temperature": 0.2
+   },
+   "output": "{\"_mock\": true, \"_note\": \"Deterministic stub output; agents fall back to rule-based assembly.\", \"_digest\": \"9d95abbe\"}",
+   "error": null,
+   "meta": {
+    "provider": "mock",
+    "model": "deterministic-stub",
+    "usage": {
+     "prompt_tokens": 449,
+     "completion_tokens": 12
+    }
+   }
+  },
+  {
+   "id": "fd0a1e957a",
+   "parent_id": "182d5518fb",
+   "kind": "agent",
+   "name": "synthesis",
+   "label": "orchestrator → synthesis · synthesise",
+   "started_at": "2026-08-08T12:58:08.093+00:00",
+   "ended_at": "2026-08-08T12:58:08.093+00:00",
+   "duration_ms": 0.2,
+   "status": "ok",
+   "input": {
+    "query": "The client has read about the Lyra leveraged note and wants in",
+    "portfolio": {
+     "client_profile": {
+      "client_id": "4527",
+      "name": "Tomasz Wielgus (SYNTHETIC)",
+      "data_notice": "SYNTHETIC. Fictional client, not a real person",
+      "segment": "Private Client",
+      "domicile": "GB",
+      "adviser": "P. Lindqvist (synthetic)",
+      "risk_profile": "Balanced",
+      "investor_classification": "Retail",
+      "investment_horizon_years": 12,
+      "liquidity_needs": "Low",
+      "esg_mandate": false,
+      "esg_exclusions": [],
+      "last_suitability_review": "2026-05-02",
+      "next_meeting": "2026-08-17",
+      "objectives": [
+       "Long-term growth",
+       "Interested in structured payoffs"
+      ],
+      "constraints": [
+       "Retail classification, so complex products need extra justification"
+      ],
+      "adviser_notes": "Has asked twice about leveraged notes after reading about them."
+     },
+     "portfolio_snapshot": {
+      "client_id": "4527",
+      "as_of": "2026-08-06",
+      "total_value_gbp": 4600000,
+      "currency": "GBP",
+      "holdings": [
+       {
+        "instrument_id": "AGE",
+        "name": "Aurora Global Equity Fund",
+        "asset_class": "Global Equity",
+        "risk_rating": 6,
+        "risk_band": "High",
+        "weight_pct": 24.0,
+        "value_gbp": 1104000.0,
+        "ytd_return_pct": 9.6
+       },
+       {
+        "instrument_id": "CBM",
+        "name": "Castellan Balanced Multi-Asset Fund",
+        "asset_class": "Multi-Asset",
+        "risk_rating": 4,
+        "risk_band": "Medium",
+        "weight_pct": 26.0,
+        "value_gbp": 1196000.0,
+        "ytd_return_pct": 4.9
+       },
+       {
+        "instrument_id": "HSD",
+        "name": "Helvetia Short-Duration Bond Fund",
+        "asset_class": "Fixed Income",
+        "risk_rating": 2,
+        "risk_band": "Low",
+        "weight_pct": 20.0,
+        "value_gbp": 920000.0,
+        "ytd_return_pct": 2.1
+       },
+       {
+        "instrument_id": "NII",
+        "name": "Northwind Infrastructure Income Fund",
+        "asset_class": "Infrastructure",
+        "risk_rating": 4,
+        "risk_band": "Medium",
+        "weight_pct": 16.0,
+        "value_gbp": 736000.0,
+        "ytd_return_pct": 3.4
+       },
+       {
+        "instrument_id": "CASH",
+        "name": "GBP Cash & Money Market",
+        "asset_class": "Cash",
+        "risk_rating": 1,
+        "risk_band": "Low",
+        "weight_pct": 14.0,
+        "value_gbp": 644000.0,
+        "ytd_return_pct": 0.0
+       }
+      ],
+      "largest_position_pct": 26.0,
+      "cash_pct": 14.0,
+      "weighted_risk_rating": 3.66,
+      "performance": {
+       "ytd_return_pct": 4.54,
+       "one_year_return_pct": 8.63,
+       "three_year_annualised_pct": 6.13,
+       "benchmark": "Synthetic composite benchmark",
+       "vs_benchmark_ytd_pct": 0.14,
+       "volatility_pct": 9.35,
+       "max_drawdown_pct": -12.52
+      }
+     },
+     "derived": {
+      "growth_asset_pct": 66.0,
+      "allocation_by_asset_class": {
+       "Multi-Asset": 26.0,
+       "Global Equity": 24.0,
+       "Fixed Income": 20.0,
+       "Infrastructure": 16.0,
+       "Cash": 14.0
+      },
+      "largest_position": {
+       "instrument_id": "CBM",
+       "name": "Castellan Balanced Multi-Asset Fund",
+       "weight_pct": 26.0
+      },
+      "best_performer": {
+       "name": "Aurora Global Equity Fund",
+       "ytd_return_pct": 9.6
+      },
+      "worst_performer": {
+       "name": "GBP Cash & Money Market",
+       "ytd_return_pct": 0.0
+      },
+      "held_instrument_ids": [
+       "AGE",
+       "CBM",
+       "HSD",
+       "NII",
+       "CASH"
+      ],
+      "top_holdings": [
+       {
+        "instrument_id": "CBM",
+        "name": "Castellan Balanced Multi-Asset Fund",
+        "weight_pct": 26.0
+       },
+       {
+        "instrument_id": "AGE",
+        "name": "Aurora Global Equity Fund",
+        "weight_pct": 24.0
+       },
+       {
+        "instrument_id": "NII",
+        "name": "Northwind Infrastructure Income Fund",
+        "weight_pct": 16.0
+       }
+      ],
+      "risk_profile": "Balanced",
+      "horizon_years": 12
+     }
+    },
+    "research": {
+     "queries": [
+      "The client has read about the Lyra leveraged note and wants in",
+      "Multi-Asset outlook and positioning",
+      "Global Equity outlook and positioning",
+      "asset allocation house view for a Balanced mandate",
+      "Lyra 3x Leveraged Equity Note 2029 outlook, risks and suitability"
+     ],
+     "retrieval_by_query": [
+      {
+       "query": "The client has read about the Lyra leveraged note and wants in",
+       "hits": [
+        "FS-LSN-2026Q2::01",
+        "FS-LSN-2026Q2::00",
+        "POL-SUIT-2026::01",
+        "POL-SUIT-2026::00"
+       ]
+      },
+      {
+       "query": "Multi-Asset outlook and positioning",
+       "hits": [
+        "FS-CBM-2026Q2::01",
+        "CM-EM-2026Q3::01",
+        "CM-EM-2026Q3::00",
+        "FS-CBM-2026Q2::00"
+       ]
+      },
+      {
+       "query": "Global Equity outlook and positioning",
+       "hits": [
+        "CM-EQ-2026Q3::01",
+        "FS-AGE-2026Q2::01",
+        "CM-EQ-2026Q3::00",
+        "FS-AGE-2026Q2::00"
+       ]
+      },
+      {
+       "query": "asset allocation house view for a Balanced mandate",
+       "hits": [
+        "HV-AA-2026Q3::00",
+        "FS-CBM-2026Q2::01",
+        "HV-ALTS-2026Q3::00",
+        "FS-CBM-2026Q2::00"
+       ]
+      },
+      {
+       "query": "Lyra 3x Leveraged Equity Note 2029 outlook, risks and suitability",
+       "hits": [
+        "FS-LSN-2026Q2::01",
+        "FS-LSN-2026Q2::00",
+        "FS-AGE-2026Q2::01",
+        "CM-EQ-2026Q3::01"
+       ]
+      }
+     ],
+     "sources": [
+      {
+       "marker": "S1",
+       "chunk_id": "FS-LSN-2026Q2::01",
+       "doc_id": "FS-LSN-2026Q2",
+       "title": "Lyra 3x Leveraged Equity Note 2029 Product Summary",
+       "section": "Lyra 3x Leveraged Equity Note 2029",
+       "source_file": "fund_lyra_structured_note.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.4797,
+       "fusion_score": 0.03279,
+       "snippet": "Lyra 3x Leveraged Equity Note 2029 Product Summary: Lyra 3x Leveraged Equity Note 2029 favour above it. Understanding it requires familiarity with option payoff structures. **Suitability note:** this is a complex, leveraged instrument. Under the firm's illustrative policy it may only be recommended to clients classified as Professional or Elective Professional who have completed a complex products appropriateness assessment. It must not be recommended to Retail clients."
+      },
+      {
+       "marker": "S2",
+       "chunk_id": "FS-CBM-2026Q2::01",
+       "doc_id": "FS-CBM-2026Q2",
+       "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+       "section": "Castellan Balanced Multi-Asset Fund",
+       "source_file": "fund_castellan_balanced.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.3152,
+       "fusion_score": 0.03252,
+       "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4. Realised volatility over twelve months was 7.9%. The tactical overlay is currently 3 points underweight equity and holds an elevated 8% cash position, reflecting the house view that policy rates fall more slowly than forward markets imply. **Suitability note:** the default one-fund solution for Balanced mandates and a common core sleeve inside Conservative portfolios where the client accepts moderate equity exposure. Worst twelve-month period since launch was…"
+      },
+      {
+       "marker": "S3",
+       "chunk_id": "FS-LSN-2026Q2::00",
+       "doc_id": "FS-LSN-2026Q2",
+       "title": "Lyra 3x Leveraged Equity Note 2029 Product Summary",
+       "section": "Lyra 3x Leveraged Equity Note 2029",
+       "source_file": "fund_lyra_structured_note.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.4036,
+       "fusion_score": 0.03226,
+       "snippet": "Lyra 3x Leveraged Equity Note 2029 Product Summary: Lyra 3x Leveraged Equity Note 2029 **Synthetic document. Fictional product, fictional figures.** A three-year note offering three times the upside of a fictional equity index, capped at 45%, with a 60% European barrier on the downside. If the index closes below the barrier at maturity, the investor takes the full index loss with no leverage applied on the way down. **Risk rating:** 7 of 7 (High). **Fees:** 1.60% embedded. **Liquidity:** secondary market only; the issuer provides indicative bids but is not obliged to make a market. The payoff is asymmetric in the investor's disfavour below the barrier and capped in their favour above it.…"
+      },
+      {
+       "marker": "S4",
+       "chunk_id": "CM-EQ-2026Q3::01",
+       "doc_id": "CM-EQ-2026Q3",
+       "title": "Global Equity Outlook, Q3 2026",
+       "section": "Global equity outlook",
+       "source_file": "commentary_equity_outlook.md",
+       "doc_type": "market_commentary",
+       "score": 0.3767,
+       "fusion_score": 0.03202,
+       "snippet": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheets over momentum, and we are cautious about adding to concentrated thematic exposure at current levels. The principal risk to this view is that the capital expenditure cycle driving current earnings growth proves shorter than expected. See the separate note on AI capital expenditure."
+      },
+      {
+       "marker": "S5",
+       "chunk_id": "FS-AGE-2026Q2::01",
+       "doc_id": "FS-AGE-2026Q2",
+       "title": "Aurora Global Equity Fund Factsheet",
+       "section": "Aurora Global Equity Fund",
+       "source_file": "fund_aurora_global_equity.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.3482,
+       "fusion_score": 0.032,
+       "snippet": "Aurora Global Equity Fund Factsheet: Aurora Global Equity Fund manager has trimmed the technology overweight from 31% to 26% over the quarter, citing valuation dispersion rather than a change of view on earnings. Cash sits at 2.4%. **Suitability note:** as a single-sleeve equity holding this fund carries full equity drawdown risk. It is generally unsuitable as a majority position for clients with a Conservative profile or a horizon under five years. Maximum peak-to-trough drawdown since launch was 24.8%."
+      },
+      {
+       "marker": "S6",
+       "chunk_id": "FS-CBM-2026Q2::00",
+       "doc_id": "FS-CBM-2026Q2",
+       "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+       "section": "Castellan Balanced Multi-Asset Fund",
+       "source_file": "fund_castellan_balanced.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.2378,
+       "fusion_score": 0.03125,
+       "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. Fictional fund, fictional figures.** Castellan runs a 55/35/10 split across equity, fixed income and alternatives, rebalanced quarterly with a tactical band of plus or minus ten percentage points on the equity sleeve. **Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily. Year to date the fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4."
+      },
+      {
+       "marker": "S7",
+       "chunk_id": "HV-AA-2026Q3::00",
+       "doc_id": "HV-AA-2026Q3",
+       "title": "House View, Strategic and Tactical Asset Allocation Q3 2026",
+       "section": "House view: asset allocation",
+       "source_file": "house_view_asset_allocation.md",
+       "doc_type": "house_view",
+       "score": 0.347,
+       "fusion_score": 0.01639,
+       "snippet": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. Illustrative only.** Tactical positions against strategic weights this quarter: - Equity: neutral. Valuation is unattractive but earnings momentum is intact. - Government bonds: neutral duration, preference for the 2 to 5 year part of the curve. - Investment grade credit: modest overweight, funded from high yield. - High yield: underweight, on spread levels rather than default expectations. - Real assets: modest overweight, chiefly listed infrastructure. - Cash: overweight, at 6 to 8% for most mandates, held as optionality. Model allocations by risk profile are unchanged:…"
+      },
+      {
+       "marker": "S8",
+       "chunk_id": "CM-EM-2026Q3::01",
+       "doc_id": "CM-EM-2026Q3",
+       "title": "Emerging Markets Outlook, Q3 2026",
+       "section": "Emerging markets outlook",
+       "source_file": "commentary_em_outlook.md",
+       "doc_type": "market_commentary",
+       "score": 0.2285,
+       "fusion_score": 0.01613,
+       "snippet": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook igh, and several central banks began cutting ahead of developed-market peers, which supports local bond prices. The dominant risk is dollar strength. A sustained rally in the dollar has historically been the largest single driver of emerging market debt drawdowns, exceeding the contribution of actual defaults. We are neutral on the asset class and would not increase allocations for clients whose risk profile makes a 15% drawdown unacceptable."
+      }
+     ],
+     "market_context": {
+      "summary": "Retrieved 8 passages from the research index covering CM-EQ-2026Q3, FS-CBM-2026Q2, FS-LSN-2026Q2. Narrative summarisation was unavailable, so the key points below are extracted directly from the source passages.",
+      "key_points": [
+       {
+        "point": "Lyra 3x Leveraged Equity Note 2029 Product Summary: Lyra 3x Leveraged Equity Note 2029 favour above it. [S1]",
+        "sources": [
+         "S1"
+        ]
+       },
+       {
+        "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. [S2]",
+        "sources": [
+         "S2"
+        ]
+       },
+       {
+        "point": "Lyra 3x Leveraged Equity Note 2029 Product Summary: Lyra 3x Leveraged Equity Note 2029 **Synthetic document. [S3]",
+        "sources": [
+         "S3"
+        ]
+       },
+       {
+        "point": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. [S4]",
+        "sources": [
+         "S4"
+        ]
+       }
+      ],
+      "relevance_to_client": "Review the cited passages directly. No model-generated interpretation was applied.",
+      "_generated_by": "deterministic_fallback",
+      "cited_markers": [
+       "S1",
+       "S2",
+       "S3",
+       "S4"
+      ]
+     }
+    },
+    "compliance": {
+     "status": "fail",
+     "flag_count": 4,
+     "flags": [
+      {
+       "rule_id": "R2",
+       "rule_name": "Single-position concentration",
+       "severity": "medium",
+       "instrument_id": "CBM",
+       "detail": "Castellan Balanced Multi-Asset Fund is 26.0% of the portfolio, above the 25% single-position limit.",
+       "remediation": "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement."
+      },
+      {
+       "rule_id": "R1",
+       "rule_name": "Risk profile alignment",
+       "severity": "high",
+       "instrument_id": "AGE",
+       "detail": "Existing holding Aurora Global Equity Fund is risk 6/7, above the maximum of 5/7 for a Balanced profile.",
+       "remediation": "Review whether this legacy position is still suitable and document the outcome."
+      },
+      {
+       "rule_id": "R1",
+       "rule_name": "Risk profile alignment",
+       "severity": "high",
+       "instrument_id": "LSN",
+       "detail": "Lyra 3x Leveraged Equity Note 2029 is risk 7/7 against a maximum of 5/7 for a Balanced profile.",
+       "remediation": "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement."
+      },
+      {
+       "rule_id": "R4",
+       "rule_name": "Complex and leveraged products",
+       "severity": "high",
+       "instrument_id": "LSN",
+       "detail": "Lyra 3x Leveraged Equity Note 2029 is leveraged or structured and the client is classified Retail.",
+       "remediation": "Blocked pending a completed complex products appropriateness assessment and second-line sign-off."
+      }
+     ],
+     "proposals_checked": [
+      "LSN"
+     ],
+     "rules_evaluated": [
+      "R1-existing",
+      "R1:LSN",
+      "R2",
+      "R3:LSN",
+      "R4:LSN",
+      "R5:LSN",
+      "R6",
+      "R7:LSN"
+     ],
+     "adviser_note": "The suitability check returned FAIL with 4 flag(s), of which 3 are high severity. Each flag below cites the rule that produced it.",
+     "actions_before_meeting": [
+      "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement.",
+      "Review whether this legacy position is still suitable and document the outcome.",
+      "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement.",
+      "Blocked pending a completed complex products appropriateness assessment and second-line sign-off."
+     ],
+     "disclaimer": "Illustrative rules for a demonstration project. Not regulatory advice."
+    }
+   },
+   "output": {
+    "briefing": {
+     "generated_at": "2026-08-08T12:58:08+00:00",
+     "query": "The client has read about the Lyra leveraged note and wants in",
+     "data_notice": "All client, portfolio and market data in this briefing is synthetic.",
+     "client": {
+      "client_id": "4527",
+      "name": "Tomasz Wielgus (SYNTHETIC)",
+      "risk_profile": "Balanced",
+      "investor_classification": "Retail",
+      "horizon_years": 12,
+      "liquidity_needs": "Low",
+      "next_meeting": "2026-08-17",
+      "adviser": "P. Lindqvist (synthetic)",
+      "objectives": [
+       "Long-term growth",
+       "Interested in structured payoffs"
+      ],
+      "constraints": [
+       "Retail classification, so complex products need extra justification"
+      ],
+      "esg_mandate": false,
+      "esg_exclusions": []
+     },
+     "headline": "4 suitability issue(s) must be resolved before advising Tomasz Wielgus (SYNTHETIC).",
+     "summary": "Tomasz Wielgus (SYNTHETIC) holds £4,600,000 across 5 positions, 66.0% in growth assets, against a Balanced profile and a 12-year horizon. Year-to-date return is 4.54% (0.14% versus benchmark). The largest position is Castellan Balanced Multi-Asset Fund at 26.0%. The suitability check returned FAIL.",
+     "portfolio_snapshot": {
+      "as_of": "2026-08-06",
+      "total_value_gbp": 4600000,
+      "currency": "GBP",
+      "holdings": [
+       {
+        "instrument_id": "AGE",
+        "name": "Aurora Global Equity Fund",
+        "asset_class": "Global Equity",
+        "risk_rating": 6,
+        "risk_band": "High",
+        "weight_pct": 24.0,
+        "value_gbp": 1104000.0,
+        "ytd_return_pct": 9.6
+       },
+       {
+        "instrument_id": "CBM",
+        "name": "Castellan Balanced Multi-Asset Fund",
+        "asset_class": "Multi-Asset",
+        "risk_rating": 4,
+        "risk_band": "Medium",
+        "weight_pct": 26.0,
+        "value_gbp": 1196000.0,
+        "ytd_return_pct": 4.9
+       },
+       {
+        "instrument_id": "HSD",
+        "name": "Helvetia Short-Duration Bond Fund",
+        "asset_class": "Fixed Income",
+        "risk_rating": 2,
+        "risk_band": "Low",
+        "weight_pct": 20.0,
+        "value_gbp": 920000.0,
+        "ytd_return_pct": 2.1
+       },
+       {
+        "instrument_id": "NII",
+        "name": "Northwind Infrastructure Income Fund",
+        "asset_class": "Infrastructure",
+        "risk_rating": 4,
+        "risk_band": "Medium",
+        "weight_pct": 16.0,
+        "value_gbp": 736000.0,
+        "ytd_return_pct": 3.4
+       },
+       {
+        "instrument_id": "CASH",
+        "name": "GBP Cash & Money Market",
+        "asset_class": "Cash",
+        "risk_rating": 1,
+        "risk_band": "Low",
+        "weight_pct": 14.0,
+        "value_gbp": 644000.0,
+        "ytd_return_pct": 0.0
+       }
+      ],
+      "allocation_by_asset_class": {
+       "Multi-Asset": 26.0,
+       "Global Equity": 24.0,
+       "Fixed Income": 20.0,
+       "Infrastructure": 16.0,
+       "Cash": 14.0
+      },
+      "growth_asset_pct": 66.0,
+      "largest_position": {
+       "instrument_id": "CBM",
+       "name": "Castellan Balanced Multi-Asset Fund",
+       "weight_pct": 26.0
+      },
+      "cash_pct": 14.0,
+      "weighted_risk_rating": 3.66,
+      "performance": {
+       "ytd_return_pct": 4.54,
+       "one_year_return_pct": 8.63,
+       "three_year_annualised_pct": 6.13,
+       "benchmark": "Synthetic composite benchmark",
+       "vs_benchmark_ytd_pct": 0.14,
+       "volatility_pct": 9.35,
+       "max_drawdown_pct": -12.52
+      }
+     },
+     "market_context": {
+      "summary": "Retrieved 8 passages from the research index covering CM-EQ-2026Q3, FS-CBM-2026Q2, FS-LSN-2026Q2. Narrative summarisation was unavailable, so the key points below are extracted directly from the source passages.",
+      "key_points": [
+       {
+        "point": "Lyra 3x Leveraged Equity Note 2029 Product Summary: Lyra 3x Leveraged Equity Note 2029 favour above it. [S1]",
+        "sources": [
+         "S1"
+        ]
+       },
+       {
+        "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. [S2]",
+        "sources": [
+         "S2"
+        ]
+       },
+       {
+        "point": "Lyra 3x Leveraged Equity Note 2029 Product Summary: Lyra 3x Leveraged Equity Note 2029 **Synthetic document. [S3]",
+        "sources": [
+         "S3"
+        ]
+       },
+       {
+        "point": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. [S4]",
+        "sources": [
+         "S4"
+        ]
+       }
+      ],
+      "relevance_to_client": "Review the cited passages directly. No model-generated interpretation was applied.",
+      "queries_run": [
+       "The client has read about the Lyra leveraged note and wants in",
+       "Multi-Asset outlook and positioning",
+       "Global Equity outlook and positioning",
+       "asset allocation house view for a Balanced mandate",
+       "Lyra 3x Leveraged Equity Note 2029 outlook, risks and suitability"
+      ]
+     },
+     "compliance": {
+      "status": "fail",
+      "flag_count": 4,
+      "flags": [
+       {
+        "rule_id": "R2",
+        "rule_name": "Single-position concentration",
+        "severity": "medium",
+        "instrument_id": "CBM",
+        "detail": "Castellan Balanced Multi-Asset Fund is 26.0% of the portfolio, above the 25% single-position limit.",
+        "remediation": "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement."
+       },
+       {
+        "rule_id": "R1",
+        "rule_name": "Risk profile alignment",
+        "severity": "high",
+        "instrument_id": "AGE",
+        "detail": "Existing holding Aurora Global Equity Fund is risk 6/7, above the maximum of 5/7 for a Balanced profile.",
+        "remediation": "Review whether this legacy position is still suitable and document the outcome."
+       },
+       {
+        "rule_id": "R1",
+        "rule_name": "Risk profile alignment",
+        "severity": "high",
+        "instrument_id": "LSN",
+        "detail": "Lyra 3x Leveraged Equity Note 2029 is risk 7/7 against a maximum of 5/7 for a Balanced profile.",
+        "remediation": "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement."
+       },
+       {
+        "rule_id": "R4",
+        "rule_name": "Complex and leveraged products",
+        "severity": "high",
+        "instrument_id": "LSN",
+        "detail": "Lyra 3x Leveraged Equity Note 2029 is leveraged or structured and the client is classified Retail.",
+        "remediation": "Blocked pending a completed complex products appropriateness assessment and second-line sign-off."
+       }
+      ],
+      "adviser_note": "The suitability check returned FAIL with 4 flag(s), of which 3 are high severity. Each flag below cites the rule that produced it.",
+      "actions_before_meeting": [
+       "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement.",
+       "Review whether this legacy position is still suitable and document the outcome.",
+       "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement.",
+       "Blocked pending a completed complex products appropriateness assessment and second-line sign-off."
+      ],
+      "proposals_checked": [
+       "LSN"
+      ],
+      "rules_evaluated": [
+       "R1-existing",
+       "R1:LSN",
+       "R2",
+       "R3:LSN",
+       "R4:LSN",
+       "R5:LSN",
+       "R6",
+       "R7:LSN"
+      ],
+      "disclaimer": "Illustrative rules for a demonstration project. Not regulatory advice."
+     },
+     "talking_points": [
+      {
+       "point": "Single-position concentration: Castellan Balanced Multi-Asset Fund is 26.0% of the portfolio, above the 25% single-position limit.",
+       "why": "Discuss trimming toward the limit, or document a rationale for the overweight and the client's acknowledgement.",
+       "sources": []
+      },
+      {
+       "point": "Risk profile alignment: Existing holding Aurora Global Equity Fund is risk 6/7, above the maximum of 5/7 for a Balanced profile.",
+       "why": "Review whether this legacy position is still suitable and document the outcome.",
+       "sources": []
+      },
+      {
+       "point": "Risk profile alignment: Lyra 3x Leveraged Equity Note 2029 is risk 7/7 against a maximum of 5/7 for a Balanced profile.",
+       "why": "Do not recommend, or reduce to a satellite size with documented rationale and client acknowledgement.",
+       "sources": []
+      },
+      {
+       "point": "Lyra 3x Leveraged Equity Note 2029 Product Summary: Lyra 3x Leveraged Equity Note 2029 favour above it. [S1]",
+       "why": "Relevant market context for this mandate.",
+       "sources": [
+        "S1"
+       ]
+      },
+      {
+       "point": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. [S2]",
+       "why": "Relevant market context for this mandate.",
+       "sources": [
+        "S2"
+       ]
+      },
+      {
+       "point": "Lyra 3x Leveraged Equity Note 2029 Product Summary: Lyra 3x Leveraged Equity Note 2029 **Synthetic document. [S3]",
+       "why": "Relevant market context for this mandate.",
+       "sources": [
+        "S3"
+       ]
+      }
+     ],
+     "questions_to_ask": [
+      "Have your objectives or time horizon changed since the last review?",
+      "Has your liquidity position changed, or any expected calls on capital?",
+      "Are you comfortable with the current largest position size?"
+     ],
+     "watch_items": [
+      "Castellan Balanced Multi-Asset Fund is 26.0% of the portfolio, above the 25% single-position limit.",
+      "Existing holding Aurora Global Equity Fund is risk 6/7, above the maximum of 5/7 for a Balanced profile.",
+      "Lyra 3x Leveraged Equity Note 2029 is risk 7/7 against a maximum of 5/7 for a Balanced profile."
+     ],
+     "citations": [
+      {
+       "marker": "S1",
+       "chunk_id": "FS-LSN-2026Q2::01",
+       "doc_id": "FS-LSN-2026Q2",
+       "title": "Lyra 3x Leveraged Equity Note 2029 Product Summary",
+       "section": "Lyra 3x Leveraged Equity Note 2029",
+       "source_file": "fund_lyra_structured_note.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.4797,
+       "fusion_score": 0.03279,
+       "snippet": "Lyra 3x Leveraged Equity Note 2029 Product Summary: Lyra 3x Leveraged Equity Note 2029 favour above it. Understanding it requires familiarity with option payoff structures. **Suitability note:** this is a complex, leveraged instrument. Under the firm's illustrative policy it may only be recommended to clients classified as Professional or Elective Professional who have completed a complex products appropriateness assessment. It must not be recommended to Retail clients."
+      },
+      {
+       "marker": "S2",
+       "chunk_id": "FS-CBM-2026Q2::01",
+       "doc_id": "FS-CBM-2026Q2",
+       "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+       "section": "Castellan Balanced Multi-Asset Fund",
+       "source_file": "fund_castellan_balanced.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.3152,
+       "fusion_score": 0.03252,
+       "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4. Realised volatility over twelve months was 7.9%. The tactical overlay is currently 3 points underweight equity and holds an elevated 8% cash position, reflecting the house view that policy rates fall more slowly than forward markets imply. **Suitability note:** the default one-fund solution for Balanced mandates and a common core sleeve inside Conservative portfolios where the client accepts moderate equity exposure. Worst twelve-month period since launch was…"
+      },
+      {
+       "marker": "S3",
+       "chunk_id": "FS-LSN-2026Q2::00",
+       "doc_id": "FS-LSN-2026Q2",
+       "title": "Lyra 3x Leveraged Equity Note 2029 Product Summary",
+       "section": "Lyra 3x Leveraged Equity Note 2029",
+       "source_file": "fund_lyra_structured_note.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.4036,
+       "fusion_score": 0.03226,
+       "snippet": "Lyra 3x Leveraged Equity Note 2029 Product Summary: Lyra 3x Leveraged Equity Note 2029 **Synthetic document. Fictional product, fictional figures.** A three-year note offering three times the upside of a fictional equity index, capped at 45%, with a 60% European barrier on the downside. If the index closes below the barrier at maturity, the investor takes the full index loss with no leverage applied on the way down. **Risk rating:** 7 of 7 (High). **Fees:** 1.60% embedded. **Liquidity:** secondary market only; the issuer provides indicative bids but is not obliged to make a market. The payoff is asymmetric in the investor's disfavour below the barrier and capped in their favour above it.…"
+      },
+      {
+       "marker": "S4",
+       "chunk_id": "CM-EQ-2026Q3::01",
+       "doc_id": "CM-EQ-2026Q3",
+       "title": "Global Equity Outlook, Q3 2026",
+       "section": "Global equity outlook",
+       "source_file": "commentary_equity_outlook.md",
+       "doc_type": "market_commentary",
+       "score": 0.3767,
+       "fusion_score": 0.03202,
+       "snippet": "Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheets over momentum, and we are cautious about adding to concentrated thematic exposure at current levels. The principal risk to this view is that the capital expenditure cycle driving current earnings growth proves shorter than expected. See the separate note on AI capital expenditure."
+      },
+      {
+       "marker": "S5",
+       "chunk_id": "FS-AGE-2026Q2::01",
+       "doc_id": "FS-AGE-2026Q2",
+       "title": "Aurora Global Equity Fund Factsheet",
+       "section": "Aurora Global Equity Fund",
+       "source_file": "fund_aurora_global_equity.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.3482,
+       "fusion_score": 0.032,
+       "snippet": "Aurora Global Equity Fund Factsheet: Aurora Global Equity Fund manager has trimmed the technology overweight from 31% to 26% over the quarter, citing valuation dispersion rather than a change of view on earnings. Cash sits at 2.4%. **Suitability note:** as a single-sleeve equity holding this fund carries full equity drawdown risk. It is generally unsuitable as a majority position for clients with a Conservative profile or a horizon under five years. Maximum peak-to-trough drawdown since launch was 24.8%."
+      },
+      {
+       "marker": "S6",
+       "chunk_id": "FS-CBM-2026Q2::00",
+       "doc_id": "FS-CBM-2026Q2",
+       "title": "Castellan Balanced Multi-Asset Fund Factsheet",
+       "section": "Castellan Balanced Multi-Asset Fund",
+       "source_file": "fund_castellan_balanced.md",
+       "doc_type": "fund_factsheet",
+       "score": 0.2378,
+       "fusion_score": 0.03125,
+       "snippet": "Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. Fictional fund, fictional figures.** Castellan runs a 55/35/10 split across equity, fixed income and alternatives, rebalanced quarterly with a tactical band of plus or minus ten percentage points on the equity sleeve. **Risk rating:** 4 of 7 (Medium). **OCF:** 0.61%. **Dealing:** daily. Year to date the fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4."
+      },
+      {
+       "marker": "S7",
+       "chunk_id": "HV-AA-2026Q3::00",
+       "doc_id": "HV-AA-2026Q3",
+       "title": "House View, Strategic and Tactical Asset Allocation Q3 2026",
+       "section": "House view: asset allocation",
+       "source_file": "house_view_asset_allocation.md",
+       "doc_type": "house_view",
+       "score": 0.347,
+       "fusion_score": 0.01639,
+       "snippet": "House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. Illustrative only.** Tactical positions against strategic weights this quarter: - Equity: neutral. Valuation is unattractive but earnings momentum is intact. - Government bonds: neutral duration, preference for the 2 to 5 year part of the curve. - Investment grade credit: modest overweight, funded from high yield. - High yield: underweight, on spread levels rather than default expectations. - Real assets: modest overweight, chiefly listed infrastructure. - Cash: overweight, at 6 to 8% for most mandates, held as optionality. Model allocations by risk profile are unchanged:…"
+      },
+      {
+       "marker": "S8",
+       "chunk_id": "CM-EM-2026Q3::01",
+       "doc_id": "CM-EM-2026Q3",
+       "title": "Emerging Markets Outlook, Q3 2026",
+       "section": "Emerging markets outlook",
+       "source_file": "commentary_em_outlook.md",
+       "doc_type": "market_commentary",
+       "score": 0.2285,
+       "fusion_score": 0.01613,
+       "snippet": "Emerging Markets Outlook, Q3 2026: Emerging markets outlook igh, and several central banks began cutting ahead of developed-market peers, which supports local bond prices. The dominant risk is dollar strength. A sustained rally in the dollar has historically been the largest single driver of emerging market debt drawdowns, exceeding the contribution of actual defaults. We are neutral on the asset class and would not increase allocations for clients whose risk profile makes a 15% drawdown unacceptable."
+      }
+     ]
+    }
+   },
+   "error": null,
+   "meta": {
+    "task": "synthesise"
+   }
+  },
+  {
+   "id": "5833156003",
+   "parent_id": "fd0a1e957a",
+   "kind": "llm",
+   "name": "synthesis.write_briefing",
+   "label": "LLM · mock/deterministic-stub",
+   "started_at": "2026-08-08T12:58:08.093+00:00",
+   "ended_at": "2026-08-08T12:58:08.093+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": {
+    "system": "You prepare pre-meeting briefings for private bank advisers.\n\nYou receive: a client profile, a portfolio snapshot, cited market research, and\nthe output of a compliance rules engine.\n\nRules:\n- Cite market claims with the [S#] markers exactly as they appear in the research\n  you were given. Do not invent markers.\n- Never contradict or soften the compliance result. If the status is FAIL, the\n  talking points must reflect that the recommendation cannot proceed as framed.\n- Talking points are for the adviser to raise with the client. Make them\n  specific to this client's objectives and holdings, not generic.\n- British English. No sales language. All data is synthetic demo data.\n\nReturn JSON:\n{\n  \"headline\": \"one sentence the adviser reads first\",\n  \"summary\": \"3-5 sentences covering position, context and anything blocking\",\n  \"talking_points\": [\n    {\"point\": \"what to raise\", \"why\": \"why it matters to this client\", \"sources\": [\"S1\"]}\n  ],\n  \"questions_to_ask\": [\"question for the client\", \"...\"],\n  \"watch_items\": [\"something to monitor after the meeting\", \"...\"]\n}\n\nRespond with a single valid JSON object and nothing else. No prose before or after, no markdown code fences.",
+    "user": "Adviser request: The client has read about the Lyra leveraged note and wants in\n\nCLIENT\nTomasz Wielgus (SYNTHETIC) (4527), Balanced profile,\nRetail, 12-year horizon,\nLow liquidity needs.\nObjectives: Long-term growth; Interested in structured payoffs\nConstraints: Retail classification, so complex products need extra justification\nAdviser notes: Has asked twice about leveraged notes after reading about them.\n\nPORTFOLIO\nTotal £4,600,000 as at 2026-08-06.\nAllocation: {'Multi-Asset': 26.0, 'Global Equity': 24.0, 'Fixed Income': 20.0, 'Infrastructure': 16.0, 'Cash': 14.0}\nGrowth assets: 66.0%. Cash: 14.0%.\nLargest position: Castellan Balanced Multi-Asset Fund at\n26.0%.\nPerformance: {'ytd_return_pct': 4.54, 'one_year_return_pct': 8.63, 'three_year_annualised_pct': 6.13, 'benchmark': 'Synthetic composite benchmark', 'vs_benchmark_ytd_pct': 0.14, 'volatility_pct': 9.35, 'max_drawdown_pct': -12.52}\n\nMARKET RESEARCH (cite these markers only)\nRetrieved 8 passages from the research index covering CM-EQ-2026Q3, FS-CBM-2026Q2, FS-LSN-2026Q2. Narrative summarisation was unavailable, so the key points below are extracted directly from the source passages.\n[S1] Lyra 3x Leveraged Equity Note 2029 Product Summary · Lyra 3x Leveraged Equity Note 2029: Lyra 3x Leveraged Equity Note 2029 Product Summary: Lyra 3x Leveraged Equity Note 2029 favour above it. Understanding it requires familiarity with option payoff structures. **Suitability note:** this is a complex, leveraged instrument. Under the firm's illustrative policy it may \n[S2] Castellan Balanced Multi-Asset Fund Factsheet · Castellan Balanced Multi-Asset Fund: Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund returned 4.9%. Equity contributed 3.8 points, fixed income 0.7, and the alternatives sleeve, chiefly listed infrastructure and gold, contributed 0.4. Realised volatility over twelve months was 7.9%\n[S3] Lyra 3x Leveraged Equity Note 2029 Product Summary · Lyra 3x Leveraged Equity Note 2029: Lyra 3x Leveraged Equity Note 2029 Product Summary: Lyra 3x Leveraged Equity Note 2029 **Synthetic document. Fictional product, fictional figures.** A three-year note offering three times the upside of a fictional equity index, capped at 45%, with a 60% European barrier on the do\n[S4] Global Equity Outlook, Q3 2026 · Global equity outlook: Global Equity Outlook, Q3 2026: Global equity outlook the first such run in eighteen months. Earnings revisions are positive in aggregate but negative in consumer discretionary and European industrials. We remain neutral equity overall, with a preference for quality balance sheet\n[S5] Aurora Global Equity Fund Factsheet · Aurora Global Equity Fund: Aurora Global Equity Fund Factsheet: Aurora Global Equity Fund manager has trimmed the technology overweight from 31% to 26% over the quarter, citing valuation dispersion rather than a change of view on earnings. Cash sits at 2.4%. **Suitability note:** as a single-sleeve equity \n[S6] Castellan Balanced Multi-Asset Fund Factsheet · Castellan Balanced Multi-Asset Fund: Castellan Balanced Multi-Asset Fund Factsheet: Castellan Balanced Multi-Asset Fund **Synthetic document. Fictional fund, fictional figures.** Castellan runs a 55/35/10 split across equity, fixed income and alternatives, rebalanced quarterly with a tactical band of plus or minus t\n[S7] House View, Strategic and Tactical Asset Allocation Q3 2026 · House view: asset allocation: House View, Strategic and Tactical Asset Allocation Q3 2026: House view: asset allocation **Synthetic house view. Illustrative only.** Tactical positions against strategic weights this quarter: - Equity: neutral. Valuation is unattractive but earnings momentum is intact. - Govern\n[S8] Emerging Markets Outlook, Q3 2026 · Emerging markets outlook: Emerging Markets Outlook, Q3 2026: Emerging markets outlook igh, and several central banks began cutting ahead of developed-market peers, which supports local bond prices. The dominant risk is dollar strength. A s… [+669 chars]",
+    "temperature": 0.2
+   },
+   "output": "{\"_mock\": true, \"_note\": \"Deterministic stub output; agents fall back to rule-based assembly.\", \"_digest\": \"e31e43b4\"}",
+   "error": null,
+   "meta": {
+    "provider": "mock",
+    "model": "deterministic-stub",
+    "usage": {
+     "prompt_tokens": 1463,
+     "completion_tokens": 12
+    }
+   }
+  },
+  {
+   "id": "a9e9abe88c",
+   "parent_id": "fd0a1e957a",
+   "kind": "note",
+   "name": "synthesis.assembled",
+   "label": "Briefing assembled with 6 talking points and 8 citations",
+   "started_at": "2026-08-08T12:58:08.093+00:00",
+   "ended_at": "2026-08-08T12:58:08.093+00:00",
+   "duration_ms": 0.0,
+   "status": "ok",
+   "input": null,
+   "output": {
+    "compliance_status": "fail",
+    "citations": [
+     "S1",
+     "S2",
+     "S3",
+     "S4",
+     "S5",
+     "S6",
+     "S7",
+     "S8"
+    ]
+   },
+   "error": null,
+   "meta": {}
+  }
+ ],
+ "trace_summary": {
+  "run_id": "1fa76778e186",
+  "events": 32,
+  "by_kind": {
+   "agent": 5,
+   "llm": 5,
+   "note": 8,
+   "tool": 9,
+   "retrieval": 5
+  },
+  "errors": 0,
+  "elapsed_ms": 11.7
+ }
+}

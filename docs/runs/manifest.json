@@ -1,0 +1,76 @@
+{
+ "meta": {
+  "llm": "mock/deterministic-stub",
+  "embedding": "hashing-bow-512",
+  "chunks": 35,
+  "agents": 4,
+  "tools": 9,
+  "recorded": true
+ },
+ "runs": [
+  {
+   "file": "4521-00.json",
+   "run_id": "071597632eeb",
+   "client_id": "4521",
+   "client_label": "4521 · Margaret Ellwood-Vance · Conservative",
+   "query": "Prep me for tomorrow's meeting. The client is asking about the Solaris AI fund",
+   "status": "fail"
+  },
+  {
+   "file": "4526-01.json",
+   "run_id": "5c2784677917",
+   "client_id": "4526",
+   "client_label": "4526 · Sofia Delacroix-Owen · Balanced",
+   "query": "Client wants to put £150k into Bramble private credit. Can we do it?",
+   "status": "fail"
+  },
+  {
+   "file": "4527-02.json",
+   "run_id": "1fa76778e186",
+   "client_id": "4527",
+   "client_label": "4527 · Tomasz Wielgus · Balanced",
+   "query": "The client has read about the Lyra leveraged note and wants in",
+   "status": "fail"
+  },
+  {
+   "file": "4522-03.json",
+   "run_id": "fa848140e608",
+   "client_id": "4522",
+   "client_label": "4522 · Devesh Ramanathan · Growth",
+   "query": "Review the portfolio and flag anything I should raise on concentration",
+   "status": "review"
+  },
+  {
+   "file": "4523-04.json",
+   "run_id": "fe1abaf982d0",
+   "client_id": "4523",
+   "client_label": "4523 · Aoife Brennan-Marsh · Balanced",
+   "query": "Would the Zephyr precious metals fund work as a diversifier here?",
+   "status": "fail"
+  },
+  {
+   "file": "4524-05.json",
+   "run_id": "09b51c65d2f5",
+   "client_id": "4524",
+   "client_label": "4524 · Harold Pemberton-Ives · Conservative",
+   "query": "Routine annual review. Anything blocking?",
+   "status": "fail"
+  },
+  {
+   "file": "4525-06.json",
+   "run_id": "6170f6aa32fd",
+   "client_id": "4525",
+   "client_label": "4525 · Wei-Lin Cheong · Aggressive",
+   "query": "Can we add Bramble private credit for this client?",
+   "status": "fail"
+  },
+  {
+   "file": "4528-07.json",
+   "run_id": "4900e847ebfe",
+   "client_id": "4528",
+   "client_label": "4528 · Beatrix Nkemdirim · Growth",
+   "query": "What's the market context I should bring to the meeting?",
+   "status": "pass"
+  }
+ ]
+}
